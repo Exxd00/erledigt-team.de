@@ -1,7 +1,7 @@
 import 'server-only';
 import { createHmac, timingSafeEqual } from 'node:crypto';
 import { NextRequest } from 'next/server';
-import { allowedOrigin } from './request-policy';
+import { allowedOrigin, clientAddress } from './request-policy';
 export function isConfigured() {
   return !!(
     process.env.SUPABASE_URL &&
@@ -66,7 +66,7 @@ export async function readBody(req: NextRequest, max = 14000) {
   return JSON.parse(chunks + decoder.decode());
 }
 export async function rateLimit(req: NextRequest, kind: 'lead' | 'event') {
-  const ip = req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
+  const ip = clientAddress(req.headers, !!process.env.SITE_ID);
   const day = new Date().toISOString().slice(0, 10);
   const hash = createHmac('sha256', process.env.RATE_LIMIT_SECRET!)
     .update(`${day}:${ip}:${kind}`)

@@ -46,3 +46,27 @@ Live deployment checks on 8 October 2026:
 
 No payment, API-key creation, OAuth grant or live test email was performed. A consolidated request
 for the remaining owner decisions has been presented.
+
+## Netlify Free preparation
+
+The owner declined a paid business hosting subscription. The application now includes Netlify
+configuration and an authenticated five-minute scheduler. The existing Vercel preview is retained
+while the Netlify account connection is pending.
+
+- Netlify CLI 27.11.2, Build 37.4.0 and the automatically selected OpenNext adapter 5.16.2 completed
+  a local offline build in 2m 12.7s. Both the Next.js server handler and `retry-deliveries` were packaged.
+- The generated manifest confirms Node 24 and the retry schedule `*/5 * * * *`.
+- The first packaging attempt exposed a Windows pnpm symlink-copy conflict. Setting `nodeLinker:
+  hoisted` in `pnpm-workspace.yaml` resolved it; package versions and the lockfile were unchanged.
+- All 18 unit tests passed, including scheduler launch gating, secret transport, HTTPS-only target,
+  redirect refusal, rejected-work handling and provider-specific rate-limit addressing.
+- Next.js compilation/type checks passed. The static audit again passed all 953 public static pages.
+- All 11 local production HTTP checks passed, including authentication for both retry methods,
+  no false success while integrations are missing and preparation indexing restrictions.
+- The local privacy page rendered correctly in Chrome. This offline invocation has no `NETLIFY`
+  environment marker and therefore shows the existing Vercel fallback; hosted Netlify builds set
+  `NETLIFY=true`. Its provider label must be checked again on the real Netlify deployment.
+
+These are local build/runtime results, not a successful Netlify cloud deployment or live delivery
+claim. Netlify login/terms, new account permissions, server secrets, actual DNS and mailbox tests
+remain pending. No paid plan, OAuth grant, sender key or email test was created during this preparation.

@@ -46,6 +46,12 @@ await check(
 );
 await check('No fake success without backend configuration', '/api/leads', post(lead), 503);
 await check('Retry endpoint rejects an unauthenticated request', '/api/internal/retry', {}, 401);
+await check(
+  'Async retry rejects an unauthenticated request',
+  '/api/internal/retry',
+  { method: 'POST' },
+  401,
+);
 await check('Unknown city returns 404', '/einsatzgebiete/not-a-real-city', {}, 404);
 const form = await check(
   'Prefilled form renders',

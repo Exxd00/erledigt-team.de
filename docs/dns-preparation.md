@@ -10,13 +10,17 @@ The dashboard displayed the following sender-verification records:
 | CNAME | send | send.forge.rmta.net |
 
 These are public DNS verification values, not API secrets. Re-read the current provider page before
-applying them. No DNS changes or verification claim have been made; checkdomain currently requires
-login. Preserve the domain's existing MX/SPF/DMARC records. Receiving in Resend is disabled; the
+applying them. No DNS changes or verification claim have been made. Checkdomain access was restored
+on 8 October 2026. Preserve the domain's existing MX/SPF/DMARC records. Receiving in Resend is disabled; the
 business info mailbox must remain with its intended mailbox provider. Inspect and disable sender
 click/open tracking if not needed for internal notifications. Do not overwrite an existing DMARC
 policy with the optional `p=none` suggestion without understanding its current policy.
 
-## Website records prepared in Vercel
+## Historical Vercel website records — do not apply
+
+The owner declined a paid hosting plan. Production is now being prepared for Netlify Free.
+Obtain the actual Netlify site's domain records after account connection; do not substitute or
+guess a Netlify hostname. The following Vercel values are retained only as setup history.
 
 The root and www domains were added to `erledigt-teamde/erledigt-team.de` on 8 October 2026.
 The root is connected to Production. The www hostname uses a 308 redirect to `erledigt-team.de`.
@@ -27,8 +31,8 @@ Both currently show Invalid Configuration; these registrar changes have **not** 
 | A | @ | 216.198.79.1 |
 | CNAME | www | 01bb5a1801a86b7b.vercel-dns-017.com. |
 
-Re-read the project's current domain panel before applying. Keep the existing nameservers so mail
-and unrelated services retain their records. Inspect any conflicting A/AAAA/www records first.
+Use the new Netlify domain panel for the final website records. Keep the existing nameservers so
+mail and unrelated services retain their records. Inspect any conflicting A/AAAA/www records first.
 
 ## Existing public mail routing observed on 8 October 2026
 

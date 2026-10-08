@@ -1,3 +1,9 @@
+export function clientAddress(headers: Headers, onNetlify: boolean) {
+  // Netlify supplies the connection address; do not trust a forwarded list there.
+  if (onNetlify) return headers.get('x-nf-client-connection-ip')?.trim() || 'unknown';
+  return headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
+}
+
 export function allowedOrigin(input: {
   origin: string | null;
   requestUrl: string;

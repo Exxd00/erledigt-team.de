@@ -1,6 +1,7 @@
 import { Breadcrumb, Eyebrow } from '@/components/Shared';
 import { site } from '@/lib/site';
 import { legal } from '@/lib/legal';
+const hostingProvider = process.env.NETLIFY === 'true' ? 'Netlify' : 'Vercel';
 export const metadata = {
   title: 'Datenschutzhinweise',
   alternates: { canonical: '/datenschutz' },
@@ -28,9 +29,10 @@ export default function Page() {
           Beim Aufruf einer Website werden technische Verbindungsdaten verarbeitet, damit Inhalte an
           Ihren Browser übertragen und Störungen erkannt werden können. Dazu können die IP-Adresse,
           der Zeitpunkt, der aufgerufene Pfad und technische Angaben zum Browser gehören. Für den
-          vorgesehenen Betrieb wird Vercel als Hostingdienst eingesetzt. Zweck dieser Verarbeitung
-          ist die sichere und funktionsfähige Bereitstellung der Website. Die konkrete vertragliche
-          Ausgestaltung und Aufbewahrung der Hostingprotokolle werden vor der Freigabe dokumentiert.
+          vorgesehenen Betrieb wird {hostingProvider} als Hostingdienst eingesetzt. Zweck dieser
+          Verarbeitung ist die sichere und funktionsfähige Bereitstellung der Website. Die konkrete
+          vertragliche Ausgestaltung und Aufbewahrung der Hostingprotokolle werden vor der Freigabe
+          dokumentiert.
         </p>
         <h2>3. Anfragen und Kontaktaufnahme</h2>
         <p>

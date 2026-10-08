@@ -17,12 +17,18 @@ and analytics configuration are not yet connected.** No secret keys are committe
 is a preparation version with search indexing disabled and the final form submission unavailable.
 Browser QA has now covered six representative pages at 320, 375, 768, 1440 and 1920 px in both
 themes. The proprietor, VAT ID and chamber information were verified from supplied business records.
-The root and www domains are assigned to the Vercel project, with www set to redirect to the root.
-Their DNS changes remain pending. The remaining account authorizations, suitable hosting plan and
-domain login are listed in the runbook.
+The owner requested no paid hosting subscription. Netlify Free is the prepared production target;
+the account login and live deployment remain pending. `netlify.toml` keeps the existing Next.js
+application and enables a five-minute scheduled retry after launch. The existing Vercel preview
+remains available for review. Its previously prepared domain DNS values must not be applied.
+Checkdomain access is restored. Remaining account authorizations and delivery checks are in the runbook.
 
 See [launch runbook](docs/launch-runbook.md), [reference decisions](docs/reference-audit.md),
 [tracking specification](docs/tracking.md) and [verification](docs/verification.md).
+
+Netlify Free allows commercial projects and currently includes 300 monthly credits with a hard
+limit. Sites pause when credits run out; it is not unlimited hosting. No paid plan or automatic
+recharge is authorized. See [hosting setup and limits](docs/netlify-hosting.md).
 
 ## Local development
 

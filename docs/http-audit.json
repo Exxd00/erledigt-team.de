@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T10:39:33.107Z",
-  "base": "http://localhost:3000",
+  "generatedAt": "2026-10-08T18:27:55.803Z",
+  "base": "http://localhost:3035",
   "findings": [
     {
       "name": "Unconfigured form is visibly unavailable",
@@ -28,6 +28,10 @@
     },
     {
       "name": "Retry endpoint rejects an unauthenticated request",
+      "status": 401
+    },
+    {
+      "name": "Async retry rejects an unauthenticated request",
       "status": 401
     },
     {
