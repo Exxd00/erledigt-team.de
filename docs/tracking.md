@@ -1,0 +1,48 @@
+# Tracking and inquiry flow
+
+## What is recorded
+
+With analytics consent: page views, primary calls to action, telephone and email clicks, service and
+town selections, filter actions, form start, step changes, confirmed form submission and submission
+errors, general control/link interactions, and 25/50/75/90-percent scroll depth. General interactions
+record control type and an optional public element ID, never input contents. A random session ID and
+sanitized source/medium/campaign labels allow a consented journey to be connected.
+
+No optional analytics request is made before consent. Theme and consent preferences are stored locally.
+Withdrawal removes the local analytics session/attribution and the site's GA cookies and reloads the
+page. GA loads only when a valid configured measurement ID and consent are present. Advertising
+storage, signals and personalization are disabled. GA page URLs exclude query strings and fragments.
+
+Inquiry fields: service, town, postcode, property type, approximate scope, frequency, optional requested
+date, customer name, optional company, preferred reply method, email/phone, optional message and privacy
+acknowledgement. The required contact field follows the chosen reply method. The exact street address
+and photos can be obtained in follow-up; they are not mandatory for the first inquiry.
+
+The business inquiry is stored regardless of optional analytics consent. Attribution fields are removed
+server-side when analytics consent is absent. Personal details and free text are not copied to analytics.
+
+## Data flow
+
+1. Validate origin, body size, fields, honeypot and minimum form completion time.
+2. Enforce rate limits with a daily HMAC of the connection address; do not store the raw IP in lead/event tables.
+3. Insert the lead and both delivery jobs in one PostgreSQL transaction. The client keeps the same UUID
+   when retrying an uncertain submission. Only confirmed persistence returns HTTP 201.
+4. Send the Sheet row and internal notification independently. Claim jobs atomically so concurrent
+   workers do not normally send the same job. A fixed Resend idempotency key is used.
+5. Keep failures queued and recover expired leases. `/api/internal/retry` requires the cron bearer secret.
+6. Mirror lead delivery attempts into `Zustellung`. This mirror is best-effort; the Supabase queue is
+   authoritative when Sheets itself is unavailable.
+
+Google Sheet tabs: `Anfragen` (customer inquiries/status), `Ereignisse` (consented activity), `Zustellung`
+(delivery attempts) and `Hinweise` (operating notes). The first row is fixed and colored. New rows append
+below it; existing status/notes are preserved. Event and lead UUIDs provide persistent deduplication.
+
+## Operational limits
+
+This is not a guarantee that every browser event arrives: consent refusal, blocked scripts, offline
+browsers and rate limits can reduce analytics. Business records have a separate durable path. Resend
+retains idempotency keys for 24 hours; an ambiguous email acceptance followed by a long database outage
+may need manual inspection before a later retry. Queue monitoring is required after launch.
+
+Sources: [Resend idempotency](https://resend.com/changelog/idempotency-keys),
+[Vercel cron scheduling](https://vercel.com/docs/cron-jobs/manage-cron-jobs).

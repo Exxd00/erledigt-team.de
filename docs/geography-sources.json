@@ -1,0 +1,557 @@
+{
+  "origin": [
+    53.118526,
+    7.6740414
+  ],
+  "basis": "OpenStreetMap place coordinates; approximate straight-line distance from the supplied business address",
+  "licence": "OpenStreetMap contributors, ODbL 1.0; https://www.openstreetmap.org/copyright",
+  "retrieved": "2026-10-07",
+  "cities": [
+    {
+      "name": "Saterland",
+      "lat": 53.0845859,
+      "lon": 7.6937446,
+      "distanceKm": 0,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109692"
+    },
+    {
+      "name": "Ostrhauderfehn",
+      "lat": 53.1389184,
+      "lon": 7.6211712,
+      "distanceKm": 4,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1470258"
+    },
+    {
+      "name": "Barßel",
+      "lat": 53.1699986,
+      "lon": 7.7434171,
+      "distanceKm": 7,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109688"
+    },
+    {
+      "name": "Rhauderfehn",
+      "lat": 53.1296461,
+      "lon": 7.5695106,
+      "distanceKm": 7,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1470260"
+    },
+    {
+      "name": "Detern",
+      "lat": 53.2109195,
+      "lon": 7.6700309,
+      "distanceKm": 10,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187426"
+    },
+    {
+      "name": "Bockhorst",
+      "lat": 53.0351865,
+      "lon": 7.5767856,
+      "distanceKm": 11,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007737"
+    },
+    {
+      "name": "Filsum",
+      "lat": 53.2414017,
+      "lon": 7.6257628,
+      "distanceKm": 14,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187427"
+    },
+    {
+      "name": "Westoverledingen",
+      "lat": 53.15,
+      "lon": 7.46667,
+      "distanceKm": 14,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1470259"
+    },
+    {
+      "name": "Esterwegen",
+      "lat": 52.9938513,
+      "lon": 7.6320461,
+      "distanceKm": 14,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007738"
+    },
+    {
+      "name": "Apen",
+      "lat": 53.2214255,
+      "lon": 7.8097336,
+      "distanceKm": 15,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187347"
+    },
+    {
+      "name": "Hilkenbrook",
+      "lat": 52.9847348,
+      "lon": 7.7069386,
+      "distanceKm": 15,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007739"
+    },
+    {
+      "name": "Friesoythe",
+      "lat": 53.0206088,
+      "lon": 7.8592307,
+      "distanceKm": 16,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109689"
+    },
+    {
+      "name": "Nortmoor",
+      "lat": 53.2462955,
+      "lon": 7.5685189,
+      "distanceKm": 16,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187428"
+    },
+    {
+      "name": "Leer",
+      "lat": 53.2049511,
+      "lon": 7.4595298,
+      "distanceKm": 17,
+      "sourceUrl": "https://www.openstreetmap.org/relation/62567"
+    },
+    {
+      "name": "Surwold",
+      "lat": 52.9859369,
+      "lon": 7.5092031,
+      "distanceKm": 18,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1474251"
+    },
+    {
+      "name": "Breddenberg",
+      "lat": 52.9578279,
+      "lon": 7.6128708,
+      "distanceKm": 18,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1474252"
+    },
+    {
+      "name": "Brinkum",
+      "lat": 53.2681305,
+      "lon": 7.5598707,
+      "distanceKm": 18,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2012928"
+    },
+    {
+      "name": "Papenburg",
+      "lat": 53.0822606,
+      "lon": 7.3928398,
+      "distanceKm": 19,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1080035"
+    },
+    {
+      "name": "Holtland",
+      "lat": 53.276097,
+      "lon": 7.5842418,
+      "distanceKm": 19,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2012931"
+    },
+    {
+      "name": "Edewecht",
+      "lat": 53.1283992,
+      "lon": 7.9855044,
+      "distanceKm": 21,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1186750"
+    },
+    {
+      "name": "Uplengen",
+      "lat": 53.3072809,
+      "lon": 7.7653243,
+      "distanceKm": 22,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187438"
+    },
+    {
+      "name": "Hesel",
+      "lat": 53.3062762,
+      "lon": 7.5918868,
+      "distanceKm": 22,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2012930"
+    },
+    {
+      "name": "Lorup",
+      "lat": 52.925137,
+      "lon": 7.6456353,
+      "distanceKm": 22,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007764"
+    },
+    {
+      "name": "Weener",
+      "lat": 53.1645939,
+      "lon": 7.3536239,
+      "distanceKm": 22,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1255862"
+    },
+    {
+      "name": "Schwerinsdorf",
+      "lat": 53.3156616,
+      "lon": 7.6817112,
+      "distanceKm": 22,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2012933"
+    },
+    {
+      "name": "Neulehe",
+      "lat": 53.0020608,
+      "lon": 7.4113961,
+      "distanceKm": 22,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1474207"
+    },
+    {
+      "name": "Westerstede",
+      "lat": 53.2575197,
+      "lon": 7.9273367,
+      "distanceKm": 23,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187357"
+    },
+    {
+      "name": "Bösel",
+      "lat": 53.0051978,
+      "lon": 7.9557027,
+      "distanceKm": 23,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109690"
+    },
+    {
+      "name": "Rastdorf",
+      "lat": 52.9130605,
+      "lon": 7.7097399,
+      "distanceKm": 23,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007765"
+    },
+    {
+      "name": "Neubörger",
+      "lat": 52.9666964,
+      "lon": 7.4499948,
+      "distanceKm": 23,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1474205"
+    },
+    {
+      "name": "Firrel",
+      "lat": 53.3309949,
+      "lon": 7.6628879,
+      "distanceKm": 24,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2012929"
+    },
+    {
+      "name": "Bad Zwischenahn",
+      "lat": 53.1614211,
+      "lon": 8.046023,
+      "distanceKm": 25,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1186777"
+    },
+    {
+      "name": "Börger",
+      "lat": 52.9129067,
+      "lon": 7.5352388,
+      "distanceKm": 25,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1474267"
+    },
+    {
+      "name": "Neukamperfehn",
+      "lat": 53.334667,
+      "lon": 7.5525011,
+      "distanceKm": 25,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2012932"
+    },
+    {
+      "name": "Jemgum",
+      "lat": 53.2667955,
+      "lon": 7.3834995,
+      "distanceKm": 25,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1255860"
+    },
+    {
+      "name": "Lehe",
+      "lat": 53.0004795,
+      "lon": 7.3335691,
+      "distanceKm": 26,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007901"
+    },
+    {
+      "name": "Vrees",
+      "lat": 52.8864862,
+      "lon": 7.7731483,
+      "distanceKm": 27,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007768"
+    },
+    {
+      "name": "Moormerland",
+      "lat": 53.3196227,
+      "lon": 7.4225093,
+      "distanceKm": 28,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187825"
+    },
+    {
+      "name": "Bunde",
+      "lat": 53.184017,
+      "lon": 7.2695448,
+      "distanceKm": 28,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1255784"
+    },
+    {
+      "name": "Rhede (Ems)",
+      "lat": 53.0586814,
+      "lon": 7.2735358,
+      "distanceKm": 28,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1470261"
+    },
+    {
+      "name": "Heede",
+      "lat": 52.9943207,
+      "lon": 7.3028933,
+      "distanceKm": 28,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007900"
+    },
+    {
+      "name": "Spahnharrenstätte",
+      "lat": 52.8694137,
+      "lon": 7.6013706,
+      "distanceKm": 28,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007859"
+    },
+    {
+      "name": "Dörpen",
+      "lat": 52.966087,
+      "lon": 7.3289283,
+      "distanceKm": 29,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007906"
+    },
+    {
+      "name": "Werpeloh",
+      "lat": 52.8748823,
+      "lon": 7.5071803,
+      "distanceKm": 29,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007860"
+    },
+    {
+      "name": "Garrel",
+      "lat": 52.9554303,
+      "lon": 8.0225529,
+      "distanceKm": 30,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109691"
+    },
+    {
+      "name": "Werlte",
+      "lat": 52.8518701,
+      "lon": 7.6764179,
+      "distanceKm": 30,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1749929"
+    },
+    {
+      "name": "Kluse",
+      "lat": 52.9330023,
+      "lon": 7.3464411,
+      "distanceKm": 30,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007907"
+    },
+    {
+      "name": "Großefehn",
+      "lat": 53.3935933,
+      "lon": 7.606773,
+      "distanceKm": 31,
+      "sourceUrl": "https://www.openstreetmap.org/relation/898632"
+    },
+    {
+      "name": "Lindern (Oldenburg)",
+      "lat": 52.845009,
+      "lon": 7.7805328,
+      "distanceKm": 31,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1101318"
+    },
+    {
+      "name": "Renkenberge",
+      "lat": 52.9084604,
+      "lon": 7.3780242,
+      "distanceKm": 31,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2010632"
+    },
+    {
+      "name": "Sögel",
+      "lat": 52.8418097,
+      "lon": 7.5195614,
+      "distanceKm": 32,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1744936"
+    },
+    {
+      "name": "Dersum",
+      "lat": 52.9602435,
+      "lon": 7.2741814,
+      "distanceKm": 32,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1474193"
+    },
+    {
+      "name": "Wiesmoor",
+      "lat": 53.4114442,
+      "lon": 7.7309444,
+      "distanceKm": 33,
+      "sourceUrl": "https://www.openstreetmap.org/relation/898631"
+    },
+    {
+      "name": "Wiefelstede",
+      "lat": 53.2558626,
+      "lon": 8.1150123,
+      "distanceKm": 33,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1186800"
+    },
+    {
+      "name": "Molbergen",
+      "lat": 52.8586593,
+      "lon": 7.9219863,
+      "distanceKm": 33,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1101319"
+    },
+    {
+      "name": "Walchum",
+      "lat": 52.9286047,
+      "lon": 7.2720453,
+      "distanceKm": 34,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1474192"
+    },
+    {
+      "name": "Wardenburg",
+      "lat": 53.0645396,
+      "lon": 8.1925341,
+      "distanceKm": 35,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1185589"
+    },
+    {
+      "name": "Sustrum",
+      "lat": 52.9110989,
+      "lon": 7.2835165,
+      "distanceKm": 35,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2010636"
+    },
+    {
+      "name": "Oldenburg",
+      "lat": 53.1389753,
+      "lon": 8.2146017,
+      "distanceKm": 36,
+      "sourceUrl": "https://www.openstreetmap.org/relation/62409"
+    },
+    {
+      "name": "Ihlow",
+      "lat": 53.4025306,
+      "lon": 7.4058965,
+      "distanceKm": 36,
+      "sourceUrl": "https://www.openstreetmap.org/relation/898633"
+    },
+    {
+      "name": "Fresenburg",
+      "lat": 52.8850982,
+      "lon": 7.3066278,
+      "distanceKm": 36,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2010625"
+    },
+    {
+      "name": "Lathen",
+      "lat": 52.8636698,
+      "lon": 7.3163422,
+      "distanceKm": 37,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2010626"
+    },
+    {
+      "name": "Rastede",
+      "lat": 53.2467081,
+      "lon": 8.201904,
+      "distanceKm": 38,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1186789"
+    },
+    {
+      "name": "Bockhorn",
+      "lat": 53.3916452,
+      "lon": 8.0161221,
+      "distanceKm": 38,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187412"
+    },
+    {
+      "name": "Zetel",
+      "lat": 53.4159196,
+      "lon": 7.9704832,
+      "distanceKm": 38,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187413"
+    },
+    {
+      "name": "Cloppenburg",
+      "lat": 52.8461339,
+      "lon": 8.0438783,
+      "distanceKm": 39,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109686"
+    },
+    {
+      "name": "Friedeburg",
+      "lat": 53.4529,
+      "lon": 7.84016,
+      "distanceKm": 39,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187676"
+    },
+    {
+      "name": "Stavern",
+      "lat": 52.797273,
+      "lon": 7.4345519,
+      "distanceKm": 39,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1748602"
+    },
+    {
+      "name": "Emden",
+      "lat": 53.3670541,
+      "lon": 7.2058304,
+      "distanceKm": 42,
+      "sourceUrl": "https://www.openstreetmap.org/relation/62562"
+    },
+    {
+      "name": "Lähden",
+      "lat": 52.7500419,
+      "lon": 7.5685681,
+      "distanceKm": 42,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1748594"
+    },
+    {
+      "name": "Großenkneten",
+      "lat": 52.9442224,
+      "lon": 8.2542326,
+      "distanceKm": 43,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1186883"
+    },
+    {
+      "name": "Hatten",
+      "lat": 53.0352278,
+      "lon": 8.3235253,
+      "distanceKm": 44,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1185613"
+    },
+    {
+      "name": "Varel",
+      "lat": 53.395777,
+      "lon": 8.1372149,
+      "distanceKm": 44,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187380"
+    },
+    {
+      "name": "Emstek",
+      "lat": 52.8339613,
+      "lon": 8.1549499,
+      "distanceKm": 45,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109687"
+    },
+    {
+      "name": "Cappeln",
+      "lat": 52.8104892,
+      "lon": 8.1141402,
+      "distanceKm": 45,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109685"
+    },
+    {
+      "name": "Jade",
+      "lat": 53.3449968,
+      "lon": 8.2385588,
+      "distanceKm": 45,
+      "sourceUrl": "https://www.openstreetmap.org/relation/548851"
+    },
+    {
+      "name": "Südbrookmerland",
+      "lat": 53.4845539,
+      "lon": 7.3484908,
+      "distanceKm": 46,
+      "sourceUrl": "https://www.openstreetmap.org/relation/898634"
+    },
+    {
+      "name": "Aurich",
+      "lat": 53.5094623,
+      "lon": 7.3583406,
+      "distanceKm": 48,
+      "sourceUrl": "https://www.openstreetmap.org/relation/62355"
+    }
+  ]
+}

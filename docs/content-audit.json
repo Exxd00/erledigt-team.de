@@ -1,0 +1,4748 @@
+{
+  "generatedAt": "2026-10-08T10:07:52.620Z",
+  "servicePages": 11,
+  "cityPages": 78,
+  "combinedPages": 858,
+  "totalEditorialPages": 947,
+  "minBodyWords": 301,
+  "maxNameNormalizedJaccard": 0.523,
+  "note": "Six-word shingle Jaccard, city names normalized. Shared service facts are intentional. This is an editorial duplicate check, not a search-ranking guarantee.",
+  "closestPairs": [],
+  "pages": [
+    {
+      "path": "/leistungen/unterhaltsreinigung",
+      "kind": "service",
+      "bodyWords": 308
+    },
+    {
+      "path": "/leistungen/buero-praxisreinigung",
+      "kind": "service",
+      "bodyWords": 301
+    },
+    {
+      "path": "/leistungen/grund-sonderreinigung",
+      "kind": "service",
+      "bodyWords": 312
+    },
+    {
+      "path": "/leistungen/treppenhausreinigung",
+      "kind": "service",
+      "bodyWords": 307
+    },
+    {
+      "path": "/leistungen/glas-fensterreinigung",
+      "kind": "service",
+      "bodyWords": 320
+    },
+    {
+      "path": "/leistungen/maschinen-anlagenreinigung",
+      "kind": "service",
+      "bodyWords": 321
+    },
+    {
+      "path": "/leistungen/hallen-gewerbereinigung",
+      "kind": "service",
+      "bodyWords": 320
+    },
+    {
+      "path": "/leistungen/baustellenreinigung",
+      "kind": "service",
+      "bodyWords": 317
+    },
+    {
+      "path": "/leistungen/polster-teppichreinigung",
+      "kind": "service",
+      "bodyWords": 319
+    },
+    {
+      "path": "/leistungen/dach-oberflaechenreinigung",
+      "kind": "service",
+      "bodyWords": 306
+    },
+    {
+      "path": "/leistungen/pv-anlagen-reinigung",
+      "kind": "service",
+      "bodyWords": 309
+    },
+    {
+      "path": "/einsatzgebiete/saterland",
+      "kind": "city",
+      "bodyWords": 336
+    },
+    {
+      "path": "/einsatzgebiete/ostrhauderfehn",
+      "kind": "city",
+      "bodyWords": 350
+    },
+    {
+      "path": "/einsatzgebiete/barssel",
+      "kind": "city",
+      "bodyWords": 345
+    },
+    {
+      "path": "/einsatzgebiete/rhauderfehn",
+      "kind": "city",
+      "bodyWords": 350
+    },
+    {
+      "path": "/einsatzgebiete/detern",
+      "kind": "city",
+      "bodyWords": 355
+    },
+    {
+      "path": "/einsatzgebiete/bockhorst",
+      "kind": "city",
+      "bodyWords": 356
+    },
+    {
+      "path": "/einsatzgebiete/filsum",
+      "kind": "city",
+      "bodyWords": 350
+    },
+    {
+      "path": "/einsatzgebiete/westoverledingen",
+      "kind": "city",
+      "bodyWords": 342
+    },
+    {
+      "path": "/einsatzgebiete/esterwegen",
+      "kind": "city",
+      "bodyWords": 347
+    },
+    {
+      "path": "/einsatzgebiete/apen",
+      "kind": "city",
+      "bodyWords": 353
+    },
+    {
+      "path": "/einsatzgebiete/hilkenbrook",
+      "kind": "city",
+      "bodyWords": 348
+    },
+    {
+      "path": "/einsatzgebiete/friesoythe",
+      "kind": "city",
+      "bodyWords": 348
+    },
+    {
+      "path": "/einsatzgebiete/nortmoor",
+      "kind": "city",
+      "bodyWords": 358
+    },
+    {
+      "path": "/einsatzgebiete/leer",
+      "kind": "city",
+      "bodyWords": 345
+    },
+    {
+      "path": "/einsatzgebiete/surwold",
+      "kind": "city",
+      "bodyWords": 336
+    },
+    {
+      "path": "/einsatzgebiete/breddenberg",
+      "kind": "city",
+      "bodyWords": 344
+    },
+    {
+      "path": "/einsatzgebiete/brinkum",
+      "kind": "city",
+      "bodyWords": 345
+    },
+    {
+      "path": "/einsatzgebiete/papenburg",
+      "kind": "city",
+      "bodyWords": 347
+    },
+    {
+      "path": "/einsatzgebiete/holtland",
+      "kind": "city",
+      "bodyWords": 346
+    },
+    {
+      "path": "/einsatzgebiete/edewecht",
+      "kind": "city",
+      "bodyWords": 350
+    },
+    {
+      "path": "/einsatzgebiete/uplengen",
+      "kind": "city",
+      "bodyWords": 343
+    },
+    {
+      "path": "/einsatzgebiete/hesel",
+      "kind": "city",
+      "bodyWords": 347
+    },
+    {
+      "path": "/einsatzgebiete/lorup",
+      "kind": "city",
+      "bodyWords": 356
+    },
+    {
+      "path": "/einsatzgebiete/weener",
+      "kind": "city",
+      "bodyWords": 342
+    },
+    {
+      "path": "/einsatzgebiete/schwerinsdorf",
+      "kind": "city",
+      "bodyWords": 345
+    },
+    {
+      "path": "/einsatzgebiete/neulehe",
+      "kind": "city",
+      "bodyWords": 345
+    },
+    {
+      "path": "/einsatzgebiete/westerstede",
+      "kind": "city",
+      "bodyWords": 346
+    },
+    {
+      "path": "/einsatzgebiete/boesel",
+      "kind": "city",
+      "bodyWords": 349
+    },
+    {
+      "path": "/einsatzgebiete/rastdorf",
+      "kind": "city",
+      "bodyWords": 359
+    },
+    {
+      "path": "/einsatzgebiete/neuboerger",
+      "kind": "city",
+      "bodyWords": 345
+    },
+    {
+      "path": "/einsatzgebiete/firrel",
+      "kind": "city",
+      "bodyWords": 345
+    },
+    {
+      "path": "/einsatzgebiete/bad-zwischenahn",
+      "kind": "city",
+      "bodyWords": 346
+    },
+    {
+      "path": "/einsatzgebiete/boerger",
+      "kind": "city",
+      "bodyWords": 353
+    },
+    {
+      "path": "/einsatzgebiete/neukamperfehn",
+      "kind": "city",
+      "bodyWords": 346
+    },
+    {
+      "path": "/einsatzgebiete/jemgum",
+      "kind": "city",
+      "bodyWords": 343
+    },
+    {
+      "path": "/einsatzgebiete/lehe",
+      "kind": "city",
+      "bodyWords": 348
+    },
+    {
+      "path": "/einsatzgebiete/vrees",
+      "kind": "city",
+      "bodyWords": 349
+    },
+    {
+      "path": "/einsatzgebiete/moormerland",
+      "kind": "city",
+      "bodyWords": 343
+    },
+    {
+      "path": "/einsatzgebiete/bunde",
+      "kind": "city",
+      "bodyWords": 343
+    },
+    {
+      "path": "/einsatzgebiete/rhede-ems",
+      "kind": "city",
+      "bodyWords": 349
+    },
+    {
+      "path": "/einsatzgebiete/heede",
+      "kind": "city",
+      "bodyWords": 344
+    },
+    {
+      "path": "/einsatzgebiete/spahnharrenstaette",
+      "kind": "city",
+      "bodyWords": 347
+    },
+    {
+      "path": "/einsatzgebiete/doerpen",
+      "kind": "city",
+      "bodyWords": 344
+    },
+    {
+      "path": "/einsatzgebiete/werpeloh",
+      "kind": "city",
+      "bodyWords": 346
+    },
+    {
+      "path": "/einsatzgebiete/garrel",
+      "kind": "city",
+      "bodyWords": 344
+    },
+    {
+      "path": "/einsatzgebiete/werlte",
+      "kind": "city",
+      "bodyWords": 342
+    },
+    {
+      "path": "/einsatzgebiete/kluse",
+      "kind": "city",
+      "bodyWords": 337
+    },
+    {
+      "path": "/einsatzgebiete/grossefehn",
+      "kind": "city",
+      "bodyWords": 351
+    },
+    {
+      "path": "/einsatzgebiete/lindern-oldenburg",
+      "kind": "city",
+      "bodyWords": 361
+    },
+    {
+      "path": "/einsatzgebiete/renkenberge",
+      "kind": "city",
+      "bodyWords": 357
+    },
+    {
+      "path": "/einsatzgebiete/soegel",
+      "kind": "city",
+      "bodyWords": 342
+    },
+    {
+      "path": "/einsatzgebiete/dersum",
+      "kind": "city",
+      "bodyWords": 344
+    },
+    {
+      "path": "/einsatzgebiete/wiesmoor",
+      "kind": "city",
+      "bodyWords": 346
+    },
+    {
+      "path": "/einsatzgebiete/wiefelstede",
+      "kind": "city",
+      "bodyWords": 347
+    },
+    {
+      "path": "/einsatzgebiete/molbergen",
+      "kind": "city",
+      "bodyWords": 357
+    },
+    {
+      "path": "/einsatzgebiete/walchum",
+      "kind": "city",
+      "bodyWords": 350
+    },
+    {
+      "path": "/einsatzgebiete/wardenburg",
+      "kind": "city",
+      "bodyWords": 348
+    },
+    {
+      "path": "/einsatzgebiete/sustrum",
+      "kind": "city",
+      "bodyWords": 352
+    },
+    {
+      "path": "/einsatzgebiete/oldenburg",
+      "kind": "city",
+      "bodyWords": 345
+    },
+    {
+      "path": "/einsatzgebiete/ihlow",
+      "kind": "city",
+      "bodyWords": 349
+    },
+    {
+      "path": "/einsatzgebiete/fresenburg",
+      "kind": "city",
+      "bodyWords": 351
+    },
+    {
+      "path": "/einsatzgebiete/lathen",
+      "kind": "city",
+      "bodyWords": 347
+    },
+    {
+      "path": "/einsatzgebiete/rastede",
+      "kind": "city",
+      "bodyWords": 348
+    },
+    {
+      "path": "/einsatzgebiete/bockhorn",
+      "kind": "city",
+      "bodyWords": 347
+    },
+    {
+      "path": "/einsatzgebiete/zetel",
+      "kind": "city",
+      "bodyWords": 341
+    },
+    {
+      "path": "/einsatzgebiete/cloppenburg",
+      "kind": "city",
+      "bodyWords": 349
+    },
+    {
+      "path": "/einsatzgebiete/friedeburg",
+      "kind": "city",
+      "bodyWords": 345
+    },
+    {
+      "path": "/einsatzgebiete/stavern",
+      "kind": "city",
+      "bodyWords": 351
+    },
+    {
+      "path": "/einsatzgebiete/emden",
+      "kind": "city",
+      "bodyWords": 348
+    },
+    {
+      "path": "/einsatzgebiete/laehden",
+      "kind": "city",
+      "bodyWords": 351
+    },
+    {
+      "path": "/einsatzgebiete/grossenkneten",
+      "kind": "city",
+      "bodyWords": 352
+    },
+    {
+      "path": "/einsatzgebiete/hatten",
+      "kind": "city",
+      "bodyWords": 352
+    },
+    {
+      "path": "/einsatzgebiete/varel",
+      "kind": "city",
+      "bodyWords": 352
+    },
+    {
+      "path": "/einsatzgebiete/emstek",
+      "kind": "city",
+      "bodyWords": 338
+    },
+    {
+      "path": "/einsatzgebiete/cappeln",
+      "kind": "city",
+      "bodyWords": 344
+    },
+    {
+      "path": "/einsatzgebiete/jade",
+      "kind": "city",
+      "bodyWords": 350
+    },
+    {
+      "path": "/einsatzgebiete/suedbrookmerland",
+      "kind": "city",
+      "bodyWords": 347
+    },
+    {
+      "path": "/einsatzgebiete/aurich",
+      "kind": "city",
+      "bodyWords": 340
+    },
+    {
+      "path": "/einsatzgebiete/saterland/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/saterland/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/saterland/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/saterland/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 438
+    },
+    {
+      "path": "/einsatzgebiete/saterland/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/saterland/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/saterland/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/saterland/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 409
+    },
+    {
+      "path": "/einsatzgebiete/saterland/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 415
+    },
+    {
+      "path": "/einsatzgebiete/saterland/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 425
+    },
+    {
+      "path": "/einsatzgebiete/saterland/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 414
+    },
+    {
+      "path": "/einsatzgebiete/ostrhauderfehn/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 454
+    },
+    {
+      "path": "/einsatzgebiete/ostrhauderfehn/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 436
+    },
+    {
+      "path": "/einsatzgebiete/ostrhauderfehn/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/ostrhauderfehn/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 452
+    },
+    {
+      "path": "/einsatzgebiete/ostrhauderfehn/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/ostrhauderfehn/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/ostrhauderfehn/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 433
+    },
+    {
+      "path": "/einsatzgebiete/ostrhauderfehn/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 419
+    },
+    {
+      "path": "/einsatzgebiete/ostrhauderfehn/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/ostrhauderfehn/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/ostrhauderfehn/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 424
+    },
+    {
+      "path": "/einsatzgebiete/barssel/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/barssel/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/barssel/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 436
+    },
+    {
+      "path": "/einsatzgebiete/barssel/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 418
+    },
+    {
+      "path": "/einsatzgebiete/barssel/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/barssel/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 410
+    },
+    {
+      "path": "/einsatzgebiete/barssel/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 416
+    },
+    {
+      "path": "/einsatzgebiete/barssel/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 475
+    },
+    {
+      "path": "/einsatzgebiete/barssel/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 477
+    },
+    {
+      "path": "/einsatzgebiete/barssel/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 450
+    },
+    {
+      "path": "/einsatzgebiete/barssel/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 463
+    },
+    {
+      "path": "/einsatzgebiete/rhauderfehn/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/rhauderfehn/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/rhauderfehn/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 459
+    },
+    {
+      "path": "/einsatzgebiete/rhauderfehn/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/rhauderfehn/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 438
+    },
+    {
+      "path": "/einsatzgebiete/rhauderfehn/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 420
+    },
+    {
+      "path": "/einsatzgebiete/rhauderfehn/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 429
+    },
+    {
+      "path": "/einsatzgebiete/rhauderfehn/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 415
+    },
+    {
+      "path": "/einsatzgebiete/rhauderfehn/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 425
+    },
+    {
+      "path": "/einsatzgebiete/rhauderfehn/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 469
+    },
+    {
+      "path": "/einsatzgebiete/rhauderfehn/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 465
+    },
+    {
+      "path": "/einsatzgebiete/detern/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 454
+    },
+    {
+      "path": "/einsatzgebiete/detern/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/detern/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/detern/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 424
+    },
+    {
+      "path": "/einsatzgebiete/detern/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/detern/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 416
+    },
+    {
+      "path": "/einsatzgebiete/detern/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 422
+    },
+    {
+      "path": "/einsatzgebiete/detern/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 481
+    },
+    {
+      "path": "/einsatzgebiete/detern/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 483
+    },
+    {
+      "path": "/einsatzgebiete/detern/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/detern/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 469
+    },
+    {
+      "path": "/einsatzgebiete/bockhorst/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 452
+    },
+    {
+      "path": "/einsatzgebiete/bockhorst/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 438
+    },
+    {
+      "path": "/einsatzgebiete/bockhorst/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/bockhorst/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 422
+    },
+    {
+      "path": "/einsatzgebiete/bockhorst/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/bockhorst/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 414
+    },
+    {
+      "path": "/einsatzgebiete/bockhorst/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 420
+    },
+    {
+      "path": "/einsatzgebiete/bockhorst/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 479
+    },
+    {
+      "path": "/einsatzgebiete/bockhorst/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 481
+    },
+    {
+      "path": "/einsatzgebiete/bockhorst/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 454
+    },
+    {
+      "path": "/einsatzgebiete/bockhorst/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 467
+    },
+    {
+      "path": "/einsatzgebiete/filsum/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 441
+    },
+    {
+      "path": "/einsatzgebiete/filsum/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/filsum/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/filsum/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/filsum/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/filsum/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 417
+    },
+    {
+      "path": "/einsatzgebiete/filsum/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/filsum/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 412
+    },
+    {
+      "path": "/einsatzgebiete/filsum/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 422
+    },
+    {
+      "path": "/einsatzgebiete/filsum/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 466
+    },
+    {
+      "path": "/einsatzgebiete/filsum/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/westoverledingen/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 413
+    },
+    {
+      "path": "/einsatzgebiete/westoverledingen/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 415
+    },
+    {
+      "path": "/einsatzgebiete/westoverledingen/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 464
+    },
+    {
+      "path": "/einsatzgebiete/westoverledingen/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/westoverledingen/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 468
+    },
+    {
+      "path": "/einsatzgebiete/westoverledingen/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 473
+    },
+    {
+      "path": "/einsatzgebiete/westoverledingen/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 463
+    },
+    {
+      "path": "/einsatzgebiete/westoverledingen/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 460
+    },
+    {
+      "path": "/einsatzgebiete/westoverledingen/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/westoverledingen/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 438
+    },
+    {
+      "path": "/einsatzgebiete/westoverledingen/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/esterwegen/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/esterwegen/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/esterwegen/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/esterwegen/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/esterwegen/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 457
+    },
+    {
+      "path": "/einsatzgebiete/esterwegen/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 427
+    },
+    {
+      "path": "/einsatzgebiete/esterwegen/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/esterwegen/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 458
+    },
+    {
+      "path": "/einsatzgebiete/esterwegen/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/esterwegen/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/esterwegen/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/apen/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 454
+    },
+    {
+      "path": "/einsatzgebiete/apen/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/apen/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/apen/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 424
+    },
+    {
+      "path": "/einsatzgebiete/apen/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/apen/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 416
+    },
+    {
+      "path": "/einsatzgebiete/apen/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 422
+    },
+    {
+      "path": "/einsatzgebiete/apen/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 481
+    },
+    {
+      "path": "/einsatzgebiete/apen/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 483
+    },
+    {
+      "path": "/einsatzgebiete/apen/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/apen/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 469
+    },
+    {
+      "path": "/einsatzgebiete/hilkenbrook/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 452
+    },
+    {
+      "path": "/einsatzgebiete/hilkenbrook/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 455
+    },
+    {
+      "path": "/einsatzgebiete/hilkenbrook/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/hilkenbrook/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/hilkenbrook/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 461
+    },
+    {
+      "path": "/einsatzgebiete/hilkenbrook/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/hilkenbrook/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/hilkenbrook/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/hilkenbrook/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/hilkenbrook/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/hilkenbrook/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 450
+    },
+    {
+      "path": "/einsatzgebiete/friesoythe/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 443
+    },
+    {
+      "path": "/einsatzgebiete/friesoythe/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 441
+    },
+    {
+      "path": "/einsatzgebiete/friesoythe/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 458
+    },
+    {
+      "path": "/einsatzgebiete/friesoythe/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/friesoythe/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/friesoythe/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 419
+    },
+    {
+      "path": "/einsatzgebiete/friesoythe/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/friesoythe/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 414
+    },
+    {
+      "path": "/einsatzgebiete/friesoythe/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 424
+    },
+    {
+      "path": "/einsatzgebiete/friesoythe/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 468
+    },
+    {
+      "path": "/einsatzgebiete/friesoythe/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 464
+    },
+    {
+      "path": "/einsatzgebiete/nortmoor/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 422
+    },
+    {
+      "path": "/einsatzgebiete/nortmoor/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 424
+    },
+    {
+      "path": "/einsatzgebiete/nortmoor/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 473
+    },
+    {
+      "path": "/einsatzgebiete/nortmoor/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 471
+    },
+    {
+      "path": "/einsatzgebiete/nortmoor/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 477
+    },
+    {
+      "path": "/einsatzgebiete/nortmoor/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 482
+    },
+    {
+      "path": "/einsatzgebiete/nortmoor/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 472
+    },
+    {
+      "path": "/einsatzgebiete/nortmoor/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 469
+    },
+    {
+      "path": "/einsatzgebiete/nortmoor/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 453
+    },
+    {
+      "path": "/einsatzgebiete/nortmoor/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/nortmoor/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/leer/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/leer/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/leer/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/leer/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 461
+    },
+    {
+      "path": "/einsatzgebiete/leer/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 469
+    },
+    {
+      "path": "/einsatzgebiete/leer/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 469
+    },
+    {
+      "path": "/einsatzgebiete/leer/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 454
+    },
+    {
+      "path": "/einsatzgebiete/leer/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/leer/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 438
+    },
+    {
+      "path": "/einsatzgebiete/leer/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/leer/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/surwold/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 430
+    },
+    {
+      "path": "/einsatzgebiete/surwold/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/surwold/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/surwold/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 421
+    },
+    {
+      "path": "/einsatzgebiete/surwold/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 424
+    },
+    {
+      "path": "/einsatzgebiete/surwold/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 406
+    },
+    {
+      "path": "/einsatzgebiete/surwold/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 415
+    },
+    {
+      "path": "/einsatzgebiete/surwold/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 401
+    },
+    {
+      "path": "/einsatzgebiete/surwold/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 411
+    },
+    {
+      "path": "/einsatzgebiete/surwold/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 455
+    },
+    {
+      "path": "/einsatzgebiete/surwold/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/breddenberg/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/breddenberg/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/breddenberg/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/breddenberg/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 421
+    },
+    {
+      "path": "/einsatzgebiete/breddenberg/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/breddenberg/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 413
+    },
+    {
+      "path": "/einsatzgebiete/breddenberg/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 419
+    },
+    {
+      "path": "/einsatzgebiete/breddenberg/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 478
+    },
+    {
+      "path": "/einsatzgebiete/breddenberg/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 480
+    },
+    {
+      "path": "/einsatzgebiete/breddenberg/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 453
+    },
+    {
+      "path": "/einsatzgebiete/breddenberg/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 466
+    },
+    {
+      "path": "/einsatzgebiete/brinkum/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/brinkum/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/brinkum/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/brinkum/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/brinkum/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 455
+    },
+    {
+      "path": "/einsatzgebiete/brinkum/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 425
+    },
+    {
+      "path": "/einsatzgebiete/brinkum/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 429
+    },
+    {
+      "path": "/einsatzgebiete/brinkum/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/brinkum/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 433
+    },
+    {
+      "path": "/einsatzgebiete/brinkum/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/brinkum/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/papenburg/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/papenburg/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/papenburg/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/papenburg/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/papenburg/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/papenburg/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/papenburg/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/papenburg/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 414
+    },
+    {
+      "path": "/einsatzgebiete/papenburg/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/papenburg/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 423
+    },
+    {
+      "path": "/einsatzgebiete/papenburg/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 419
+    },
+    {
+      "path": "/einsatzgebiete/holtland/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/holtland/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 438
+    },
+    {
+      "path": "/einsatzgebiete/holtland/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 455
+    },
+    {
+      "path": "/einsatzgebiete/holtland/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/holtland/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/holtland/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 416
+    },
+    {
+      "path": "/einsatzgebiete/holtland/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 425
+    },
+    {
+      "path": "/einsatzgebiete/holtland/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 411
+    },
+    {
+      "path": "/einsatzgebiete/holtland/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 421
+    },
+    {
+      "path": "/einsatzgebiete/holtland/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 465
+    },
+    {
+      "path": "/einsatzgebiete/holtland/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 461
+    },
+    {
+      "path": "/einsatzgebiete/edewecht/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/edewecht/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/edewecht/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/edewecht/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/edewecht/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 457
+    },
+    {
+      "path": "/einsatzgebiete/edewecht/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 427
+    },
+    {
+      "path": "/einsatzgebiete/edewecht/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/edewecht/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 458
+    },
+    {
+      "path": "/einsatzgebiete/edewecht/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/edewecht/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/edewecht/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/uplengen/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/uplengen/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 429
+    },
+    {
+      "path": "/einsatzgebiete/uplengen/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/uplengen/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/uplengen/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/uplengen/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 424
+    },
+    {
+      "path": "/einsatzgebiete/uplengen/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/uplengen/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 412
+    },
+    {
+      "path": "/einsatzgebiete/uplengen/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/uplengen/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 421
+    },
+    {
+      "path": "/einsatzgebiete/uplengen/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 417
+    },
+    {
+      "path": "/einsatzgebiete/hesel/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 441
+    },
+    {
+      "path": "/einsatzgebiete/hesel/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/hesel/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/hesel/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/hesel/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/hesel/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 417
+    },
+    {
+      "path": "/einsatzgebiete/hesel/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/hesel/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 412
+    },
+    {
+      "path": "/einsatzgebiete/hesel/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 422
+    },
+    {
+      "path": "/einsatzgebiete/hesel/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 466
+    },
+    {
+      "path": "/einsatzgebiete/hesel/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/lorup/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 458
+    },
+    {
+      "path": "/einsatzgebiete/lorup/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/lorup/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 455
+    },
+    {
+      "path": "/einsatzgebiete/lorup/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/lorup/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 453
+    },
+    {
+      "path": "/einsatzgebiete/lorup/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/lorup/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/lorup/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 423
+    },
+    {
+      "path": "/einsatzgebiete/lorup/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/lorup/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/lorup/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/weener/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 413
+    },
+    {
+      "path": "/einsatzgebiete/weener/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 415
+    },
+    {
+      "path": "/einsatzgebiete/weener/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 464
+    },
+    {
+      "path": "/einsatzgebiete/weener/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/weener/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 468
+    },
+    {
+      "path": "/einsatzgebiete/weener/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 473
+    },
+    {
+      "path": "/einsatzgebiete/weener/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 463
+    },
+    {
+      "path": "/einsatzgebiete/weener/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 460
+    },
+    {
+      "path": "/einsatzgebiete/weener/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/weener/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 438
+    },
+    {
+      "path": "/einsatzgebiete/weener/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/schwerinsdorf/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/schwerinsdorf/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/schwerinsdorf/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 454
+    },
+    {
+      "path": "/einsatzgebiete/schwerinsdorf/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 430
+    },
+    {
+      "path": "/einsatzgebiete/schwerinsdorf/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 433
+    },
+    {
+      "path": "/einsatzgebiete/schwerinsdorf/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 415
+    },
+    {
+      "path": "/einsatzgebiete/schwerinsdorf/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 424
+    },
+    {
+      "path": "/einsatzgebiete/schwerinsdorf/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 410
+    },
+    {
+      "path": "/einsatzgebiete/schwerinsdorf/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 420
+    },
+    {
+      "path": "/einsatzgebiete/schwerinsdorf/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 464
+    },
+    {
+      "path": "/einsatzgebiete/schwerinsdorf/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 460
+    },
+    {
+      "path": "/einsatzgebiete/neulehe/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/neulehe/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/neulehe/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/neulehe/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/neulehe/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 455
+    },
+    {
+      "path": "/einsatzgebiete/neulehe/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 425
+    },
+    {
+      "path": "/einsatzgebiete/neulehe/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 429
+    },
+    {
+      "path": "/einsatzgebiete/neulehe/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/neulehe/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 433
+    },
+    {
+      "path": "/einsatzgebiete/neulehe/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/neulehe/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/westerstede/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/westerstede/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 454
+    },
+    {
+      "path": "/einsatzgebiete/westerstede/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 450
+    },
+    {
+      "path": "/einsatzgebiete/westerstede/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/westerstede/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 460
+    },
+    {
+      "path": "/einsatzgebiete/westerstede/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 430
+    },
+    {
+      "path": "/einsatzgebiete/westerstede/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/westerstede/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 461
+    },
+    {
+      "path": "/einsatzgebiete/westerstede/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 438
+    },
+    {
+      "path": "/einsatzgebiete/westerstede/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 450
+    },
+    {
+      "path": "/einsatzgebiete/westerstede/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/boesel/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/boesel/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 452
+    },
+    {
+      "path": "/einsatzgebiete/boesel/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/boesel/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/boesel/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 458
+    },
+    {
+      "path": "/einsatzgebiete/boesel/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/boesel/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/boesel/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 459
+    },
+    {
+      "path": "/einsatzgebiete/boesel/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 436
+    },
+    {
+      "path": "/einsatzgebiete/boesel/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/boesel/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/rastdorf/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 443
+    },
+    {
+      "path": "/einsatzgebiete/rastdorf/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/rastdorf/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 455
+    },
+    {
+      "path": "/einsatzgebiete/rastdorf/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 438
+    },
+    {
+      "path": "/einsatzgebiete/rastdorf/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 475
+    },
+    {
+      "path": "/einsatzgebiete/rastdorf/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 473
+    },
+    {
+      "path": "/einsatzgebiete/rastdorf/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 450
+    },
+    {
+      "path": "/einsatzgebiete/rastdorf/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 433
+    },
+    {
+      "path": "/einsatzgebiete/rastdorf/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/rastdorf/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 429
+    },
+    {
+      "path": "/einsatzgebiete/rastdorf/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/neuboerger/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 436
+    },
+    {
+      "path": "/einsatzgebiete/neuboerger/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/neuboerger/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/neuboerger/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 427
+    },
+    {
+      "path": "/einsatzgebiete/neuboerger/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 430
+    },
+    {
+      "path": "/einsatzgebiete/neuboerger/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 412
+    },
+    {
+      "path": "/einsatzgebiete/neuboerger/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 421
+    },
+    {
+      "path": "/einsatzgebiete/neuboerger/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 407
+    },
+    {
+      "path": "/einsatzgebiete/neuboerger/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 417
+    },
+    {
+      "path": "/einsatzgebiete/neuboerger/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 461
+    },
+    {
+      "path": "/einsatzgebiete/neuboerger/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 457
+    },
+    {
+      "path": "/einsatzgebiete/firrel/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/firrel/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/firrel/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 436
+    },
+    {
+      "path": "/einsatzgebiete/firrel/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 418
+    },
+    {
+      "path": "/einsatzgebiete/firrel/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/firrel/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 410
+    },
+    {
+      "path": "/einsatzgebiete/firrel/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 416
+    },
+    {
+      "path": "/einsatzgebiete/firrel/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 475
+    },
+    {
+      "path": "/einsatzgebiete/firrel/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 477
+    },
+    {
+      "path": "/einsatzgebiete/firrel/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 450
+    },
+    {
+      "path": "/einsatzgebiete/firrel/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 463
+    },
+    {
+      "path": "/einsatzgebiete/bad-zwischenahn/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/bad-zwischenahn/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/bad-zwischenahn/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/bad-zwischenahn/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 419
+    },
+    {
+      "path": "/einsatzgebiete/bad-zwischenahn/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/bad-zwischenahn/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 411
+    },
+    {
+      "path": "/einsatzgebiete/bad-zwischenahn/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 417
+    },
+    {
+      "path": "/einsatzgebiete/bad-zwischenahn/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 476
+    },
+    {
+      "path": "/einsatzgebiete/bad-zwischenahn/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 478
+    },
+    {
+      "path": "/einsatzgebiete/bad-zwischenahn/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/bad-zwischenahn/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 464
+    },
+    {
+      "path": "/einsatzgebiete/boerger/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/boerger/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/boerger/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/boerger/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 421
+    },
+    {
+      "path": "/einsatzgebiete/boerger/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/boerger/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 413
+    },
+    {
+      "path": "/einsatzgebiete/boerger/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 419
+    },
+    {
+      "path": "/einsatzgebiete/boerger/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 478
+    },
+    {
+      "path": "/einsatzgebiete/boerger/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 480
+    },
+    {
+      "path": "/einsatzgebiete/boerger/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 453
+    },
+    {
+      "path": "/einsatzgebiete/boerger/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 466
+    },
+    {
+      "path": "/einsatzgebiete/neukamperfehn/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/neukamperfehn/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/neukamperfehn/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/neukamperfehn/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/neukamperfehn/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/neukamperfehn/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/neukamperfehn/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/neukamperfehn/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 414
+    },
+    {
+      "path": "/einsatzgebiete/neukamperfehn/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/neukamperfehn/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 423
+    },
+    {
+      "path": "/einsatzgebiete/neukamperfehn/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 419
+    },
+    {
+      "path": "/einsatzgebiete/jemgum/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/jemgum/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 433
+    },
+    {
+      "path": "/einsatzgebiete/jemgum/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 450
+    },
+    {
+      "path": "/einsatzgebiete/jemgum/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/jemgum/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 429
+    },
+    {
+      "path": "/einsatzgebiete/jemgum/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 411
+    },
+    {
+      "path": "/einsatzgebiete/jemgum/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 420
+    },
+    {
+      "path": "/einsatzgebiete/jemgum/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 406
+    },
+    {
+      "path": "/einsatzgebiete/jemgum/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 416
+    },
+    {
+      "path": "/einsatzgebiete/jemgum/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 460
+    },
+    {
+      "path": "/einsatzgebiete/jemgum/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/lehe/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 443
+    },
+    {
+      "path": "/einsatzgebiete/lehe/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 441
+    },
+    {
+      "path": "/einsatzgebiete/lehe/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 458
+    },
+    {
+      "path": "/einsatzgebiete/lehe/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/lehe/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/lehe/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 419
+    },
+    {
+      "path": "/einsatzgebiete/lehe/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/lehe/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 414
+    },
+    {
+      "path": "/einsatzgebiete/lehe/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 424
+    },
+    {
+      "path": "/einsatzgebiete/lehe/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 468
+    },
+    {
+      "path": "/einsatzgebiete/lehe/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 464
+    },
+    {
+      "path": "/einsatzgebiete/vrees/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 415
+    },
+    {
+      "path": "/einsatzgebiete/vrees/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 417
+    },
+    {
+      "path": "/einsatzgebiete/vrees/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 466
+    },
+    {
+      "path": "/einsatzgebiete/vrees/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 464
+    },
+    {
+      "path": "/einsatzgebiete/vrees/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 470
+    },
+    {
+      "path": "/einsatzgebiete/vrees/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 475
+    },
+    {
+      "path": "/einsatzgebiete/vrees/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 465
+    },
+    {
+      "path": "/einsatzgebiete/vrees/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/vrees/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/vrees/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/vrees/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 433
+    },
+    {
+      "path": "/einsatzgebiete/moormerland/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 443
+    },
+    {
+      "path": "/einsatzgebiete/moormerland/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 441
+    },
+    {
+      "path": "/einsatzgebiete/moormerland/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 458
+    },
+    {
+      "path": "/einsatzgebiete/moormerland/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/moormerland/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/moormerland/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 419
+    },
+    {
+      "path": "/einsatzgebiete/moormerland/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/moormerland/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 414
+    },
+    {
+      "path": "/einsatzgebiete/moormerland/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 424
+    },
+    {
+      "path": "/einsatzgebiete/moormerland/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 468
+    },
+    {
+      "path": "/einsatzgebiete/moormerland/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 464
+    },
+    {
+      "path": "/einsatzgebiete/bunde/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/bunde/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/bunde/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/bunde/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/bunde/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 455
+    },
+    {
+      "path": "/einsatzgebiete/bunde/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 425
+    },
+    {
+      "path": "/einsatzgebiete/bunde/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 429
+    },
+    {
+      "path": "/einsatzgebiete/bunde/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/bunde/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 433
+    },
+    {
+      "path": "/einsatzgebiete/bunde/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/bunde/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/rhede-ems/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/rhede-ems/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 429
+    },
+    {
+      "path": "/einsatzgebiete/rhede-ems/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/rhede-ems/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/rhede-ems/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/rhede-ems/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 424
+    },
+    {
+      "path": "/einsatzgebiete/rhede-ems/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/rhede-ems/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 412
+    },
+    {
+      "path": "/einsatzgebiete/rhede-ems/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/rhede-ems/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 421
+    },
+    {
+      "path": "/einsatzgebiete/rhede-ems/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 417
+    },
+    {
+      "path": "/einsatzgebiete/heede/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/heede/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/heede/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/heede/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/heede/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 455
+    },
+    {
+      "path": "/einsatzgebiete/heede/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 425
+    },
+    {
+      "path": "/einsatzgebiete/heede/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 429
+    },
+    {
+      "path": "/einsatzgebiete/heede/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/heede/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 433
+    },
+    {
+      "path": "/einsatzgebiete/heede/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/heede/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/spahnharrenstaette/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 415
+    },
+    {
+      "path": "/einsatzgebiete/spahnharrenstaette/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 417
+    },
+    {
+      "path": "/einsatzgebiete/spahnharrenstaette/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 466
+    },
+    {
+      "path": "/einsatzgebiete/spahnharrenstaette/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 464
+    },
+    {
+      "path": "/einsatzgebiete/spahnharrenstaette/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 470
+    },
+    {
+      "path": "/einsatzgebiete/spahnharrenstaette/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 475
+    },
+    {
+      "path": "/einsatzgebiete/spahnharrenstaette/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 465
+    },
+    {
+      "path": "/einsatzgebiete/spahnharrenstaette/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/spahnharrenstaette/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/spahnharrenstaette/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/spahnharrenstaette/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 433
+    },
+    {
+      "path": "/einsatzgebiete/doerpen/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/doerpen/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/doerpen/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/doerpen/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/doerpen/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 457
+    },
+    {
+      "path": "/einsatzgebiete/doerpen/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 427
+    },
+    {
+      "path": "/einsatzgebiete/doerpen/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/doerpen/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 458
+    },
+    {
+      "path": "/einsatzgebiete/doerpen/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/doerpen/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/doerpen/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/werpeloh/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/werpeloh/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/werpeloh/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/werpeloh/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/werpeloh/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/werpeloh/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/werpeloh/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/werpeloh/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 414
+    },
+    {
+      "path": "/einsatzgebiete/werpeloh/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/werpeloh/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 423
+    },
+    {
+      "path": "/einsatzgebiete/werpeloh/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 419
+    },
+    {
+      "path": "/einsatzgebiete/garrel/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/garrel/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/garrel/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 436
+    },
+    {
+      "path": "/einsatzgebiete/garrel/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 418
+    },
+    {
+      "path": "/einsatzgebiete/garrel/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/garrel/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 410
+    },
+    {
+      "path": "/einsatzgebiete/garrel/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 416
+    },
+    {
+      "path": "/einsatzgebiete/garrel/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 475
+    },
+    {
+      "path": "/einsatzgebiete/garrel/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 477
+    },
+    {
+      "path": "/einsatzgebiete/garrel/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 450
+    },
+    {
+      "path": "/einsatzgebiete/garrel/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 463
+    },
+    {
+      "path": "/einsatzgebiete/werlte/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 453
+    },
+    {
+      "path": "/einsatzgebiete/werlte/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 453
+    },
+    {
+      "path": "/einsatzgebiete/werlte/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/werlte/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 452
+    },
+    {
+      "path": "/einsatzgebiete/werlte/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 460
+    },
+    {
+      "path": "/einsatzgebiete/werlte/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 460
+    },
+    {
+      "path": "/einsatzgebiete/werlte/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/werlte/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 423
+    },
+    {
+      "path": "/einsatzgebiete/werlte/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 429
+    },
+    {
+      "path": "/einsatzgebiete/werlte/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/werlte/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/kluse/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 443
+    },
+    {
+      "path": "/einsatzgebiete/kluse/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/kluse/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/kluse/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/kluse/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 452
+    },
+    {
+      "path": "/einsatzgebiete/kluse/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 422
+    },
+    {
+      "path": "/einsatzgebiete/kluse/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/kluse/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 453
+    },
+    {
+      "path": "/einsatzgebiete/kluse/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 430
+    },
+    {
+      "path": "/einsatzgebiete/kluse/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/kluse/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 441
+    },
+    {
+      "path": "/einsatzgebiete/grossefehn/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/grossefehn/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/grossefehn/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 457
+    },
+    {
+      "path": "/einsatzgebiete/grossefehn/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 433
+    },
+    {
+      "path": "/einsatzgebiete/grossefehn/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 436
+    },
+    {
+      "path": "/einsatzgebiete/grossefehn/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 418
+    },
+    {
+      "path": "/einsatzgebiete/grossefehn/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 427
+    },
+    {
+      "path": "/einsatzgebiete/grossefehn/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 413
+    },
+    {
+      "path": "/einsatzgebiete/grossefehn/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 423
+    },
+    {
+      "path": "/einsatzgebiete/grossefehn/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 467
+    },
+    {
+      "path": "/einsatzgebiete/grossefehn/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 463
+    },
+    {
+      "path": "/einsatzgebiete/lindern-oldenburg/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 469
+    },
+    {
+      "path": "/einsatzgebiete/lindern-oldenburg/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 469
+    },
+    {
+      "path": "/einsatzgebiete/lindern-oldenburg/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 458
+    },
+    {
+      "path": "/einsatzgebiete/lindern-oldenburg/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 468
+    },
+    {
+      "path": "/einsatzgebiete/lindern-oldenburg/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 476
+    },
+    {
+      "path": "/einsatzgebiete/lindern-oldenburg/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 476
+    },
+    {
+      "path": "/einsatzgebiete/lindern-oldenburg/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 461
+    },
+    {
+      "path": "/einsatzgebiete/lindern-oldenburg/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/lindern-oldenburg/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/lindern-oldenburg/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 455
+    },
+    {
+      "path": "/einsatzgebiete/lindern-oldenburg/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/renkenberge/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/renkenberge/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/renkenberge/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/renkenberge/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 425
+    },
+    {
+      "path": "/einsatzgebiete/renkenberge/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 487
+    },
+    {
+      "path": "/einsatzgebiete/renkenberge/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 490
+    },
+    {
+      "path": "/einsatzgebiete/renkenberge/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 475
+    },
+    {
+      "path": "/einsatzgebiete/renkenberge/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 481
+    },
+    {
+      "path": "/einsatzgebiete/renkenberge/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 468
+    },
+    {
+      "path": "/einsatzgebiete/renkenberge/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 454
+    },
+    {
+      "path": "/einsatzgebiete/renkenberge/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/soegel/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 458
+    },
+    {
+      "path": "/einsatzgebiete/soegel/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 458
+    },
+    {
+      "path": "/einsatzgebiete/soegel/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/soegel/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 457
+    },
+    {
+      "path": "/einsatzgebiete/soegel/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 465
+    },
+    {
+      "path": "/einsatzgebiete/soegel/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 465
+    },
+    {
+      "path": "/einsatzgebiete/soegel/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 450
+    },
+    {
+      "path": "/einsatzgebiete/soegel/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/soegel/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/soegel/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/soegel/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 433
+    },
+    {
+      "path": "/einsatzgebiete/dersum/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/dersum/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/dersum/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/dersum/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/dersum/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 457
+    },
+    {
+      "path": "/einsatzgebiete/dersum/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 427
+    },
+    {
+      "path": "/einsatzgebiete/dersum/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/dersum/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 458
+    },
+    {
+      "path": "/einsatzgebiete/dersum/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/dersum/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/dersum/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/wiesmoor/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 460
+    },
+    {
+      "path": "/einsatzgebiete/wiesmoor/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 460
+    },
+    {
+      "path": "/einsatzgebiete/wiesmoor/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/wiesmoor/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 459
+    },
+    {
+      "path": "/einsatzgebiete/wiesmoor/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 467
+    },
+    {
+      "path": "/einsatzgebiete/wiesmoor/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 467
+    },
+    {
+      "path": "/einsatzgebiete/wiesmoor/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 452
+    },
+    {
+      "path": "/einsatzgebiete/wiesmoor/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 430
+    },
+    {
+      "path": "/einsatzgebiete/wiesmoor/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 436
+    },
+    {
+      "path": "/einsatzgebiete/wiesmoor/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/wiesmoor/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/wiefelstede/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/wiefelstede/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 438
+    },
+    {
+      "path": "/einsatzgebiete/wiefelstede/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 455
+    },
+    {
+      "path": "/einsatzgebiete/wiefelstede/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/wiefelstede/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/wiefelstede/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 416
+    },
+    {
+      "path": "/einsatzgebiete/wiefelstede/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 425
+    },
+    {
+      "path": "/einsatzgebiete/wiefelstede/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 411
+    },
+    {
+      "path": "/einsatzgebiete/wiefelstede/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 421
+    },
+    {
+      "path": "/einsatzgebiete/wiefelstede/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 465
+    },
+    {
+      "path": "/einsatzgebiete/wiefelstede/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 461
+    },
+    {
+      "path": "/einsatzgebiete/molbergen/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 464
+    },
+    {
+      "path": "/einsatzgebiete/molbergen/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 464
+    },
+    {
+      "path": "/einsatzgebiete/molbergen/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 453
+    },
+    {
+      "path": "/einsatzgebiete/molbergen/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 463
+    },
+    {
+      "path": "/einsatzgebiete/molbergen/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 471
+    },
+    {
+      "path": "/einsatzgebiete/molbergen/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 471
+    },
+    {
+      "path": "/einsatzgebiete/molbergen/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/molbergen/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/molbergen/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/molbergen/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 450
+    },
+    {
+      "path": "/einsatzgebiete/molbergen/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/walchum/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 414
+    },
+    {
+      "path": "/einsatzgebiete/walchum/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 416
+    },
+    {
+      "path": "/einsatzgebiete/walchum/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 465
+    },
+    {
+      "path": "/einsatzgebiete/walchum/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 463
+    },
+    {
+      "path": "/einsatzgebiete/walchum/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 469
+    },
+    {
+      "path": "/einsatzgebiete/walchum/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 474
+    },
+    {
+      "path": "/einsatzgebiete/walchum/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 464
+    },
+    {
+      "path": "/einsatzgebiete/walchum/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 461
+    },
+    {
+      "path": "/einsatzgebiete/walchum/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/walchum/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/walchum/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/wardenburg/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 416
+    },
+    {
+      "path": "/einsatzgebiete/wardenburg/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 418
+    },
+    {
+      "path": "/einsatzgebiete/wardenburg/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 467
+    },
+    {
+      "path": "/einsatzgebiete/wardenburg/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 465
+    },
+    {
+      "path": "/einsatzgebiete/wardenburg/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 471
+    },
+    {
+      "path": "/einsatzgebiete/wardenburg/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 476
+    },
+    {
+      "path": "/einsatzgebiete/wardenburg/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 466
+    },
+    {
+      "path": "/einsatzgebiete/wardenburg/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 463
+    },
+    {
+      "path": "/einsatzgebiete/wardenburg/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/wardenburg/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 441
+    },
+    {
+      "path": "/einsatzgebiete/wardenburg/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/sustrum/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 452
+    },
+    {
+      "path": "/einsatzgebiete/sustrum/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/sustrum/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/sustrum/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 450
+    },
+    {
+      "path": "/einsatzgebiete/sustrum/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/sustrum/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 429
+    },
+    {
+      "path": "/einsatzgebiete/sustrum/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/sustrum/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 417
+    },
+    {
+      "path": "/einsatzgebiete/sustrum/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/sustrum/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/sustrum/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 422
+    },
+    {
+      "path": "/einsatzgebiete/oldenburg/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/oldenburg/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/oldenburg/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 436
+    },
+    {
+      "path": "/einsatzgebiete/oldenburg/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 418
+    },
+    {
+      "path": "/einsatzgebiete/oldenburg/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/oldenburg/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 410
+    },
+    {
+      "path": "/einsatzgebiete/oldenburg/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 416
+    },
+    {
+      "path": "/einsatzgebiete/oldenburg/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 475
+    },
+    {
+      "path": "/einsatzgebiete/oldenburg/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 477
+    },
+    {
+      "path": "/einsatzgebiete/oldenburg/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 450
+    },
+    {
+      "path": "/einsatzgebiete/oldenburg/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 463
+    },
+    {
+      "path": "/einsatzgebiete/ihlow/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 453
+    },
+    {
+      "path": "/einsatzgebiete/ihlow/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/ihlow/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 452
+    },
+    {
+      "path": "/einsatzgebiete/ihlow/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/ihlow/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/ihlow/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/ihlow/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 436
+    },
+    {
+      "path": "/einsatzgebiete/ihlow/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 463
+    },
+    {
+      "path": "/einsatzgebiete/ihlow/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/ihlow/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 452
+    },
+    {
+      "path": "/einsatzgebiete/ihlow/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/fresenburg/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 453
+    },
+    {
+      "path": "/einsatzgebiete/fresenburg/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/fresenburg/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 441
+    },
+    {
+      "path": "/einsatzgebiete/fresenburg/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 423
+    },
+    {
+      "path": "/einsatzgebiete/fresenburg/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 436
+    },
+    {
+      "path": "/einsatzgebiete/fresenburg/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 415
+    },
+    {
+      "path": "/einsatzgebiete/fresenburg/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 421
+    },
+    {
+      "path": "/einsatzgebiete/fresenburg/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 480
+    },
+    {
+      "path": "/einsatzgebiete/fresenburg/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 482
+    },
+    {
+      "path": "/einsatzgebiete/fresenburg/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 455
+    },
+    {
+      "path": "/einsatzgebiete/fresenburg/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 468
+    },
+    {
+      "path": "/einsatzgebiete/lathen/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 441
+    },
+    {
+      "path": "/einsatzgebiete/lathen/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/lathen/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/lathen/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/lathen/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/lathen/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 417
+    },
+    {
+      "path": "/einsatzgebiete/lathen/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/lathen/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 412
+    },
+    {
+      "path": "/einsatzgebiete/lathen/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 422
+    },
+    {
+      "path": "/einsatzgebiete/lathen/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 466
+    },
+    {
+      "path": "/einsatzgebiete/lathen/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/rastede/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 463
+    },
+    {
+      "path": "/einsatzgebiete/rastede/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 463
+    },
+    {
+      "path": "/einsatzgebiete/rastede/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 452
+    },
+    {
+      "path": "/einsatzgebiete/rastede/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/rastede/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 470
+    },
+    {
+      "path": "/einsatzgebiete/rastede/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 470
+    },
+    {
+      "path": "/einsatzgebiete/rastede/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 455
+    },
+    {
+      "path": "/einsatzgebiete/rastede/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 433
+    },
+    {
+      "path": "/einsatzgebiete/rastede/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/rastede/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/rastede/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 438
+    },
+    {
+      "path": "/einsatzgebiete/bockhorn/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 443
+    },
+    {
+      "path": "/einsatzgebiete/bockhorn/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 429
+    },
+    {
+      "path": "/einsatzgebiete/bockhorn/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/bockhorn/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 413
+    },
+    {
+      "path": "/einsatzgebiete/bockhorn/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/bockhorn/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 405
+    },
+    {
+      "path": "/einsatzgebiete/bockhorn/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 411
+    },
+    {
+      "path": "/einsatzgebiete/bockhorn/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 470
+    },
+    {
+      "path": "/einsatzgebiete/bockhorn/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 472
+    },
+    {
+      "path": "/einsatzgebiete/bockhorn/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/bockhorn/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 458
+    },
+    {
+      "path": "/einsatzgebiete/zetel/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/zetel/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/zetel/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 441
+    },
+    {
+      "path": "/einsatzgebiete/zetel/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/zetel/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 439
+    },
+    {
+      "path": "/einsatzgebiete/zetel/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 421
+    },
+    {
+      "path": "/einsatzgebiete/zetel/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 423
+    },
+    {
+      "path": "/einsatzgebiete/zetel/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 409
+    },
+    {
+      "path": "/einsatzgebiete/zetel/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/zetel/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 418
+    },
+    {
+      "path": "/einsatzgebiete/zetel/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 414
+    },
+    {
+      "path": "/einsatzgebiete/cloppenburg/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/cloppenburg/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/cloppenburg/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 436
+    },
+    {
+      "path": "/einsatzgebiete/cloppenburg/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 418
+    },
+    {
+      "path": "/einsatzgebiete/cloppenburg/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/cloppenburg/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 410
+    },
+    {
+      "path": "/einsatzgebiete/cloppenburg/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 416
+    },
+    {
+      "path": "/einsatzgebiete/cloppenburg/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 475
+    },
+    {
+      "path": "/einsatzgebiete/cloppenburg/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 477
+    },
+    {
+      "path": "/einsatzgebiete/cloppenburg/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 450
+    },
+    {
+      "path": "/einsatzgebiete/cloppenburg/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 463
+    },
+    {
+      "path": "/einsatzgebiete/friedeburg/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/friedeburg/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 452
+    },
+    {
+      "path": "/einsatzgebiete/friedeburg/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/friedeburg/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/friedeburg/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 458
+    },
+    {
+      "path": "/einsatzgebiete/friedeburg/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/friedeburg/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/friedeburg/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 459
+    },
+    {
+      "path": "/einsatzgebiete/friedeburg/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 436
+    },
+    {
+      "path": "/einsatzgebiete/friedeburg/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/friedeburg/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/stavern/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/stavern/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/stavern/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/stavern/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/stavern/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/stavern/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/stavern/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/stavern/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 414
+    },
+    {
+      "path": "/einsatzgebiete/stavern/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/stavern/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 423
+    },
+    {
+      "path": "/einsatzgebiete/stavern/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 419
+    },
+    {
+      "path": "/einsatzgebiete/emden/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/emden/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 450
+    },
+    {
+      "path": "/einsatzgebiete/emden/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/emden/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 443
+    },
+    {
+      "path": "/einsatzgebiete/emden/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/emden/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/emden/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 430
+    },
+    {
+      "path": "/einsatzgebiete/emden/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 457
+    },
+    {
+      "path": "/einsatzgebiete/emden/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 434
+    },
+    {
+      "path": "/einsatzgebiete/emden/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/emden/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 445
+    },
+    {
+      "path": "/einsatzgebiete/laehden/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/laehden/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/laehden/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/laehden/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 461
+    },
+    {
+      "path": "/einsatzgebiete/laehden/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 469
+    },
+    {
+      "path": "/einsatzgebiete/laehden/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 469
+    },
+    {
+      "path": "/einsatzgebiete/laehden/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 454
+    },
+    {
+      "path": "/einsatzgebiete/laehden/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/laehden/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 438
+    },
+    {
+      "path": "/einsatzgebiete/laehden/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/laehden/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/grossenkneten/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 465
+    },
+    {
+      "path": "/einsatzgebiete/grossenkneten/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 465
+    },
+    {
+      "path": "/einsatzgebiete/grossenkneten/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 454
+    },
+    {
+      "path": "/einsatzgebiete/grossenkneten/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 464
+    },
+    {
+      "path": "/einsatzgebiete/grossenkneten/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 472
+    },
+    {
+      "path": "/einsatzgebiete/grossenkneten/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 472
+    },
+    {
+      "path": "/einsatzgebiete/grossenkneten/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 457
+    },
+    {
+      "path": "/einsatzgebiete/grossenkneten/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/grossenkneten/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 441
+    },
+    {
+      "path": "/einsatzgebiete/grossenkneten/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/grossenkneten/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/hatten/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 453
+    },
+    {
+      "path": "/einsatzgebiete/hatten/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/hatten/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 452
+    },
+    {
+      "path": "/einsatzgebiete/hatten/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/hatten/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/hatten/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/hatten/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 436
+    },
+    {
+      "path": "/einsatzgebiete/hatten/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 463
+    },
+    {
+      "path": "/einsatzgebiete/hatten/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/hatten/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 452
+    },
+    {
+      "path": "/einsatzgebiete/hatten/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/varel/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 461
+    },
+    {
+      "path": "/einsatzgebiete/varel/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 461
+    },
+    {
+      "path": "/einsatzgebiete/varel/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 450
+    },
+    {
+      "path": "/einsatzgebiete/varel/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 460
+    },
+    {
+      "path": "/einsatzgebiete/varel/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 468
+    },
+    {
+      "path": "/einsatzgebiete/varel/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 468
+    },
+    {
+      "path": "/einsatzgebiete/varel/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 453
+    },
+    {
+      "path": "/einsatzgebiete/varel/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 431
+    },
+    {
+      "path": "/einsatzgebiete/varel/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/varel/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/varel/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 436
+    },
+    {
+      "path": "/einsatzgebiete/emstek/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 440
+    },
+    {
+      "path": "/einsatzgebiete/emstek/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 426
+    },
+    {
+      "path": "/einsatzgebiete/emstek/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 428
+    },
+    {
+      "path": "/einsatzgebiete/emstek/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 410
+    },
+    {
+      "path": "/einsatzgebiete/emstek/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 423
+    },
+    {
+      "path": "/einsatzgebiete/emstek/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 402
+    },
+    {
+      "path": "/einsatzgebiete/emstek/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 408
+    },
+    {
+      "path": "/einsatzgebiete/emstek/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 467
+    },
+    {
+      "path": "/einsatzgebiete/emstek/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 469
+    },
+    {
+      "path": "/einsatzgebiete/emstek/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 442
+    },
+    {
+      "path": "/einsatzgebiete/emstek/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 455
+    },
+    {
+      "path": "/einsatzgebiete/cappeln/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 444
+    },
+    {
+      "path": "/einsatzgebiete/cappeln/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 430
+    },
+    {
+      "path": "/einsatzgebiete/cappeln/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/cappeln/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 414
+    },
+    {
+      "path": "/einsatzgebiete/cappeln/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 427
+    },
+    {
+      "path": "/einsatzgebiete/cappeln/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 406
+    },
+    {
+      "path": "/einsatzgebiete/cappeln/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 412
+    },
+    {
+      "path": "/einsatzgebiete/cappeln/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 471
+    },
+    {
+      "path": "/einsatzgebiete/cappeln/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 473
+    },
+    {
+      "path": "/einsatzgebiete/cappeln/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/cappeln/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 459
+    },
+    {
+      "path": "/einsatzgebiete/jade/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 457
+    },
+    {
+      "path": "/einsatzgebiete/jade/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 457
+    },
+    {
+      "path": "/einsatzgebiete/jade/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 446
+    },
+    {
+      "path": "/einsatzgebiete/jade/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 456
+    },
+    {
+      "path": "/einsatzgebiete/jade/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 464
+    },
+    {
+      "path": "/einsatzgebiete/jade/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 464
+    },
+    {
+      "path": "/einsatzgebiete/jade/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/jade/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 427
+    },
+    {
+      "path": "/einsatzgebiete/jade/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 433
+    },
+    {
+      "path": "/einsatzgebiete/jade/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 443
+    },
+    {
+      "path": "/einsatzgebiete/jade/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/suedbrookmerland/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/suedbrookmerland/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    },
+    {
+      "path": "/einsatzgebiete/suedbrookmerland/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 451
+    },
+    {
+      "path": "/einsatzgebiete/suedbrookmerland/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 461
+    },
+    {
+      "path": "/einsatzgebiete/suedbrookmerland/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 469
+    },
+    {
+      "path": "/einsatzgebiete/suedbrookmerland/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 469
+    },
+    {
+      "path": "/einsatzgebiete/suedbrookmerland/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 454
+    },
+    {
+      "path": "/einsatzgebiete/suedbrookmerland/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 432
+    },
+    {
+      "path": "/einsatzgebiete/suedbrookmerland/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 438
+    },
+    {
+      "path": "/einsatzgebiete/suedbrookmerland/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 448
+    },
+    {
+      "path": "/einsatzgebiete/suedbrookmerland/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 437
+    },
+    {
+      "path": "/einsatzgebiete/aurich/unterhaltsreinigung",
+      "kind": "local-service",
+      "bodyWords": 447
+    },
+    {
+      "path": "/einsatzgebiete/aurich/buero-praxisreinigung",
+      "kind": "local-service",
+      "bodyWords": 433
+    },
+    {
+      "path": "/einsatzgebiete/aurich/grund-sonderreinigung",
+      "kind": "local-service",
+      "bodyWords": 435
+    },
+    {
+      "path": "/einsatzgebiete/aurich/treppenhausreinigung",
+      "kind": "local-service",
+      "bodyWords": 417
+    },
+    {
+      "path": "/einsatzgebiete/aurich/glas-fensterreinigung",
+      "kind": "local-service",
+      "bodyWords": 430
+    },
+    {
+      "path": "/einsatzgebiete/aurich/maschinen-anlagenreinigung",
+      "kind": "local-service",
+      "bodyWords": 409
+    },
+    {
+      "path": "/einsatzgebiete/aurich/hallen-gewerbereinigung",
+      "kind": "local-service",
+      "bodyWords": 415
+    },
+    {
+      "path": "/einsatzgebiete/aurich/baustellenreinigung",
+      "kind": "local-service",
+      "bodyWords": 474
+    },
+    {
+      "path": "/einsatzgebiete/aurich/polster-teppichreinigung",
+      "kind": "local-service",
+      "bodyWords": 476
+    },
+    {
+      "path": "/einsatzgebiete/aurich/dach-oberflaechenreinigung",
+      "kind": "local-service",
+      "bodyWords": 449
+    },
+    {
+      "path": "/einsatzgebiete/aurich/pv-anlagen-reinigung",
+      "kind": "local-service",
+      "bodyWords": 462
+    }
+  ]
+}

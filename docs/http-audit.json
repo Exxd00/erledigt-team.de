@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-10-08T10:39:33.107Z",
+  "base": "http://localhost:3000",
+  "findings": [
+    {
+      "name": "Unconfigured form is visibly unavailable",
+      "status": 200
+    },
+    {
+      "name": "Foreign origin rejected",
+      "status": 403
+    },
+    {
+      "name": "Invalid postcode rejected",
+      "status": 422
+    },
+    {
+      "name": "Honeypot rejected",
+      "status": 422
+    },
+    {
+      "name": "Oversized request rejected",
+      "status": 400
+    },
+    {
+      "name": "No fake success without backend configuration",
+      "status": 503
+    },
+    {
+      "name": "Retry endpoint rejects an unauthenticated request",
+      "status": 401
+    },
+    {
+      "name": "Unknown city returns 404",
+      "status": 404
+    },
+    {
+      "name": "Prefilled form renders",
+      "status": 200
+    },
+    {
+      "name": "Preview robots responds",
+      "status": 200
+    }
+  ],
+  "limitations": "HTTP checks only. Browser interaction and real Supabase/Sheets/Resend delivery require connected services."
+}

@@ -1,0 +1,6 @@
+node_modules
+.next
+pnpm-lock.yaml
+src/data
+docs/*.json
+integrations/google-apps-script/Code.gs

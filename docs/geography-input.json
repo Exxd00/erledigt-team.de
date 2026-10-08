@@ -1,0 +1,720 @@
+{
+  "origin": [
+    53.118526,
+    7.6740414
+  ],
+  "distanceBasis": "OpenStreetMap place coordinates; approximate straight-line distance from the supplied business address",
+  "cities": [
+    {
+      "name": "Saterland",
+      "lat": 53.0845859,
+      "lon": 7.6937446,
+      "distanceKm": 0,
+      "exactDistanceKm": 3.9966399825405627,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109692",
+      "resolvedName": "Saterland - Seelterlound, Landkreis Cloppenburg, Niedersachsen, 26683, Deutschland"
+    },
+    {
+      "name": "Barßel",
+      "lat": 53.1699986,
+      "lon": 7.7434171,
+      "distanceKm": 7,
+      "exactDistanceKm": 7.359862299064258,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109688",
+      "resolvedName": "Barßel, Landkreis Cloppenburg, Niedersachsen, 26676, Deutschland"
+    },
+    {
+      "name": "Ostrhauderfehn",
+      "lat": 53.1389184,
+      "lon": 7.6211712,
+      "distanceKm": 4,
+      "exactDistanceKm": 4.193401440041321,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1470258",
+      "resolvedName": "Ostrhauderfehn, Landkreis Leer, Niedersachsen, 26842, Deutschland"
+    },
+    {
+      "name": "Rhauderfehn",
+      "lat": 53.1296461,
+      "lon": 7.5695106,
+      "distanceKm": 7,
+      "exactDistanceKm": 7.083706005051859,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1470260",
+      "resolvedName": "Rhauderfehn, Landkreis Leer, Niedersachsen, 26817, Deutschland"
+    },
+    {
+      "name": "Friesoythe",
+      "lat": 53.0206088,
+      "lon": 7.8592307,
+      "distanceKm": 16,
+      "exactDistanceKm": 16.481164489987794,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109689",
+      "resolvedName": "Friesoythe, Landkreis Cloppenburg, Niedersachsen, 26169, Deutschland"
+    },
+    {
+      "name": "Apen",
+      "lat": 53.2214255,
+      "lon": 7.8097336,
+      "distanceKm": 15,
+      "exactDistanceKm": 14.58496410743917,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187347",
+      "resolvedName": "Apen, Landkreis Ammerland, Niedersachsen, 26689, Deutschland"
+    },
+    {
+      "name": "Detern",
+      "lat": 53.2109195,
+      "lon": 7.6700309,
+      "distanceKm": 10,
+      "exactDistanceKm": 10.277166528576252,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187426",
+      "resolvedName": "Detern, Samtgemeinde Jümme, Landkreis Leer, Niedersachsen, 26847, Deutschland"
+    },
+    {
+      "name": "Filsum",
+      "lat": 53.2414017,
+      "lon": 7.6257628,
+      "distanceKm": 14,
+      "exactDistanceKm": 14.036828076072393,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187427",
+      "resolvedName": "Filsum, Samtgemeinde Jümme, Landkreis Leer, Niedersachsen, 26849, Deutschland"
+    },
+    {
+      "name": "Uplengen",
+      "lat": 53.3072809,
+      "lon": 7.7653243,
+      "distanceKm": 22,
+      "exactDistanceKm": 21.851023598876083,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187438",
+      "resolvedName": "Uplengen, Landkreis Leer, Niedersachsen, 26670, Deutschland"
+    },
+    {
+      "name": "Westoverledingen",
+      "lat": 53.15,
+      "lon": 7.46667,
+      "distanceKm": 14,
+      "exactDistanceKm": 14.269669129301137,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1470259",
+      "resolvedName": "Westoverledingen, Landkreis Leer, Niedersachsen, 26810, Deutschland"
+    },
+    {
+      "name": "Papenburg",
+      "lat": 53.0822606,
+      "lon": 7.3928398,
+      "distanceKm": 19,
+      "exactDistanceKm": 19.20206851209142,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1080035",
+      "resolvedName": "Papenburg, Landkreis Emsland, Niedersachsen, 26871, Deutschland"
+    },
+    {
+      "name": "Leer",
+      "lat": 53.2049511,
+      "lon": 7.4595298,
+      "distanceKm": 17,
+      "exactDistanceKm": 17.229961504845683,
+      "sourceUrl": "https://www.openstreetmap.org/relation/62567",
+      "resolvedName": "Landkreis Leer, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Moormerland",
+      "lat": 53.3196227,
+      "lon": 7.4225093,
+      "distanceKm": 28,
+      "exactDistanceKm": 27.936729034219677,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187825",
+      "resolvedName": "Moormerland, Landkreis Leer, Niedersachsen, 26802, Deutschland"
+    },
+    {
+      "name": "Hesel",
+      "lat": 53.3062762,
+      "lon": 7.5918868,
+      "distanceKm": 22,
+      "exactDistanceKm": 21.581728392402646,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2012930",
+      "resolvedName": "Hesel, Samtgemeinde Hesel, Landkreis Leer, Niedersachsen, 26835, Deutschland"
+    },
+    {
+      "name": "Großefehn",
+      "lat": 53.3935933,
+      "lon": 7.606773,
+      "distanceKm": 31,
+      "exactDistanceKm": 30.911683519076714,
+      "sourceUrl": "https://www.openstreetmap.org/relation/898632",
+      "resolvedName": "Großefehn, Landkreis Aurich, Niedersachsen, 26629, Deutschland"
+    },
+    {
+      "name": "Wiesmoor",
+      "lat": 53.4114442,
+      "lon": 7.7309444,
+      "distanceKm": 33,
+      "exactDistanceKm": 32.79013871052545,
+      "sourceUrl": "https://www.openstreetmap.org/relation/898631",
+      "resolvedName": "Wiesmoor, Landkreis Aurich, Niedersachsen, 26639, Deutschland"
+    },
+    {
+      "name": "Westerstede",
+      "lat": 53.2575197,
+      "lon": 7.9273367,
+      "distanceKm": 23,
+      "exactDistanceKm": 22.884005244191613,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187357",
+      "resolvedName": "Westerstede, Landkreis Ammerland, Niedersachsen, 26655, Deutschland"
+    },
+    {
+      "name": "Bad Zwischenahn",
+      "lat": 53.1614211,
+      "lon": 8.046023,
+      "distanceKm": 25,
+      "exactDistanceKm": 25.26604448648708,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1186777",
+      "resolvedName": "Bad Zwischenahn, Landkreis Ammerland, Niedersachsen, 26160, Deutschland"
+    },
+    {
+      "name": "Edewecht",
+      "lat": 53.1283992,
+      "lon": 7.9855044,
+      "distanceKm": 21,
+      "exactDistanceKm": 20.812033721066115,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1186750",
+      "resolvedName": "Edewecht, Landkreis Ammerland, Niedersachsen, 26188, Deutschland"
+    },
+    {
+      "name": "Bösel",
+      "lat": 53.0051978,
+      "lon": 7.9557027,
+      "distanceKm": 23,
+      "exactDistanceKm": 22.65044642447138,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109690",
+      "resolvedName": "Bösel, Landkreis Cloppenburg, Niedersachsen, 26219, Deutschland"
+    },
+    {
+      "name": "Garrel",
+      "lat": 52.9554303,
+      "lon": 8.0225529,
+      "distanceKm": 30,
+      "exactDistanceKm": 29.527484606435767,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109691",
+      "resolvedName": "Garrel, Landkreis Cloppenburg, Niedersachsen, 49681, Deutschland"
+    },
+    {
+      "name": "Cloppenburg",
+      "lat": 52.8461339,
+      "lon": 8.0438783,
+      "distanceKm": 39,
+      "exactDistanceKm": 39.12042837773191,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109686",
+      "resolvedName": "Cloppenburg, Landkreis Cloppenburg, Niedersachsen, 49661, Deutschland"
+    },
+    {
+      "name": "Lorup",
+      "lat": 52.925137,
+      "lon": 7.6456353,
+      "distanceKm": 22,
+      "exactDistanceKm": 21.587645072729885,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007764",
+      "resolvedName": "Lorup, Samtgemeinde Werlte, Landkreis Emsland, Niedersachsen, 26901, Deutschland"
+    },
+    {
+      "name": "Rastdorf",
+      "lat": 52.9130605,
+      "lon": 7.7097399,
+      "distanceKm": 23,
+      "exactDistanceKm": 22.971184110432002,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007765",
+      "resolvedName": "Rastdorf, Samtgemeinde Werlte, Landkreis Emsland, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Vrees",
+      "lat": 52.8864862,
+      "lon": 7.7731483,
+      "distanceKm": 27,
+      "exactDistanceKm": 26.64027953553431,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007768",
+      "resolvedName": "Vrees, Samtgemeinde Werlte, Landkreis Emsland, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Surwold",
+      "lat": 52.9859369,
+      "lon": 7.5092031,
+      "distanceKm": 18,
+      "exactDistanceKm": 18.40506235616456,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1474251",
+      "resolvedName": "Surwold, Samtgemeinde Nordhümmling, Landkreis Emsland, Niedersachsen, 26903, Deutschland"
+    },
+    {
+      "name": "Esterwegen",
+      "lat": 52.9938513,
+      "lon": 7.6320461,
+      "distanceKm": 14,
+      "exactDistanceKm": 14.144441377488851,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007738",
+      "resolvedName": "Esterwegen, Samtgemeinde Nordhümmling, Landkreis Emsland, Niedersachsen, 26897, Deutschland"
+    },
+    {
+      "name": "Bockhorst",
+      "lat": 53.0351865,
+      "lon": 7.5767856,
+      "distanceKm": 11,
+      "exactDistanceKm": 11.317348069545519,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007737",
+      "resolvedName": "Bockhorst, Samtgemeinde Nordhümmling, Landkreis Emsland, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Breddenberg",
+      "lat": 52.9578279,
+      "lon": 7.6128708,
+      "distanceKm": 18,
+      "exactDistanceKm": 18.33088174635494,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1474252",
+      "resolvedName": "Breddenberg, Samtgemeinde Nordhümmling, Landkreis Emsland, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Bunde",
+      "lat": 53.184017,
+      "lon": 7.2695448,
+      "distanceKm": 28,
+      "exactDistanceKm": 27.939182123915412,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1255784",
+      "resolvedName": "Bunde, Landkreis Leer, Niedersachsen, 26831, Deutschland"
+    },
+    {
+      "name": "Weener",
+      "lat": 53.1645939,
+      "lon": 7.3536239,
+      "distanceKm": 22,
+      "exactDistanceKm": 21.976889930935535,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1255862",
+      "resolvedName": "Weener, Landkreis Leer, Niedersachsen, 26826, Deutschland"
+    },
+    {
+      "name": "Rhede (Ems)",
+      "lat": 53.0586814,
+      "lon": 7.2735358,
+      "distanceKm": 28,
+      "exactDistanceKm": 27.56164328792425,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1470261",
+      "resolvedName": "Rhede (Ems), Landkreis Emsland, Niedersachsen, 26899, Deutschland"
+    },
+    {
+      "name": "Dörpen",
+      "lat": 52.966087,
+      "lon": 7.3289283,
+      "distanceKm": 29,
+      "exactDistanceKm": 28.629138801707736,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007906",
+      "resolvedName": "Dörpen, Samtgemeinde Dörpen, Landkreis Emsland, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Börger",
+      "lat": 52.9129067,
+      "lon": 7.5352388,
+      "distanceKm": 25,
+      "exactDistanceKm": 24.677261272522863,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1474267",
+      "resolvedName": "Börger, Samtgemeinde Sögel, Landkreis Emsland, Niedersachsen, 26904, Deutschland"
+    },
+    {
+      "name": "Werlte",
+      "lat": 52.8518701,
+      "lon": 7.6764179,
+      "distanceKm": 30,
+      "exactDistanceKm": 29.651210011055277,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1749929",
+      "resolvedName": "Werlte, Samtgemeinde Werlte, Landkreis Emsland, Niedersachsen, 49757, Deutschland"
+    },
+    {
+      "name": "Lathen",
+      "lat": 52.8636698,
+      "lon": 7.3163422,
+      "distanceKm": 37,
+      "exactDistanceKm": 37.098275958218295,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2010626",
+      "resolvedName": "Lathen, Samtgemeinde Lathen, Landkreis Emsland, Niedersachsen, 49762, Deutschland"
+    },
+    {
+      "name": "Sögel",
+      "lat": 52.8418097,
+      "lon": 7.5195614,
+      "distanceKm": 32,
+      "exactDistanceKm": 32.461085134609434,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1744936",
+      "resolvedName": "Sögel, Samtgemeinde Sögel, Landkreis Emsland, Niedersachsen, 49751, Deutschland"
+    },
+    {
+      "name": "Emden",
+      "lat": 53.3670541,
+      "lon": 7.2058304,
+      "distanceKm": 42,
+      "exactDistanceKm": 41.645614836386834,
+      "sourceUrl": "https://www.openstreetmap.org/relation/62562",
+      "resolvedName": "Emden, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Aurich",
+      "lat": 53.5094623,
+      "lon": 7.3583406,
+      "distanceKm": 48,
+      "exactDistanceKm": 48.2646915925383,
+      "sourceUrl": "https://www.openstreetmap.org/relation/62355",
+      "resolvedName": "Landkreis Aurich, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Oldenburg",
+      "lat": 53.1389753,
+      "lon": 8.2146017,
+      "distanceKm": 36,
+      "exactDistanceKm": 36.13719522349717,
+      "sourceUrl": "https://www.openstreetmap.org/relation/62409",
+      "resolvedName": "Oldenburg, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Rastede",
+      "lat": 53.2467081,
+      "lon": 8.201904,
+      "distanceKm": 38,
+      "exactDistanceKm": 37.95231867825815,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1186789",
+      "resolvedName": "Rastede, Landkreis Ammerland, Niedersachsen, 26180, Deutschland"
+    },
+    {
+      "name": "Wiefelstede",
+      "lat": 53.2558626,
+      "lon": 8.1150123,
+      "distanceKm": 33,
+      "exactDistanceKm": 33.11273457323581,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1186800",
+      "resolvedName": "Wiefelstede, Landkreis Ammerland, Niedersachsen, 26215, Deutschland"
+    },
+    {
+      "name": "Hatten",
+      "lat": 53.0352278,
+      "lon": 8.3235253,
+      "distanceKm": 44,
+      "exactDistanceKm": 44.36276663312643,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1185613",
+      "resolvedName": "Hatten, Landkreis Oldenburg, Niedersachsen, 26209, Deutschland"
+    },
+    {
+      "name": "Bockhorn",
+      "lat": 53.3916452,
+      "lon": 8.0161221,
+      "distanceKm": 38,
+      "exactDistanceKm": 37.949173436074084,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187412",
+      "resolvedName": "Bockhorn, Landkreis Friesland, Niedersachsen, 26345, Deutschland"
+    },
+    {
+      "name": "Zetel",
+      "lat": 53.4159196,
+      "lon": 7.9704832,
+      "distanceKm": 38,
+      "exactDistanceKm": 38.499256483174555,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187413",
+      "resolvedName": "Zetel, Landkreis Friesland, Niedersachsen, 26340, Deutschland"
+    },
+    {
+      "name": "Varel",
+      "lat": 53.395777,
+      "lon": 8.1372149,
+      "distanceKm": 44,
+      "exactDistanceKm": 43.58517773849531,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187380",
+      "resolvedName": "Varel, Landkreis Friesland, Niedersachsen, 26316, Deutschland"
+    },
+    {
+      "name": "Nortmoor",
+      "lat": 53.2462955,
+      "lon": 7.5685189,
+      "distanceKm": 16,
+      "exactDistanceKm": 15.852152729030276,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187428",
+      "resolvedName": "Nortmoor, Samtgemeinde Jümme, Landkreis Leer, Niedersachsen, 26845, Deutschland"
+    },
+    {
+      "name": "Brinkum",
+      "lat": 53.2681305,
+      "lon": 7.5598707,
+      "distanceKm": 18,
+      "exactDistanceKm": 18.29157078131465,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2012928",
+      "resolvedName": "Brinkum, Samtgemeinde Hesel, Landkreis Leer, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Holtland",
+      "lat": 53.276097,
+      "lon": 7.5842418,
+      "distanceKm": 19,
+      "exactDistanceKm": 18.514058426710193,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2012931",
+      "resolvedName": "Holtland, Samtgemeinde Hesel, Landkreis Leer, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Firrel",
+      "lat": 53.3309949,
+      "lon": 7.6628879,
+      "distanceKm": 24,
+      "exactDistanceKm": 23.637128017078506,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2012929",
+      "resolvedName": "Firrel, Samtgemeinde Hesel, Landkreis Leer, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Schwerinsdorf",
+      "lat": 53.3156616,
+      "lon": 7.6817112,
+      "distanceKm": 22,
+      "exactDistanceKm": 21.92642612572694,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2012933",
+      "resolvedName": "Schwerinsdorf, Samtgemeinde Hesel, Landkreis Leer, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Neukamperfehn",
+      "lat": 53.334667,
+      "lon": 7.5525011,
+      "distanceKm": 25,
+      "exactDistanceKm": 25.359015443762278,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2012932",
+      "resolvedName": "Neukamperfehn, Samtgemeinde Hesel, Landkreis Leer, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Jemgum",
+      "lat": 53.2667955,
+      "lon": 7.3834995,
+      "distanceKm": 25,
+      "exactDistanceKm": 25.425613395448128,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1255860",
+      "resolvedName": "Jemgum, Landkreis Leer, Niedersachsen, 26844, Deutschland"
+    },
+    {
+      "name": "Emstek",
+      "lat": 52.8339613,
+      "lon": 8.1549499,
+      "distanceKm": 45,
+      "exactDistanceKm": 45.14440306638583,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109687",
+      "resolvedName": "Emstek, Landkreis Cloppenburg, Niedersachsen, 49685, Deutschland"
+    },
+    {
+      "name": "Cappeln",
+      "lat": 52.8104892,
+      "lon": 8.1141402,
+      "distanceKm": 45,
+      "exactDistanceKm": 45.18819261379776,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1109685",
+      "resolvedName": "Cappeln (Oldenburg), Landkreis Cloppenburg, Niedersachsen, 49692, Deutschland"
+    },
+    {
+      "name": "Molbergen",
+      "lat": 52.8586593,
+      "lon": 7.9219863,
+      "distanceKm": 33,
+      "exactDistanceKm": 33.322859728477795,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1101319",
+      "resolvedName": "Molbergen, Landkreis Cloppenburg, Niedersachsen, 49696, Deutschland"
+    },
+    {
+      "name": "Lindern (Oldenburg)",
+      "lat": 52.845009,
+      "lon": 7.7805328,
+      "distanceKm": 31,
+      "exactDistanceKm": 31.2381078145081,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1101318",
+      "resolvedName": "Lindern (Oldenburg), Landkreis Cloppenburg, Niedersachsen, 49699, Deutschland"
+    },
+    {
+      "name": "Großenkneten",
+      "lat": 52.9442224,
+      "lon": 8.2542326,
+      "distanceKm": 43,
+      "exactDistanceKm": 43.36908181954699,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1186883",
+      "resolvedName": "Großenkneten, Landkreis Oldenburg, Niedersachsen, 26197, Deutschland"
+    },
+    {
+      "name": "Wardenburg",
+      "lat": 53.0645396,
+      "lon": 8.1925341,
+      "distanceKm": 35,
+      "exactDistanceKm": 35.13976318092758,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1185589",
+      "resolvedName": "Wardenburg, Landkreis Oldenburg, Niedersachsen, 26203, Deutschland"
+    },
+    {
+      "name": "Hude",
+      "lat": 53.1175525,
+      "lon": 8.4491021,
+      "distanceKm": 52,
+      "exactDistanceKm": 51.724066414254594,
+      "sourceUrl": "https://www.openstreetmap.org/way/232815462",
+      "resolvedName": "Ruine Klosterkirche Hude, Kirchstraße, Hude (Oldenburg), Landkreis Oldenburg, Niedersachsen, 27798, Deutschland"
+    },
+    {
+      "name": "Jade",
+      "lat": 53.3449968,
+      "lon": 8.2385588,
+      "distanceKm": 45,
+      "exactDistanceKm": 45.23183769540837,
+      "sourceUrl": "https://www.openstreetmap.org/relation/548851",
+      "resolvedName": "Jade, Landkreis Wesermarsch, Niedersachsen, 26349, Deutschland"
+    },
+    {
+      "name": "Ihlow",
+      "lat": 53.4025306,
+      "lon": 7.4058965,
+      "distanceKm": 36,
+      "exactDistanceKm": 36.26827237229589,
+      "sourceUrl": "https://www.openstreetmap.org/relation/898633",
+      "resolvedName": "Ihlow, Landkreis Aurich, Niedersachsen, 26632, Deutschland"
+    },
+    {
+      "name": "Friedeburg",
+      "lat": 53.4529,
+      "lon": 7.84016,
+      "distanceKm": 39,
+      "exactDistanceKm": 38.78587381509974,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1187676",
+      "resolvedName": "Friedeburg, Landkreis Wittmund, Niedersachsen, 26446, Deutschland"
+    },
+    {
+      "name": "Südbrookmerland",
+      "lat": 53.4845539,
+      "lon": 7.3484908,
+      "distanceKm": 46,
+      "exactDistanceKm": 46.09231818294091,
+      "sourceUrl": "https://www.openstreetmap.org/relation/898634",
+      "resolvedName": "Südbrookmerland, Landkreis Aurich, Niedersachsen, 26624, Deutschland"
+    },
+    {
+      "name": "Hilkenbrook",
+      "lat": 52.9847348,
+      "lon": 7.7069386,
+      "distanceKm": 15,
+      "exactDistanceKm": 15.038516256180605,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007739",
+      "resolvedName": "Hilkenbrook, Samtgemeinde Nordhümmling, Landkreis Emsland, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Neubörger",
+      "lat": 52.9666964,
+      "lon": 7.4499948,
+      "distanceKm": 23,
+      "exactDistanceKm": 22.569184682443424,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1474205",
+      "resolvedName": "Neubörger, Samtgemeinde Dörpen, Landkreis Emsland, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Neulehe",
+      "lat": 53.0020608,
+      "lon": 7.4113961,
+      "distanceKm": 22,
+      "exactDistanceKm": 21.811925750650204,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1474207",
+      "resolvedName": "Neulehe, Samtgemeinde Dörpen, Landkreis Emsland, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Lehe",
+      "lat": 53.0004795,
+      "lon": 7.3335691,
+      "distanceKm": 26,
+      "exactDistanceKm": 26.267357218404268,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007901",
+      "resolvedName": "Lehe, Samtgemeinde Dörpen, Landkreis Emsland, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Heede",
+      "lat": 52.9943207,
+      "lon": 7.3028933,
+      "distanceKm": 28,
+      "exactDistanceKm": 28.390041755351113,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007900",
+      "resolvedName": "Heede, Samtgemeinde Dörpen, Landkreis Emsland, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Dersum",
+      "lat": 52.9602435,
+      "lon": 7.2741814,
+      "distanceKm": 32,
+      "exactDistanceKm": 32.00710670283417,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1474193",
+      "resolvedName": "Dersum, Samtgemeinde Dörpen, Landkreis Emsland, Niedersachsen, 26906, Deutschland"
+    },
+    {
+      "name": "Kluse",
+      "lat": 52.9330023,
+      "lon": 7.3464411,
+      "distanceKm": 30,
+      "exactDistanceKm": 30.09305064512204,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007907",
+      "resolvedName": "Kluse, Samtgemeinde Dörpen, Landkreis Emsland, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Walchum",
+      "lat": 52.9286047,
+      "lon": 7.2720453,
+      "distanceKm": 34,
+      "exactDistanceKm": 34.18851481111229,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1474192",
+      "resolvedName": "Walchum, Samtgemeinde Dörpen, Landkreis Emsland, Niedersachsen, 26907, Deutschland"
+    },
+    {
+      "name": "Sustrum",
+      "lat": 52.9110989,
+      "lon": 7.2835165,
+      "distanceKm": 35,
+      "exactDistanceKm": 34.84923378270141,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2010636",
+      "resolvedName": "Sustrum, Samtgemeinde Lathen, Landkreis Emsland, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Fresenburg",
+      "lat": 52.8850982,
+      "lon": 7.3066278,
+      "distanceKm": 36,
+      "exactDistanceKm": 35.751504445085345,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2010625",
+      "resolvedName": "Fresenburg, Samtgemeinde Lathen, Landkreis Emsland, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Stavern",
+      "lat": 52.797273,
+      "lon": 7.4345519,
+      "distanceKm": 39,
+      "exactDistanceKm": 39.15840112223317,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1748602",
+      "resolvedName": "Stavern, Samtgemeinde Sögel, Landkreis Emsland, Niedersachsen, 49777, Deutschland"
+    },
+    {
+      "name": "Spahnharrenstätte",
+      "lat": 52.8694137,
+      "lon": 7.6013706,
+      "distanceKm": 28,
+      "exactDistanceKm": 28.123777557894797,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007859",
+      "resolvedName": "Spahnharrenstätte, Samtgemeinde Sögel, Landkreis Emsland, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Lähden",
+      "lat": 52.7500419,
+      "lon": 7.5685681,
+      "distanceKm": 42,
+      "exactDistanceKm": 41.57885082686454,
+      "sourceUrl": "https://www.openstreetmap.org/relation/1748594",
+      "resolvedName": "Lähden, Samtgemeinde Herzlake, Landkreis Emsland, Niedersachsen, 49774, Deutschland"
+    },
+    {
+      "name": "Renkenberge",
+      "lat": 52.9084604,
+      "lon": 7.3780242,
+      "distanceKm": 31,
+      "exactDistanceKm": 30.62285251126971,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2010632",
+      "resolvedName": "Renkenberge, Samtgemeinde Lathen, Landkreis Emsland, Niedersachsen, Deutschland"
+    },
+    {
+      "name": "Werpeloh",
+      "lat": 52.8748823,
+      "lon": 7.5071803,
+      "distanceKm": 29,
+      "exactDistanceKm": 29.303137955492947,
+      "sourceUrl": "https://www.openstreetmap.org/relation/2007860",
+      "resolvedName": "Werpeloh, Samtgemeinde Sögel, Landkreis Emsland, Niedersachsen, Deutschland"
+    }
+  ]
+}
