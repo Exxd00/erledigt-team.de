@@ -4,6 +4,8 @@
 
 - Target repository: `Exxd00/erledigt-team.de`.
 - Existing Vercel project: `erledigt-teamde/erledigt-team.de`, linked to the repository.
+- Review deployment is live at https://erledigt-teamde.vercel.app. The root domain is assigned to
+  Production and www is configured as a 308 redirect to the root. Registrar DNS is still pending.
 - Existing Supabase project: `evefmhpnaqprergslqfr`, London region. Initial migration was executed
   successfully through its SQL editor. Four tables have RLS and no anon/authenticated access.
 - Existing Google Sheet has the four configured tabs, frozen colored headers, filters and an inquiry
@@ -11,10 +13,12 @@
 - Generated images and the original supplied logo are local website assets.
 - A dedicated Apps Script project, `ERLEDIGT TEAM – Anfrage & Ereignisse`, has been created under
   the Sheet's existing Google account. The webhook code was saved and compared with the local source.
-  Its spreadsheet property is set; authorization, secret and web-app deployment are pending.
+  Its spreadsheet property and explicit Sheets-only manifest are saved. The web-app dialog is
+  prepared; authorization, secret and final deployment are pending.
 - Resend's domain configuration is prepared in Ireland; the exact displayed public DNS values are
   recorded in `dns-preparation.md`. Verification and a domain-restricted sending key are pending.
-- The domain is registered at checkdomain; its DNS and mailbox configuration have not been verified.
+- The domain is registered at checkdomain. Public MX/SPF currently point to Microsoft 365; the
+  registrar dashboard and individual receiving mailbox still need verification.
 
 ## Verified legal details and remaining owner input
 
@@ -28,12 +32,13 @@ destination for creating it. The telephone number is taken from the supplied bro
 
 Confirm the hosting plan before commercial launch. Vercel restricts Hobby to personal non-commercial
 use; do not purchase or upgrade automatically. See [Vercel fair-use rules](https://vercel.com/docs/limits/fair-use-guidelines).
+The target team's upgrade dialog displayed a $20/month base price on 8 October 2026, plus applicable
+taxes, CDN tiers and other metered usage. No subscription or payment was made.
 
 ## Connect the existing accounts
 
 1. Chrome Zen is available. Check the selected service account before edits. The domain dashboard
-   currently requires login. Vercel showed the project on Hobby; a later session showed a different
-   signed-in account without access to this project. Restore the target account without altering other projects.
+   currently requires login. Access to the correct Vercel team is restored; its plan remains Hobby.
 2. Obtain action-time authorization for new security-sensitive access: a Resend sending key restricted
    to this domain, server-side Supabase access in the Vercel project, and Apps Script authorization for
    Google Sheets. Do not reveal or commit keys. Password creation must be completed by the owner.
@@ -51,8 +56,9 @@ use; do not purchase or upgrade automatically. See [Vercel fair-use rules](https
 6. If GA4 is desired, complete the property's actual consent/terms flow with the owner as required.
    Configure the measurement ID and disable enhanced measurement that could collect automatic query
    strings or form events outside this site's allowlist. Finish the privacy disclosure before activation.
-7. Add the custom root and www domains in the actual Vercel project and apply its displayed DNS values.
-   Verify HTTPS and a single preferred host. Do not guess provider-specific current record values.
+7. The custom root and www domains are already assigned in the actual Vercel project. Apply its
+   displayed DNS values after registrar login, preserving Microsoft 365 mail routing. Verify HTTPS
+   and www-to-root redirection. Current observed values are in `dns-preparation.md`; re-read before applying.
 8. Finalize the legal pages, processors, retention periods and transfer disclosures. Set
    `NEXT_PUBLIC_LAUNCH_READY=true` only after live configuration is complete. Rebuild after changes to
    public or prerendered legal environment values.

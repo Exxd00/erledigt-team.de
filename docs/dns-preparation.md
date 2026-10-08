@@ -16,5 +16,28 @@ business info mailbox must remain with its intended mailbox provider. Inspect an
 click/open tracking if not needed for internal notifications. Do not overwrite an existing DMARC
 policy with the optional `p=none` suggestion without understanding its current policy.
 
-Read Vercel's actual domain page for its current root/www records after restoring access to the
-correct project. Do not substitute guessed IP addresses or CNAME values.
+## Website records prepared in Vercel
+
+The root and www domains were added to `erledigt-teamde/erledigt-team.de` on 8 October 2026.
+The root is connected to Production. The www hostname uses a 308 redirect to `erledigt-team.de`.
+Both currently show Invalid Configuration; these registrar changes have **not** been applied:
+
+| Type | Host | Value shown in Vercel |
+| --- | --- | --- |
+| A | @ | 216.198.79.1 |
+| CNAME | www | 01bb5a1801a86b7b.vercel-dns-017.com. |
+
+Re-read the project's current domain panel before applying. Keep the existing nameservers so mail
+and unrelated services retain their records. Inspect any conflicting A/AAAA/www records first.
+
+## Existing public mail routing observed on 8 October 2026
+
+| Type | Host | Existing value to preserve |
+| --- | --- | --- |
+| MX | @ | erledigtteam-de02b.mail.protection.outlook.com (priority 10) |
+| TXT | @ | v=spf1 include:spf.protection.outlook.com -all |
+
+Public DNS points to Microsoft 365. The individual `info@erledigt-team.de` mailbox remains
+unconfirmed, and no test email has been sent. The root A record currently returns `130.185.109.77`.
+The three Resend verification records above returned no matching public answers. Do not replace
+the Microsoft 365 MX/SPF records with Resend receiving records.

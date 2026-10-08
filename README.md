@@ -10,13 +10,16 @@ straight-line distance, and 858 service/location pages. All 947 editorial articl
 
 ## Current operational status
 
-The application builds successfully. The live Google Sheet has frozen, colored headers and four tabs.
+The application is deployed for review at https://erledigt-teamde.vercel.app. The live Google Sheet
+has frozen, colored headers and four tabs.
 The initial Supabase schema was applied. **Live form delivery, email/domain DNS, Apps Script deployment
 and analytics configuration are not yet connected.** No secret keys are committed. The default build
 is a preparation version with search indexing disabled and the final form submission unavailable.
 Browser QA has now covered six representative pages at 320, 375, 768, 1440 and 1920 px in both
 themes. The proprietor, VAT ID and chamber information were verified from supplied business records.
-The remaining account authorizations, suitable hosting plan and domain login are listed in the runbook.
+The root and www domains are assigned to the Vercel project, with www set to redirect to the root.
+Their DNS changes remain pending. The remaining account authorizations, suitable hosting plan and
+domain login are listed in the runbook.
 
 See [launch runbook](docs/launch-runbook.md), [reference decisions](docs/reference-audit.md),
 [tracking specification](docs/tracking.md) and [verification](docs/verification.md).

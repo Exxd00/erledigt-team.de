@@ -27,3 +27,22 @@ delivery, production analytics collection, domain HTTPS or business mailbox rece
 These require the remaining account setup in the launch runbook.
 
 Screenshots and responsive measurement results are in the local ignored `artifacts/` directory.
+
+Live deployment checks on 8 October 2026:
+
+- Vercel deployment of commit `1d1a39f` reached Ready. The review URL is
+  https://erledigt-teamde.vercel.app.
+- Read-only HTTP checks of the homepage, service directory, Saterland/window-cleaning page,
+  Impressum, robots and health endpoint all returned 200. Preparation indexing restrictions remain
+  active and the health endpoint reports `acceptingRequests: false`.
+- Live Chrome desktop and 375 px mobile screenshots were visually inspected. Mobile document width
+  equals its 375 px viewport. Temporary device emulation was cleared afterwards.
+- The Apps Script manifest was saved with Europe/Berlin, V8, no exception logging and the explicit
+  Sheets OAuth scope. The web-app deployment dialog is prepared; it has not been authorized or deployed.
+- Vercel domain settings show the root connected to Production and www redirected to the root with
+  status 308. Both still show Invalid Configuration because registrar DNS has not been changed.
+- Public MX/SPF records currently point to Microsoft 365. This does not establish that the individual
+  info mailbox exists or receives mail. The Resend verification records are not yet present.
+
+No payment, API-key creation, OAuth grant or live test email was performed. A consolidated request
+for the remaining owner decisions has been presented.
