@@ -15,6 +15,7 @@ The website DNS is connected at https://erledigt-team.de; www redirects to the r
 No paid plan, upgrade or new hosting subscription is authorized.
 
 The Supabase schema is installed. Production database and webhook secrets are stored in Vercel.
+The deployed browser-to-database event flow has been verified, including consent refusal/withdrawal.
 The existing private Google Sheet has frozen, grouped colored headers and four tabs. Public website
 images use ImgBB with local fallbacks; no client photo upload is enabled. **Apps Script authorization,
 Resend verification/sending access and end-to-end lead delivery remain pending.**

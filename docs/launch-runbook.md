@@ -4,6 +4,8 @@
 
 - GitHub: `Exxd00/erledigt-team.de`, branch `main`.
 - Vercel Hobby: `erledigt-teamde/erledigt-team.de`. Stay on this host and plan; no paid upgrade.
+- Current implementation deployment: `fecd975`, Ready. The enabled daily Cron Job is verified in
+  Vercel's panel at `/api/internal/retry`, 05:00 UTC. Immediate event persistence was verified live.
 - Production domain: https://erledigt-team.de. Both root and www show Valid Configuration;
   www is a 308 redirect to root. Checkdomain website DNS is applied; Microsoft 365 mail is preserved.
 - Supabase: `evefmhpnaqprergslqfr`, London, Free. Four tables with RLS and service-only RPC access.
@@ -44,7 +46,7 @@ variables, logs, screenshots, the repository and this document.
    actual property configuration and disclosures are completed. Do not claim unverified contracts.
 6. Complete controlled delivery checks, then enable `NEXT_PUBLIC_LAUNCH_READY=true` and rebuild.
    Until launch is ready, the public version keeps indexing and final form submission disabled.
-7. Confirm the daily Vercel Cron job from `vercel.json` is present. It uses the secret Authorization
+7. After launch, verify completion of a controlled retry. The confirmed daily Cron Job uses the secret Authorization
    header, runs at 05:00 UTC within Hobby's scheduling window, and does nothing before launch.
    Immediate delivery runs after each accepted request; the daily job only retries queued failures.
    An authenticated manual `POST /api/internal/retry` returns 202 for acceptance, not completion.

@@ -30,7 +30,15 @@ rendered images from local files. Network blocking and viewport overrides were c
 - Vercel project remains on Hobby. Root and www show Valid Configuration. Public HTTPS responds;
   www redirects to https://erledigt-team.de/. Microsoft 365 mail DNS remains unchanged.
 - Production-only Vercel Secrets are saved for Supabase, webhook authentication, rate limiting and
-  cron authentication. These require the updated deployment before they affect runtime behavior.
+  cron authentication. Commit `fecd975` reached Ready and Current on the production domain;
+  public HTML includes the new ImgBB sources and its health endpoint keeps form submissions closed.
+- Vercel's Cron Jobs panel confirms `/api/internal/retry` at `0 5 * * *`, enabled on Hobby.
+- The live Chrome journey made no analytics requests after refusal. After consent, five observed
+  `/api/events` requests returned 204; the same event UUIDs were read back from Supabase. Ten total
+  QA events (including scrolling and opening the consent settings) carry source `launch-check`,
+  medium `qa` and campaign `integration-test`. They remain queued for Sheet delivery with
+  `sheet_not_configured`, accurately reflecting the pending Apps Script deployment. No lead or
+  email was created. Navigation after withdrawing consent made zero further analytics requests.
 - ImgBB serves the three intended public website assets with HTTP 200 and image/jpeg or image/webp
   content types. The source retains local fallbacks. No customer photo upload is enabled.
 - The Google Sheet headers were read back and visually inspected: separate colors group identity,
