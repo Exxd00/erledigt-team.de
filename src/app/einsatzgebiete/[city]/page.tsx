@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { Breadcrumb, ClosingCta, Eyebrow, ServiceCard } from '@/components/Shared';
 import { Icon } from '@/components/Icon';
 import { services, cities, cityBySlug } from '@/lib/content';
+import { ServiceVisual } from '@/components/ServiceVisual';
+import { nearbyCities, cityRegion } from '@/lib/regions';
 export const dynamicParams = false;
 export function generateStaticParams() {
   return cities.map((c) => ({ city: c.slug }));
@@ -20,6 +22,13 @@ export async function generateMetadata({ params }: { params: Promise<{ city: str
 export default async function Page({ params }: { params: Promise<{ city: string }> }) {
   const c = cityBySlug((await params).city);
   if (!c) notFound();
+  const imageService = ['textil', 'privat'].includes(c.lens || c.tags[0])
+    ? 'polster-teppichreinigung'
+    : ['bau', 'gewerbe', 'technik'].includes(c.lens || c.tags[0])
+      ? 'hallen-gewerbereinigung'
+      : ['aussen', 'fenster'].includes(c.lens || c.tags[0])
+        ? 'glas-fensterreinigung'
+        : 'buero-praxisreinigung';
   return (
     <>
       <Breadcrumb
@@ -28,9 +37,7 @@ export default async function Page({ params }: { params: Promise<{ city: string 
       <section className="wrap detail-hero">
         <div>
           <Eyebrow>
-            {c.distanceKm === 0
-              ? 'Unser Standort'
-              : `Einsatzgebiet · ca. ${c.distanceKm} km Luftlinie`}
+            {c.slug === 'saterland' ? 'Unser Standort · Saterland & Umgebung' : cityRegion(c)}
           </Eyebrow>
           <h1>
             Sauberkeit für {c.name}.<br />
@@ -46,23 +53,16 @@ export default async function Page({ params }: { params: Promise<{ city: string 
             Reinigung in {c.name} anfragen
           </Link>
         </div>
-        <aside className="quick-panel">
-          <span className="service-icon">
-            <Icon name="MapPin" size={28} />
-          </span>
-          <h2>Von Saterland zu Ihnen.</h2>
-          <p>Ein Ansprechpartner, elf Leistungen und eine Planung, die zu Ihrem Objekt passt.</p>
-          <p>
-            Unser Standort: Eschstraße 70, 26683 Saterland. Die Einsatzmöglichkeit prüfen wir anhand
-            Ihrer Adresse.
-          </p>
-        </aside>
+        <ServiceVisual slug={imageService} eager />
       </section>
       <section className="section surface-alt">
         <div className="wrap article-layout">
-          <article className="article-content">
-            {c.sections.map((sec) => (
+          <article className="article-content editorial-chapters">
+            {c.sections.map((sec, i) => (
               <section key={sec.title}>
+                <span className="chapter-number" aria-hidden="true">
+                  0{i + 1}
+                </span>
                 <h2>{sec.title}</h2>
                 {sec.body.split('\n\n').map((p, i) => (
                   <p key={i}>{p}</p>
@@ -71,6 +71,14 @@ export default async function Page({ params }: { params: Promise<{ city: string 
             ))}
           </article>
           <aside className="article-aside">
+            <div className="local-note">
+              <Icon name="MapPin" />
+              <strong>{c.name} & Umgebung</strong>
+              <p>
+                Unser Ausgangspunkt: Eschstraße 70, 26683 Saterland. Wir prüfen die
+                Einsatzmöglichkeit anhand Ihrer Objektadresse.
+              </p>
+            </div>
             <h2>Leistungen in {c.name}</h2>
             {services.map((s) => (
               <Link key={s.slug} href={`/einsatzgebiete/${c.slug}/${s.slug}`}>
@@ -96,21 +104,18 @@ export default async function Page({ params }: { params: Promise<{ city: string 
         </div>
         <div className="service-grid">
           {services.map((s, i) => (
-            <ServiceCard key={s.slug} service={s} index={i} city={c.slug} />
+            <ServiceCard key={s.slug} service={s} index={i} city={c.slug} visual={i < 3} />
           ))}
         </div>
       </section>
       <section className="wrap related">
         <h2>Weitere Orte entdecken</h2>
         <div className="city-cloud">
-          {cities
-            .filter((x) => x.slug !== c.slug)
-            .slice(0, 10)
-            .map((x) => (
-              <Link key={x.slug} href={`/einsatzgebiete/${x.slug}`}>
-                {x.name}
-              </Link>
-            ))}
+          {nearbyCities(c, cities, 8).map((x) => (
+            <Link key={x.slug} href={`/einsatzgebiete/${x.slug}`}>
+              {x.name}
+            </Link>
+          ))}
         </div>
       </section>
       <ClosingCta href={`/anfrage?ort=${c.slug}`} title={`Ihr nächster Schritt in ${c.name}.`} />

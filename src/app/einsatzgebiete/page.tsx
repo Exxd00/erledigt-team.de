@@ -4,7 +4,7 @@ import { cityPreviews } from '@/lib/content';
 export const metadata = {
   title: 'Städte & Einsatzgebiete rund um Saterland',
   description:
-    'Gebäudeservice aus Saterland im Umkreis von etwa 50 km. Stadt finden, Leistungen vergleichen und Reinigung vor Ort anfragen.',
+    'Gebäudeservice in Saterland und Umgebung. Region auswählen, Stadt finden, Leistungen vergleichen und Reinigung vor Ort anfragen.',
   alternates: { canonical: '/einsatzgebiete' },
 };
 export default function Page() {
@@ -20,8 +20,8 @@ export default function Page() {
             <em>Auch für Ihren Ort.</em>
           </h1>
           <p>
-            Von der Eschstraße 70 in Saterland aus betreuen wir Objekte im Umkreis von etwa 50
-            Kilometern. Finden Sie Ihren Ort und die passende Leistung.
+            Von Saterland aus in Ihrer Region unterwegs. Wählen Sie Ihre Stadt oder die passende
+            Umgebung und entdecken Sie die Leistungen für Ihr Objekt.
           </p>
         </div>
         <div className="directory-content">
@@ -36,16 +36,16 @@ export default function Page() {
               und direkt zu einer passenden Ortsseite zu gelangen.
             </p>
             <p>
-              Der genannte Umkreis beschreibt eine ungefähre Luftlinie. Er ist weder eine zugesagte
-              Fahrzeit noch eine pauschale Aussage zu Anfahrtskosten. Straßenverbindungen und die
-              genaue Lage des Objekts können sich unterscheiden. Deshalb prüfen wir die
-              Einsatzmöglichkeit anhand Ihrer Adresse und des gewünschten Leistungsumfangs. Die
-              angezeigten Entfernungen dienen der ersten Orientierung. Grundlage sind
-              Ortskoordinaten von{' '}
+              Die Regionen dienen der Orientierung. Sie sind weder eine zugesagte Fahrzeit noch eine
+              pauschale Aussage zu Anfahrtskosten. Straßenverbindungen und die genaue Lage des
+              Objekts können sich unterscheiden. Deshalb prüfen wir die Einsatzmöglichkeit anhand
+              Ihrer Adresse und des gewünschten Leistungsumfangs. Die Zuordnung verbindet Städte und
+              Gemeinden mit ihrer Umgebung; sie ersetzt keine individuelle Terminplanung. Für die
+              geografische Einordnung verwenden wir Ortsdaten von{' '}
               <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">
                 OpenStreetMap-Mitwirkenden
               </a>
-              ; die Berechnung beginnt an unserer Geschäftsadresse.
+              . Unser Ausgangspunkt bleibt die Geschäftsadresse in Saterland.
             </p>
             <h2>Ein zentraler Standort, unterschiedliche Anforderungen</h2>
             <p>
@@ -64,14 +64,14 @@ export default function Page() {
             </p>
             <h2>So finden Sie den richtigen Einstieg</h2>
             <p>
-              Nutzen Sie die Ortssuche oder grenzen Sie die Liste nach Entfernung ein. Auf einer
+              Nutzen Sie die Ortssuche oder grenzen Sie die Liste nach Region ein. Auf einer
               Ortsseite sehen Sie sämtliche Leistungen, die Sie für diesen Einsatzort anfragen
               können. Jede Kombination führt zu einer eigenen Informationsseite mit Hinweisen zum
               Objekt und zur Vorbereitung. Sie können außerdem von einer Leistungsseite aus direkt
               einen Ort auswählen.
             </p>
             <p>
-              Ist Ihr Ort nicht aufgeführt oder liegt Ihre Adresse am Rand des genannten Umkreises,
+              Ist Ihr Ort nicht aufgeführt oder liegt Ihre Adresse am Rand unseres Einsatzgebiets,
               beschreiben Sie uns Ihr Vorhaben trotzdem. Wir prüfen den Einzelfall, ohne Ihnen vorab
               eine Verfügbarkeit zu versprechen. Für die erste Anfrage genügen die Postleitzahl, der
               Ort und eine kurze Beschreibung. Einen verbindlichen Termin und den genauen Umfang

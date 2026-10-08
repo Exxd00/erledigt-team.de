@@ -107,7 +107,7 @@ export type Service = {
   faqs: Faq[];
 };
 export type ServicePreview = Pick<Service, 'slug' | 'name' | 'category' | 'summary' | 'icon'>;
-export type CityPreview = Pick<City, 'slug' | 'name' | 'distanceKm' | 'summary'>;
+export type CityPreview = Pick<City, 'slug' | 'name' | 'summary'> & { region: string };
 export type City = {
   slug: string;
   name: string;

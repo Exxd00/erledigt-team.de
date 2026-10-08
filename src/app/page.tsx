@@ -5,6 +5,7 @@ import { services, cities } from '@/lib/content';
 import { site } from '@/lib/site';
 import { assets } from '@/lib/assets';
 import { SiteImage } from '@/components/SiteImage';
+import { ServiceFinder } from '@/components/ServiceFinder';
 export const metadata = { alternates: { canonical: '/' } };
 export default function Home() {
   return (
@@ -56,7 +57,7 @@ export default function Home() {
               </span>
               <span>
                 <Icon name="MapPin" size={16} />
-                50 km um Saterland
+                Saterland & Umgebung
               </span>
             </div>
           </div>
@@ -95,7 +96,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="section wrap">
+      <ServiceFinder />
+      <section className="section wrap home-services">
         <div className="section-heading">
           <div>
             <Eyebrow>Unsere Leistungen</Eyebrow>
@@ -118,7 +120,7 @@ export default function Home() {
         <div className="service-grid">
           {[services[0], services[4], services[10], services[1], services[7], services[8]].map(
             (s, i) => (
-              <ServiceCard key={s.slug} service={s} index={i} />
+              <ServiceCard key={s.slug} service={s} index={i} visual />
             ),
           )}
         </div>
@@ -195,6 +197,24 @@ export default function Home() {
           </p>
         </div>
         <Process />
+        <div className="offer-clarity">
+          <div>
+            <Icon name="ClipboardCheck" size={30} />
+            <h3>Was Sie vor der Beauftragung wissen.</h3>
+            <p>
+              Wir klären die zu reinigenden Bereiche, den passenden Termin und den vereinbarten
+              Preis. Wenn etwas noch offen ist, besprechen wir es vor Beginn.
+            </p>
+          </div>
+          <div>
+            <Icon name="CircleCheck" size={30} />
+            <h3>Sie entscheiden in Ruhe.</h3>
+            <p>
+              Die erste Anfrage ist unverbindlich. Sie beauftragen uns erst, wenn Umfang und Ablauf
+              für Sie passen. Besondere Wünsche können Sie direkt im Formular ergänzen.
+            </p>
+          </div>
+        </div>
       </section>
       <section className="region-section section">
         <div className="wrap region-grid">

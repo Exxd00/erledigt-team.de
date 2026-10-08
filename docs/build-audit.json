@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-08T19:34:03.210Z",
+  "generatedAt": "2026-10-08T20:46:54.284Z",
   "staticPages": 953,
   "dynamicForm": "/anfrage",
-  "minimumMainWords": 359,
+  "minimumMainWords": 358,
   "errors": [],
   "checks": [
     "main word count",
@@ -15,4757 +15,4757 @@
   "pages": [
     {
       "route": "/datenschutz",
-      "mainWords": 664,
+      "mainWords": 902,
       "title": "Datenschutzhinweise | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/apen/baustellenreinigung",
-      "mainWords": 777,
+      "mainWords": 879,
       "title": "Baustellenreinigung in Apen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/apen/buero-praxisreinigung",
-      "mainWords": 737,
+      "mainWords": 836,
       "title": "Büro- & Praxisreinigung in Apen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/apen/dach-oberflaechenreinigung",
-      "mainWords": 753,
+      "mainWords": 849,
       "title": "Dach- & Oberflächenreinigung in Apen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/apen/glas-fensterreinigung",
-      "mainWords": 740,
+      "mainWords": 840,
       "title": "Glas- & Fensterreinigung in Apen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/apen/grund-sonderreinigung",
-      "mainWords": 739,
+      "mainWords": 834,
       "title": "Grund- & Sonderreinigung in Apen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/apen/hallen-gewerbereinigung",
-      "mainWords": 719,
+      "mainWords": 820,
       "title": "Hallen- & Gewerbeflächenreinigung in Apen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/apen/maschinen-anlagenreinigung",
-      "mainWords": 703,
+      "mainWords": 807,
       "title": "Maschinen- & Anlagenreinigung in Apen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/apen/polster-teppichreinigung",
-      "mainWords": 786,
+      "mainWords": 885,
       "title": "Polster- & Teppichreinigung in Apen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/apen/pv-anlagen-reinigung",
-      "mainWords": 753,
+      "mainWords": 849,
       "title": "PV-Anlagen-Reinigung in Apen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/apen/treppenhausreinigung",
-      "mainWords": 712,
+      "mainWords": 815,
       "title": "Treppenhausreinigung in Apen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/apen/unterhaltsreinigung",
-      "mainWords": 750,
+      "mainWords": 852,
       "title": "Unterhaltsreinigung in Apen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/apen",
-      "mainWords": 732,
+      "mainWords": 728,
       "title": "Gebäudereinigung in Apen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/baustellenreinigung",
-      "mainWords": 772,
+      "mainWords": 874,
       "title": "Baustellenreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/buero-praxisreinigung",
-      "mainWords": 732,
+      "mainWords": 831,
       "title": "Büro- & Praxisreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/dach-oberflaechenreinigung",
-      "mainWords": 748,
+      "mainWords": 844,
       "title": "Dach- & Oberflächenreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/glas-fensterreinigung",
-      "mainWords": 735,
+      "mainWords": 835,
       "title": "Glas- & Fensterreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/grund-sonderreinigung",
-      "mainWords": 734,
+      "mainWords": 829,
       "title": "Grund- & Sonderreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/hallen-gewerbereinigung",
-      "mainWords": 714,
+      "mainWords": 815,
       "title": "Hallen- & Gewerbeflächenreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/maschinen-anlagenreinigung",
-      "mainWords": 698,
+      "mainWords": 802,
       "title": "Maschinen- & Anlagenreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/polster-teppichreinigung",
-      "mainWords": 781,
+      "mainWords": 880,
       "title": "Polster- & Teppichreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/pv-anlagen-reinigung",
-      "mainWords": 748,
+      "mainWords": 844,
       "title": "PV-Anlagen-Reinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/treppenhausreinigung",
-      "mainWords": 707,
+      "mainWords": 810,
       "title": "Treppenhausreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/unterhaltsreinigung",
-      "mainWords": 745,
+      "mainWords": 847,
       "title": "Unterhaltsreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich",
-      "mainWords": 722,
+      "mainWords": 718,
       "title": "Gebäudereinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bad-zwischenahn/baustellenreinigung",
-      "mainWords": 789,
+      "mainWords": 893,
       "title": "Baustellenreinigung in Bad Zwischenahn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bad-zwischenahn/buero-praxisreinigung",
-      "mainWords": 749,
+      "mainWords": 850,
       "title": "Büro- & Praxisreinigung in Bad Zwischenahn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bad-zwischenahn/dach-oberflaechenreinigung",
-      "mainWords": 765,
+      "mainWords": 863,
       "title": "Dach- & Oberflächenreinigung in Bad Zwischenahn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bad-zwischenahn/glas-fensterreinigung",
-      "mainWords": 752,
+      "mainWords": 854,
       "title": "Glas- & Fensterreinigung in Bad Zwischenahn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bad-zwischenahn/grund-sonderreinigung",
-      "mainWords": 751,
+      "mainWords": 848,
       "title": "Grund- & Sonderreinigung in Bad Zwischenahn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bad-zwischenahn/hallen-gewerbereinigung",
-      "mainWords": 731,
+      "mainWords": 834,
       "title": "Hallen- & Gewerbeflächenreinigung in Bad Zwischenahn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bad-zwischenahn/maschinen-anlagenreinigung",
-      "mainWords": 715,
+      "mainWords": 821,
       "title": "Maschinen- & Anlagenreinigung in Bad Zwischenahn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bad-zwischenahn/polster-teppichreinigung",
-      "mainWords": 798,
+      "mainWords": 899,
       "title": "Polster- & Teppichreinigung in Bad Zwischenahn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bad-zwischenahn/pv-anlagen-reinigung",
-      "mainWords": 765,
+      "mainWords": 863,
       "title": "PV-Anlagen-Reinigung in Bad Zwischenahn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bad-zwischenahn/treppenhausreinigung",
-      "mainWords": 724,
+      "mainWords": 829,
       "title": "Treppenhausreinigung in Bad Zwischenahn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bad-zwischenahn/unterhaltsreinigung",
-      "mainWords": 762,
+      "mainWords": 866,
       "title": "Unterhaltsreinigung in Bad Zwischenahn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bad-zwischenahn",
-      "mainWords": 736,
+      "mainWords": 733,
       "title": "Gebäudereinigung in Bad Zwischenahn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/barssel/baustellenreinigung",
-      "mainWords": 775,
+      "mainWords": 877,
       "title": "Baustellenreinigung in Barßel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/barssel/buero-praxisreinigung",
-      "mainWords": 735,
+      "mainWords": 834,
       "title": "Büro- & Praxisreinigung in Barßel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/barssel/dach-oberflaechenreinigung",
-      "mainWords": 751,
+      "mainWords": 847,
       "title": "Dach- & Oberflächenreinigung in Barßel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/barssel/glas-fensterreinigung",
-      "mainWords": 738,
+      "mainWords": 838,
       "title": "Glas- & Fensterreinigung in Barßel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/barssel/grund-sonderreinigung",
-      "mainWords": 737,
+      "mainWords": 832,
       "title": "Grund- & Sonderreinigung in Barßel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/barssel/hallen-gewerbereinigung",
-      "mainWords": 717,
+      "mainWords": 818,
       "title": "Hallen- & Gewerbeflächenreinigung in Barßel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/barssel/maschinen-anlagenreinigung",
-      "mainWords": 701,
+      "mainWords": 805,
       "title": "Maschinen- & Anlagenreinigung in Barßel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/barssel/polster-teppichreinigung",
-      "mainWords": 784,
+      "mainWords": 883,
       "title": "Polster- & Teppichreinigung in Barßel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/barssel/pv-anlagen-reinigung",
-      "mainWords": 751,
+      "mainWords": 847,
       "title": "PV-Anlagen-Reinigung in Barßel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/barssel/treppenhausreinigung",
-      "mainWords": 710,
+      "mainWords": 813,
       "title": "Treppenhausreinigung in Barßel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/barssel/unterhaltsreinigung",
-      "mainWords": 748,
+      "mainWords": 850,
       "title": "Unterhaltsreinigung in Barßel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/barssel",
-      "mainWords": 724,
+      "mainWords": 720,
       "title": "Gebäudereinigung in Barßel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorn/baustellenreinigung",
-      "mainWords": 770,
+      "mainWords": 872,
       "title": "Baustellenreinigung in Bockhorn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorn/buero-praxisreinigung",
-      "mainWords": 730,
+      "mainWords": 829,
       "title": "Büro- & Praxisreinigung in Bockhorn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorn/dach-oberflaechenreinigung",
-      "mainWords": 746,
+      "mainWords": 842,
       "title": "Dach- & Oberflächenreinigung in Bockhorn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorn/glas-fensterreinigung",
-      "mainWords": 733,
+      "mainWords": 833,
       "title": "Glas- & Fensterreinigung in Bockhorn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorn/grund-sonderreinigung",
-      "mainWords": 732,
+      "mainWords": 827,
       "title": "Grund- & Sonderreinigung in Bockhorn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorn/hallen-gewerbereinigung",
-      "mainWords": 712,
+      "mainWords": 813,
       "title": "Hallen- & Gewerbeflächenreinigung in Bockhorn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorn/maschinen-anlagenreinigung",
-      "mainWords": 696,
+      "mainWords": 800,
       "title": "Maschinen- & Anlagenreinigung in Bockhorn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorn/polster-teppichreinigung",
-      "mainWords": 779,
+      "mainWords": 878,
       "title": "Polster- & Teppichreinigung in Bockhorn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorn/pv-anlagen-reinigung",
-      "mainWords": 746,
+      "mainWords": 842,
       "title": "PV-Anlagen-Reinigung in Bockhorn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorn/treppenhausreinigung",
-      "mainWords": 705,
+      "mainWords": 808,
       "title": "Treppenhausreinigung in Bockhorn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorn/unterhaltsreinigung",
-      "mainWords": 743,
+      "mainWords": 845,
       "title": "Unterhaltsreinigung in Bockhorn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorn",
-      "mainWords": 724,
+      "mainWords": 720,
       "title": "Gebäudereinigung in Bockhorn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorst/baustellenreinigung",
-      "mainWords": 777,
+      "mainWords": 879,
       "title": "Baustellenreinigung in Bockhorst | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorst/buero-praxisreinigung",
-      "mainWords": 737,
+      "mainWords": 836,
       "title": "Büro- & Praxisreinigung in Bockhorst | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorst/dach-oberflaechenreinigung",
-      "mainWords": 753,
+      "mainWords": 849,
       "title": "Dach- & Oberflächenreinigung in Bockhorst | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorst/glas-fensterreinigung",
-      "mainWords": 740,
+      "mainWords": 840,
       "title": "Glas- & Fensterreinigung in Bockhorst | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorst/grund-sonderreinigung",
-      "mainWords": 739,
+      "mainWords": 834,
       "title": "Grund- & Sonderreinigung in Bockhorst | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorst/hallen-gewerbereinigung",
-      "mainWords": 719,
+      "mainWords": 820,
       "title": "Hallen- & Gewerbeflächenreinigung in Bockhorst | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorst/maschinen-anlagenreinigung",
-      "mainWords": 703,
+      "mainWords": 807,
       "title": "Maschinen- & Anlagenreinigung in Bockhorst | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorst/polster-teppichreinigung",
-      "mainWords": 786,
+      "mainWords": 885,
       "title": "Polster- & Teppichreinigung in Bockhorst | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorst/pv-anlagen-reinigung",
-      "mainWords": 753,
+      "mainWords": 849,
       "title": "PV-Anlagen-Reinigung in Bockhorst | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorst/treppenhausreinigung",
-      "mainWords": 712,
+      "mainWords": 815,
       "title": "Treppenhausreinigung in Bockhorst | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorst/unterhaltsreinigung",
-      "mainWords": 750,
+      "mainWords": 852,
       "title": "Unterhaltsreinigung in Bockhorst | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bockhorst",
-      "mainWords": 732,
+      "mainWords": 728,
       "title": "Gebäudereinigung in Bockhorst | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boerger/baustellenreinigung",
-      "mainWords": 778,
+      "mainWords": 880,
       "title": "Baustellenreinigung in Börger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boerger/buero-praxisreinigung",
-      "mainWords": 738,
+      "mainWords": 837,
       "title": "Büro- & Praxisreinigung in Börger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boerger/dach-oberflaechenreinigung",
-      "mainWords": 754,
+      "mainWords": 850,
       "title": "Dach- & Oberflächenreinigung in Börger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boerger/glas-fensterreinigung",
-      "mainWords": 741,
+      "mainWords": 841,
       "title": "Glas- & Fensterreinigung in Börger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boerger/grund-sonderreinigung",
-      "mainWords": 740,
+      "mainWords": 835,
       "title": "Grund- & Sonderreinigung in Börger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boerger/hallen-gewerbereinigung",
-      "mainWords": 720,
+      "mainWords": 821,
       "title": "Hallen- & Gewerbeflächenreinigung in Börger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boerger/maschinen-anlagenreinigung",
-      "mainWords": 704,
+      "mainWords": 808,
       "title": "Maschinen- & Anlagenreinigung in Börger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boerger/polster-teppichreinigung",
-      "mainWords": 787,
+      "mainWords": 886,
       "title": "Polster- & Teppichreinigung in Börger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boerger/pv-anlagen-reinigung",
-      "mainWords": 754,
+      "mainWords": 850,
       "title": "PV-Anlagen-Reinigung in Börger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boerger/treppenhausreinigung",
-      "mainWords": 713,
+      "mainWords": 816,
       "title": "Treppenhausreinigung in Börger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boerger/unterhaltsreinigung",
-      "mainWords": 751,
+      "mainWords": 853,
       "title": "Unterhaltsreinigung in Börger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boerger",
-      "mainWords": 732,
+      "mainWords": 728,
       "title": "Gebäudereinigung in Börger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boesel/baustellenreinigung",
-      "mainWords": 756,
+      "mainWords": 857,
       "title": "Baustellenreinigung in Bösel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boesel/buero-praxisreinigung",
-      "mainWords": 756,
+      "mainWords": 854,
       "title": "Büro- & Praxisreinigung in Bösel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boesel/dach-oberflaechenreinigung",
-      "mainWords": 746,
+      "mainWords": 841,
       "title": "Dach- & Oberflächenreinigung in Bösel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boesel/glas-fensterreinigung",
-      "mainWords": 768,
+      "mainWords": 867,
       "title": "Glas- & Fensterreinigung in Bösel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boesel/grund-sonderreinigung",
-      "mainWords": 746,
+      "mainWords": 840,
       "title": "Grund- & Sonderreinigung in Bösel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boesel/hallen-gewerbereinigung",
-      "mainWords": 734,
+      "mainWords": 834,
       "title": "Hallen- & Gewerbeflächenreinigung in Bösel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boesel/maschinen-anlagenreinigung",
-      "mainWords": 720,
+      "mainWords": 823,
       "title": "Maschinen- & Anlagenreinigung in Bösel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boesel/polster-teppichreinigung",
-      "mainWords": 746,
+      "mainWords": 844,
       "title": "Polster- & Teppichreinigung in Bösel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boesel/pv-anlagen-reinigung",
-      "mainWords": 738,
+      "mainWords": 833,
       "title": "PV-Anlagen-Reinigung in Bösel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boesel/treppenhausreinigung",
-      "mainWords": 734,
+      "mainWords": 836,
       "title": "Treppenhausreinigung in Bösel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boesel/unterhaltsreinigung",
-      "mainWords": 744,
+      "mainWords": 845,
       "title": "Unterhaltsreinigung in Bösel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/boesel",
-      "mainWords": 727,
+      "mainWords": 724,
       "title": "Gebäudereinigung in Bösel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/breddenberg/baustellenreinigung",
-      "mainWords": 776,
+      "mainWords": 878,
       "title": "Baustellenreinigung in Breddenberg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/breddenberg/buero-praxisreinigung",
-      "mainWords": 736,
+      "mainWords": 835,
       "title": "Büro- & Praxisreinigung in Breddenberg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/breddenberg/dach-oberflaechenreinigung",
-      "mainWords": 752,
+      "mainWords": 848,
       "title": "Dach- & Oberflächenreinigung in Breddenberg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/breddenberg/glas-fensterreinigung",
-      "mainWords": 739,
+      "mainWords": 839,
       "title": "Glas- & Fensterreinigung in Breddenberg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/breddenberg/grund-sonderreinigung",
-      "mainWords": 738,
+      "mainWords": 833,
       "title": "Grund- & Sonderreinigung in Breddenberg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/breddenberg/hallen-gewerbereinigung",
-      "mainWords": 718,
+      "mainWords": 819,
       "title": "Hallen- & Gewerbeflächenreinigung in Breddenberg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/breddenberg/maschinen-anlagenreinigung",
-      "mainWords": 702,
+      "mainWords": 806,
       "title": "Maschinen- & Anlagenreinigung in Breddenberg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/breddenberg/polster-teppichreinigung",
-      "mainWords": 785,
+      "mainWords": 884,
       "title": "Polster- & Teppichreinigung in Breddenberg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/breddenberg/pv-anlagen-reinigung",
-      "mainWords": 752,
+      "mainWords": 848,
       "title": "PV-Anlagen-Reinigung in Breddenberg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/breddenberg/treppenhausreinigung",
-      "mainWords": 711,
+      "mainWords": 814,
       "title": "Treppenhausreinigung in Breddenberg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/breddenberg/unterhaltsreinigung",
-      "mainWords": 749,
+      "mainWords": 851,
       "title": "Unterhaltsreinigung in Breddenberg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/breddenberg",
-      "mainWords": 720,
+      "mainWords": 716,
       "title": "Gebäudereinigung in Breddenberg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/brinkum/baustellenreinigung",
-      "mainWords": 754,
+      "mainWords": 856,
       "title": "Baustellenreinigung in Brinkum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/brinkum/buero-praxisreinigung",
-      "mainWords": 754,
+      "mainWords": 853,
       "title": "Büro- & Praxisreinigung in Brinkum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/brinkum/dach-oberflaechenreinigung",
-      "mainWords": 744,
+      "mainWords": 840,
       "title": "Dach- & Oberflächenreinigung in Brinkum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/brinkum/glas-fensterreinigung",
-      "mainWords": 766,
+      "mainWords": 866,
       "title": "Glas- & Fensterreinigung in Brinkum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/brinkum/grund-sonderreinigung",
-      "mainWords": 744,
+      "mainWords": 839,
       "title": "Grund- & Sonderreinigung in Brinkum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/brinkum/hallen-gewerbereinigung",
-      "mainWords": 732,
+      "mainWords": 833,
       "title": "Hallen- & Gewerbeflächenreinigung in Brinkum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/brinkum/maschinen-anlagenreinigung",
-      "mainWords": 718,
+      "mainWords": 822,
       "title": "Maschinen- & Anlagenreinigung in Brinkum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/brinkum/polster-teppichreinigung",
-      "mainWords": 744,
+      "mainWords": 843,
       "title": "Polster- & Teppichreinigung in Brinkum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/brinkum/pv-anlagen-reinigung",
-      "mainWords": 736,
+      "mainWords": 832,
       "title": "PV-Anlagen-Reinigung in Brinkum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/brinkum/treppenhausreinigung",
-      "mainWords": 732,
+      "mainWords": 835,
       "title": "Treppenhausreinigung in Brinkum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/brinkum/unterhaltsreinigung",
-      "mainWords": 742,
+      "mainWords": 844,
       "title": "Unterhaltsreinigung in Brinkum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/brinkum",
-      "mainWords": 724,
+      "mainWords": 720,
       "title": "Gebäudereinigung in Brinkum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bunde/baustellenreinigung",
-      "mainWords": 753,
+      "mainWords": 855,
       "title": "Baustellenreinigung in Bunde | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bunde/buero-praxisreinigung",
-      "mainWords": 753,
+      "mainWords": 852,
       "title": "Büro- & Praxisreinigung in Bunde | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bunde/dach-oberflaechenreinigung",
-      "mainWords": 743,
+      "mainWords": 839,
       "title": "Dach- & Oberflächenreinigung in Bunde | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bunde/glas-fensterreinigung",
-      "mainWords": 765,
+      "mainWords": 865,
       "title": "Glas- & Fensterreinigung in Bunde | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bunde/grund-sonderreinigung",
-      "mainWords": 743,
+      "mainWords": 838,
       "title": "Grund- & Sonderreinigung in Bunde | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bunde/hallen-gewerbereinigung",
-      "mainWords": 731,
+      "mainWords": 832,
       "title": "Hallen- & Gewerbeflächenreinigung in Bunde | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bunde/maschinen-anlagenreinigung",
-      "mainWords": 717,
+      "mainWords": 821,
       "title": "Maschinen- & Anlagenreinigung in Bunde | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bunde/polster-teppichreinigung",
-      "mainWords": 743,
+      "mainWords": 842,
       "title": "Polster- & Teppichreinigung in Bunde | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bunde/pv-anlagen-reinigung",
-      "mainWords": 735,
+      "mainWords": 831,
       "title": "PV-Anlagen-Reinigung in Bunde | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bunde/treppenhausreinigung",
-      "mainWords": 731,
+      "mainWords": 834,
       "title": "Treppenhausreinigung in Bunde | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bunde/unterhaltsreinigung",
-      "mainWords": 741,
+      "mainWords": 843,
       "title": "Unterhaltsreinigung in Bunde | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/bunde",
-      "mainWords": 717,
+      "mainWords": 714,
       "title": "Gebäudereinigung in Bunde | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cappeln/baustellenreinigung",
-      "mainWords": 769,
+      "mainWords": 872,
       "title": "Baustellenreinigung in Cappeln | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cappeln/buero-praxisreinigung",
-      "mainWords": 729,
+      "mainWords": 829,
       "title": "Büro- & Praxisreinigung in Cappeln | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cappeln/dach-oberflaechenreinigung",
-      "mainWords": 745,
+      "mainWords": 842,
       "title": "Dach- & Oberflächenreinigung in Cappeln | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cappeln/glas-fensterreinigung",
-      "mainWords": 732,
+      "mainWords": 833,
       "title": "Glas- & Fensterreinigung in Cappeln | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cappeln/grund-sonderreinigung",
-      "mainWords": 731,
+      "mainWords": 827,
       "title": "Grund- & Sonderreinigung in Cappeln | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cappeln/hallen-gewerbereinigung",
-      "mainWords": 711,
+      "mainWords": 813,
       "title": "Hallen- & Gewerbeflächenreinigung in Cappeln | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cappeln/maschinen-anlagenreinigung",
-      "mainWords": 695,
+      "mainWords": 800,
       "title": "Maschinen- & Anlagenreinigung in Cappeln | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cappeln/polster-teppichreinigung",
-      "mainWords": 778,
+      "mainWords": 878,
       "title": "Polster- & Teppichreinigung in Cappeln | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cappeln/pv-anlagen-reinigung",
-      "mainWords": 745,
+      "mainWords": 842,
       "title": "PV-Anlagen-Reinigung in Cappeln | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cappeln/treppenhausreinigung",
-      "mainWords": 704,
+      "mainWords": 808,
       "title": "Treppenhausreinigung in Cappeln | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cappeln/unterhaltsreinigung",
-      "mainWords": 742,
+      "mainWords": 845,
       "title": "Unterhaltsreinigung in Cappeln | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cappeln",
-      "mainWords": 724,
+      "mainWords": 720,
       "title": "Gebäudereinigung in Cappeln | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cloppenburg/baustellenreinigung",
-      "mainWords": 775,
+      "mainWords": 878,
       "title": "Baustellenreinigung in Cloppenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cloppenburg/buero-praxisreinigung",
-      "mainWords": 735,
+      "mainWords": 835,
       "title": "Büro- & Praxisreinigung in Cloppenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cloppenburg/dach-oberflaechenreinigung",
-      "mainWords": 751,
+      "mainWords": 848,
       "title": "Dach- & Oberflächenreinigung in Cloppenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cloppenburg/glas-fensterreinigung",
-      "mainWords": 738,
+      "mainWords": 839,
       "title": "Glas- & Fensterreinigung in Cloppenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cloppenburg/grund-sonderreinigung",
-      "mainWords": 737,
+      "mainWords": 833,
       "title": "Grund- & Sonderreinigung in Cloppenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cloppenburg/hallen-gewerbereinigung",
-      "mainWords": 717,
+      "mainWords": 819,
       "title": "Hallen- & Gewerbeflächenreinigung in Cloppenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cloppenburg/maschinen-anlagenreinigung",
-      "mainWords": 701,
+      "mainWords": 806,
       "title": "Maschinen- & Anlagenreinigung in Cloppenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cloppenburg/polster-teppichreinigung",
-      "mainWords": 784,
+      "mainWords": 884,
       "title": "Polster- & Teppichreinigung in Cloppenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cloppenburg/pv-anlagen-reinigung",
-      "mainWords": 751,
+      "mainWords": 848,
       "title": "PV-Anlagen-Reinigung in Cloppenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cloppenburg/treppenhausreinigung",
-      "mainWords": 710,
+      "mainWords": 814,
       "title": "Treppenhausreinigung in Cloppenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cloppenburg/unterhaltsreinigung",
-      "mainWords": 748,
+      "mainWords": 851,
       "title": "Unterhaltsreinigung in Cloppenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/cloppenburg",
-      "mainWords": 728,
+      "mainWords": 724,
       "title": "Gebäudereinigung in Cloppenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/dersum/baustellenreinigung",
-      "mainWords": 758,
+      "mainWords": 860,
       "title": "Baustellenreinigung in Dersum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/dersum/buero-praxisreinigung",
-      "mainWords": 758,
+      "mainWords": 857,
       "title": "Büro- & Praxisreinigung in Dersum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/dersum/dach-oberflaechenreinigung",
-      "mainWords": 748,
+      "mainWords": 844,
       "title": "Dach- & Oberflächenreinigung in Dersum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/dersum/glas-fensterreinigung",
-      "mainWords": 770,
+      "mainWords": 870,
       "title": "Glas- & Fensterreinigung in Dersum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/dersum/grund-sonderreinigung",
-      "mainWords": 748,
+      "mainWords": 843,
       "title": "Grund- & Sonderreinigung in Dersum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/dersum/hallen-gewerbereinigung",
-      "mainWords": 736,
+      "mainWords": 837,
       "title": "Hallen- & Gewerbeflächenreinigung in Dersum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/dersum/maschinen-anlagenreinigung",
-      "mainWords": 722,
+      "mainWords": 826,
       "title": "Maschinen- & Anlagenreinigung in Dersum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/dersum/polster-teppichreinigung",
-      "mainWords": 748,
+      "mainWords": 847,
       "title": "Polster- & Teppichreinigung in Dersum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/dersum/pv-anlagen-reinigung",
-      "mainWords": 740,
+      "mainWords": 836,
       "title": "PV-Anlagen-Reinigung in Dersum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/dersum/treppenhausreinigung",
-      "mainWords": 736,
+      "mainWords": 839,
       "title": "Treppenhausreinigung in Dersum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/dersum/unterhaltsreinigung",
-      "mainWords": 746,
+      "mainWords": 848,
       "title": "Unterhaltsreinigung in Dersum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/dersum",
-      "mainWords": 724,
+      "mainWords": 720,
       "title": "Gebäudereinigung in Dersum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/detern/baustellenreinigung",
-      "mainWords": 783,
+      "mainWords": 885,
       "title": "Baustellenreinigung in Detern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/detern/buero-praxisreinigung",
-      "mainWords": 743,
+      "mainWords": 842,
       "title": "Büro- & Praxisreinigung in Detern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/detern/dach-oberflaechenreinigung",
-      "mainWords": 759,
+      "mainWords": 855,
       "title": "Dach- & Oberflächenreinigung in Detern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/detern/glas-fensterreinigung",
-      "mainWords": 746,
+      "mainWords": 846,
       "title": "Glas- & Fensterreinigung in Detern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/detern/grund-sonderreinigung",
-      "mainWords": 745,
+      "mainWords": 840,
       "title": "Grund- & Sonderreinigung in Detern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/detern/hallen-gewerbereinigung",
-      "mainWords": 725,
+      "mainWords": 826,
       "title": "Hallen- & Gewerbeflächenreinigung in Detern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/detern/maschinen-anlagenreinigung",
-      "mainWords": 709,
+      "mainWords": 813,
       "title": "Maschinen- & Anlagenreinigung in Detern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/detern/polster-teppichreinigung",
-      "mainWords": 792,
+      "mainWords": 891,
       "title": "Polster- & Teppichreinigung in Detern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/detern/pv-anlagen-reinigung",
-      "mainWords": 759,
+      "mainWords": 855,
       "title": "PV-Anlagen-Reinigung in Detern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/detern/treppenhausreinigung",
-      "mainWords": 718,
+      "mainWords": 821,
       "title": "Treppenhausreinigung in Detern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/detern/unterhaltsreinigung",
-      "mainWords": 756,
+      "mainWords": 858,
       "title": "Unterhaltsreinigung in Detern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/detern",
-      "mainWords": 735,
+      "mainWords": 731,
       "title": "Gebäudereinigung in Detern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/doerpen/baustellenreinigung",
-      "mainWords": 756,
+      "mainWords": 858,
       "title": "Baustellenreinigung in Dörpen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/doerpen/buero-praxisreinigung",
-      "mainWords": 756,
+      "mainWords": 855,
       "title": "Büro- & Praxisreinigung in Dörpen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/doerpen/dach-oberflaechenreinigung",
-      "mainWords": 746,
+      "mainWords": 842,
       "title": "Dach- & Oberflächenreinigung in Dörpen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/doerpen/glas-fensterreinigung",
-      "mainWords": 768,
+      "mainWords": 868,
       "title": "Glas- & Fensterreinigung in Dörpen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/doerpen/grund-sonderreinigung",
-      "mainWords": 746,
+      "mainWords": 841,
       "title": "Grund- & Sonderreinigung in Dörpen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/doerpen/hallen-gewerbereinigung",
-      "mainWords": 734,
+      "mainWords": 835,
       "title": "Hallen- & Gewerbeflächenreinigung in Dörpen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/doerpen/maschinen-anlagenreinigung",
-      "mainWords": 720,
+      "mainWords": 824,
       "title": "Maschinen- & Anlagenreinigung in Dörpen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/doerpen/polster-teppichreinigung",
-      "mainWords": 746,
+      "mainWords": 845,
       "title": "Polster- & Teppichreinigung in Dörpen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/doerpen/pv-anlagen-reinigung",
-      "mainWords": 738,
+      "mainWords": 834,
       "title": "PV-Anlagen-Reinigung in Dörpen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/doerpen/treppenhausreinigung",
-      "mainWords": 734,
+      "mainWords": 837,
       "title": "Treppenhausreinigung in Dörpen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/doerpen/unterhaltsreinigung",
-      "mainWords": 744,
+      "mainWords": 846,
       "title": "Unterhaltsreinigung in Dörpen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/doerpen",
-      "mainWords": 719,
+      "mainWords": 714,
       "title": "Gebäudereinigung in Dörpen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/edewecht/baustellenreinigung",
-      "mainWords": 755,
+      "mainWords": 857,
       "title": "Baustellenreinigung in Edewecht | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/edewecht/buero-praxisreinigung",
-      "mainWords": 755,
+      "mainWords": 854,
       "title": "Büro- & Praxisreinigung in Edewecht | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/edewecht/dach-oberflaechenreinigung",
-      "mainWords": 745,
+      "mainWords": 841,
       "title": "Dach- & Oberflächenreinigung in Edewecht | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/edewecht/glas-fensterreinigung",
-      "mainWords": 767,
+      "mainWords": 867,
       "title": "Glas- & Fensterreinigung in Edewecht | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/edewecht/grund-sonderreinigung",
-      "mainWords": 745,
+      "mainWords": 840,
       "title": "Grund- & Sonderreinigung in Edewecht | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/edewecht/hallen-gewerbereinigung",
-      "mainWords": 733,
+      "mainWords": 834,
       "title": "Hallen- & Gewerbeflächenreinigung in Edewecht | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/edewecht/maschinen-anlagenreinigung",
-      "mainWords": 719,
+      "mainWords": 823,
       "title": "Maschinen- & Anlagenreinigung in Edewecht | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/edewecht/polster-teppichreinigung",
-      "mainWords": 745,
+      "mainWords": 844,
       "title": "Polster- & Teppichreinigung in Edewecht | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/edewecht/pv-anlagen-reinigung",
-      "mainWords": 737,
+      "mainWords": 833,
       "title": "PV-Anlagen-Reinigung in Edewecht | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/edewecht/treppenhausreinigung",
-      "mainWords": 733,
+      "mainWords": 836,
       "title": "Treppenhausreinigung in Edewecht | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/edewecht/unterhaltsreinigung",
-      "mainWords": 743,
+      "mainWords": 845,
       "title": "Unterhaltsreinigung in Edewecht | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/edewecht",
-      "mainWords": 726,
+      "mainWords": 722,
       "title": "Gebäudereinigung in Edewecht | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emden/baustellenreinigung",
-      "mainWords": 755,
+      "mainWords": 857,
       "title": "Baustellenreinigung in Emden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emden/buero-praxisreinigung",
-      "mainWords": 755,
+      "mainWords": 854,
       "title": "Büro- & Praxisreinigung in Emden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emden/dach-oberflaechenreinigung",
-      "mainWords": 745,
+      "mainWords": 841,
       "title": "Dach- & Oberflächenreinigung in Emden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emden/glas-fensterreinigung",
-      "mainWords": 767,
+      "mainWords": 867,
       "title": "Glas- & Fensterreinigung in Emden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emden/grund-sonderreinigung",
-      "mainWords": 745,
+      "mainWords": 840,
       "title": "Grund- & Sonderreinigung in Emden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emden/hallen-gewerbereinigung",
-      "mainWords": 733,
+      "mainWords": 834,
       "title": "Hallen- & Gewerbeflächenreinigung in Emden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emden/maschinen-anlagenreinigung",
-      "mainWords": 719,
+      "mainWords": 823,
       "title": "Maschinen- & Anlagenreinigung in Emden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emden/polster-teppichreinigung",
-      "mainWords": 745,
+      "mainWords": 844,
       "title": "Polster- & Teppichreinigung in Emden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emden/pv-anlagen-reinigung",
-      "mainWords": 737,
+      "mainWords": 833,
       "title": "PV-Anlagen-Reinigung in Emden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emden/treppenhausreinigung",
-      "mainWords": 733,
+      "mainWords": 836,
       "title": "Treppenhausreinigung in Emden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emden/unterhaltsreinigung",
-      "mainWords": 743,
+      "mainWords": 845,
       "title": "Unterhaltsreinigung in Emden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emden",
-      "mainWords": 729,
+      "mainWords": 725,
       "title": "Gebäudereinigung in Emden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emstek/baustellenreinigung",
-      "mainWords": 769,
+      "mainWords": 871,
       "title": "Baustellenreinigung in Emstek | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emstek/buero-praxisreinigung",
-      "mainWords": 729,
+      "mainWords": 828,
       "title": "Büro- & Praxisreinigung in Emstek | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emstek/dach-oberflaechenreinigung",
-      "mainWords": 745,
+      "mainWords": 841,
       "title": "Dach- & Oberflächenreinigung in Emstek | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emstek/glas-fensterreinigung",
-      "mainWords": 732,
+      "mainWords": 832,
       "title": "Glas- & Fensterreinigung in Emstek | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emstek/grund-sonderreinigung",
-      "mainWords": 731,
+      "mainWords": 826,
       "title": "Grund- & Sonderreinigung in Emstek | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emstek/hallen-gewerbereinigung",
-      "mainWords": 711,
+      "mainWords": 812,
       "title": "Hallen- & Gewerbeflächenreinigung in Emstek | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emstek/maschinen-anlagenreinigung",
-      "mainWords": 695,
+      "mainWords": 799,
       "title": "Maschinen- & Anlagenreinigung in Emstek | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emstek/polster-teppichreinigung",
-      "mainWords": 778,
+      "mainWords": 877,
       "title": "Polster- & Teppichreinigung in Emstek | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emstek/pv-anlagen-reinigung",
-      "mainWords": 745,
+      "mainWords": 841,
       "title": "PV-Anlagen-Reinigung in Emstek | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emstek/treppenhausreinigung",
-      "mainWords": 704,
+      "mainWords": 807,
       "title": "Treppenhausreinigung in Emstek | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emstek/unterhaltsreinigung",
-      "mainWords": 742,
+      "mainWords": 844,
       "title": "Unterhaltsreinigung in Emstek | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/emstek",
-      "mainWords": 716,
+      "mainWords": 712,
       "title": "Gebäudereinigung in Emstek | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/esterwegen/baustellenreinigung",
-      "mainWords": 756,
+      "mainWords": 858,
       "title": "Baustellenreinigung in Esterwegen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/esterwegen/buero-praxisreinigung",
-      "mainWords": 756,
+      "mainWords": 855,
       "title": "Büro- & Praxisreinigung in Esterwegen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/esterwegen/dach-oberflaechenreinigung",
-      "mainWords": 746,
+      "mainWords": 842,
       "title": "Dach- & Oberflächenreinigung in Esterwegen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/esterwegen/glas-fensterreinigung",
-      "mainWords": 768,
+      "mainWords": 868,
       "title": "Glas- & Fensterreinigung in Esterwegen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/esterwegen/grund-sonderreinigung",
-      "mainWords": 746,
+      "mainWords": 841,
       "title": "Grund- & Sonderreinigung in Esterwegen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/esterwegen/hallen-gewerbereinigung",
-      "mainWords": 734,
+      "mainWords": 835,
       "title": "Hallen- & Gewerbeflächenreinigung in Esterwegen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/esterwegen/maschinen-anlagenreinigung",
-      "mainWords": 720,
+      "mainWords": 824,
       "title": "Maschinen- & Anlagenreinigung in Esterwegen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/esterwegen/polster-teppichreinigung",
-      "mainWords": 746,
+      "mainWords": 845,
       "title": "Polster- & Teppichreinigung in Esterwegen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/esterwegen/pv-anlagen-reinigung",
-      "mainWords": 738,
+      "mainWords": 834,
       "title": "PV-Anlagen-Reinigung in Esterwegen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/esterwegen/treppenhausreinigung",
-      "mainWords": 734,
+      "mainWords": 837,
       "title": "Treppenhausreinigung in Esterwegen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/esterwegen/unterhaltsreinigung",
-      "mainWords": 744,
+      "mainWords": 846,
       "title": "Unterhaltsreinigung in Esterwegen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/esterwegen",
-      "mainWords": 724,
+      "mainWords": 720,
       "title": "Gebäudereinigung in Esterwegen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/filsum/baustellenreinigung",
-      "mainWords": 710,
+      "mainWords": 812,
       "title": "Baustellenreinigung in Filsum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/filsum/buero-praxisreinigung",
-      "mainWords": 740,
+      "mainWords": 839,
       "title": "Büro- & Praxisreinigung in Filsum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/filsum/dach-oberflaechenreinigung",
-      "mainWords": 767,
+      "mainWords": 863,
       "title": "Dach- & Oberflächenreinigung in Filsum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/filsum/glas-fensterreinigung",
-      "mainWords": 740,
+      "mainWords": 840,
       "title": "Glas- & Fensterreinigung in Filsum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/filsum/grund-sonderreinigung",
-      "mainWords": 755,
+      "mainWords": 850,
       "title": "Grund- & Sonderreinigung in Filsum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/filsum/hallen-gewerbereinigung",
-      "mainWords": 727,
+      "mainWords": 828,
       "title": "Hallen- & Gewerbeflächenreinigung in Filsum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/filsum/maschinen-anlagenreinigung",
-      "mainWords": 708,
+      "mainWords": 812,
       "title": "Maschinen- & Anlagenreinigung in Filsum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/filsum/polster-teppichreinigung",
-      "mainWords": 731,
+      "mainWords": 830,
       "title": "Polster- & Teppichreinigung in Filsum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/filsum/pv-anlagen-reinigung",
-      "mainWords": 756,
+      "mainWords": 852,
       "title": "PV-Anlagen-Reinigung in Filsum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/filsum/treppenhausreinigung",
-      "mainWords": 724,
+      "mainWords": 827,
       "title": "Treppenhausreinigung in Filsum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/filsum/unterhaltsreinigung",
-      "mainWords": 731,
+      "mainWords": 833,
       "title": "Unterhaltsreinigung in Filsum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/filsum",
-      "mainWords": 730,
+      "mainWords": 726,
       "title": "Gebäudereinigung in Filsum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/firrel/baustellenreinigung",
-      "mainWords": 773,
+      "mainWords": 875,
       "title": "Baustellenreinigung in Firrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/firrel/buero-praxisreinigung",
-      "mainWords": 733,
+      "mainWords": 832,
       "title": "Büro- & Praxisreinigung in Firrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/firrel/dach-oberflaechenreinigung",
-      "mainWords": 749,
+      "mainWords": 845,
       "title": "Dach- & Oberflächenreinigung in Firrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/firrel/glas-fensterreinigung",
-      "mainWords": 736,
+      "mainWords": 836,
       "title": "Glas- & Fensterreinigung in Firrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/firrel/grund-sonderreinigung",
-      "mainWords": 735,
+      "mainWords": 830,
       "title": "Grund- & Sonderreinigung in Firrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/firrel/hallen-gewerbereinigung",
-      "mainWords": 715,
+      "mainWords": 816,
       "title": "Hallen- & Gewerbeflächenreinigung in Firrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/firrel/maschinen-anlagenreinigung",
-      "mainWords": 699,
+      "mainWords": 803,
       "title": "Maschinen- & Anlagenreinigung in Firrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/firrel/polster-teppichreinigung",
-      "mainWords": 782,
+      "mainWords": 881,
       "title": "Polster- & Teppichreinigung in Firrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/firrel/pv-anlagen-reinigung",
-      "mainWords": 749,
+      "mainWords": 845,
       "title": "PV-Anlagen-Reinigung in Firrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/firrel/treppenhausreinigung",
-      "mainWords": 708,
+      "mainWords": 811,
       "title": "Treppenhausreinigung in Firrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/firrel/unterhaltsreinigung",
-      "mainWords": 746,
+      "mainWords": 848,
       "title": "Unterhaltsreinigung in Firrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/firrel",
-      "mainWords": 721,
+      "mainWords": 717,
       "title": "Gebäudereinigung in Firrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/fresenburg/baustellenreinigung",
-      "mainWords": 778,
+      "mainWords": 880,
       "title": "Baustellenreinigung in Fresenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/fresenburg/buero-praxisreinigung",
-      "mainWords": 738,
+      "mainWords": 837,
       "title": "Büro- & Praxisreinigung in Fresenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/fresenburg/dach-oberflaechenreinigung",
-      "mainWords": 754,
+      "mainWords": 850,
       "title": "Dach- & Oberflächenreinigung in Fresenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/fresenburg/glas-fensterreinigung",
-      "mainWords": 741,
+      "mainWords": 841,
       "title": "Glas- & Fensterreinigung in Fresenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/fresenburg/grund-sonderreinigung",
-      "mainWords": 740,
+      "mainWords": 835,
       "title": "Grund- & Sonderreinigung in Fresenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/fresenburg/hallen-gewerbereinigung",
-      "mainWords": 720,
+      "mainWords": 821,
       "title": "Hallen- & Gewerbeflächenreinigung in Fresenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/fresenburg/maschinen-anlagenreinigung",
-      "mainWords": 704,
+      "mainWords": 808,
       "title": "Maschinen- & Anlagenreinigung in Fresenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/fresenburg/polster-teppichreinigung",
-      "mainWords": 787,
+      "mainWords": 886,
       "title": "Polster- & Teppichreinigung in Fresenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/fresenburg/pv-anlagen-reinigung",
-      "mainWords": 754,
+      "mainWords": 850,
       "title": "PV-Anlagen-Reinigung in Fresenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/fresenburg/treppenhausreinigung",
-      "mainWords": 713,
+      "mainWords": 816,
       "title": "Treppenhausreinigung in Fresenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/fresenburg/unterhaltsreinigung",
-      "mainWords": 751,
+      "mainWords": 853,
       "title": "Unterhaltsreinigung in Fresenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/fresenburg",
-      "mainWords": 725,
+      "mainWords": 721,
       "title": "Gebäudereinigung in Fresenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friedeburg/baustellenreinigung",
-      "mainWords": 755,
+      "mainWords": 857,
       "title": "Baustellenreinigung in Friedeburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friedeburg/buero-praxisreinigung",
-      "mainWords": 755,
+      "mainWords": 854,
       "title": "Büro- & Praxisreinigung in Friedeburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friedeburg/dach-oberflaechenreinigung",
-      "mainWords": 745,
+      "mainWords": 841,
       "title": "Dach- & Oberflächenreinigung in Friedeburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friedeburg/glas-fensterreinigung",
-      "mainWords": 767,
+      "mainWords": 867,
       "title": "Glas- & Fensterreinigung in Friedeburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friedeburg/grund-sonderreinigung",
-      "mainWords": 745,
+      "mainWords": 840,
       "title": "Grund- & Sonderreinigung in Friedeburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friedeburg/hallen-gewerbereinigung",
-      "mainWords": 733,
+      "mainWords": 834,
       "title": "Hallen- & Gewerbeflächenreinigung in Friedeburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friedeburg/maschinen-anlagenreinigung",
-      "mainWords": 719,
+      "mainWords": 823,
       "title": "Maschinen- & Anlagenreinigung in Friedeburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friedeburg/polster-teppichreinigung",
-      "mainWords": 745,
+      "mainWords": 844,
       "title": "Polster- & Teppichreinigung in Friedeburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friedeburg/pv-anlagen-reinigung",
-      "mainWords": 737,
+      "mainWords": 833,
       "title": "PV-Anlagen-Reinigung in Friedeburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friedeburg/treppenhausreinigung",
-      "mainWords": 733,
+      "mainWords": 836,
       "title": "Treppenhausreinigung in Friedeburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friedeburg/unterhaltsreinigung",
-      "mainWords": 743,
+      "mainWords": 845,
       "title": "Unterhaltsreinigung in Friedeburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friedeburg",
-      "mainWords": 721,
+      "mainWords": 717,
       "title": "Gebäudereinigung in Friedeburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friesoythe/baustellenreinigung",
-      "mainWords": 714,
+      "mainWords": 816,
       "title": "Baustellenreinigung in Friesoythe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friesoythe/buero-praxisreinigung",
-      "mainWords": 744,
+      "mainWords": 843,
       "title": "Büro- & Praxisreinigung in Friesoythe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friesoythe/dach-oberflaechenreinigung",
-      "mainWords": 771,
+      "mainWords": 867,
       "title": "Dach- & Oberflächenreinigung in Friesoythe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friesoythe/glas-fensterreinigung",
-      "mainWords": 744,
+      "mainWords": 844,
       "title": "Glas- & Fensterreinigung in Friesoythe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friesoythe/grund-sonderreinigung",
-      "mainWords": 759,
+      "mainWords": 854,
       "title": "Grund- & Sonderreinigung in Friesoythe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friesoythe/hallen-gewerbereinigung",
-      "mainWords": 731,
+      "mainWords": 832,
       "title": "Hallen- & Gewerbeflächenreinigung in Friesoythe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friesoythe/maschinen-anlagenreinigung",
-      "mainWords": 712,
+      "mainWords": 816,
       "title": "Maschinen- & Anlagenreinigung in Friesoythe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friesoythe/polster-teppichreinigung",
-      "mainWords": 735,
+      "mainWords": 834,
       "title": "Polster- & Teppichreinigung in Friesoythe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friesoythe/pv-anlagen-reinigung",
-      "mainWords": 760,
+      "mainWords": 856,
       "title": "PV-Anlagen-Reinigung in Friesoythe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friesoythe/treppenhausreinigung",
-      "mainWords": 728,
+      "mainWords": 831,
       "title": "Treppenhausreinigung in Friesoythe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friesoythe/unterhaltsreinigung",
-      "mainWords": 735,
+      "mainWords": 837,
       "title": "Unterhaltsreinigung in Friesoythe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/friesoythe",
-      "mainWords": 727,
+      "mainWords": 722,
       "title": "Gebäudereinigung in Friesoythe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/garrel/baustellenreinigung",
-      "mainWords": 771,
+      "mainWords": 873,
       "title": "Baustellenreinigung in Garrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/garrel/buero-praxisreinigung",
-      "mainWords": 731,
+      "mainWords": 830,
       "title": "Büro- & Praxisreinigung in Garrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/garrel/dach-oberflaechenreinigung",
-      "mainWords": 747,
+      "mainWords": 843,
       "title": "Dach- & Oberflächenreinigung in Garrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/garrel/glas-fensterreinigung",
-      "mainWords": 734,
+      "mainWords": 834,
       "title": "Glas- & Fensterreinigung in Garrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/garrel/grund-sonderreinigung",
-      "mainWords": 733,
+      "mainWords": 828,
       "title": "Grund- & Sonderreinigung in Garrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/garrel/hallen-gewerbereinigung",
-      "mainWords": 713,
+      "mainWords": 814,
       "title": "Hallen- & Gewerbeflächenreinigung in Garrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/garrel/maschinen-anlagenreinigung",
-      "mainWords": 697,
+      "mainWords": 801,
       "title": "Maschinen- & Anlagenreinigung in Garrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/garrel/polster-teppichreinigung",
-      "mainWords": 780,
+      "mainWords": 879,
       "title": "Polster- & Teppichreinigung in Garrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/garrel/pv-anlagen-reinigung",
-      "mainWords": 747,
+      "mainWords": 843,
       "title": "PV-Anlagen-Reinigung in Garrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/garrel/treppenhausreinigung",
-      "mainWords": 706,
+      "mainWords": 809,
       "title": "Treppenhausreinigung in Garrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/garrel/unterhaltsreinigung",
-      "mainWords": 744,
+      "mainWords": 846,
       "title": "Unterhaltsreinigung in Garrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/garrel",
-      "mainWords": 719,
+      "mainWords": 715,
       "title": "Gebäudereinigung in Garrel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossefehn/baustellenreinigung",
-      "mainWords": 713,
+      "mainWords": 815,
       "title": "Baustellenreinigung in Großefehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossefehn/buero-praxisreinigung",
-      "mainWords": 743,
+      "mainWords": 842,
       "title": "Büro- & Praxisreinigung in Großefehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossefehn/dach-oberflaechenreinigung",
-      "mainWords": 770,
+      "mainWords": 866,
       "title": "Dach- & Oberflächenreinigung in Großefehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossefehn/glas-fensterreinigung",
-      "mainWords": 743,
+      "mainWords": 843,
       "title": "Glas- & Fensterreinigung in Großefehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossefehn/grund-sonderreinigung",
-      "mainWords": 758,
+      "mainWords": 853,
       "title": "Grund- & Sonderreinigung in Großefehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossefehn/hallen-gewerbereinigung",
-      "mainWords": 730,
+      "mainWords": 831,
       "title": "Hallen- & Gewerbeflächenreinigung in Großefehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossefehn/maschinen-anlagenreinigung",
-      "mainWords": 711,
+      "mainWords": 815,
       "title": "Maschinen- & Anlagenreinigung in Großefehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossefehn/polster-teppichreinigung",
-      "mainWords": 734,
+      "mainWords": 833,
       "title": "Polster- & Teppichreinigung in Großefehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossefehn/pv-anlagen-reinigung",
-      "mainWords": 759,
+      "mainWords": 855,
       "title": "PV-Anlagen-Reinigung in Großefehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossefehn/treppenhausreinigung",
-      "mainWords": 727,
+      "mainWords": 830,
       "title": "Treppenhausreinigung in Großefehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossefehn/unterhaltsreinigung",
-      "mainWords": 734,
+      "mainWords": 836,
       "title": "Unterhaltsreinigung in Großefehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossefehn",
-      "mainWords": 730,
+      "mainWords": 726,
       "title": "Gebäudereinigung in Großefehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossenkneten/baustellenreinigung",
-      "mainWords": 735,
+      "mainWords": 837,
       "title": "Baustellenreinigung in Großenkneten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossenkneten/buero-praxisreinigung",
-      "mainWords": 770,
+      "mainWords": 869,
       "title": "Büro- & Praxisreinigung in Großenkneten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossenkneten/dach-oberflaechenreinigung",
-      "mainWords": 752,
+      "mainWords": 848,
       "title": "Dach- & Oberflächenreinigung in Großenkneten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossenkneten/glas-fensterreinigung",
-      "mainWords": 783,
+      "mainWords": 883,
       "title": "Glas- & Fensterreinigung in Großenkneten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossenkneten/grund-sonderreinigung",
-      "mainWords": 761,
+      "mainWords": 856,
       "title": "Grund- & Sonderreinigung in Großenkneten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossenkneten/hallen-gewerbereinigung",
-      "mainWords": 762,
+      "mainWords": 863,
       "title": "Hallen- & Gewerbeflächenreinigung in Großenkneten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossenkneten/maschinen-anlagenreinigung",
-      "mainWords": 775,
+      "mainWords": 879,
       "title": "Maschinen- & Anlagenreinigung in Großenkneten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossenkneten/polster-teppichreinigung",
-      "mainWords": 752,
+      "mainWords": 851,
       "title": "Polster- & Teppichreinigung in Großenkneten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossenkneten/pv-anlagen-reinigung",
-      "mainWords": 730,
+      "mainWords": 826,
       "title": "PV-Anlagen-Reinigung in Großenkneten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossenkneten/treppenhausreinigung",
-      "mainWords": 756,
+      "mainWords": 859,
       "title": "Treppenhausreinigung in Großenkneten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossenkneten/unterhaltsreinigung",
-      "mainWords": 763,
+      "mainWords": 865,
       "title": "Unterhaltsreinigung in Großenkneten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/grossenkneten",
-      "mainWords": 729,
+      "mainWords": 724,
       "title": "Gebäudereinigung in Großenkneten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hatten/baustellenreinigung",
-      "mainWords": 763,
+      "mainWords": 866,
       "title": "Baustellenreinigung in Hatten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hatten/buero-praxisreinigung",
-      "mainWords": 763,
+      "mainWords": 863,
       "title": "Büro- & Praxisreinigung in Hatten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hatten/dach-oberflaechenreinigung",
-      "mainWords": 753,
+      "mainWords": 850,
       "title": "Dach- & Oberflächenreinigung in Hatten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hatten/glas-fensterreinigung",
-      "mainWords": 775,
+      "mainWords": 876,
       "title": "Glas- & Fensterreinigung in Hatten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hatten/grund-sonderreinigung",
-      "mainWords": 753,
+      "mainWords": 849,
       "title": "Grund- & Sonderreinigung in Hatten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hatten/hallen-gewerbereinigung",
-      "mainWords": 741,
+      "mainWords": 843,
       "title": "Hallen- & Gewerbeflächenreinigung in Hatten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hatten/maschinen-anlagenreinigung",
-      "mainWords": 727,
+      "mainWords": 832,
       "title": "Maschinen- & Anlagenreinigung in Hatten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hatten/polster-teppichreinigung",
-      "mainWords": 753,
+      "mainWords": 853,
       "title": "Polster- & Teppichreinigung in Hatten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hatten/pv-anlagen-reinigung",
-      "mainWords": 745,
+      "mainWords": 842,
       "title": "PV-Anlagen-Reinigung in Hatten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hatten/treppenhausreinigung",
-      "mainWords": 741,
+      "mainWords": 845,
       "title": "Treppenhausreinigung in Hatten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hatten/unterhaltsreinigung",
-      "mainWords": 751,
+      "mainWords": 854,
       "title": "Unterhaltsreinigung in Hatten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hatten",
-      "mainWords": 732,
+      "mainWords": 729,
       "title": "Gebäudereinigung in Hatten | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/heede/baustellenreinigung",
-      "mainWords": 751,
+      "mainWords": 853,
       "title": "Baustellenreinigung in Heede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/heede/buero-praxisreinigung",
-      "mainWords": 751,
+      "mainWords": 850,
       "title": "Büro- & Praxisreinigung in Heede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/heede/dach-oberflaechenreinigung",
-      "mainWords": 741,
+      "mainWords": 837,
       "title": "Dach- & Oberflächenreinigung in Heede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/heede/glas-fensterreinigung",
-      "mainWords": 763,
+      "mainWords": 863,
       "title": "Glas- & Fensterreinigung in Heede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/heede/grund-sonderreinigung",
-      "mainWords": 741,
+      "mainWords": 836,
       "title": "Grund- & Sonderreinigung in Heede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/heede/hallen-gewerbereinigung",
-      "mainWords": 729,
+      "mainWords": 830,
       "title": "Hallen- & Gewerbeflächenreinigung in Heede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/heede/maschinen-anlagenreinigung",
-      "mainWords": 715,
+      "mainWords": 819,
       "title": "Maschinen- & Anlagenreinigung in Heede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/heede/polster-teppichreinigung",
-      "mainWords": 741,
+      "mainWords": 840,
       "title": "Polster- & Teppichreinigung in Heede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/heede/pv-anlagen-reinigung",
-      "mainWords": 733,
+      "mainWords": 829,
       "title": "PV-Anlagen-Reinigung in Heede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/heede/treppenhausreinigung",
-      "mainWords": 729,
+      "mainWords": 832,
       "title": "Treppenhausreinigung in Heede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/heede/unterhaltsreinigung",
-      "mainWords": 739,
+      "mainWords": 841,
       "title": "Unterhaltsreinigung in Heede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/heede",
-      "mainWords": 719,
+      "mainWords": 716,
       "title": "Gebäudereinigung in Heede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hesel/baustellenreinigung",
-      "mainWords": 712,
+      "mainWords": 814,
       "title": "Baustellenreinigung in Hesel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hesel/buero-praxisreinigung",
-      "mainWords": 742,
+      "mainWords": 841,
       "title": "Büro- & Praxisreinigung in Hesel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hesel/dach-oberflaechenreinigung",
-      "mainWords": 769,
+      "mainWords": 865,
       "title": "Dach- & Oberflächenreinigung in Hesel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hesel/glas-fensterreinigung",
-      "mainWords": 742,
+      "mainWords": 842,
       "title": "Glas- & Fensterreinigung in Hesel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hesel/grund-sonderreinigung",
-      "mainWords": 757,
+      "mainWords": 852,
       "title": "Grund- & Sonderreinigung in Hesel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hesel/hallen-gewerbereinigung",
-      "mainWords": 729,
+      "mainWords": 830,
       "title": "Hallen- & Gewerbeflächenreinigung in Hesel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hesel/maschinen-anlagenreinigung",
-      "mainWords": 710,
+      "mainWords": 814,
       "title": "Maschinen- & Anlagenreinigung in Hesel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hesel/polster-teppichreinigung",
-      "mainWords": 733,
+      "mainWords": 832,
       "title": "Polster- & Teppichreinigung in Hesel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hesel/pv-anlagen-reinigung",
-      "mainWords": 758,
+      "mainWords": 854,
       "title": "PV-Anlagen-Reinigung in Hesel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hesel/treppenhausreinigung",
-      "mainWords": 726,
+      "mainWords": 829,
       "title": "Treppenhausreinigung in Hesel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hesel/unterhaltsreinigung",
-      "mainWords": 733,
+      "mainWords": 835,
       "title": "Unterhaltsreinigung in Hesel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hesel",
-      "mainWords": 728,
+      "mainWords": 724,
       "title": "Gebäudereinigung in Hesel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hilkenbrook/baustellenreinigung",
-      "mainWords": 758,
+      "mainWords": 860,
       "title": "Baustellenreinigung in Hilkenbrook | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hilkenbrook/buero-praxisreinigung",
-      "mainWords": 758,
+      "mainWords": 857,
       "title": "Büro- & Praxisreinigung in Hilkenbrook | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hilkenbrook/dach-oberflaechenreinigung",
-      "mainWords": 748,
+      "mainWords": 844,
       "title": "Dach- & Oberflächenreinigung in Hilkenbrook | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hilkenbrook/glas-fensterreinigung",
-      "mainWords": 770,
+      "mainWords": 870,
       "title": "Glas- & Fensterreinigung in Hilkenbrook | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hilkenbrook/grund-sonderreinigung",
-      "mainWords": 748,
+      "mainWords": 843,
       "title": "Grund- & Sonderreinigung in Hilkenbrook | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hilkenbrook/hallen-gewerbereinigung",
-      "mainWords": 736,
+      "mainWords": 837,
       "title": "Hallen- & Gewerbeflächenreinigung in Hilkenbrook | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hilkenbrook/maschinen-anlagenreinigung",
-      "mainWords": 722,
+      "mainWords": 826,
       "title": "Maschinen- & Anlagenreinigung in Hilkenbrook | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hilkenbrook/polster-teppichreinigung",
-      "mainWords": 748,
+      "mainWords": 847,
       "title": "Polster- & Teppichreinigung in Hilkenbrook | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hilkenbrook/pv-anlagen-reinigung",
-      "mainWords": 740,
+      "mainWords": 836,
       "title": "PV-Anlagen-Reinigung in Hilkenbrook | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hilkenbrook/treppenhausreinigung",
-      "mainWords": 736,
+      "mainWords": 839,
       "title": "Treppenhausreinigung in Hilkenbrook | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hilkenbrook/unterhaltsreinigung",
-      "mainWords": 746,
+      "mainWords": 848,
       "title": "Unterhaltsreinigung in Hilkenbrook | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/hilkenbrook",
-      "mainWords": 726,
+      "mainWords": 722,
       "title": "Gebäudereinigung in Hilkenbrook | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/holtland/baustellenreinigung",
-      "mainWords": 707,
+      "mainWords": 809,
       "title": "Baustellenreinigung in Holtland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/holtland/buero-praxisreinigung",
-      "mainWords": 737,
+      "mainWords": 836,
       "title": "Büro- & Praxisreinigung in Holtland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/holtland/dach-oberflaechenreinigung",
-      "mainWords": 764,
+      "mainWords": 860,
       "title": "Dach- & Oberflächenreinigung in Holtland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/holtland/glas-fensterreinigung",
-      "mainWords": 737,
+      "mainWords": 837,
       "title": "Glas- & Fensterreinigung in Holtland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/holtland/grund-sonderreinigung",
-      "mainWords": 752,
+      "mainWords": 847,
       "title": "Grund- & Sonderreinigung in Holtland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/holtland/hallen-gewerbereinigung",
-      "mainWords": 724,
+      "mainWords": 825,
       "title": "Hallen- & Gewerbeflächenreinigung in Holtland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/holtland/maschinen-anlagenreinigung",
-      "mainWords": 705,
+      "mainWords": 809,
       "title": "Maschinen- & Anlagenreinigung in Holtland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/holtland/polster-teppichreinigung",
-      "mainWords": 728,
+      "mainWords": 827,
       "title": "Polster- & Teppichreinigung in Holtland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/holtland/pv-anlagen-reinigung",
-      "mainWords": 753,
+      "mainWords": 849,
       "title": "PV-Anlagen-Reinigung in Holtland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/holtland/treppenhausreinigung",
-      "mainWords": 721,
+      "mainWords": 824,
       "title": "Treppenhausreinigung in Holtland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/holtland/unterhaltsreinigung",
-      "mainWords": 728,
+      "mainWords": 830,
       "title": "Unterhaltsreinigung in Holtland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/holtland",
-      "mainWords": 723,
+      "mainWords": 719,
       "title": "Gebäudereinigung in Holtland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ihlow/baustellenreinigung",
-      "mainWords": 759,
+      "mainWords": 861,
       "title": "Baustellenreinigung in Ihlow | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ihlow/buero-praxisreinigung",
-      "mainWords": 759,
+      "mainWords": 858,
       "title": "Büro- & Praxisreinigung in Ihlow | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ihlow/dach-oberflaechenreinigung",
-      "mainWords": 749,
+      "mainWords": 845,
       "title": "Dach- & Oberflächenreinigung in Ihlow | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ihlow/glas-fensterreinigung",
-      "mainWords": 771,
+      "mainWords": 871,
       "title": "Glas- & Fensterreinigung in Ihlow | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ihlow/grund-sonderreinigung",
-      "mainWords": 749,
+      "mainWords": 844,
       "title": "Grund- & Sonderreinigung in Ihlow | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ihlow/hallen-gewerbereinigung",
-      "mainWords": 737,
+      "mainWords": 838,
       "title": "Hallen- & Gewerbeflächenreinigung in Ihlow | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ihlow/maschinen-anlagenreinigung",
-      "mainWords": 723,
+      "mainWords": 827,
       "title": "Maschinen- & Anlagenreinigung in Ihlow | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ihlow/polster-teppichreinigung",
-      "mainWords": 749,
+      "mainWords": 848,
       "title": "Polster- & Teppichreinigung in Ihlow | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ihlow/pv-anlagen-reinigung",
-      "mainWords": 741,
+      "mainWords": 837,
       "title": "PV-Anlagen-Reinigung in Ihlow | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ihlow/treppenhausreinigung",
-      "mainWords": 737,
+      "mainWords": 840,
       "title": "Treppenhausreinigung in Ihlow | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ihlow/unterhaltsreinigung",
-      "mainWords": 747,
+      "mainWords": 849,
       "title": "Unterhaltsreinigung in Ihlow | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ihlow",
-      "mainWords": 727,
+      "mainWords": 723,
       "title": "Gebäudereinigung in Ihlow | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jade/baustellenreinigung",
-      "mainWords": 728,
+      "mainWords": 829,
       "title": "Baustellenreinigung in Jade | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jade/buero-praxisreinigung",
-      "mainWords": 763,
+      "mainWords": 861,
       "title": "Büro- & Praxisreinigung in Jade | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jade/dach-oberflaechenreinigung",
-      "mainWords": 745,
+      "mainWords": 840,
       "title": "Dach- & Oberflächenreinigung in Jade | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jade/glas-fensterreinigung",
-      "mainWords": 776,
+      "mainWords": 875,
       "title": "Glas- & Fensterreinigung in Jade | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jade/grund-sonderreinigung",
-      "mainWords": 754,
+      "mainWords": 848,
       "title": "Grund- & Sonderreinigung in Jade | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jade/hallen-gewerbereinigung",
-      "mainWords": 755,
+      "mainWords": 855,
       "title": "Hallen- & Gewerbeflächenreinigung in Jade | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jade/maschinen-anlagenreinigung",
-      "mainWords": 768,
+      "mainWords": 871,
       "title": "Maschinen- & Anlagenreinigung in Jade | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jade/polster-teppichreinigung",
-      "mainWords": 745,
+      "mainWords": 843,
       "title": "Polster- & Teppichreinigung in Jade | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jade/pv-anlagen-reinigung",
-      "mainWords": 723,
+      "mainWords": 818,
       "title": "PV-Anlagen-Reinigung in Jade | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jade/treppenhausreinigung",
-      "mainWords": 749,
+      "mainWords": 851,
       "title": "Treppenhausreinigung in Jade | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jade/unterhaltsreinigung",
-      "mainWords": 756,
+      "mainWords": 857,
       "title": "Unterhaltsreinigung in Jade | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jade",
-      "mainWords": 727,
+      "mainWords": 724,
       "title": "Gebäudereinigung in Jade | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/baustellenreinigung",
-      "mainWords": 704,
+      "mainWords": 806,
       "title": "Baustellenreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/buero-praxisreinigung",
-      "mainWords": 734,
+      "mainWords": 833,
       "title": "Büro- & Praxisreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/dach-oberflaechenreinigung",
-      "mainWords": 761,
+      "mainWords": 857,
       "title": "Dach- & Oberflächenreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/glas-fensterreinigung",
-      "mainWords": 734,
+      "mainWords": 834,
       "title": "Glas- & Fensterreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/grund-sonderreinigung",
-      "mainWords": 749,
+      "mainWords": 844,
       "title": "Grund- & Sonderreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/hallen-gewerbereinigung",
-      "mainWords": 721,
+      "mainWords": 822,
       "title": "Hallen- & Gewerbeflächenreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/maschinen-anlagenreinigung",
-      "mainWords": 702,
+      "mainWords": 806,
       "title": "Maschinen- & Anlagenreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/polster-teppichreinigung",
-      "mainWords": 725,
+      "mainWords": 824,
       "title": "Polster- & Teppichreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/pv-anlagen-reinigung",
-      "mainWords": 750,
+      "mainWords": 846,
       "title": "PV-Anlagen-Reinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/treppenhausreinigung",
-      "mainWords": 718,
+      "mainWords": 821,
       "title": "Treppenhausreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/unterhaltsreinigung",
-      "mainWords": 725,
+      "mainWords": 827,
       "title": "Unterhaltsreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum",
-      "mainWords": 725,
+      "mainWords": 721,
       "title": "Gebäudereinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/kluse/baustellenreinigung",
-      "mainWords": 753,
+      "mainWords": 855,
       "title": "Baustellenreinigung in Kluse | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/kluse/buero-praxisreinigung",
-      "mainWords": 753,
+      "mainWords": 852,
       "title": "Büro- & Praxisreinigung in Kluse | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/kluse/dach-oberflaechenreinigung",
-      "mainWords": 743,
+      "mainWords": 839,
       "title": "Dach- & Oberflächenreinigung in Kluse | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/kluse/glas-fensterreinigung",
-      "mainWords": 765,
+      "mainWords": 865,
       "title": "Glas- & Fensterreinigung in Kluse | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/kluse/grund-sonderreinigung",
-      "mainWords": 743,
+      "mainWords": 838,
       "title": "Grund- & Sonderreinigung in Kluse | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/kluse/hallen-gewerbereinigung",
-      "mainWords": 731,
+      "mainWords": 832,
       "title": "Hallen- & Gewerbeflächenreinigung in Kluse | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/kluse/maschinen-anlagenreinigung",
-      "mainWords": 717,
+      "mainWords": 821,
       "title": "Maschinen- & Anlagenreinigung in Kluse | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/kluse/polster-teppichreinigung",
-      "mainWords": 743,
+      "mainWords": 842,
       "title": "Polster- & Teppichreinigung in Kluse | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/kluse/pv-anlagen-reinigung",
-      "mainWords": 735,
+      "mainWords": 831,
       "title": "PV-Anlagen-Reinigung in Kluse | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/kluse/treppenhausreinigung",
-      "mainWords": 731,
+      "mainWords": 834,
       "title": "Treppenhausreinigung in Kluse | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/kluse/unterhaltsreinigung",
-      "mainWords": 741,
+      "mainWords": 843,
       "title": "Unterhaltsreinigung in Kluse | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/kluse",
-      "mainWords": 717,
+      "mainWords": 712,
       "title": "Gebäudereinigung in Kluse | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/laehden/baustellenreinigung",
-      "mainWords": 732,
+      "mainWords": 835,
       "title": "Baustellenreinigung in Lähden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/laehden/buero-praxisreinigung",
-      "mainWords": 767,
+      "mainWords": 867,
       "title": "Büro- & Praxisreinigung in Lähden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/laehden/dach-oberflaechenreinigung",
-      "mainWords": 749,
+      "mainWords": 846,
       "title": "Dach- & Oberflächenreinigung in Lähden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/laehden/glas-fensterreinigung",
-      "mainWords": 780,
+      "mainWords": 881,
       "title": "Glas- & Fensterreinigung in Lähden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/laehden/grund-sonderreinigung",
-      "mainWords": 758,
+      "mainWords": 854,
       "title": "Grund- & Sonderreinigung in Lähden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/laehden/hallen-gewerbereinigung",
-      "mainWords": 759,
+      "mainWords": 861,
       "title": "Hallen- & Gewerbeflächenreinigung in Lähden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/laehden/maschinen-anlagenreinigung",
-      "mainWords": 772,
+      "mainWords": 877,
       "title": "Maschinen- & Anlagenreinigung in Lähden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/laehden/polster-teppichreinigung",
-      "mainWords": 749,
+      "mainWords": 849,
       "title": "Polster- & Teppichreinigung in Lähden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/laehden/pv-anlagen-reinigung",
-      "mainWords": 727,
+      "mainWords": 824,
       "title": "PV-Anlagen-Reinigung in Lähden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/laehden/treppenhausreinigung",
-      "mainWords": 753,
+      "mainWords": 857,
       "title": "Treppenhausreinigung in Lähden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/laehden/unterhaltsreinigung",
-      "mainWords": 760,
+      "mainWords": 863,
       "title": "Unterhaltsreinigung in Lähden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/laehden",
-      "mainWords": 732,
+      "mainWords": 729,
       "title": "Gebäudereinigung in Lähden | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lathen/baustellenreinigung",
-      "mainWords": 710,
+      "mainWords": 812,
       "title": "Baustellenreinigung in Lathen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lathen/buero-praxisreinigung",
-      "mainWords": 740,
+      "mainWords": 839,
       "title": "Büro- & Praxisreinigung in Lathen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lathen/dach-oberflaechenreinigung",
-      "mainWords": 767,
+      "mainWords": 863,
       "title": "Dach- & Oberflächenreinigung in Lathen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lathen/glas-fensterreinigung",
-      "mainWords": 740,
+      "mainWords": 840,
       "title": "Glas- & Fensterreinigung in Lathen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lathen/grund-sonderreinigung",
-      "mainWords": 755,
+      "mainWords": 850,
       "title": "Grund- & Sonderreinigung in Lathen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lathen/hallen-gewerbereinigung",
-      "mainWords": 727,
+      "mainWords": 828,
       "title": "Hallen- & Gewerbeflächenreinigung in Lathen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lathen/maschinen-anlagenreinigung",
-      "mainWords": 708,
+      "mainWords": 812,
       "title": "Maschinen- & Anlagenreinigung in Lathen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lathen/polster-teppichreinigung",
-      "mainWords": 731,
+      "mainWords": 830,
       "title": "Polster- & Teppichreinigung in Lathen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lathen/pv-anlagen-reinigung",
-      "mainWords": 756,
+      "mainWords": 852,
       "title": "PV-Anlagen-Reinigung in Lathen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lathen/treppenhausreinigung",
-      "mainWords": 724,
+      "mainWords": 827,
       "title": "Treppenhausreinigung in Lathen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lathen/unterhaltsreinigung",
-      "mainWords": 731,
+      "mainWords": 833,
       "title": "Unterhaltsreinigung in Lathen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lathen",
-      "mainWords": 727,
+      "mainWords": 723,
       "title": "Gebäudereinigung in Lathen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/leer/baustellenreinigung",
-      "mainWords": 730,
+      "mainWords": 832,
       "title": "Baustellenreinigung in Leer | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/leer/buero-praxisreinigung",
-      "mainWords": 765,
+      "mainWords": 864,
       "title": "Büro- & Praxisreinigung in Leer | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/leer/dach-oberflaechenreinigung",
-      "mainWords": 747,
+      "mainWords": 843,
       "title": "Dach- & Oberflächenreinigung in Leer | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/leer/glas-fensterreinigung",
-      "mainWords": 778,
+      "mainWords": 878,
       "title": "Glas- & Fensterreinigung in Leer | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/leer/grund-sonderreinigung",
-      "mainWords": 756,
+      "mainWords": 851,
       "title": "Grund- & Sonderreinigung in Leer | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/leer/hallen-gewerbereinigung",
-      "mainWords": 757,
+      "mainWords": 858,
       "title": "Hallen- & Gewerbeflächenreinigung in Leer | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/leer/maschinen-anlagenreinigung",
-      "mainWords": 770,
+      "mainWords": 874,
       "title": "Maschinen- & Anlagenreinigung in Leer | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/leer/polster-teppichreinigung",
-      "mainWords": 747,
+      "mainWords": 846,
       "title": "Polster- & Teppichreinigung in Leer | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/leer/pv-anlagen-reinigung",
-      "mainWords": 725,
+      "mainWords": 821,
       "title": "PV-Anlagen-Reinigung in Leer | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/leer/treppenhausreinigung",
-      "mainWords": 751,
+      "mainWords": 854,
       "title": "Treppenhausreinigung in Leer | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/leer/unterhaltsreinigung",
-      "mainWords": 758,
+      "mainWords": 860,
       "title": "Unterhaltsreinigung in Leer | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/leer",
-      "mainWords": 725,
+      "mainWords": 721,
       "title": "Gebäudereinigung in Leer | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lehe/baustellenreinigung",
-      "mainWords": 717,
+      "mainWords": 819,
       "title": "Baustellenreinigung in Lehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lehe/buero-praxisreinigung",
-      "mainWords": 747,
+      "mainWords": 846,
       "title": "Büro- & Praxisreinigung in Lehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lehe/dach-oberflaechenreinigung",
-      "mainWords": 774,
+      "mainWords": 870,
       "title": "Dach- & Oberflächenreinigung in Lehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lehe/glas-fensterreinigung",
-      "mainWords": 747,
+      "mainWords": 847,
       "title": "Glas- & Fensterreinigung in Lehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lehe/grund-sonderreinigung",
-      "mainWords": 762,
+      "mainWords": 857,
       "title": "Grund- & Sonderreinigung in Lehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lehe/hallen-gewerbereinigung",
-      "mainWords": 734,
+      "mainWords": 835,
       "title": "Hallen- & Gewerbeflächenreinigung in Lehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lehe/maschinen-anlagenreinigung",
-      "mainWords": 715,
+      "mainWords": 819,
       "title": "Maschinen- & Anlagenreinigung in Lehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lehe/polster-teppichreinigung",
-      "mainWords": 738,
+      "mainWords": 837,
       "title": "Polster- & Teppichreinigung in Lehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lehe/pv-anlagen-reinigung",
-      "mainWords": 763,
+      "mainWords": 859,
       "title": "PV-Anlagen-Reinigung in Lehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lehe/treppenhausreinigung",
-      "mainWords": 731,
+      "mainWords": 834,
       "title": "Treppenhausreinigung in Lehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lehe/unterhaltsreinigung",
-      "mainWords": 738,
+      "mainWords": 840,
       "title": "Unterhaltsreinigung in Lehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lehe",
-      "mainWords": 730,
+      "mainWords": 727,
       "title": "Gebäudereinigung in Lehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lindern-oldenburg/baustellenreinigung",
-      "mainWords": 752,
+      "mainWords": 856,
       "title": "Baustellenreinigung in Lindern (Oldenburg) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lindern-oldenburg/buero-praxisreinigung",
-      "mainWords": 787,
+      "mainWords": 888,
       "title": "Büro- & Praxisreinigung in Lindern (Oldenburg) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lindern-oldenburg/dach-oberflaechenreinigung",
-      "mainWords": 769,
+      "mainWords": 867,
       "title": "Dach- & Oberflächenreinigung in Lindern (Oldenburg) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lindern-oldenburg/glas-fensterreinigung",
-      "mainWords": 800,
+      "mainWords": 902,
       "title": "Glas- & Fensterreinigung in Lindern (Oldenburg) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lindern-oldenburg/grund-sonderreinigung",
-      "mainWords": 778,
+      "mainWords": 875,
       "title": "Grund- & Sonderreinigung in Lindern (Oldenburg) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lindern-oldenburg/hallen-gewerbereinigung",
-      "mainWords": 779,
+      "mainWords": 882,
       "title": "Hallen- & Gewerbeflächenreinigung in Lindern (Oldenburg) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lindern-oldenburg/maschinen-anlagenreinigung",
-      "mainWords": 792,
+      "mainWords": 898,
       "title": "Maschinen- & Anlagenreinigung in Lindern (Oldenburg) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lindern-oldenburg/polster-teppichreinigung",
-      "mainWords": 769,
+      "mainWords": 870,
       "title": "Polster- & Teppichreinigung in Lindern (Oldenburg) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lindern-oldenburg/pv-anlagen-reinigung",
-      "mainWords": 747,
+      "mainWords": 845,
       "title": "PV-Anlagen-Reinigung in Lindern (Oldenburg) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lindern-oldenburg/treppenhausreinigung",
-      "mainWords": 773,
+      "mainWords": 878,
       "title": "Treppenhausreinigung in Lindern (Oldenburg) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lindern-oldenburg/unterhaltsreinigung",
-      "mainWords": 780,
+      "mainWords": 884,
       "title": "Unterhaltsreinigung in Lindern (Oldenburg) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lindern-oldenburg",
-      "mainWords": 753,
+      "mainWords": 750,
       "title": "Gebäudereinigung in Lindern (Oldenburg) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lorup/baustellenreinigung",
-      "mainWords": 723,
+      "mainWords": 825,
       "title": "Baustellenreinigung in Lorup | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lorup/buero-praxisreinigung",
-      "mainWords": 743,
+      "mainWords": 842,
       "title": "Büro- & Praxisreinigung in Lorup | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lorup/dach-oberflaechenreinigung",
-      "mainWords": 731,
+      "mainWords": 827,
       "title": "Dach- & Oberflächenreinigung in Lorup | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lorup/glas-fensterreinigung",
-      "mainWords": 762,
+      "mainWords": 862,
       "title": "Glas- & Fensterreinigung in Lorup | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lorup/grund-sonderreinigung",
-      "mainWords": 754,
+      "mainWords": 849,
       "title": "Grund- & Sonderreinigung in Lorup | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lorup/hallen-gewerbereinigung",
-      "mainWords": 742,
+      "mainWords": 843,
       "title": "Hallen- & Gewerbeflächenreinigung in Lorup | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lorup/maschinen-anlagenreinigung",
-      "mainWords": 728,
+      "mainWords": 832,
       "title": "Maschinen- & Anlagenreinigung in Lorup | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lorup/polster-teppichreinigung",
-      "mainWords": 757,
+      "mainWords": 856,
       "title": "Polster- & Teppichreinigung in Lorup | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lorup/pv-anlagen-reinigung",
-      "mainWords": 724,
+      "mainWords": 820,
       "title": "PV-Anlagen-Reinigung in Lorup | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lorup/treppenhausreinigung",
-      "mainWords": 750,
+      "mainWords": 853,
       "title": "Treppenhausreinigung in Lorup | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lorup/unterhaltsreinigung",
-      "mainWords": 752,
+      "mainWords": 854,
       "title": "Unterhaltsreinigung in Lorup | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/lorup",
-      "mainWords": 736,
+      "mainWords": 732,
       "title": "Gebäudereinigung in Lorup | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/molbergen/baustellenreinigung",
-      "mainWords": 733,
+      "mainWords": 835,
       "title": "Baustellenreinigung in Molbergen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/molbergen/buero-praxisreinigung",
-      "mainWords": 768,
+      "mainWords": 867,
       "title": "Büro- & Praxisreinigung in Molbergen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/molbergen/dach-oberflaechenreinigung",
-      "mainWords": 750,
+      "mainWords": 846,
       "title": "Dach- & Oberflächenreinigung in Molbergen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/molbergen/glas-fensterreinigung",
-      "mainWords": 781,
+      "mainWords": 881,
       "title": "Glas- & Fensterreinigung in Molbergen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/molbergen/grund-sonderreinigung",
-      "mainWords": 759,
+      "mainWords": 854,
       "title": "Grund- & Sonderreinigung in Molbergen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/molbergen/hallen-gewerbereinigung",
-      "mainWords": 760,
+      "mainWords": 861,
       "title": "Hallen- & Gewerbeflächenreinigung in Molbergen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/molbergen/maschinen-anlagenreinigung",
-      "mainWords": 773,
+      "mainWords": 877,
       "title": "Maschinen- & Anlagenreinigung in Molbergen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/molbergen/polster-teppichreinigung",
-      "mainWords": 750,
+      "mainWords": 849,
       "title": "Polster- & Teppichreinigung in Molbergen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/molbergen/pv-anlagen-reinigung",
-      "mainWords": 728,
+      "mainWords": 824,
       "title": "PV-Anlagen-Reinigung in Molbergen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/molbergen/treppenhausreinigung",
-      "mainWords": 754,
+      "mainWords": 857,
       "title": "Treppenhausreinigung in Molbergen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/molbergen/unterhaltsreinigung",
-      "mainWords": 761,
+      "mainWords": 863,
       "title": "Unterhaltsreinigung in Molbergen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/molbergen",
-      "mainWords": 737,
+      "mainWords": 734,
       "title": "Gebäudereinigung in Molbergen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/moormerland/baustellenreinigung",
-      "mainWords": 712,
+      "mainWords": 814,
       "title": "Baustellenreinigung in Moormerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/moormerland/buero-praxisreinigung",
-      "mainWords": 742,
+      "mainWords": 841,
       "title": "Büro- & Praxisreinigung in Moormerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/moormerland/dach-oberflaechenreinigung",
-      "mainWords": 769,
+      "mainWords": 865,
       "title": "Dach- & Oberflächenreinigung in Moormerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/moormerland/glas-fensterreinigung",
-      "mainWords": 742,
+      "mainWords": 842,
       "title": "Glas- & Fensterreinigung in Moormerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/moormerland/grund-sonderreinigung",
-      "mainWords": 757,
+      "mainWords": 852,
       "title": "Grund- & Sonderreinigung in Moormerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/moormerland/hallen-gewerbereinigung",
-      "mainWords": 729,
+      "mainWords": 830,
       "title": "Hallen- & Gewerbeflächenreinigung in Moormerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/moormerland/maschinen-anlagenreinigung",
-      "mainWords": 710,
+      "mainWords": 814,
       "title": "Maschinen- & Anlagenreinigung in Moormerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/moormerland/polster-teppichreinigung",
-      "mainWords": 733,
+      "mainWords": 832,
       "title": "Polster- & Teppichreinigung in Moormerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/moormerland/pv-anlagen-reinigung",
-      "mainWords": 758,
+      "mainWords": 854,
       "title": "PV-Anlagen-Reinigung in Moormerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/moormerland/treppenhausreinigung",
-      "mainWords": 726,
+      "mainWords": 829,
       "title": "Treppenhausreinigung in Moormerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/moormerland/unterhaltsreinigung",
-      "mainWords": 733,
+      "mainWords": 835,
       "title": "Unterhaltsreinigung in Moormerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/moormerland",
-      "mainWords": 719,
+      "mainWords": 715,
       "title": "Gebäudereinigung in Moormerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neuboerger/baustellenreinigung",
-      "mainWords": 705,
+      "mainWords": 807,
       "title": "Baustellenreinigung in Neubörger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neuboerger/buero-praxisreinigung",
-      "mainWords": 735,
+      "mainWords": 834,
       "title": "Büro- & Praxisreinigung in Neubörger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neuboerger/dach-oberflaechenreinigung",
-      "mainWords": 762,
+      "mainWords": 858,
       "title": "Dach- & Oberflächenreinigung in Neubörger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neuboerger/glas-fensterreinigung",
-      "mainWords": 735,
+      "mainWords": 835,
       "title": "Glas- & Fensterreinigung in Neubörger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neuboerger/grund-sonderreinigung",
-      "mainWords": 750,
+      "mainWords": 845,
       "title": "Grund- & Sonderreinigung in Neubörger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neuboerger/hallen-gewerbereinigung",
-      "mainWords": 722,
+      "mainWords": 823,
       "title": "Hallen- & Gewerbeflächenreinigung in Neubörger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neuboerger/maschinen-anlagenreinigung",
-      "mainWords": 703,
+      "mainWords": 807,
       "title": "Maschinen- & Anlagenreinigung in Neubörger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neuboerger/polster-teppichreinigung",
-      "mainWords": 726,
+      "mainWords": 825,
       "title": "Polster- & Teppichreinigung in Neubörger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neuboerger/pv-anlagen-reinigung",
-      "mainWords": 751,
+      "mainWords": 847,
       "title": "PV-Anlagen-Reinigung in Neubörger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neuboerger/treppenhausreinigung",
-      "mainWords": 719,
+      "mainWords": 822,
       "title": "Treppenhausreinigung in Neubörger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neuboerger/unterhaltsreinigung",
-      "mainWords": 726,
+      "mainWords": 828,
       "title": "Unterhaltsreinigung in Neubörger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neuboerger",
-      "mainWords": 721,
+      "mainWords": 716,
       "title": "Gebäudereinigung in Neubörger | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neukamperfehn/baustellenreinigung",
-      "mainWords": 712,
+      "mainWords": 814,
       "title": "Baustellenreinigung in Neukamperfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neukamperfehn/buero-praxisreinigung",
-      "mainWords": 732,
+      "mainWords": 831,
       "title": "Büro- & Praxisreinigung in Neukamperfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neukamperfehn/dach-oberflaechenreinigung",
-      "mainWords": 720,
+      "mainWords": 816,
       "title": "Dach- & Oberflächenreinigung in Neukamperfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neukamperfehn/glas-fensterreinigung",
-      "mainWords": 751,
+      "mainWords": 851,
       "title": "Glas- & Fensterreinigung in Neukamperfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neukamperfehn/grund-sonderreinigung",
-      "mainWords": 743,
+      "mainWords": 838,
       "title": "Grund- & Sonderreinigung in Neukamperfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neukamperfehn/hallen-gewerbereinigung",
-      "mainWords": 731,
+      "mainWords": 832,
       "title": "Hallen- & Gewerbeflächenreinigung in Neukamperfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neukamperfehn/maschinen-anlagenreinigung",
-      "mainWords": 717,
+      "mainWords": 821,
       "title": "Maschinen- & Anlagenreinigung in Neukamperfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neukamperfehn/polster-teppichreinigung",
-      "mainWords": 746,
+      "mainWords": 845,
       "title": "Polster- & Teppichreinigung in Neukamperfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neukamperfehn/pv-anlagen-reinigung",
-      "mainWords": 713,
+      "mainWords": 809,
       "title": "PV-Anlagen-Reinigung in Neukamperfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neukamperfehn/treppenhausreinigung",
-      "mainWords": 739,
+      "mainWords": 842,
       "title": "Treppenhausreinigung in Neukamperfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neukamperfehn/unterhaltsreinigung",
-      "mainWords": 741,
+      "mainWords": 843,
       "title": "Unterhaltsreinigung in Neukamperfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neukamperfehn",
-      "mainWords": 725,
+      "mainWords": 721,
       "title": "Gebäudereinigung in Neukamperfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neulehe/baustellenreinigung",
-      "mainWords": 750,
+      "mainWords": 852,
       "title": "Baustellenreinigung in Neulehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neulehe/buero-praxisreinigung",
-      "mainWords": 750,
+      "mainWords": 849,
       "title": "Büro- & Praxisreinigung in Neulehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neulehe/dach-oberflaechenreinigung",
-      "mainWords": 740,
+      "mainWords": 836,
       "title": "Dach- & Oberflächenreinigung in Neulehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neulehe/glas-fensterreinigung",
-      "mainWords": 762,
+      "mainWords": 862,
       "title": "Glas- & Fensterreinigung in Neulehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neulehe/grund-sonderreinigung",
-      "mainWords": 740,
+      "mainWords": 835,
       "title": "Grund- & Sonderreinigung in Neulehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neulehe/hallen-gewerbereinigung",
-      "mainWords": 728,
+      "mainWords": 829,
       "title": "Hallen- & Gewerbeflächenreinigung in Neulehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neulehe/maschinen-anlagenreinigung",
-      "mainWords": 714,
+      "mainWords": 818,
       "title": "Maschinen- & Anlagenreinigung in Neulehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neulehe/polster-teppichreinigung",
-      "mainWords": 740,
+      "mainWords": 839,
       "title": "Polster- & Teppichreinigung in Neulehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neulehe/pv-anlagen-reinigung",
-      "mainWords": 732,
+      "mainWords": 828,
       "title": "PV-Anlagen-Reinigung in Neulehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neulehe/treppenhausreinigung",
-      "mainWords": 728,
+      "mainWords": 831,
       "title": "Treppenhausreinigung in Neulehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neulehe/unterhaltsreinigung",
-      "mainWords": 738,
+      "mainWords": 840,
       "title": "Unterhaltsreinigung in Neulehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/neulehe",
-      "mainWords": 720,
+      "mainWords": 716,
       "title": "Gebäudereinigung in Neulehe | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/nortmoor/baustellenreinigung",
-      "mainWords": 775,
+      "mainWords": 877,
       "title": "Baustellenreinigung in Nortmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/nortmoor/buero-praxisreinigung",
-      "mainWords": 725,
+      "mainWords": 824,
       "title": "Büro- & Praxisreinigung in Nortmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/nortmoor/dach-oberflaechenreinigung",
-      "mainWords": 750,
+      "mainWords": 846,
       "title": "Dach- & Oberflächenreinigung in Nortmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/nortmoor/glas-fensterreinigung",
-      "mainWords": 790,
+      "mainWords": 890,
       "title": "Glas- & Fensterreinigung in Nortmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/nortmoor/grund-sonderreinigung",
-      "mainWords": 780,
+      "mainWords": 875,
       "title": "Grund- & Sonderreinigung in Nortmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/nortmoor/hallen-gewerbereinigung",
-      "mainWords": 781,
+      "mainWords": 882,
       "title": "Hallen- & Gewerbeflächenreinigung in Nortmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/nortmoor/maschinen-anlagenreinigung",
-      "mainWords": 785,
+      "mainWords": 889,
       "title": "Maschinen- & Anlagenreinigung in Nortmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/nortmoor/polster-teppichreinigung",
-      "mainWords": 766,
+      "mainWords": 865,
       "title": "Polster- & Teppichreinigung in Nortmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/nortmoor/pv-anlagen-reinigung",
-      "mainWords": 740,
+      "mainWords": 836,
       "title": "PV-Anlagen-Reinigung in Nortmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/nortmoor/treppenhausreinigung",
-      "mainWords": 767,
+      "mainWords": 870,
       "title": "Treppenhausreinigung in Nortmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/nortmoor/unterhaltsreinigung",
-      "mainWords": 714,
+      "mainWords": 816,
       "title": "Unterhaltsreinigung in Nortmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/nortmoor",
-      "mainWords": 738,
+      "mainWords": 734,
       "title": "Gebäudereinigung in Nortmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/oldenburg/baustellenreinigung",
-      "mainWords": 776,
+      "mainWords": 878,
       "title": "Baustellenreinigung in Oldenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/oldenburg/buero-praxisreinigung",
-      "mainWords": 736,
+      "mainWords": 835,
       "title": "Büro- & Praxisreinigung in Oldenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/oldenburg/dach-oberflaechenreinigung",
-      "mainWords": 752,
+      "mainWords": 848,
       "title": "Dach- & Oberflächenreinigung in Oldenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/oldenburg/glas-fensterreinigung",
-      "mainWords": 739,
+      "mainWords": 839,
       "title": "Glas- & Fensterreinigung in Oldenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/oldenburg/grund-sonderreinigung",
-      "mainWords": 738,
+      "mainWords": 833,
       "title": "Grund- & Sonderreinigung in Oldenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/oldenburg/hallen-gewerbereinigung",
-      "mainWords": 718,
+      "mainWords": 819,
       "title": "Hallen- & Gewerbeflächenreinigung in Oldenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/oldenburg/maschinen-anlagenreinigung",
-      "mainWords": 702,
+      "mainWords": 806,
       "title": "Maschinen- & Anlagenreinigung in Oldenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/oldenburg/polster-teppichreinigung",
-      "mainWords": 785,
+      "mainWords": 884,
       "title": "Polster- & Teppichreinigung in Oldenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/oldenburg/pv-anlagen-reinigung",
-      "mainWords": 752,
+      "mainWords": 848,
       "title": "PV-Anlagen-Reinigung in Oldenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/oldenburg/treppenhausreinigung",
-      "mainWords": 711,
+      "mainWords": 814,
       "title": "Treppenhausreinigung in Oldenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/oldenburg/unterhaltsreinigung",
-      "mainWords": 749,
+      "mainWords": 851,
       "title": "Unterhaltsreinigung in Oldenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/oldenburg",
-      "mainWords": 722,
+      "mainWords": 719,
       "title": "Gebäudereinigung in Oldenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ostrhauderfehn/baustellenreinigung",
-      "mainWords": 715,
+      "mainWords": 817,
       "title": "Baustellenreinigung in Ostrhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ostrhauderfehn/buero-praxisreinigung",
-      "mainWords": 735,
+      "mainWords": 834,
       "title": "Büro- & Praxisreinigung in Ostrhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ostrhauderfehn/dach-oberflaechenreinigung",
-      "mainWords": 723,
+      "mainWords": 819,
       "title": "Dach- & Oberflächenreinigung in Ostrhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ostrhauderfehn/glas-fensterreinigung",
-      "mainWords": 754,
+      "mainWords": 854,
       "title": "Glas- & Fensterreinigung in Ostrhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ostrhauderfehn/grund-sonderreinigung",
-      "mainWords": 746,
+      "mainWords": 841,
       "title": "Grund- & Sonderreinigung in Ostrhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ostrhauderfehn/hallen-gewerbereinigung",
-      "mainWords": 734,
+      "mainWords": 835,
       "title": "Hallen- & Gewerbeflächenreinigung in Ostrhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ostrhauderfehn/maschinen-anlagenreinigung",
-      "mainWords": 720,
+      "mainWords": 824,
       "title": "Maschinen- & Anlagenreinigung in Ostrhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ostrhauderfehn/polster-teppichreinigung",
-      "mainWords": 749,
+      "mainWords": 848,
       "title": "Polster- & Teppichreinigung in Ostrhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ostrhauderfehn/pv-anlagen-reinigung",
-      "mainWords": 716,
+      "mainWords": 812,
       "title": "PV-Anlagen-Reinigung in Ostrhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ostrhauderfehn/treppenhausreinigung",
-      "mainWords": 742,
+      "mainWords": 845,
       "title": "Treppenhausreinigung in Ostrhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ostrhauderfehn/unterhaltsreinigung",
-      "mainWords": 744,
+      "mainWords": 846,
       "title": "Unterhaltsreinigung in Ostrhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/ostrhauderfehn",
-      "mainWords": 726,
+      "mainWords": 722,
       "title": "Gebäudereinigung in Ostrhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/papenburg/baustellenreinigung",
-      "mainWords": 713,
+      "mainWords": 815,
       "title": "Baustellenreinigung in Papenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/papenburg/buero-praxisreinigung",
-      "mainWords": 733,
+      "mainWords": 832,
       "title": "Büro- & Praxisreinigung in Papenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/papenburg/dach-oberflaechenreinigung",
-      "mainWords": 721,
+      "mainWords": 817,
       "title": "Dach- & Oberflächenreinigung in Papenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/papenburg/glas-fensterreinigung",
-      "mainWords": 752,
+      "mainWords": 852,
       "title": "Glas- & Fensterreinigung in Papenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/papenburg/grund-sonderreinigung",
-      "mainWords": 744,
+      "mainWords": 839,
       "title": "Grund- & Sonderreinigung in Papenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/papenburg/hallen-gewerbereinigung",
-      "mainWords": 732,
+      "mainWords": 833,
       "title": "Hallen- & Gewerbeflächenreinigung in Papenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/papenburg/maschinen-anlagenreinigung",
-      "mainWords": 718,
+      "mainWords": 822,
       "title": "Maschinen- & Anlagenreinigung in Papenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/papenburg/polster-teppichreinigung",
-      "mainWords": 747,
+      "mainWords": 846,
       "title": "Polster- & Teppichreinigung in Papenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/papenburg/pv-anlagen-reinigung",
-      "mainWords": 714,
+      "mainWords": 810,
       "title": "PV-Anlagen-Reinigung in Papenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/papenburg/treppenhausreinigung",
-      "mainWords": 740,
+      "mainWords": 843,
       "title": "Treppenhausreinigung in Papenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/papenburg/unterhaltsreinigung",
-      "mainWords": 742,
+      "mainWords": 844,
       "title": "Unterhaltsreinigung in Papenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/papenburg",
-      "mainWords": 726,
+      "mainWords": 722,
       "title": "Gebäudereinigung in Papenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastdorf/baustellenreinigung",
-      "mainWords": 732,
+      "mainWords": 833,
       "title": "Baustellenreinigung in Rastdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastdorf/buero-praxisreinigung",
-      "mainWords": 751,
+      "mainWords": 849,
       "title": "Büro- & Praxisreinigung in Rastdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastdorf/dach-oberflaechenreinigung",
-      "mainWords": 731,
+      "mainWords": 826,
       "title": "Dach- & Oberflächenreinigung in Rastdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastdorf/glas-fensterreinigung",
-      "mainWords": 787,
+      "mainWords": 886,
       "title": "Glas- & Fensterreinigung in Rastdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastdorf/grund-sonderreinigung",
-      "mainWords": 763,
+      "mainWords": 857,
       "title": "Grund- & Sonderreinigung in Rastdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastdorf/hallen-gewerbereinigung",
-      "mainWords": 758,
+      "mainWords": 858,
       "title": "Hallen- & Gewerbeflächenreinigung in Rastdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastdorf/maschinen-anlagenreinigung",
-      "mainWords": 777,
+      "mainWords": 880,
       "title": "Maschinen- & Anlagenreinigung in Rastdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastdorf/polster-teppichreinigung",
-      "mainWords": 757,
+      "mainWords": 855,
       "title": "Polster- & Teppichreinigung in Rastdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastdorf/pv-anlagen-reinigung",
-      "mainWords": 735,
+      "mainWords": 830,
       "title": "PV-Anlagen-Reinigung in Rastdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastdorf/treppenhausreinigung",
-      "mainWords": 733,
+      "mainWords": 835,
       "title": "Treppenhausreinigung in Rastdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastdorf/unterhaltsreinigung",
-      "mainWords": 742,
+      "mainWords": 843,
       "title": "Unterhaltsreinigung in Rastdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastdorf",
-      "mainWords": 739,
+      "mainWords": 736,
       "title": "Gebäudereinigung in Rastdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastede/baustellenreinigung",
-      "mainWords": 732,
+      "mainWords": 834,
       "title": "Baustellenreinigung in Rastede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastede/buero-praxisreinigung",
-      "mainWords": 767,
+      "mainWords": 866,
       "title": "Büro- & Praxisreinigung in Rastede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastede/dach-oberflaechenreinigung",
-      "mainWords": 749,
+      "mainWords": 845,
       "title": "Dach- & Oberflächenreinigung in Rastede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastede/glas-fensterreinigung",
-      "mainWords": 780,
+      "mainWords": 880,
       "title": "Glas- & Fensterreinigung in Rastede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastede/grund-sonderreinigung",
-      "mainWords": 758,
+      "mainWords": 853,
       "title": "Grund- & Sonderreinigung in Rastede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastede/hallen-gewerbereinigung",
-      "mainWords": 759,
+      "mainWords": 860,
       "title": "Hallen- & Gewerbeflächenreinigung in Rastede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastede/maschinen-anlagenreinigung",
-      "mainWords": 772,
+      "mainWords": 876,
       "title": "Maschinen- & Anlagenreinigung in Rastede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastede/polster-teppichreinigung",
-      "mainWords": 749,
+      "mainWords": 848,
       "title": "Polster- & Teppichreinigung in Rastede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastede/pv-anlagen-reinigung",
-      "mainWords": 727,
+      "mainWords": 823,
       "title": "PV-Anlagen-Reinigung in Rastede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastede/treppenhausreinigung",
-      "mainWords": 753,
+      "mainWords": 856,
       "title": "Treppenhausreinigung in Rastede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastede/unterhaltsreinigung",
-      "mainWords": 760,
+      "mainWords": 862,
       "title": "Unterhaltsreinigung in Rastede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rastede",
-      "mainWords": 728,
+      "mainWords": 725,
       "title": "Gebäudereinigung in Rastede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/renkenberge/baustellenreinigung",
-      "mainWords": 785,
+      "mainWords": 887,
       "title": "Baustellenreinigung in Renkenberge | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/renkenberge/buero-praxisreinigung",
-      "mainWords": 736,
+      "mainWords": 835,
       "title": "Büro- & Praxisreinigung in Renkenberge | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/renkenberge/dach-oberflaechenreinigung",
-      "mainWords": 755,
+      "mainWords": 851,
       "title": "Dach- & Oberflächenreinigung in Renkenberge | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/renkenberge/glas-fensterreinigung",
-      "mainWords": 798,
+      "mainWords": 898,
       "title": "Glas- & Fensterreinigung in Renkenberge | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/renkenberge/grund-sonderreinigung",
-      "mainWords": 725,
+      "mainWords": 820,
       "title": "Grund- & Sonderreinigung in Renkenberge | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/renkenberge/hallen-gewerbereinigung",
-      "mainWords": 784,
+      "mainWords": 885,
       "title": "Hallen- & Gewerbeflächenreinigung in Renkenberge | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/renkenberge/maschinen-anlagenreinigung",
-      "mainWords": 795,
+      "mainWords": 899,
       "title": "Maschinen- & Anlagenreinigung in Renkenberge | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/renkenberge/polster-teppichreinigung",
-      "mainWords": 781,
+      "mainWords": 880,
       "title": "Polster- & Teppichreinigung in Renkenberge | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/renkenberge/pv-anlagen-reinigung",
-      "mainWords": 736,
+      "mainWords": 832,
       "title": "PV-Anlagen-Reinigung in Renkenberge | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/renkenberge/treppenhausreinigung",
-      "mainWords": 719,
+      "mainWords": 822,
       "title": "Treppenhausreinigung in Renkenberge | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/renkenberge/unterhaltsreinigung",
-      "mainWords": 723,
+      "mainWords": 825,
       "title": "Unterhaltsreinigung in Renkenberge | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/renkenberge",
-      "mainWords": 735,
+      "mainWords": 731,
       "title": "Gebäudereinigung in Renkenberge | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhauderfehn/baustellenreinigung",
-      "mainWords": 713,
+      "mainWords": 815,
       "title": "Baustellenreinigung in Rhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhauderfehn/buero-praxisreinigung",
-      "mainWords": 743,
+      "mainWords": 842,
       "title": "Büro- & Praxisreinigung in Rhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhauderfehn/dach-oberflaechenreinigung",
-      "mainWords": 770,
+      "mainWords": 866,
       "title": "Dach- & Oberflächenreinigung in Rhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhauderfehn/glas-fensterreinigung",
-      "mainWords": 743,
+      "mainWords": 843,
       "title": "Glas- & Fensterreinigung in Rhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhauderfehn/grund-sonderreinigung",
-      "mainWords": 758,
+      "mainWords": 853,
       "title": "Grund- & Sonderreinigung in Rhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhauderfehn/hallen-gewerbereinigung",
-      "mainWords": 730,
+      "mainWords": 831,
       "title": "Hallen- & Gewerbeflächenreinigung in Rhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhauderfehn/maschinen-anlagenreinigung",
-      "mainWords": 711,
+      "mainWords": 815,
       "title": "Maschinen- & Anlagenreinigung in Rhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhauderfehn/polster-teppichreinigung",
-      "mainWords": 734,
+      "mainWords": 833,
       "title": "Polster- & Teppichreinigung in Rhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhauderfehn/pv-anlagen-reinigung",
-      "mainWords": 759,
+      "mainWords": 855,
       "title": "PV-Anlagen-Reinigung in Rhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhauderfehn/treppenhausreinigung",
-      "mainWords": 727,
+      "mainWords": 830,
       "title": "Treppenhausreinigung in Rhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhauderfehn/unterhaltsreinigung",
-      "mainWords": 734,
+      "mainWords": 836,
       "title": "Unterhaltsreinigung in Rhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhauderfehn",
-      "mainWords": 728,
+      "mainWords": 724,
       "title": "Gebäudereinigung in Rhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/baustellenreinigung",
-      "mainWords": 721,
+      "mainWords": 825,
       "title": "Baustellenreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/buero-praxisreinigung",
-      "mainWords": 741,
+      "mainWords": 842,
       "title": "Büro- & Praxisreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/dach-oberflaechenreinigung",
-      "mainWords": 729,
+      "mainWords": 827,
       "title": "Dach- & Oberflächenreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/glas-fensterreinigung",
-      "mainWords": 760,
+      "mainWords": 862,
       "title": "Glas- & Fensterreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/grund-sonderreinigung",
-      "mainWords": 752,
+      "mainWords": 849,
       "title": "Grund- & Sonderreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/hallen-gewerbereinigung",
-      "mainWords": 740,
+      "mainWords": 843,
       "title": "Hallen- & Gewerbeflächenreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/maschinen-anlagenreinigung",
-      "mainWords": 726,
+      "mainWords": 832,
       "title": "Maschinen- & Anlagenreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/polster-teppichreinigung",
-      "mainWords": 755,
+      "mainWords": 856,
       "title": "Polster- & Teppichreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/pv-anlagen-reinigung",
-      "mainWords": 722,
+      "mainWords": 820,
       "title": "PV-Anlagen-Reinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/treppenhausreinigung",
-      "mainWords": 748,
+      "mainWords": 853,
       "title": "Treppenhausreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/unterhaltsreinigung",
-      "mainWords": 750,
+      "mainWords": 854,
       "title": "Unterhaltsreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems",
-      "mainWords": 738,
+      "mainWords": 735,
       "title": "Gebäudereinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/saterland/baustellenreinigung",
-      "mainWords": 702,
+      "mainWords": 805,
       "title": "Baustellenreinigung in Saterland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/saterland/buero-praxisreinigung",
-      "mainWords": 737,
+      "mainWords": 837,
       "title": "Büro- & Praxisreinigung in Saterland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/saterland/dach-oberflaechenreinigung",
-      "mainWords": 719,
+      "mainWords": 816,
       "title": "Dach- & Oberflächenreinigung in Saterland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/saterland/glas-fensterreinigung",
-      "mainWords": 750,
+      "mainWords": 851,
       "title": "Glas- & Fensterreinigung in Saterland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/saterland/grund-sonderreinigung",
-      "mainWords": 728,
+      "mainWords": 824,
       "title": "Grund- & Sonderreinigung in Saterland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/saterland/hallen-gewerbereinigung",
-      "mainWords": 729,
+      "mainWords": 831,
       "title": "Hallen- & Gewerbeflächenreinigung in Saterland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/saterland/maschinen-anlagenreinigung",
-      "mainWords": 742,
+      "mainWords": 847,
       "title": "Maschinen- & Anlagenreinigung in Saterland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/saterland/polster-teppichreinigung",
-      "mainWords": 719,
+      "mainWords": 819,
       "title": "Polster- & Teppichreinigung in Saterland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/saterland/pv-anlagen-reinigung",
-      "mainWords": 697,
+      "mainWords": 794,
       "title": "PV-Anlagen-Reinigung in Saterland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/saterland/treppenhausreinigung",
-      "mainWords": 723,
+      "mainWords": 827,
       "title": "Treppenhausreinigung in Saterland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/saterland/unterhaltsreinigung",
-      "mainWords": 730,
+      "mainWords": 833,
       "title": "Unterhaltsreinigung in Saterland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/saterland",
-      "mainWords": 711,
+      "mainWords": 712,
       "title": "Gebäudereinigung in Saterland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/schwerinsdorf/baustellenreinigung",
-      "mainWords": 712,
+      "mainWords": 814,
       "title": "Baustellenreinigung in Schwerinsdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/schwerinsdorf/buero-praxisreinigung",
-      "mainWords": 742,
+      "mainWords": 841,
       "title": "Büro- & Praxisreinigung in Schwerinsdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/schwerinsdorf/dach-oberflaechenreinigung",
-      "mainWords": 769,
+      "mainWords": 865,
       "title": "Dach- & Oberflächenreinigung in Schwerinsdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/schwerinsdorf/glas-fensterreinigung",
-      "mainWords": 742,
+      "mainWords": 842,
       "title": "Glas- & Fensterreinigung in Schwerinsdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/schwerinsdorf/grund-sonderreinigung",
-      "mainWords": 757,
+      "mainWords": 852,
       "title": "Grund- & Sonderreinigung in Schwerinsdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/schwerinsdorf/hallen-gewerbereinigung",
-      "mainWords": 729,
+      "mainWords": 830,
       "title": "Hallen- & Gewerbeflächenreinigung in Schwerinsdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/schwerinsdorf/maschinen-anlagenreinigung",
-      "mainWords": 710,
+      "mainWords": 814,
       "title": "Maschinen- & Anlagenreinigung in Schwerinsdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/schwerinsdorf/polster-teppichreinigung",
-      "mainWords": 733,
+      "mainWords": 832,
       "title": "Polster- & Teppichreinigung in Schwerinsdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/schwerinsdorf/pv-anlagen-reinigung",
-      "mainWords": 758,
+      "mainWords": 854,
       "title": "PV-Anlagen-Reinigung in Schwerinsdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/schwerinsdorf/treppenhausreinigung",
-      "mainWords": 726,
+      "mainWords": 829,
       "title": "Treppenhausreinigung in Schwerinsdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/schwerinsdorf/unterhaltsreinigung",
-      "mainWords": 733,
+      "mainWords": 835,
       "title": "Unterhaltsreinigung in Schwerinsdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/schwerinsdorf",
-      "mainWords": 729,
+      "mainWords": 725,
       "title": "Gebäudereinigung in Schwerinsdorf | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/soegel/baustellenreinigung",
-      "mainWords": 724,
+      "mainWords": 826,
       "title": "Baustellenreinigung in Sögel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/soegel/buero-praxisreinigung",
-      "mainWords": 759,
+      "mainWords": 858,
       "title": "Büro- & Praxisreinigung in Sögel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/soegel/dach-oberflaechenreinigung",
-      "mainWords": 741,
+      "mainWords": 837,
       "title": "Dach- & Oberflächenreinigung in Sögel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/soegel/glas-fensterreinigung",
-      "mainWords": 772,
+      "mainWords": 872,
       "title": "Glas- & Fensterreinigung in Sögel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/soegel/grund-sonderreinigung",
-      "mainWords": 750,
+      "mainWords": 845,
       "title": "Grund- & Sonderreinigung in Sögel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/soegel/hallen-gewerbereinigung",
-      "mainWords": 751,
+      "mainWords": 852,
       "title": "Hallen- & Gewerbeflächenreinigung in Sögel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/soegel/maschinen-anlagenreinigung",
-      "mainWords": 764,
+      "mainWords": 868,
       "title": "Maschinen- & Anlagenreinigung in Sögel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/soegel/polster-teppichreinigung",
-      "mainWords": 741,
+      "mainWords": 840,
       "title": "Polster- & Teppichreinigung in Sögel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/soegel/pv-anlagen-reinigung",
-      "mainWords": 719,
+      "mainWords": 815,
       "title": "PV-Anlagen-Reinigung in Sögel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/soegel/treppenhausreinigung",
-      "mainWords": 745,
+      "mainWords": 848,
       "title": "Treppenhausreinigung in Sögel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/soegel/unterhaltsreinigung",
-      "mainWords": 752,
+      "mainWords": 854,
       "title": "Unterhaltsreinigung in Sögel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/soegel",
-      "mainWords": 719,
+      "mainWords": 715,
       "title": "Gebäudereinigung in Sögel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/spahnharrenstaette/baustellenreinigung",
-      "mainWords": 766,
+      "mainWords": 868,
       "title": "Baustellenreinigung in Spahnharrenstätte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/spahnharrenstaette/buero-praxisreinigung",
-      "mainWords": 716,
+      "mainWords": 815,
       "title": "Büro- & Praxisreinigung in Spahnharrenstätte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/spahnharrenstaette/dach-oberflaechenreinigung",
-      "mainWords": 741,
+      "mainWords": 837,
       "title": "Dach- & Oberflächenreinigung in Spahnharrenstätte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/spahnharrenstaette/glas-fensterreinigung",
-      "mainWords": 781,
+      "mainWords": 881,
       "title": "Glas- & Fensterreinigung in Spahnharrenstätte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/spahnharrenstaette/grund-sonderreinigung",
-      "mainWords": 771,
+      "mainWords": 866,
       "title": "Grund- & Sonderreinigung in Spahnharrenstätte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/spahnharrenstaette/hallen-gewerbereinigung",
-      "mainWords": 772,
+      "mainWords": 873,
       "title": "Hallen- & Gewerbeflächenreinigung in Spahnharrenstätte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/spahnharrenstaette/maschinen-anlagenreinigung",
-      "mainWords": 776,
+      "mainWords": 880,
       "title": "Maschinen- & Anlagenreinigung in Spahnharrenstätte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/spahnharrenstaette/polster-teppichreinigung",
-      "mainWords": 757,
+      "mainWords": 856,
       "title": "Polster- & Teppichreinigung in Spahnharrenstätte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/spahnharrenstaette/pv-anlagen-reinigung",
-      "mainWords": 731,
+      "mainWords": 827,
       "title": "PV-Anlagen-Reinigung in Spahnharrenstätte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/spahnharrenstaette/treppenhausreinigung",
-      "mainWords": 758,
+      "mainWords": 861,
       "title": "Treppenhausreinigung in Spahnharrenstätte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/spahnharrenstaette/unterhaltsreinigung",
-      "mainWords": 705,
+      "mainWords": 807,
       "title": "Unterhaltsreinigung in Spahnharrenstätte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/spahnharrenstaette",
-      "mainWords": 726,
+      "mainWords": 721,
       "title": "Gebäudereinigung in Spahnharrenstätte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/stavern/baustellenreinigung",
-      "mainWords": 710,
+      "mainWords": 812,
       "title": "Baustellenreinigung in Stavern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/stavern/buero-praxisreinigung",
-      "mainWords": 730,
+      "mainWords": 829,
       "title": "Büro- & Praxisreinigung in Stavern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/stavern/dach-oberflaechenreinigung",
-      "mainWords": 718,
+      "mainWords": 814,
       "title": "Dach- & Oberflächenreinigung in Stavern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/stavern/glas-fensterreinigung",
-      "mainWords": 749,
+      "mainWords": 849,
       "title": "Glas- & Fensterreinigung in Stavern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/stavern/grund-sonderreinigung",
-      "mainWords": 741,
+      "mainWords": 836,
       "title": "Grund- & Sonderreinigung in Stavern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/stavern/hallen-gewerbereinigung",
-      "mainWords": 729,
+      "mainWords": 830,
       "title": "Hallen- & Gewerbeflächenreinigung in Stavern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/stavern/maschinen-anlagenreinigung",
-      "mainWords": 715,
+      "mainWords": 819,
       "title": "Maschinen- & Anlagenreinigung in Stavern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/stavern/polster-teppichreinigung",
-      "mainWords": 744,
+      "mainWords": 843,
       "title": "Polster- & Teppichreinigung in Stavern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/stavern/pv-anlagen-reinigung",
-      "mainWords": 711,
+      "mainWords": 807,
       "title": "PV-Anlagen-Reinigung in Stavern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/stavern/treppenhausreinigung",
-      "mainWords": 737,
+      "mainWords": 840,
       "title": "Treppenhausreinigung in Stavern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/stavern/unterhaltsreinigung",
-      "mainWords": 739,
+      "mainWords": 841,
       "title": "Unterhaltsreinigung in Stavern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/stavern",
-      "mainWords": 725,
+      "mainWords": 721,
       "title": "Gebäudereinigung in Stavern | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/suedbrookmerland/baustellenreinigung",
-      "mainWords": 730,
+      "mainWords": 832,
       "title": "Baustellenreinigung in Südbrookmerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/suedbrookmerland/buero-praxisreinigung",
-      "mainWords": 765,
+      "mainWords": 864,
       "title": "Büro- & Praxisreinigung in Südbrookmerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/suedbrookmerland/dach-oberflaechenreinigung",
-      "mainWords": 747,
+      "mainWords": 843,
       "title": "Dach- & Oberflächenreinigung in Südbrookmerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/suedbrookmerland/glas-fensterreinigung",
-      "mainWords": 778,
+      "mainWords": 878,
       "title": "Glas- & Fensterreinigung in Südbrookmerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/suedbrookmerland/grund-sonderreinigung",
-      "mainWords": 756,
+      "mainWords": 851,
       "title": "Grund- & Sonderreinigung in Südbrookmerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/suedbrookmerland/hallen-gewerbereinigung",
-      "mainWords": 757,
+      "mainWords": 858,
       "title": "Hallen- & Gewerbeflächenreinigung in Südbrookmerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/suedbrookmerland/maschinen-anlagenreinigung",
-      "mainWords": 770,
+      "mainWords": 874,
       "title": "Maschinen- & Anlagenreinigung in Südbrookmerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/suedbrookmerland/polster-teppichreinigung",
-      "mainWords": 747,
+      "mainWords": 846,
       "title": "Polster- & Teppichreinigung in Südbrookmerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/suedbrookmerland/pv-anlagen-reinigung",
-      "mainWords": 725,
+      "mainWords": 821,
       "title": "PV-Anlagen-Reinigung in Südbrookmerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/suedbrookmerland/treppenhausreinigung",
-      "mainWords": 751,
+      "mainWords": 854,
       "title": "Treppenhausreinigung in Südbrookmerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/suedbrookmerland/unterhaltsreinigung",
-      "mainWords": 758,
+      "mainWords": 860,
       "title": "Unterhaltsreinigung in Südbrookmerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/suedbrookmerland",
-      "mainWords": 723,
+      "mainWords": 719,
       "title": "Gebäudereinigung in Südbrookmerland | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/surwold/baustellenreinigung",
-      "mainWords": 703,
+      "mainWords": 805,
       "title": "Baustellenreinigung in Surwold | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/surwold/buero-praxisreinigung",
-      "mainWords": 733,
+      "mainWords": 832,
       "title": "Büro- & Praxisreinigung in Surwold | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/surwold/dach-oberflaechenreinigung",
-      "mainWords": 760,
+      "mainWords": 856,
       "title": "Dach- & Oberflächenreinigung in Surwold | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/surwold/glas-fensterreinigung",
-      "mainWords": 733,
+      "mainWords": 833,
       "title": "Glas- & Fensterreinigung in Surwold | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/surwold/grund-sonderreinigung",
-      "mainWords": 748,
+      "mainWords": 843,
       "title": "Grund- & Sonderreinigung in Surwold | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/surwold/hallen-gewerbereinigung",
-      "mainWords": 720,
+      "mainWords": 821,
       "title": "Hallen- & Gewerbeflächenreinigung in Surwold | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/surwold/maschinen-anlagenreinigung",
-      "mainWords": 701,
+      "mainWords": 805,
       "title": "Maschinen- & Anlagenreinigung in Surwold | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/surwold/polster-teppichreinigung",
-      "mainWords": 724,
+      "mainWords": 823,
       "title": "Polster- & Teppichreinigung in Surwold | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/surwold/pv-anlagen-reinigung",
-      "mainWords": 749,
+      "mainWords": 845,
       "title": "PV-Anlagen-Reinigung in Surwold | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/surwold/treppenhausreinigung",
-      "mainWords": 717,
+      "mainWords": 820,
       "title": "Treppenhausreinigung in Surwold | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/surwold/unterhaltsreinigung",
-      "mainWords": 724,
+      "mainWords": 826,
       "title": "Unterhaltsreinigung in Surwold | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/surwold",
-      "mainWords": 716,
+      "mainWords": 711,
       "title": "Gebäudereinigung in Surwold | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/sustrum/baustellenreinigung",
-      "mainWords": 713,
+      "mainWords": 815,
       "title": "Baustellenreinigung in Sustrum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/sustrum/buero-praxisreinigung",
-      "mainWords": 733,
+      "mainWords": 832,
       "title": "Büro- & Praxisreinigung in Sustrum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/sustrum/dach-oberflaechenreinigung",
-      "mainWords": 721,
+      "mainWords": 817,
       "title": "Dach- & Oberflächenreinigung in Sustrum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/sustrum/glas-fensterreinigung",
-      "mainWords": 752,
+      "mainWords": 852,
       "title": "Glas- & Fensterreinigung in Sustrum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/sustrum/grund-sonderreinigung",
-      "mainWords": 744,
+      "mainWords": 839,
       "title": "Grund- & Sonderreinigung in Sustrum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/sustrum/hallen-gewerbereinigung",
-      "mainWords": 732,
+      "mainWords": 833,
       "title": "Hallen- & Gewerbeflächenreinigung in Sustrum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/sustrum/maschinen-anlagenreinigung",
-      "mainWords": 718,
+      "mainWords": 822,
       "title": "Maschinen- & Anlagenreinigung in Sustrum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/sustrum/polster-teppichreinigung",
-      "mainWords": 747,
+      "mainWords": 846,
       "title": "Polster- & Teppichreinigung in Sustrum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/sustrum/pv-anlagen-reinigung",
-      "mainWords": 714,
+      "mainWords": 810,
       "title": "PV-Anlagen-Reinigung in Sustrum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/sustrum/treppenhausreinigung",
-      "mainWords": 740,
+      "mainWords": 843,
       "title": "Treppenhausreinigung in Sustrum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/sustrum/unterhaltsreinigung",
-      "mainWords": 742,
+      "mainWords": 844,
       "title": "Unterhaltsreinigung in Sustrum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/sustrum",
-      "mainWords": 732,
+      "mainWords": 728,
       "title": "Gebäudereinigung in Sustrum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/uplengen/baustellenreinigung",
-      "mainWords": 708,
+      "mainWords": 810,
       "title": "Baustellenreinigung in Uplengen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/uplengen/buero-praxisreinigung",
-      "mainWords": 728,
+      "mainWords": 827,
       "title": "Büro- & Praxisreinigung in Uplengen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/uplengen/dach-oberflaechenreinigung",
-      "mainWords": 716,
+      "mainWords": 812,
       "title": "Dach- & Oberflächenreinigung in Uplengen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/uplengen/glas-fensterreinigung",
-      "mainWords": 747,
+      "mainWords": 847,
       "title": "Glas- & Fensterreinigung in Uplengen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/uplengen/grund-sonderreinigung",
-      "mainWords": 739,
+      "mainWords": 834,
       "title": "Grund- & Sonderreinigung in Uplengen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/uplengen/hallen-gewerbereinigung",
-      "mainWords": 727,
+      "mainWords": 828,
       "title": "Hallen- & Gewerbeflächenreinigung in Uplengen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/uplengen/maschinen-anlagenreinigung",
-      "mainWords": 713,
+      "mainWords": 817,
       "title": "Maschinen- & Anlagenreinigung in Uplengen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/uplengen/polster-teppichreinigung",
-      "mainWords": 742,
+      "mainWords": 841,
       "title": "Polster- & Teppichreinigung in Uplengen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/uplengen/pv-anlagen-reinigung",
-      "mainWords": 709,
+      "mainWords": 805,
       "title": "PV-Anlagen-Reinigung in Uplengen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/uplengen/treppenhausreinigung",
-      "mainWords": 735,
+      "mainWords": 838,
       "title": "Treppenhausreinigung in Uplengen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/uplengen/unterhaltsreinigung",
-      "mainWords": 737,
+      "mainWords": 839,
       "title": "Unterhaltsreinigung in Uplengen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/uplengen",
-      "mainWords": 719,
+      "mainWords": 715,
       "title": "Gebäudereinigung in Uplengen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/varel/baustellenreinigung",
-      "mainWords": 729,
+      "mainWords": 831,
       "title": "Baustellenreinigung in Varel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/varel/buero-praxisreinigung",
-      "mainWords": 764,
+      "mainWords": 863,
       "title": "Büro- & Praxisreinigung in Varel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/varel/dach-oberflaechenreinigung",
-      "mainWords": 746,
+      "mainWords": 842,
       "title": "Dach- & Oberflächenreinigung in Varel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/varel/glas-fensterreinigung",
-      "mainWords": 777,
+      "mainWords": 877,
       "title": "Glas- & Fensterreinigung in Varel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/varel/grund-sonderreinigung",
-      "mainWords": 755,
+      "mainWords": 850,
       "title": "Grund- & Sonderreinigung in Varel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/varel/hallen-gewerbereinigung",
-      "mainWords": 756,
+      "mainWords": 857,
       "title": "Hallen- & Gewerbeflächenreinigung in Varel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/varel/maschinen-anlagenreinigung",
-      "mainWords": 769,
+      "mainWords": 873,
       "title": "Maschinen- & Anlagenreinigung in Varel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/varel/polster-teppichreinigung",
-      "mainWords": 746,
+      "mainWords": 845,
       "title": "Polster- & Teppichreinigung in Varel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/varel/pv-anlagen-reinigung",
-      "mainWords": 724,
+      "mainWords": 820,
       "title": "PV-Anlagen-Reinigung in Varel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/varel/treppenhausreinigung",
-      "mainWords": 750,
+      "mainWords": 853,
       "title": "Treppenhausreinigung in Varel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/varel/unterhaltsreinigung",
-      "mainWords": 757,
+      "mainWords": 859,
       "title": "Unterhaltsreinigung in Varel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/varel",
-      "mainWords": 732,
+      "mainWords": 727,
       "title": "Gebäudereinigung in Varel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/vrees/baustellenreinigung",
-      "mainWords": 765,
+      "mainWords": 867,
       "title": "Baustellenreinigung in Vrees | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/vrees/buero-praxisreinigung",
-      "mainWords": 715,
+      "mainWords": 814,
       "title": "Büro- & Praxisreinigung in Vrees | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/vrees/dach-oberflaechenreinigung",
-      "mainWords": 740,
+      "mainWords": 836,
       "title": "Dach- & Oberflächenreinigung in Vrees | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/vrees/glas-fensterreinigung",
-      "mainWords": 780,
+      "mainWords": 880,
       "title": "Glas- & Fensterreinigung in Vrees | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/vrees/grund-sonderreinigung",
-      "mainWords": 770,
+      "mainWords": 865,
       "title": "Grund- & Sonderreinigung in Vrees | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/vrees/hallen-gewerbereinigung",
-      "mainWords": 771,
+      "mainWords": 872,
       "title": "Hallen- & Gewerbeflächenreinigung in Vrees | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/vrees/maschinen-anlagenreinigung",
-      "mainWords": 775,
+      "mainWords": 879,
       "title": "Maschinen- & Anlagenreinigung in Vrees | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/vrees/polster-teppichreinigung",
-      "mainWords": 756,
+      "mainWords": 855,
       "title": "Polster- & Teppichreinigung in Vrees | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/vrees/pv-anlagen-reinigung",
-      "mainWords": 730,
+      "mainWords": 826,
       "title": "PV-Anlagen-Reinigung in Vrees | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/vrees/treppenhausreinigung",
-      "mainWords": 757,
+      "mainWords": 860,
       "title": "Treppenhausreinigung in Vrees | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/vrees/unterhaltsreinigung",
-      "mainWords": 704,
+      "mainWords": 806,
       "title": "Unterhaltsreinigung in Vrees | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/vrees",
-      "mainWords": 723,
+      "mainWords": 720,
       "title": "Gebäudereinigung in Vrees | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/walchum/baustellenreinigung",
-      "mainWords": 765,
+      "mainWords": 867,
       "title": "Baustellenreinigung in Walchum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/walchum/buero-praxisreinigung",
-      "mainWords": 715,
+      "mainWords": 814,
       "title": "Büro- & Praxisreinigung in Walchum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/walchum/dach-oberflaechenreinigung",
-      "mainWords": 740,
+      "mainWords": 836,
       "title": "Dach- & Oberflächenreinigung in Walchum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/walchum/glas-fensterreinigung",
-      "mainWords": 780,
+      "mainWords": 880,
       "title": "Glas- & Fensterreinigung in Walchum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/walchum/grund-sonderreinigung",
-      "mainWords": 770,
+      "mainWords": 865,
       "title": "Grund- & Sonderreinigung in Walchum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/walchum/hallen-gewerbereinigung",
-      "mainWords": 771,
+      "mainWords": 872,
       "title": "Hallen- & Gewerbeflächenreinigung in Walchum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/walchum/maschinen-anlagenreinigung",
-      "mainWords": 775,
+      "mainWords": 879,
       "title": "Maschinen- & Anlagenreinigung in Walchum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/walchum/polster-teppichreinigung",
-      "mainWords": 756,
+      "mainWords": 855,
       "title": "Polster- & Teppichreinigung in Walchum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/walchum/pv-anlagen-reinigung",
-      "mainWords": 730,
+      "mainWords": 826,
       "title": "PV-Anlagen-Reinigung in Walchum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/walchum/treppenhausreinigung",
-      "mainWords": 757,
+      "mainWords": 860,
       "title": "Treppenhausreinigung in Walchum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/walchum/unterhaltsreinigung",
-      "mainWords": 704,
+      "mainWords": 806,
       "title": "Unterhaltsreinigung in Walchum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/walchum",
-      "mainWords": 729,
+      "mainWords": 725,
       "title": "Gebäudereinigung in Walchum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wardenburg/baustellenreinigung",
-      "mainWords": 768,
+      "mainWords": 870,
       "title": "Baustellenreinigung in Wardenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wardenburg/buero-praxisreinigung",
-      "mainWords": 718,
+      "mainWords": 817,
       "title": "Büro- & Praxisreinigung in Wardenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wardenburg/dach-oberflaechenreinigung",
-      "mainWords": 743,
+      "mainWords": 839,
       "title": "Dach- & Oberflächenreinigung in Wardenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wardenburg/glas-fensterreinigung",
-      "mainWords": 783,
+      "mainWords": 883,
       "title": "Glas- & Fensterreinigung in Wardenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wardenburg/grund-sonderreinigung",
-      "mainWords": 773,
+      "mainWords": 868,
       "title": "Grund- & Sonderreinigung in Wardenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wardenburg/hallen-gewerbereinigung",
-      "mainWords": 774,
+      "mainWords": 875,
       "title": "Hallen- & Gewerbeflächenreinigung in Wardenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wardenburg/maschinen-anlagenreinigung",
-      "mainWords": 778,
+      "mainWords": 882,
       "title": "Maschinen- & Anlagenreinigung in Wardenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wardenburg/polster-teppichreinigung",
-      "mainWords": 759,
+      "mainWords": 858,
       "title": "Polster- & Teppichreinigung in Wardenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wardenburg/pv-anlagen-reinigung",
-      "mainWords": 733,
+      "mainWords": 829,
       "title": "PV-Anlagen-Reinigung in Wardenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wardenburg/treppenhausreinigung",
-      "mainWords": 760,
+      "mainWords": 863,
       "title": "Treppenhausreinigung in Wardenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wardenburg/unterhaltsreinigung",
-      "mainWords": 707,
+      "mainWords": 809,
       "title": "Unterhaltsreinigung in Wardenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wardenburg",
-      "mainWords": 723,
+      "mainWords": 720,
       "title": "Gebäudereinigung in Wardenburg | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/weener/baustellenreinigung",
-      "mainWords": 763,
+      "mainWords": 865,
       "title": "Baustellenreinigung in Weener | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/weener/buero-praxisreinigung",
-      "mainWords": 713,
+      "mainWords": 812,
       "title": "Büro- & Praxisreinigung in Weener | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/weener/dach-oberflaechenreinigung",
-      "mainWords": 738,
+      "mainWords": 834,
       "title": "Dach- & Oberflächenreinigung in Weener | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/weener/glas-fensterreinigung",
-      "mainWords": 778,
+      "mainWords": 878,
       "title": "Glas- & Fensterreinigung in Weener | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/weener/grund-sonderreinigung",
-      "mainWords": 768,
+      "mainWords": 863,
       "title": "Grund- & Sonderreinigung in Weener | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/weener/hallen-gewerbereinigung",
-      "mainWords": 769,
+      "mainWords": 870,
       "title": "Hallen- & Gewerbeflächenreinigung in Weener | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/weener/maschinen-anlagenreinigung",
-      "mainWords": 773,
+      "mainWords": 877,
       "title": "Maschinen- & Anlagenreinigung in Weener | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/weener/polster-teppichreinigung",
-      "mainWords": 754,
+      "mainWords": 853,
       "title": "Polster- & Teppichreinigung in Weener | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/weener/pv-anlagen-reinigung",
-      "mainWords": 728,
+      "mainWords": 824,
       "title": "PV-Anlagen-Reinigung in Weener | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/weener/treppenhausreinigung",
-      "mainWords": 755,
+      "mainWords": 858,
       "title": "Treppenhausreinigung in Weener | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/weener/unterhaltsreinigung",
-      "mainWords": 702,
+      "mainWords": 804,
       "title": "Unterhaltsreinigung in Weener | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/weener",
-      "mainWords": 716,
+      "mainWords": 713,
       "title": "Gebäudereinigung in Weener | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werlte/baustellenreinigung",
-      "mainWords": 726,
+      "mainWords": 828,
       "title": "Baustellenreinigung in Werlte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werlte/buero-praxisreinigung",
-      "mainWords": 761,
+      "mainWords": 860,
       "title": "Büro- & Praxisreinigung in Werlte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werlte/dach-oberflaechenreinigung",
-      "mainWords": 743,
+      "mainWords": 839,
       "title": "Dach- & Oberflächenreinigung in Werlte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werlte/glas-fensterreinigung",
-      "mainWords": 774,
+      "mainWords": 874,
       "title": "Glas- & Fensterreinigung in Werlte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werlte/grund-sonderreinigung",
-      "mainWords": 752,
+      "mainWords": 847,
       "title": "Grund- & Sonderreinigung in Werlte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werlte/hallen-gewerbereinigung",
-      "mainWords": 753,
+      "mainWords": 854,
       "title": "Hallen- & Gewerbeflächenreinigung in Werlte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werlte/maschinen-anlagenreinigung",
-      "mainWords": 766,
+      "mainWords": 870,
       "title": "Maschinen- & Anlagenreinigung in Werlte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werlte/polster-teppichreinigung",
-      "mainWords": 743,
+      "mainWords": 842,
       "title": "Polster- & Teppichreinigung in Werlte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werlte/pv-anlagen-reinigung",
-      "mainWords": 721,
+      "mainWords": 817,
       "title": "PV-Anlagen-Reinigung in Werlte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werlte/treppenhausreinigung",
-      "mainWords": 747,
+      "mainWords": 850,
       "title": "Treppenhausreinigung in Werlte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werlte/unterhaltsreinigung",
-      "mainWords": 754,
+      "mainWords": 856,
       "title": "Unterhaltsreinigung in Werlte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werlte",
-      "mainWords": 724,
+      "mainWords": 720,
       "title": "Gebäudereinigung in Werlte | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werpeloh/baustellenreinigung",
-      "mainWords": 708,
+      "mainWords": 810,
       "title": "Baustellenreinigung in Werpeloh | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werpeloh/buero-praxisreinigung",
-      "mainWords": 728,
+      "mainWords": 827,
       "title": "Büro- & Praxisreinigung in Werpeloh | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werpeloh/dach-oberflaechenreinigung",
-      "mainWords": 716,
+      "mainWords": 812,
       "title": "Dach- & Oberflächenreinigung in Werpeloh | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werpeloh/glas-fensterreinigung",
-      "mainWords": 747,
+      "mainWords": 847,
       "title": "Glas- & Fensterreinigung in Werpeloh | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werpeloh/grund-sonderreinigung",
-      "mainWords": 739,
+      "mainWords": 834,
       "title": "Grund- & Sonderreinigung in Werpeloh | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werpeloh/hallen-gewerbereinigung",
-      "mainWords": 727,
+      "mainWords": 828,
       "title": "Hallen- & Gewerbeflächenreinigung in Werpeloh | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werpeloh/maschinen-anlagenreinigung",
-      "mainWords": 713,
+      "mainWords": 817,
       "title": "Maschinen- & Anlagenreinigung in Werpeloh | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werpeloh/polster-teppichreinigung",
-      "mainWords": 742,
+      "mainWords": 841,
       "title": "Polster- & Teppichreinigung in Werpeloh | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werpeloh/pv-anlagen-reinigung",
-      "mainWords": 709,
+      "mainWords": 805,
       "title": "PV-Anlagen-Reinigung in Werpeloh | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werpeloh/treppenhausreinigung",
-      "mainWords": 735,
+      "mainWords": 838,
       "title": "Treppenhausreinigung in Werpeloh | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werpeloh/unterhaltsreinigung",
-      "mainWords": 737,
+      "mainWords": 839,
       "title": "Unterhaltsreinigung in Werpeloh | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/werpeloh",
-      "mainWords": 727,
+      "mainWords": 723,
       "title": "Gebäudereinigung in Werpeloh | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westerstede/baustellenreinigung",
-      "mainWords": 760,
+      "mainWords": 862,
       "title": "Baustellenreinigung in Westerstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westerstede/buero-praxisreinigung",
-      "mainWords": 760,
+      "mainWords": 859,
       "title": "Büro- & Praxisreinigung in Westerstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westerstede/dach-oberflaechenreinigung",
-      "mainWords": 750,
+      "mainWords": 846,
       "title": "Dach- & Oberflächenreinigung in Westerstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westerstede/glas-fensterreinigung",
-      "mainWords": 772,
+      "mainWords": 872,
       "title": "Glas- & Fensterreinigung in Westerstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westerstede/grund-sonderreinigung",
-      "mainWords": 750,
+      "mainWords": 845,
       "title": "Grund- & Sonderreinigung in Westerstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westerstede/hallen-gewerbereinigung",
-      "mainWords": 738,
+      "mainWords": 839,
       "title": "Hallen- & Gewerbeflächenreinigung in Westerstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westerstede/maschinen-anlagenreinigung",
-      "mainWords": 724,
+      "mainWords": 828,
       "title": "Maschinen- & Anlagenreinigung in Westerstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westerstede/polster-teppichreinigung",
-      "mainWords": 750,
+      "mainWords": 849,
       "title": "Polster- & Teppichreinigung in Westerstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westerstede/pv-anlagen-reinigung",
-      "mainWords": 742,
+      "mainWords": 838,
       "title": "PV-Anlagen-Reinigung in Westerstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westerstede/treppenhausreinigung",
-      "mainWords": 738,
+      "mainWords": 841,
       "title": "Treppenhausreinigung in Westerstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westerstede/unterhaltsreinigung",
-      "mainWords": 748,
+      "mainWords": 850,
       "title": "Unterhaltsreinigung in Westerstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westerstede",
-      "mainWords": 725,
+      "mainWords": 722,
       "title": "Gebäudereinigung in Westerstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westoverledingen/baustellenreinigung",
-      "mainWords": 760,
+      "mainWords": 862,
       "title": "Baustellenreinigung in Westoverledingen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westoverledingen/buero-praxisreinigung",
-      "mainWords": 710,
+      "mainWords": 809,
       "title": "Büro- & Praxisreinigung in Westoverledingen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westoverledingen/dach-oberflaechenreinigung",
-      "mainWords": 735,
+      "mainWords": 831,
       "title": "Dach- & Oberflächenreinigung in Westoverledingen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westoverledingen/glas-fensterreinigung",
-      "mainWords": 775,
+      "mainWords": 875,
       "title": "Glas- & Fensterreinigung in Westoverledingen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westoverledingen/grund-sonderreinigung",
-      "mainWords": 765,
+      "mainWords": 860,
       "title": "Grund- & Sonderreinigung in Westoverledingen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westoverledingen/hallen-gewerbereinigung",
-      "mainWords": 766,
+      "mainWords": 867,
       "title": "Hallen- & Gewerbeflächenreinigung in Westoverledingen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westoverledingen/maschinen-anlagenreinigung",
-      "mainWords": 770,
+      "mainWords": 874,
       "title": "Maschinen- & Anlagenreinigung in Westoverledingen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westoverledingen/polster-teppichreinigung",
-      "mainWords": 751,
+      "mainWords": 850,
       "title": "Polster- & Teppichreinigung in Westoverledingen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westoverledingen/pv-anlagen-reinigung",
-      "mainWords": 725,
+      "mainWords": 821,
       "title": "PV-Anlagen-Reinigung in Westoverledingen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westoverledingen/treppenhausreinigung",
-      "mainWords": 752,
+      "mainWords": 855,
       "title": "Treppenhausreinigung in Westoverledingen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westoverledingen/unterhaltsreinigung",
-      "mainWords": 699,
+      "mainWords": 801,
       "title": "Unterhaltsreinigung in Westoverledingen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/westoverledingen",
-      "mainWords": 713,
+      "mainWords": 709,
       "title": "Gebäudereinigung in Westoverledingen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiefelstede/baustellenreinigung",
-      "mainWords": 708,
+      "mainWords": 810,
       "title": "Baustellenreinigung in Wiefelstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiefelstede/buero-praxisreinigung",
-      "mainWords": 738,
+      "mainWords": 837,
       "title": "Büro- & Praxisreinigung in Wiefelstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiefelstede/dach-oberflaechenreinigung",
-      "mainWords": 765,
+      "mainWords": 861,
       "title": "Dach- & Oberflächenreinigung in Wiefelstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiefelstede/glas-fensterreinigung",
-      "mainWords": 738,
+      "mainWords": 838,
       "title": "Glas- & Fensterreinigung in Wiefelstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiefelstede/grund-sonderreinigung",
-      "mainWords": 753,
+      "mainWords": 848,
       "title": "Grund- & Sonderreinigung in Wiefelstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiefelstede/hallen-gewerbereinigung",
-      "mainWords": 725,
+      "mainWords": 826,
       "title": "Hallen- & Gewerbeflächenreinigung in Wiefelstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiefelstede/maschinen-anlagenreinigung",
-      "mainWords": 706,
+      "mainWords": 810,
       "title": "Maschinen- & Anlagenreinigung in Wiefelstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiefelstede/polster-teppichreinigung",
-      "mainWords": 729,
+      "mainWords": 828,
       "title": "Polster- & Teppichreinigung in Wiefelstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiefelstede/pv-anlagen-reinigung",
-      "mainWords": 754,
+      "mainWords": 850,
       "title": "PV-Anlagen-Reinigung in Wiefelstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiefelstede/treppenhausreinigung",
-      "mainWords": 722,
+      "mainWords": 825,
       "title": "Treppenhausreinigung in Wiefelstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiefelstede/unterhaltsreinigung",
-      "mainWords": 729,
+      "mainWords": 831,
       "title": "Unterhaltsreinigung in Wiefelstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiefelstede",
-      "mainWords": 726,
+      "mainWords": 723,
       "title": "Gebäudereinigung in Wiefelstede | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiesmoor/baustellenreinigung",
-      "mainWords": 732,
+      "mainWords": 834,
       "title": "Baustellenreinigung in Wiesmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiesmoor/buero-praxisreinigung",
-      "mainWords": 767,
+      "mainWords": 866,
       "title": "Büro- & Praxisreinigung in Wiesmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiesmoor/dach-oberflaechenreinigung",
-      "mainWords": 749,
+      "mainWords": 845,
       "title": "Dach- & Oberflächenreinigung in Wiesmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiesmoor/glas-fensterreinigung",
-      "mainWords": 780,
+      "mainWords": 880,
       "title": "Glas- & Fensterreinigung in Wiesmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiesmoor/grund-sonderreinigung",
-      "mainWords": 758,
+      "mainWords": 853,
       "title": "Grund- & Sonderreinigung in Wiesmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiesmoor/hallen-gewerbereinigung",
-      "mainWords": 759,
+      "mainWords": 860,
       "title": "Hallen- & Gewerbeflächenreinigung in Wiesmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiesmoor/maschinen-anlagenreinigung",
-      "mainWords": 772,
+      "mainWords": 876,
       "title": "Maschinen- & Anlagenreinigung in Wiesmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiesmoor/polster-teppichreinigung",
-      "mainWords": 749,
+      "mainWords": 848,
       "title": "Polster- & Teppichreinigung in Wiesmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiesmoor/pv-anlagen-reinigung",
-      "mainWords": 727,
+      "mainWords": 823,
       "title": "PV-Anlagen-Reinigung in Wiesmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiesmoor/treppenhausreinigung",
-      "mainWords": 753,
+      "mainWords": 856,
       "title": "Treppenhausreinigung in Wiesmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiesmoor/unterhaltsreinigung",
-      "mainWords": 760,
+      "mainWords": 862,
       "title": "Unterhaltsreinigung in Wiesmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/wiesmoor",
-      "mainWords": 724,
+      "mainWords": 720,
       "title": "Gebäudereinigung in Wiesmoor | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/zetel/baustellenreinigung",
-      "mainWords": 709,
+      "mainWords": 811,
       "title": "Baustellenreinigung in Zetel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/zetel/buero-praxisreinigung",
-      "mainWords": 729,
+      "mainWords": 828,
       "title": "Büro- & Praxisreinigung in Zetel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/zetel/dach-oberflaechenreinigung",
-      "mainWords": 717,
+      "mainWords": 813,
       "title": "Dach- & Oberflächenreinigung in Zetel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/zetel/glas-fensterreinigung",
-      "mainWords": 748,
+      "mainWords": 848,
       "title": "Glas- & Fensterreinigung in Zetel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/zetel/grund-sonderreinigung",
-      "mainWords": 740,
+      "mainWords": 835,
       "title": "Grund- & Sonderreinigung in Zetel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/zetel/hallen-gewerbereinigung",
-      "mainWords": 728,
+      "mainWords": 829,
       "title": "Hallen- & Gewerbeflächenreinigung in Zetel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/zetel/maschinen-anlagenreinigung",
-      "mainWords": 714,
+      "mainWords": 818,
       "title": "Maschinen- & Anlagenreinigung in Zetel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/zetel/polster-teppichreinigung",
-      "mainWords": 743,
+      "mainWords": 842,
       "title": "Polster- & Teppichreinigung in Zetel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/zetel/pv-anlagen-reinigung",
-      "mainWords": 710,
+      "mainWords": 806,
       "title": "PV-Anlagen-Reinigung in Zetel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/zetel/treppenhausreinigung",
-      "mainWords": 736,
+      "mainWords": 839,
       "title": "Treppenhausreinigung in Zetel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/zetel/unterhaltsreinigung",
-      "mainWords": 738,
+      "mainWords": 840,
       "title": "Unterhaltsreinigung in Zetel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/zetel",
-      "mainWords": 721,
+      "mainWords": 716,
       "title": "Gebäudereinigung in Zetel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete",
-      "mainWords": 1451,
+      "mainWords": 1463,
       "title": "Städte & Einsatzgebiete rund um Saterland | ERLEDIGT TEAM"
     },
     {
       "route": "/impressum",
-      "mainWords": 359,
+      "mainWords": 358,
       "title": "Impressum | ERLEDIGT TEAM"
     },
     {
       "route": "/",
-      "mainWords": 679,
+      "mainWords": 813,
       "title": "ERLEDIGT TEAM | Gebäudereinigung in Saterland & Umgebung"
     },
     {
       "route": "/leistungen/baustellenreinigung",
-      "mainWords": 613,
+      "mainWords": 688,
       "title": "Baustellenreinigung in Saterland & Umgebung | ERLEDIGT TEAM"
     },
     {
       "route": "/leistungen/buero-praxisreinigung",
-      "mainWords": 593,
+      "mainWords": 665,
       "title": "Büro- & Praxisreinigung in Saterland & Umgebung | ERLEDIGT TEAM"
     },
     {
       "route": "/leistungen/dach-oberflaechenreinigung",
-      "mainWords": 596,
+      "mainWords": 665,
       "title": "Dach- & Oberflächenreinigung in Saterland & Umgebung | ERLEDIGT TEAM"
     },
     {
       "route": "/leistungen/glas-fensterreinigung",
-      "mainWords": 616,
+      "mainWords": 689,
       "title": "Glas- & Fensterreinigung in Saterland & Umgebung | ERLEDIGT TEAM"
     },
     {
       "route": "/leistungen/grund-sonderreinigung",
-      "mainWords": 600,
+      "mainWords": 668,
       "title": "Grund- & Sonderreinigung in Saterland & Umgebung | ERLEDIGT TEAM"
     },
     {
       "route": "/leistungen/hallen-gewerbereinigung",
-      "mainWords": 616,
+      "mainWords": 690,
       "title": "Hallen- & Gewerbeflächenreinigung in Saterland & Umgebung | ERLEDIGT TEAM"
     },
     {
       "route": "/leistungen/maschinen-anlagenreinigung",
-      "mainWords": 609,
+      "mainWords": 686,
       "title": "Maschinen- & Anlagenreinigung in Saterland & Umgebung | ERLEDIGT TEAM"
     },
     {
       "route": "/leistungen/polster-teppichreinigung",
-      "mainWords": 613,
+      "mainWords": 685,
       "title": "Polster- & Teppichreinigung in Saterland & Umgebung | ERLEDIGT TEAM"
     },
     {
       "route": "/leistungen/pv-anlagen-reinigung",
-      "mainWords": 595,
+      "mainWords": 664,
       "title": "PV-Anlagen-Reinigung in Saterland & Umgebung | ERLEDIGT TEAM"
     },
     {
       "route": "/leistungen/treppenhausreinigung",
-      "mainWords": 595,
+      "mainWords": 671,
       "title": "Treppenhausreinigung in Saterland & Umgebung | ERLEDIGT TEAM"
     },
     {
       "route": "/leistungen/unterhaltsreinigung",
-      "mainWords": 604,
+      "mainWords": 679,
       "title": "Unterhaltsreinigung in Saterland & Umgebung | ERLEDIGT TEAM"
     },
     {

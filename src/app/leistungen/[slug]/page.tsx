@@ -4,6 +4,7 @@ import { Breadcrumb, ClosingCta, Eyebrow, FaqList, JsonLd } from '@/components/S
 import { Icon } from '@/components/Icon';
 import { services, cities, serviceBySlug } from '@/lib/content';
 import { site } from '@/lib/site';
+import { ServiceVisual, ServiceDecision } from '@/components/ServiceVisual';
 export const dynamicParams = false;
 export function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }));
@@ -43,30 +44,17 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
             </a>
           </div>
         </div>
-        <aside className="quick-panel">
-          <span className="service-icon">
-            <Icon name={s.icon} size={29} />
-          </span>
-          <h2>Gut vorbereitet starten.</h2>
-          <ul className="check-list">
-            {(s.formHints.length
-              ? s.formHints
-              : ['Art und Größe der Fläche', 'Ort und Erreichbarkeit', 'Gewünschter Termin']
-            ).map((x) => (
-              <li key={x}>
-                <Icon name="Check" size={18} />
-                {x}
-              </li>
-            ))}
-          </ul>
-          <p>Keine genauen Maße zur Hand? Eine grobe Einschätzung reicht für den ersten Kontakt.</p>
-        </aside>
+        <ServiceVisual slug={s.slug} eager />
       </section>
+      <ServiceDecision service={s} href={href} />
       <section className="section surface-alt">
         <div className="wrap article-layout">
-          <article className="article-content">
+          <article className="article-content editorial-chapters">
             {s.sections.map((sec, i) => (
               <section id={`abschnitt-${i}`} key={sec.title}>
+                <span className="chapter-number" aria-hidden="true">
+                  0{i + 1}
+                </span>
                 <h2>{sec.title}</h2>
                 {sec.body.split('\n\n').map((p, j) => (
                   <p key={j}>{p}</p>

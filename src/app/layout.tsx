@@ -12,6 +12,7 @@ import {
   ConsentAndTracking,
 } from '@/components/SiteChrome';
 import { site } from '@/lib/site';
+import { ContactDock } from '@/components/ContactDock';
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
@@ -63,6 +64,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main">{children}</main>
         <SiteFooter />
         <MobileContactBar />
+        <ContactDock />
         <ConsentAndTracking />
       </body>
     </html>

@@ -1,73 +1,58 @@
 # Launch runbook
 
-## Existing resources
+## Resources
 
-- GitHub: `Exxd00/erledigt-team.de`, branch `main`.
-- Vercel Hobby: `erledigt-teamde/erledigt-team.de`. Stay on this host and plan; no paid upgrade.
-- Current implementation deployment: `fecd975`, Ready. The enabled daily Cron Job is verified in
-  Vercel's panel at `/api/internal/retry`, 05:00 UTC. Immediate event persistence was verified live.
-- Production domain: https://erledigt-team.de. Both root and www show Valid Configuration;
-  www is a 308 redirect to root. Checkdomain website DNS is applied; Microsoft 365 mail is preserved.
-- Supabase: `evefmhpnaqprergslqfr`, London, Free. Four tables with RLS and service-only RPC access.
-- Google Sheet: `1bHaLp8KEP-AjMfPA7p0gToRlajS27d6zDJmcbZDOOig`. Tabs Anfragen, Ereignisse,
-  Zustellung and Hinweise have frozen colored headers, filters and an inquiry-status dropdown.
-- Apps Script: `ERLEDIGT TEAM – Anfrage & Ereignisse`, project
-  `18uks7sjjJFBQv2QIAVaQFOsYSlFO9Z_PhWDrXDHisrTeIq9-DvvVdRvo`, under the existing Sheet account.
-  Spreadsheet ID and webhook token are configured. Authorization and deployment are pending.
-- Resend: `erledigt-team.de`, Ireland (eu-west-1). Sender records are prepared, not yet applied.
-- ImgBB: the supplied logo and two generated website images are uploaded. URLs and local fallbacks
-  are in `src/lib/assets.ts`. This integration does not upload customer photos or need a runtime key.
+- GitHub: Exxd00/erledigt-team.de, main.
+- Vercel Hobby: erledigt-teamde/erledigt-team.de. No paid upgrade authorized or required by this work.
+- Canonical host: https://erledigt-team.de; www redirects permanently with HTTP 308.
+- Supabase: evefmhpnaqprergslqfr, London Free. Four RLS-protected tables and service-only RPCs.
+- Google Sheet: 1bHaLp8KEP-AjMfPA7p0gToRlajS27d6zDJmcbZDOOig, private under the existing IXA account.
+  Anfragen, Ereignisse, Zustellung and Hinweise have frozen colored headers and filters.
+- Apps Script project: 18uks7sjjJFBQv2QIAVaQFOsYSlFO9Z_PhWDrXDHisrTeIq9-DvvVdRvo.
+  Version 3 deployed October 8. Spreadsheet ID and webhook token are configured; exact record IDs
+  are acknowledged. Permission/deployment approval was completed by the owner.
+- Resend: erledigt-team.de, Ireland, verified. Sending-only domain-scoped key saved in Vercel.
+- ImgBB: eight public brand/illustration assets, with local fallbacks; no customer-upload flow.
+- GA4: property 557969528, stream 16061549557, G-16V9Z8RTRS; settings in tracking.md.
+- Search Console: Domain property for erledigt-team.de prepared in erledigt.team.de@gmail.com.
+  Ownership TXT verification and the sitemap submission remain pending.
 
 ## Production environment
 
-Already stored as Production-only Vercel Secrets: `SUPABASE_SECRET_KEY`, `RATE_LIMIT_SECRET`,
-`SHEETS_WEBHOOK_TOKEN` and `CRON_SECRET`. Existing Supabase server access was used; no new key was
-created. Non-secret production configuration: `SUPABASE_URL`, `NEXT_PUBLIC_SITE_URL`,
-`NEXT_PUBLIC_LAUNCH_READY=false`, `LEAD_EMAIL_FROM` and `LEAD_EMAIL_TO`.
+Secrets: SUPABASE_SECRET_KEY, RATE_LIMIT_SECRET, SHEETS_WEBHOOK_TOKEN, CRON_SECRET and RESEND_API_KEY.
+Config: SUPABASE_URL, NEXT_PUBLIC_SITE_URL, NEXT_PUBLIC_LAUNCH_READY, LEAD_EMAIL_FROM,
+LEAD_EMAIL_TO, SHEETS_WEBHOOK_URL and NEXT_PUBLIC_GA_ID. All are scoped to Production.
+New environment values only take effect with a new deployment. Never put secrets in Preview,
+client variables, Git, screenshots or reports.
 
-Still required: `SHEETS_WEBHOOK_URL` and a domain-restricted `RESEND_API_KEY`. GA4 is optional and is
-not configured; consented first-party events have their own database and Sheet pipeline.
-Environment changes require a new deployment. Keep production secrets out of Preview, client
-variables, logs, screenshots, the repository and this document.
+The current refresh is prepared for NEXT_PUBLIC_LAUNCH_READY=true. It enables indexing and inquiry
+submission only when database and delivery settings are also present. Check /api/health after the
+new deployment. Preserve Microsoft 365 mail DNS while adding any Search Console TXT record.
 
-## Remaining connection steps
+## Final live checks
 
-1. Complete the pending action-time approval for Apps Script's Sheets permission and Resend sending
-   access. Google grants a Sheets-wide scope, while the script opens only the configured Sheet.
-2. Save the current `integrations/google-apps-script/Code.gs` and manifest in the existing project.
-   Deploy the web app executing as its owner, accessible to requests with the server-held token.
-   Invalid tokens are rejected. Store its `/exec` URL in the Vercel production environment.
-3. Apply the exact prepared Resend records in checkdomain after approval, preserving Microsoft 365
-   MX/SPF and nameservers. Verify the domain and create a Sending-only key restricted to this domain.
-   Save that key as a Vercel Production Secret. Disable open/click tracking for internal notifications.
-4. Verify that `info@erledigt-team.de` receives mail. Public Microsoft 365 MX records alone do not
-   establish that the individual mailbox exists. The authorized test must be clearly labelled.
-5. Complete the factual processor, retention and transfer disclosures. Keep GA4 disabled unless its
-   actual property configuration and disclosures are completed. Do not claim unverified contracts.
-6. Complete controlled delivery checks, then enable `NEXT_PUBLIC_LAUNCH_READY=true` and rebuild.
-   Until launch is ready, the public version keeps indexing and final form submission disabled.
-7. After launch, verify completion of a controlled retry. The confirmed daily Cron Job uses the secret Authorization
-   header, runs at 05:00 UTC within Hobby's scheduling window, and does nothing before launch.
-   Immediate delivery runs after each accepted request; the daily job only retries queued failures.
-   An authenticated manual `POST /api/internal/retry` returns 202 for acceptance, not completion.
+The owner approved one clearly labelled TEST inquiry and notification to info@erledigt-team.de.
+Confirm one lead UUID, one Sheet inquiry row, corresponding delivery history, and both delivery
+jobs marked sent. Inspect Resend's recipient-server status; inbox reading remains an owner check.
+Verify consent refusal sends no optional analytics, approval sends events and generate_lead after
+save, and withdrawal stops subsequent collection. Verify live sitemap, robots, root canonical,
+HTTPS and www redirect. Keep QA records clearly labelled.
 
-## Verify the complete chain
+New jobs dispatch immediately. Vercel's enabled Hobby cron retries queued jobs at 05:00 UTC within
+the daily scheduling window. /api/internal/retry is protected by the cron bearer secret. Inspect
+the ten earlier labelled QA events and retry them without duplicating records. Supabase is the
+authoritative queue when Sheets is unavailable; the Zustellung audit mirror is best-effort.
 
-With the owner's pending test authorization, send one clearly labelled request to the business
-mailbox. Confirm its reference, one database lead, one inquiry row, actual email receipt and both
-delivery jobs marked sent. Repeat the same UUID and verify no duplicate inquiry. Exercise a retry
-with test configuration without removing real production secrets. Check the exact Sheet
-`record_id` acknowledgement for leads, events and delivery history.
+## Owner input at handoff
 
-Verify refusal creates no analytics records, consent records a journey, and withdrawal stops new
-collection. Phone clicks measure clicks, not completed calls. Inspect the mobile menu, search/filter
-combinations, prefilled forms, both themes, image fallbacks and keyboard operation. Finally check
-canonical host, sitemap, robots, HTTPS and www redirection.
+Complete Search Console ownership approval at the concrete verification step, then submit
+https://erledigt-team.de/sitemap.xml. Confirm whether the published telephone number accepts
+WhatsApp business messages before adding that channel. Authentic team/work photos and approved
+customer testimonials can strengthen proof when available; do not invent them.
 
 ## Verified public identity
 
 Ashraf Kadoura, trading as Erledigt-Team Gebäudeservice, Eschstraße 70, 26683 Saterland;
-VAT ID DE465229918; Gebäudereiniger in the directory of zulassungsfreie Handwerksbetriebe at
-Handwerkskammer Oldenburg. Telephone from the supplied brochure: +49 155 67451482.
-No private business-document scans or personal tax identifiers are committed. Do not invent
-opening hours, certifications, insurance, branches or customer reviews.
+VAT ID DE465229918; Gebäudereiniger registered with Handwerkskammer Oldenburg.
+Phone from supplied brochure: +49 155 67451482. Private scans and tax identifiers remain outside Git.
+No unconfirmed opening hours, insurance, certifications, branches or reviews are claimed.

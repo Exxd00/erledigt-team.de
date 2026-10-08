@@ -10,4 +10,9 @@ export const assets = {
     src: 'https://i.ibb.co/MkcQxsFh/solar-cleaning.webp',
     fallback: '/images/solar-cleaning.webp',
   },
+  office: { src: 'https://i.ibb.co/Z3DskzS/office-cleaning.webp', fallback: '/images/office-cleaning.webp' },
+  floor: { src: 'https://i.ibb.co/LLcQcHS/floor-cleaning.webp', fallback: '/images/floor-cleaning.webp' },
+  textile: { src: 'https://i.ibb.co/5xzkGdJ0/textile-cleaning.webp', fallback: '/images/textile-cleaning.webp' },
+  stairs: { src: 'https://i.ibb.co/fYpk2DBL/stairs-cleaning.webp', fallback: '/images/stairs-cleaning.webp' },
+  exterior: { src: 'https://i.ibb.co/4RQk9N8V/exterior-cleaning.webp', fallback: '/images/exterior-cleaning.webp' },
 } as const;

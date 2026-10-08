@@ -44,10 +44,20 @@ export function startGoogleAnalytics() {
     ad_personalization: 'denied',
   });
   w.gtag('js', new Date());
+  const campaign = attribution();
   w.gtag('config', id, {
     send_page_view: false,
     allow_google_signals: false,
     allow_ad_personalization_signals: false,
+    cookie_expires: 60 * 60 * 24 * 60,
+    cookie_update: false,
+    ...(campaign.source && campaign.source !== 'direct' && campaign.medium
+      ? {
+          campaign_source: campaign.source,
+          campaign_medium: campaign.medium,
+          ...(campaign.campaign ? { campaign_name: campaign.campaign } : {}),
+        }
+      : {}),
     page_location: location.origin + location.pathname,
     page_referrer: document.referrer ? new URL(document.referrer).origin : '',
   });
@@ -59,6 +69,9 @@ export function startGoogleAnalytics() {
 }
 export function revokeAnalytics() {
   const w = window as AnalyticsWindow;
+  const measurementId = process.env.NEXT_PUBLIC_GA_ID;
+  if (measurementId)
+    (window as unknown as Record<string, unknown>)[`ga-disable-${measurementId}`] = true;
   w.gtag?.('consent', 'update', {
     analytics_storage: 'denied',
     ad_storage: 'denied',
@@ -120,8 +133,9 @@ export function track(name: EventName, details: EventDetails = {}) {
       keepalive: true,
     }).catch(() => {});
     const w = window as Window & { gtag?: (...args: unknown[]) => void };
-    w.gtag?.('event', name, {
-      ...details,
+    const { lead_id: _internalLeadId, ...analyticsDetails } = details;
+    w.gtag?.('event', name === 'form_submit_success' ? 'generate_lead' : name, {
+      ...analyticsDetails,
       page_path: location.pathname,
       page_location: location.origin + location.pathname,
       page_referrer: document.referrer ? new URL(document.referrer).origin : '',

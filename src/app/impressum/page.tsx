@@ -57,8 +57,8 @@ export default function Page() {
           Eine Kontaktaufnahme über das Formular, per Telefon oder per E-Mail begründet noch keinen
           kostenpflichtigen Auftrag. Leistungsumfang, Voraussetzungen, Preis und Termin werden im
           Einzelfall abgestimmt. Eine verbindliche Zusage erfolgt erst nach entsprechender
-          Vereinbarung. Angaben zur Entfernung sind ungefähre Luftlinien zur Orientierung; die
-          tatsächliche Anfahrt hängt von der konkreten Objektadresse und Straßenverbindung ab.
+          Vereinbarung. Die Regionenübersicht dient der ersten Orientierung; die tatsächliche
+          Anfahrt hängt von der konkreten Objektadresse und Straßenverbindung ab.
         </p>
         <h2>Bilder und Gestaltung</h2>
         <p>
@@ -75,15 +75,14 @@ export default function Page() {
           Hinweis nachvollziehen können. Sensible persönliche Unterlagen sind für eine solche
           Rückmeldung nicht erforderlich.
         </p>
-        <h2>Umfang und Entfernungsangaben</h2>
+        <h2>Umfang und Einsatzgebiete</h2>
         <p>
           Maßgeblich für einen konkreten Auftrag sind die individuell vereinbarten Leistungen und
           Konditionen. Allgemeine Beschreibungen auf dieser Website dienen der Orientierung und
-          stellen keine Zusage für besondere Verfahren oder feste Ausführungszeiten dar.
-          Entfernungen zu Orten werden als ungefähre Luftlinie angegeben. Die tatsächliche
-          Fahrstrecke, der Zugang zum Objekt und mögliche Anfahrtskosten werden für die konkrete
-          Anfrage geprüft. Eine Ortsseite ersetzt deshalb keine individuelle Abstimmung über den
-          Einsatz.
+          stellen keine Zusage für besondere Verfahren oder feste Ausführungszeiten dar. Die
+          Ortsseiten benennen Städte und Gemeinden mit ihrer Umgebung. Die tatsächliche Fahrstrecke,
+          der Zugang zum Objekt und mögliche Anfahrtskosten werden für die konkrete Anfrage geprüft.
+          Eine Ortsseite ersetzt deshalb keine individuelle Abstimmung über den Einsatz.
         </p>
         <h2>Gesetzliche Grundlage</h2>
         <p>

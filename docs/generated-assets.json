@@ -1,0 +1,36 @@
+{
+  "method": "Built-in image_gen tool. Format conversion only; no edits to generated content.",
+  "created": "2026-10-08",
+  "assets": [
+    {
+      "name": "office",
+      "prompt": "Create one premium editorial photograph for a German local cleaning company website, landscape 3:2 composition, realistic crisp architectural photography. A bright modest contemporary office reception with warm oak furniture, frosted glass, a muted blue upholstered chair, tidy desks in the background, and a freshly cleaned matte floor. A cleaner seen only from torso down on the right, navy workwear and protective blue gloves, carefully wiping a reception desk with a pale blue microfiber cloth. Natural North German overcast daylight, palette navy #022C50, cool blue #58A1D3 and pale blue #B3DEF8 balanced with natural wood. Lived-in credible small business, not luxury fantasy. No faces, no text, no logos, no watermark, no fake certification, no exaggerated sparkles. Strong composition with desk foreground and daylight depth, realistic cloth and hand anatomy. Entire image artwork only, no website mockup.",
+      "source": "exec-a07c3d9a-3345-49a1-80bd-25f76341d049.png",
+      "saved": "public/images/office-cleaning.webp"
+    },
+    {
+      "name": "floor",
+      "prompt": "Create one photorealistic premium commercial editorial photograph, landscape 3:2, for a German cleaning company's industrial floor cleaning service. Spacious tidy modest warehouse with pale grey concrete floor, dark blue upright electric walk-behind floor scrubber being operated by a worker from behind in navy uniform and black non-slip shoes. Worker and machine are right of center, full equipment coherent realistic proportions, small shelving in distance, clean empty driving lanes, generous architectural depth. Overcast daylight through tall windows, subtle wet-to-dry sheen, blue #0F4C81 and #58A1D3 brand accents. Safe ordinary working conditions, no spraying electrical machinery, no stunt, no excessive water puddles. No faces, text, labels, logos, watermark, no before/after collage. Evocative material detail, not sterile CGI; entire image photograph only.",
+      "source": "exec-727350c7-0a35-4e8f-bde0-c5752610db0c.png",
+      "saved": "public/images/floor-cleaning.webp"
+    },
+    {
+      "name": "textile",
+      "prompt": "Generate one high quality realistic close-up editorial photo for a German professional upholstery and carpet cleaning service website, landscape 3:2. A navy-gloved cleaner's hand carefully operates a clear upholstery extraction nozzle on a light oatmeal woven sofa seat, neutral modern living room background with an understated powder blue cushion and a soft wool rug. The nozzle is connected to a plausible flexible hose leaving the frame, gentle diagonal composition with sofa weave sharply visible, daylight from side window. Warm welcoming home balanced with brand cool navy and pale blue, photorealistic natural fabric texture, understated clean and cared-for mood. No face, no text, no logos, no watermark, no magical before-after line, no exaggerated foam or false stain removal claim. Not a collage or website screenshot.",
+      "source": "exec-0a62a3f3-0f8f-4864-ba9c-bbc0ff04e2e2.png",
+      "saved": "public/images/textile-cleaning.webp"
+    },
+    {
+      "name": "stairs",
+      "prompt": "Generate one photorealistic premium editorial architectural photograph for a German cleaning business website, landscape 3:2. A bright realistic entrance hall and staircase of a modest contemporary German apartment building: pale limestone steps, matte metal handrail, charcoal entrance mat, white plaster walls, soft blue daylight through a large frosted window, subtle warm timber doorway. On lower right only an anonymous cleaner's navy trouser legs and black non-slip shoes and hands carefully using a blue flat microfiber mop on the horizontal entry landing, never on the steps. Physically plausible safe equipment; no buckets obstructing steps. Strong diagonal staircase composition, appealing but ordinary real-life scale, meticulous material texture. Palette #022C50, #58A1D3, #B3DEF8 accents. No text, logos, faces, exaggerated shine, fake before-after, or watermark. Entire image photo only.",
+      "source": "exec-241e8df6-3483-4b6f-9382-fbef5a0a939f.png",
+      "saved": "public/images/stairs-cleaning.webp"
+    },
+    {
+      "name": "exterior",
+      "prompt": "Generate one realistic premium editorial photograph of a modest detached brick house exterior in rural northwest Germany for a roof and outdoor surface cleaning service website, landscape 3:2. A warm red-brown brick gable house, dark slate-grey tiled pitched roof in sound condition, white window frames, broad simple grey stone patio in foreground. A professional cleaner visible only knees and hands at the bottom right, navy workwear, protective gloves and black non-slip shoes, using a blue soft-bristle long-handled brush on the flat patio at ground level with a small amount of water. No pressure washer, no person on the roof, no ladder, no unsafe work. Subtle natural garden and hedgerow, cool overcast daylight after rain, clear realistic textures, composed premium photograph with roof and paving equally readable. Navy and muted sky blue details, no text, logos, watermark or before/after lines. This is an illustrative scene, not a specific real property.",
+      "source": "exec-bfaaa878-c95a-45e6-8012-8fc44f60de9d.png",
+      "saved": "public/images/exterior-cleaning.webp"
+    }
+  ]
+}

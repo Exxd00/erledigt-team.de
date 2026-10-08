@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import { Icon } from './Icon';
 import { site, type Faq, type ServicePreview } from '@/lib/site';
+import { assets } from '@/lib/assets';
+import { servicePresentation } from '@/lib/service-presentation';
+import { SiteImage } from './SiteImage';
 export function Breadcrumb({ items }: { items: { label: string; href?: string }[] }) {
   return (
     <nav className="breadcrumbs wrap" aria-label="Brotkrumennavigation">
@@ -30,19 +33,32 @@ export function ServiceCard({
   service,
   index = 0,
   city,
+  visual = false,
 }: {
   service: ServicePreview;
   index?: number;
   city?: string;
+  visual?: boolean;
 }) {
   return (
     <Link
-      className="service-card"
+      className={`service-card${visual ? ' service-card-visual' : ''}`}
       href={city ? `/einsatzgebiete/${city}/${service.slug}` : `/leistungen/${service.slug}`}
       data-event="service_select"
       data-service={service.slug}
       data-city={city}
     >
+      {visual && (
+        <div className="service-card-photo">
+          <SiteImage
+            image={assets[servicePresentation[service.slug].image]}
+            alt={`${servicePresentation[service.slug].alt} – illustrative Darstellung`}
+            width="1536"
+            height="1024"
+            loading="lazy"
+          />
+        </div>
+      )}
       <div className="service-card-top">
         <span className="service-icon">
           <Icon name={service.icon} size={27} />

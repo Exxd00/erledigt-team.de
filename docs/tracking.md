@@ -12,6 +12,17 @@ No optional analytics request is made before consent. Theme and consent preferen
 Withdrawal removes the local analytics session/attribution and the site's GA cookies and reloads the
 page. GA loads only when a valid configured measurement ID and consent are present. Advertising
 storage, signals and personalization are disabled. GA page URLs exclude query strings and fragments.
+Approved campaign source/medium/name values are passed separately using Google's campaign fields.
+The internal `form_submit_success` event becomes `generate_lead` in GA4; the lead UUID is omitted
+from Google parameters. Internal events retain the UUID for the private delivery audit.
+
+GA4 property `557969528`, web stream `16061549557`, measurement ID `G-16V9Z8RTRS`:
+Germany reporting time, EUR, `generate_lead` marked as a key event. Custom event dimensions are
+Leistung (`service`), Einsatzort (`city`), Kontaktposition (`position`) and Anfrageschritt (`step`).
+Enhanced measurement is off to avoid automatic form and duplicate navigation collection.
+Google Signals and user-provided data collection are off. Ads personalization is disallowed in
+all 307 configured regions. User and event data retention is two months; reset on new activity is
+off. Browser GA cookies expire after 60 days without an automatic renewal.
 
 Inquiry fields: service, town, postcode, property type, approximate scope, frequency, optional requested
 date, customer name, optional company, preferred reply method, email/phone, optional message and privacy
@@ -49,3 +60,4 @@ may need manual inspection before a later retry. Queue monitoring is required af
 
 Sources: [Resend idempotency](https://resend.com/changelog/idempotency-keys),
 [Vercel cron scheduling](https://vercel.com/docs/cron-jobs/manage-cron-jobs).
+GA configuration: [official Google tag fields](https://developers.google.com/analytics/devguides/collection/ga4/reference/config).

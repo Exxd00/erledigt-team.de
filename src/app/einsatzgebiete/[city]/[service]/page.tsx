@@ -5,6 +5,8 @@ import { Icon } from '@/components/Icon';
 import { cities, services, cityBySlug, serviceBySlug } from '@/lib/content';
 import { localContent } from '@/lib/local-content';
 import { site } from '@/lib/site';
+import { ServiceVisual, ServiceDecision } from '@/components/ServiceVisual';
+import { nearbyCities } from '@/lib/regions';
 export const dynamicParams = false;
 export function generateStaticParams() {
   return cities.flatMap((c) => services.map((s) => ({ city: c.slug, service: s.slug })));
@@ -28,12 +30,7 @@ export default async function Page({ params }: Props) {
   if (!c || !s) notFound();
   const content = localContent(c, s, cities),
     href = `/anfrage?leistung=${s.slug}&ort=${c.slug}`;
-  const nearby = cities
-    .filter((x) => x.slug !== c.slug)
-    .sort(
-      (a, b) => Math.hypot(a.lat - c.lat, a.lon - c.lon) - Math.hypot(b.lat - c.lat, b.lon - c.lon),
-    )
-    .slice(0, 6);
+  const nearby = nearbyCities(c, cities);
   return (
     <>
       <Breadcrumb
@@ -46,7 +43,7 @@ export default async function Page({ params }: Props) {
       <section className="wrap detail-hero">
         <div>
           <Eyebrow>
-            {s.category} · {c.name}
+            {s.category} · {c.name} & Umgebung
           </Eyebrow>
           <h1>
             {s.name}
@@ -72,37 +69,31 @@ export default async function Page({ params }: Props) {
             </a>
           </div>
         </div>
-        <aside className="quick-panel">
-          <span className="service-icon">
-            <Icon name={s.icon} size={28} />
-          </span>
-          <h2>Das hilft uns beim Planen.</h2>
-          <ul className="check-list">
-            {s.formHints.map((h) => (
-              <li key={h}>
-                <Icon name="Check" size={18} />
-                {h}
-              </li>
-            ))}
-          </ul>
-          <p>
-            {c.distanceKm === 0
-              ? 'Direkt an unserem Standort Saterland.'
-              : `Ca. ${c.distanceKm} km Luftlinie von unserem Standort. Keine pauschale Anfahrtsberechnung.`}
-          </p>
-        </aside>
+        <ServiceVisual slug={s.slug} eager />
       </section>
+      <ServiceDecision service={s} city={c.name} href={href} />
       <section id="vorbereitung" className="section surface-alt">
         <div className="wrap article-layout">
-          <article className="article-content">
+          <article className="article-content editorial-chapters">
             {content.sections.map((sec, i) => (
               <section id={`thema-${i}`} key={i}>
+                <span className="chapter-number" aria-hidden="true">
+                  0{i + 1}
+                </span>
                 <h2>{sec.title}</h2>
                 <p>{sec.body}</p>
               </section>
             ))}
           </article>
           <aside className="article-aside">
+            <div className="local-note">
+              <Icon name="MapPin" />
+              <strong>{c.name} & Umgebung</strong>
+              <p>
+                Geplant von unserem Standort in Saterland. Zugang und Termin stimmen wir direkt für
+                Ihr Objekt ab.
+              </p>
+            </div>
             <h2>Für Ihre Entscheidung</h2>
             {content.sections.map((sec, i) => (
               <a key={i} href={`#thema-${i}`}>

@@ -131,7 +131,7 @@ export function localContent(city: City, service: Service, allCities: City[]) {
   const place =
     city.distanceKm === 0
       ? 'Unser Ausgangspunkt ist die Eschstraße 70 in Saterland.'
-      : `Wir planen den Einsatz in ${city.name} von Saterland aus. Der Ortsbezug liegt bei ungefähr ${city.distanceKm} Kilometern Luftlinie zu unserem Standort; die tatsächliche Fahrt und der Zugang werden anhand Ihrer Adresse geprüft.`;
+      : `Wir planen den Einsatz in ${city.name} und Umgebung von Saterland aus. Entscheidend sind die genaue Objektadresse, eine sinnvolle Anfahrt und ein freier Zugang zu den vereinbarten Flächen. Diese Punkte klären wir gemeinsam vor dem Termin.`;
   const sections: ContentSection[] = [
     {
       title: `${service.name} für Ihr Objekt in ${city.name}`,

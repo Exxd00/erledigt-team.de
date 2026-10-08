@@ -64,7 +64,7 @@ export function SiteHeader() {
       <div className="topline">
         <div className="wrap">
           <span>
-            <Icon name="MapPin" size={14} /> Saterland & 50 km Umkreis
+            <Icon name="MapPin" size={14} /> Saterland & Umgebung
           </span>
           <a href={`mailto:${site.email}`} data-event="email_click">
             {site.email}
@@ -220,6 +220,7 @@ export function ConsentAndTracking() {
   }, [path]);
   useEffect(() => {
     const click = (e: MouseEvent) => {
+      if ((e.target as HTMLElement).closest('[data-track-handled]')) return;
       const a = (e.target as HTMLElement).closest<HTMLElement>('[data-event]');
       if (a) {
         track(a.dataset.event as 'cta_click', {

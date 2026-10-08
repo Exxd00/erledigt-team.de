@@ -5,6 +5,7 @@ import { Icon } from './Icon';
 import { ServiceCard } from './Shared';
 import { categories, type ServicePreview, type CityPreview } from '@/lib/site';
 import { track } from '@/lib/tracking';
+import { regions } from '@/lib/regions';
 const normalize = (s: string) =>
   s
     .toLocaleLowerCase('de')
@@ -53,7 +54,7 @@ export function ServiceDirectory({ services }: { services: ServicePreview[] }) {
       {filtered.length ? (
         <div className="service-grid">
           {filtered.map((s, i) => (
-            <ServiceCard key={s.slug} service={s} index={i} />
+            <ServiceCard key={s.slug} service={s} index={i} visual />
           ))}
         </div>
       ) : (
@@ -76,12 +77,19 @@ export function ServiceDirectory({ services }: { services: ServicePreview[] }) {
 }
 export function CityDirectory({ cities }: { cities: CityPreview[] }) {
   const [search, setSearch] = useState('');
-  const [radius, setRadius] = useState('50');
-  const [sort, setSort] = useState('distance');
+  const [region, setRegion] = useState<string>(regions[0]);
+  const [sort, setSort] = useState('regional');
   const filtered = cities
-    .filter((c) => c.distanceKm <= Number(radius) && normalize(c.name).includes(normalize(search)))
+    .filter(
+      (c) =>
+        (region === regions[0] || c.region === region) &&
+        normalize(`${c.name} ${c.region}`).includes(normalize(search)),
+    )
     .sort((a, b) =>
-      sort === 'name' ? a.name.localeCompare(b.name, 'de') : a.distanceKm - b.distanceKm,
+      sort === 'name'
+        ? a.name.localeCompare(b.name, 'de')
+        : regions.indexOf(a.region as (typeof regions)[number]) -
+          regions.indexOf(b.region as (typeof regions)[number]),
     );
   return (
     <>
@@ -99,31 +107,33 @@ export function CityDirectory({ cities }: { cities: CityPreview[] }) {
             />
           </div>
           <div className="filter-select">
-            <label htmlFor="radius">Umkreis</label>
+            <label htmlFor="region">Region</label>
             <select
-              id="radius"
-              value={radius}
+              id="region"
+              value={region}
               onChange={(e) => {
-                setRadius(e.target.value);
-                track('filter_used', { position: 'cities', step: `radius_${e.target.value}` });
+                setRegion(e.target.value);
+                track('filter_used', { position: 'cities', step: e.target.value });
               }}
             >
-              <option value="50">Bis etwa 50 km</option>
-              <option value="30">Bis etwa 30 km</option>
-              <option value="15">Bis etwa 15 km</option>
+              {regions.map((r) => (
+                <option key={r} value={r}>
+                  {r}
+                </option>
+              ))}
             </select>
           </div>
           <div className="filter-select">
             <label htmlFor="sort">Sortieren</label>
             <select id="sort" value={sort} onChange={(e) => setSort(e.target.value)}>
-              <option value="distance">Nach Entfernung</option>
+              <option value="regional">Nach Region</option>
               <option value="name">Alphabetisch</option>
             </select>
           </div>
         </div>
       </div>
       <p className="result-count" aria-live="polite">
-        {filtered.length} Orte · Entfernungen als ungefähre Luftlinie, keine Fahrstrecken
+        {filtered.length} Orte {region !== regions[0] ? `· ${region}` : 'in unserer Region'}
       </p>
       {filtered.length ? (
         <div className="city-grid">
@@ -137,9 +147,9 @@ export function CityDirectory({ cities }: { cities: CityPreview[] }) {
             >
               <div className="city-card-header">
                 <Icon name="MapPin" />
-                <span>{c.distanceKm === 0 ? 'Unser Standort' : `ca. ${c.distanceKm} km`}</span>
+                <span>{c.slug === 'saterland' ? 'Unser Standort' : c.region}</span>
               </div>
-              <h3>{c.name}</h3>
+              <h3>{c.name} & Umgebung</h3>
               <p>{c.summary}</p>
               <span className="text-link">
                 Leistungen in {c.name}

@@ -1,61 +1,52 @@
 # Verification — 8 October 2026
 
-## Current code checks
+## Code and content
 
-- `pnpm test`: all 15 tests pass. Coverage includes request origins, input validation, webhook
-  authentication, exact record acknowledgements, persistent deduplication, formula neutralization,
-  event-field allowlisting, sheet growth and rate-limit addressing.
-- `pnpm typecheck` and `pnpm build`: pass; 962 framework routes including metadata are generated.
-- `pnpm audit:build`: all 953 public static pages pass, with at least 359 words inside main,
-  one h1, unique titles, canonical URLs, valid internal links/anchors and available local images.
-- `pnpm audit:http`: all 11 preparation-build checks pass, including both retry methods rejecting
-  unauthenticated calls, invalid inputs, no false success, the prefilled form, 404 and robots.
-- The unchanged editorial content previously passed `audit:content`: 947 articles, minimum 301
-  body words, maximum normalized six-word shingle similarity 0.523 and no exact duplicates.
+- All 15 request-validation, origin, rate-limit, Sheet acknowledgement, deduplication, formula
+  neutralization and event allowlist tests pass.
+- TypeScript and production build pass: 962 framework routes including metadata.
+- Build audit passes for 953 static pages: minimum 358 main words, one h1, unique titles,
+  self canonical URLs, valid links/anchors and available local images.
+- Editorial audit: 11 services, 78 towns, 858 combinations; 947 articles with at least 301 body
+  words. Maximum normalized six-word Jaccard similarity is 0.541; no flagged duplicate pairs.
+- All 11 local HTTP checks pass, including rejecting invalid requests and unauthenticated retries,
+  returning 503 rather than a false success without configured delivery, and prefilled-form rendering.
 
-Earlier responsive checks covered six pages at 320, 375, 768, 1440 and 1920 CSS px in both themes:
-all 60 checks had no horizontal overflow or broken loaded images. The checks also exercised combined
-filters, empty results, radius exclusion, city/service navigation, prefilled inquiry fields, selected
-contact-channel validation, review step and keyboard focus on errors. Current integration changes
-receive additional targeted image and live checks below.
+## Browser refresh checks
 
-Targeted checks after the ImgBB integration passed at 375 and 1440 px in both themes, without
-horizontal overflow. Normal CDN images, including the lazy solar image, loaded successfully.
-Blocking every `i.ibb.co` request exposed an error before React hydration; the image component now
-also checks failed images when attached. Repeating the same blocked-network test loaded all four
-rendered images from local files. Network blocking and viewport overrides were cleared afterwards.
+36 current checks cover the home page, service directory, town directory, a service detail, a town
+detail and a town/service combination at actual browser widths 320, 768 and 1440 px in both themes.
+No horizontal overflow, broken loaded images or extra h1 was found. A long German heading overflow
+at 320 px was corrected and verified. Region filtering returns the expected five nearby towns for
+Saterland & Umgebung, without numeric distance labels. The home finder switches content and links
+for private, business and property needs. The floating contact panel focuses its first link and
+returns focus to its trigger when dismissed with Escape.
 
-## Verified external configuration
+Earlier checks exercised form validation, review steps, navigation, image-CDN failure and local
+fallback recovery. Current production build is checked separately from the developer server.
 
-- Vercel project remains on Hobby. Root and www show Valid Configuration. Public HTTPS responds;
-  www redirects to https://erledigt-team.de/. Microsoft 365 mail DNS remains unchanged.
-- Production-only Vercel Secrets are saved for Supabase, webhook authentication, rate limiting and
-  cron authentication. Commit `fecd975` reached Ready and Current on the production domain;
-  public HTML includes the new ImgBB sources and its health endpoint keeps form submissions closed.
-- Vercel's Cron Jobs panel confirms `/api/internal/retry` at `0 5 * * *`, enabled on Hobby.
-- The live Chrome journey made no analytics requests after refusal. After consent, five observed
-  `/api/events` requests returned 204; the same event UUIDs were read back from Supabase. Ten total
-  QA events (including scrolling and opening the consent settings) carry source `launch-check`,
-  medium `qa` and campaign `integration-test`. They remain queued for Sheet delivery with
-  `sheet_not_configured`, accurately reflecting the pending Apps Script deployment. No lead or
-  email was created. Navigation after withdrawing consent made zero further analytics requests.
-- ImgBB serves the three intended public website assets with HTTP 200 and image/jpeg or image/webp
-  content types. The source retains local fallbacks. No customer photo upload is enabled.
-- The Google Sheet headers were read back and visually inspected: separate colors group identity,
-  status, contact, object, attribution and follow-up fields. Header text remains white and bold,
-  row 1 is frozen, filters remain present and the inquiry status dropdown is preserved.
-- Apps Script contains the updated record-ID acknowledgements. The saved editor text was copied
-  back and compared to the intended edit. Its deployment dialog is prepared, not authorized.
-- Public legal identity was verified against supplied business documents. Private identifiers and
-  scans remain outside the repository.
+## External configuration confirmed before this release
 
-## Pending live proof
+- Vercel remains Hobby. Both hosts show Valid Configuration; www redirects with 308 to root.
+  Microsoft 365 MX and domain SPF records remain intact.
+- Production-only secrets for Supabase, webhook auth, rate limits and cron were already saved.
+  Apps Script Version 3 is now deployed, its exact-record acknowledgements were checked, and
+  SHEETS_WEBHOOK_URL is saved in Vercel.
+- Resend verifies erledigt-team.de in Ireland. A Sending-only API key restricted to this domain
+  is saved as a Production Secret. No email delivery is inferred merely from these settings.
+- ImgBB holds the logo and seven generated illustrations; all new assets have local fallbacks.
+- The private Google Sheet has colored frozen headers, filters and an inquiry-status dropdown.
+- GA4 is configured as documented in tracking.md, including the generate_lead key event and
+  four dimensions. The measurement ID is saved in Vercel Production.
+- Search Console's business account has an unverified Domain property prepared. DNS ownership
+  verification and sitemap submission are still pending; no indexing claim is made.
+- Ten labelled QA events from the previous release were persisted in Supabase before Sheet
+  delivery was configured. Their retry status must be checked after the new deployment.
 
-The form remains intentionally unavailable until launch configuration is complete. Resend sender
-verification/key creation and Apps Script's new Google permission are awaiting the consolidated
-approval. No live customer inquiry, email receipt or successful Sheet delivery is claimed. GA4 is
-not configured. Final processor/retention disclosures and the end-to-end delivery check precede
-launch and search indexing.
+## Required live proof after deployment
 
-Proof screenshots are kept outside the repository in the workspace `proofs/` directory; earlier
-responsive measurements and screenshots are in the local ignored `artifacts/` directory.
+Use the owner's already-authorized labelled test request to verify the entire browser → API →
+database → Sheet → Resend chain. Check refusal, consent and withdrawal with the deployed GA tag.
+Record actual delivery statuses in the workspace handoff report. Resend acceptance is not proof
+that a person has seen an inbox message. Screenshots and detailed browser measurements are in
+the workspace proofs directory, outside the repository.

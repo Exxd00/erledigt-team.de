@@ -29,10 +29,10 @@ export default function Page() {
           Beim Aufruf einer Website werden technische Verbindungsdaten verarbeitet, damit Inhalte an
           Ihren Browser übertragen und Störungen erkannt werden können. Dazu können die IP-Adresse,
           der Zeitpunkt, der aufgerufene Pfad und technische Angaben zum Browser gehören. Für den
-          vorgesehenen Betrieb wird {hostingProvider} als Hostingdienst eingesetzt. Zweck dieser
-          Verarbeitung ist die sichere und funktionsfähige Bereitstellung der Website. Die konkrete
-          vertragliche Ausgestaltung und Aufbewahrung der Hostingprotokolle werden vor der Freigabe
-          dokumentiert.
+          Betrieb wird {hostingProvider} (Vercel Inc., USA) als Hostingdienst eingesetzt. Zweck dieser
+          Verarbeitung ist die sichere und funktionsfähige Bereitstellung der Website. Rechtsgrundlage
+          ist Artikel 6 Absatz 1 Buchstabe f DSGVO. Informationen zur Infrastruktur und Verarbeitung
+          finden Sie in den <a href="https://vercel.com/legal/privacy-notice" target="_blank" rel="noreferrer">Datenschutzhinweisen von Vercel</a>.
         </p>
         <p>
           Für das Logo und eigens für diese Website erstellte Illustrationsbilder nutzen wir ImgBB.
@@ -64,22 +64,26 @@ export default function Page() {
           ist Artikel 6 Absatz 1 Buchstabe a DSGVO die Grundlage. Sie können eine Einwilligung mit
           Wirkung für die Zukunft widerrufen.
         </p>
-        <h2>4. Vorgesehene Verarbeitung der Anfrage</h2>
+        <h2>4. Speicherung und Weiterleitung Ihrer Anfrage</h2>
         <p>
-          Die technische Anbindung ist für eine geschützte Speicherung in Supabase, eine interne
-          Übersicht in Google Sheets und eine E-Mail-Benachrichtigung über Resend vorbereitet.
-          Formulardaten werden serverseitig übertragen; geheime Zugangsdaten werden nicht an
-          Besucher ausgegeben. Das Formular zeigt eine erfolgreiche Speicherung nur nach einer
-          bestätigten Annahme durch das Backend an. Solange die Anbindung nicht bereit ist, stehen
-          die direkten Kontaktwege zur Verfügung.
+          Anfragen werden in einer zugriffsgeschützten Datenbank von Supabase Pte. Ltd. gespeichert.
+          Die gewählte Projektregion ist London. Eine interne Übersicht führen wir in Google Sheets
+          mit Google Apps Script (Google Ireland Limited). Die Tabelle ist nicht öffentlich. Über
+          Resend (Plus Five Five, Inc., Versandregion Irland) wird eine Benachrichtigung mit den
+          Anfrageangaben an unser geschäftliches Postfach gesendet. Der Empfang erfolgt über
+          Microsoft 365. Diese Dienste unterstützen die Bearbeitung und die zuverlässige Zustellung
+          Ihrer Anfrage. Nur eine bestätigte Speicherung führt zur Erfolgsmeldung im Formular;
+          vorübergehend gescheiterte Weiterleitungen können erneut versucht werden.
         </p>
         <p>
-          Vor dem regulären Betrieb werden die tatsächlich eingesetzten Dienstleister,
-          Auftragsverarbeitungsverträge, Verarbeitungsorte und gegebenenfalls erforderlichen
-          Garantien für internationale Übermittlungen abschließend geprüft und ergänzt.
-          Personenbezogene Anfragen werden nur so lange aufbewahrt, wie es für die Bearbeitung
-          erforderlich ist oder gesetzliche Aufbewahrungspflichten bestehen. Ein verbindlicher
-          betrieblicher Löschplan wird vor der Freigabe festgelegt.
+          Personenbezogene Anfragen werden so lange aufbewahrt, wie sie zur Bearbeitung, zu
+          vereinbarten Folgeschritten oder zur Erfüllung gesetzlicher Pflichten benötigt werden.
+          Entfällt dieser Zweck und besteht keine Aufbewahrungspflicht, sind die Daten zu löschen.
+          Für konkrete Auskünfte oder ein Löschbegehren erreichen Sie uns unter der oben genannten
+          Adresse. Weitere Anbieterinformationen: <a href="https://supabase.com/privacy" target="_blank" rel="noreferrer">Supabase</a>,{' '}
+          <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noreferrer">Google</a>,{' '}
+          <a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noreferrer">Resend</a> und{' '}
+          <a href="https://privacy.microsoft.com/de-de/privacystatement" target="_blank" rel="noreferrer">Microsoft</a>.
         </p>
         <h2>5. Einstellungen und freiwillige Nutzungsanalyse</h2>
         <p>
@@ -94,12 +98,32 @@ export default function Page() {
         <p>
           Die Zustimmung ist freiwillig und kann über „Cookie-Einstellungen“ im Fußbereich geändert
           werden. Bei Ablehnung bleibt die Website nutzbar. Eine zufällige Sitzungskennung und
-          bereinigte Kampagnenangaben werden nur nach Zustimmung für die Sitzung gespeichert. Google
-          Analytics ist ausschließlich aktivierbar, wenn eine Messkennung hinterlegt wurde und Ihre
-          Zustimmung vorliegt; die abschließenden Informationen dazu werden vor seiner Aktivierung
-          ergänzt.
+          bereinigte Kampagnenangaben werden nur nach Zustimmung für die Sitzung gespeichert.
+          Einwilligungsabhängige Ereignisse werden in unserer Datenbank und internen Ereignistabelle
+          erfasst. Zusätzlich nutzen wir Google Analytics 4 von Google Ireland Limited zur
+          Reichweitenmessung. Google erhält dabei unter anderem Ereignisnamen, bereinigte Seitenpfade,
+          Geräteinformationen und eine pseudonyme Browserkennung. Das Absenden einer erfolgreich
+          gespeicherten Anfrage wird als „generate_lead“ gemessen. Anfrageinhalte und die interne
+          Anfragekennung werden nicht an Google Analytics übermittelt.
         </p>
-        <h2>6. Schutz vor Missbrauch</h2>
+        <p>Google Analytics wird erst nach Ihrer Zustimmung geladen. Google Signals und die
+          Personalisierung von Werbung sind für diese Einbindung deaktiviert. Die Analyse-Cookies
+          sind auf höchstens 60 Tage eingestellt; unsere Sitzungsdaten enden mit der Browsersitzung.
+          Ihre lokale Darstellungs- und Einwilligungsauswahl bleibt bis zur Änderung oder Löschung
+          der Browserdaten gespeichert. Beim Widerruf werden Analyse-Cookies entfernt und die Seite
+          ohne Analytics neu geladen. Rechtsgrundlagen der freiwilligen Analyse sind Artikel 6
+          Absatz 1 Buchstabe a DSGVO und § 25 Absatz 1 TDDDG. Weitere Informationen finden Sie bei{' '}
+          <a href="https://support.google.com/analytics/answer/12017362?hl=de" target="_blank" rel="noreferrer">Google zu Daten und Datenschutz in Europa</a>.
+        </p>
+        <h2>6. Internationale Verarbeitung</h2>
+        <p>Die genannten Anbieter nutzen teilweise internationale Infrastruktur. Auch bei einer
+          ausgewählten europäischen Region können zusätzliche Verarbeitungen, etwa für Support
+          oder Infrastruktur, außerhalb des Europäischen Wirtschaftsraums stattfinden, insbesondere
+          in den USA. Maßgeblich sind die jeweils anwendbaren vertraglichen Regelungen und Garantien
+          nach den Artikeln 44 ff. DSGVO. Informationen zu den für einen konkreten Dienst geltenden
+          Übermittlungen und Garantien können Sie bei uns anfordern; die oben verlinkten
+          Anbieterinformationen erläutern die jeweilige Verarbeitung.</p>
+        <h2>7. Schutz vor Missbrauch</h2>
         <p>
           Das Anfrageformular prüft Eingaben und begrenzt wiederholte Übermittlungen. Für die
           zeitlich begrenzte Ratenkontrolle wird aus einer Verbindungsadresse ein täglich
@@ -108,7 +132,7 @@ export default function Page() {
           werden anhand einer Anfragekennung erkannt, damit technische Wiederholungen keine
           doppelten Vorgänge erzeugen.
         </p>
-        <h2>7. Ihre Rechte</h2>
+        <h2>8. Ihre Rechte</h2>
         <p>
           Nach Maßgabe der DSGVO haben Sie insbesondere Rechte auf Auskunft, Berichtigung, Löschung,
           Einschränkung der Verarbeitung und Datenübertragbarkeit. Gegen bestimmte Verarbeitungen
