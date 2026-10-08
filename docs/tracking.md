@@ -19,6 +19,8 @@ from Google parameters. Internal events retain the UUID for the private delivery
 GA4 property `557969528`, web stream `16061549557`, measurement ID `G-16V9Z8RTRS`:
 Germany reporting time, EUR, `generate_lead` marked as a key event. Custom event dimensions are
 Leistung (`service`), Einsatzort (`city`), Kontaktposition (`position`) and Anfrageschritt (`step`).
+The reports snapshot uses Marketing performance. Form events carry only a matched public city slug;
+unrecognized free-text city input is omitted from analytics.
 Enhanced measurement is off to avoid automatic form and duplicate navigation collection.
 Google Signals and user-provided data collection are off. Ads personalization is disallowed in
 all 307 configured regions. User and event data retention is two months; reset on new activity is

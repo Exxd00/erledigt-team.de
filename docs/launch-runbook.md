@@ -25,22 +25,21 @@ LEAD_EMAIL_TO, SHEETS_WEBHOOK_URL and NEXT_PUBLIC_GA_ID. All are scoped to Produ
 New environment values only take effect with a new deployment. Never put secrets in Preview,
 client variables, Git, screenshots or reports.
 
-The current refresh is prepared for NEXT_PUBLIC_LAUNCH_READY=true. It enables indexing and inquiry
-submission only when database and delivery settings are also present. Check /api/health after the
-new deployment. Preserve Microsoft 365 mail DNS while adding any Search Console TXT record.
+NEXT_PUBLIC_LAUNCH_READY=true is saved and the deployed health endpoint confirms acceptingRequests.
+Indexing and inquiry submission are enabled. Preserve Microsoft 365 mail DNS while adding any
+Search Console TXT record.
 
-## Final live checks
+## Completed live checks
 
-The owner approved one clearly labelled TEST inquiry and notification to info@erledigt-team.de.
-Confirm one lead UUID, one Sheet inquiry row, corresponding delivery history, and both delivery
-jobs marked sent. Inspect Resend's recipient-server status; inbox reading remains an owner check.
-Verify consent refusal sends no optional analytics, approval sends events and generate_lead after
-save, and withdrawal stops subsequent collection. Verify live sitemap, robots, root canonical,
-HTTPS and www redirect. Keep QA records clearly labelled.
+One owner-authorized TEST inquiry returned reference 6C2E1318. It exists once in the database and
+Sheet; both delivery jobs are sent and Resend reports Delivered to info@erledigt-team.de. Inbox
+reading remains an owner check. Consent refusal/withdrawal create no optional analytics requests;
+approval sends events and generate_lead after save. GA4 Realtime displays that key event. Live
+sitemap (952 URLs), robots, root canonical, HTTPS and www redirection are verified.
 
 New jobs dispatch immediately. Vercel's enabled Hobby cron retries queued jobs at 05:00 UTC within
-the daily scheduling window. /api/internal/retry is protected by the cron bearer secret. Inspect
-the ten earlier labelled QA events and retry them without duplicating records. Supabase is the
+the daily scheduling window. /api/internal/retry is protected by the cron bearer secret. A manual
+Cron Run delivered all ten earlier labelled QA events without duplicates. Supabase is the
 authoritative queue when Sheets is unavailable; the Zustellung audit mirror is best-effort.
 
 ## Owner input at handoff

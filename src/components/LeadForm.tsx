@@ -47,6 +47,10 @@ export function LeadForm({
   const id = useRef('');
   const started = useRef(0);
   const touched = useRef(false);
+  // Only a known public city slug reaches analytics, never the user's free text.
+  const analyticsCity = cities.find(
+    (c) => c.name.toLocaleLowerCase('de-DE') === v.city.trim().toLocaleLowerCase('de-DE'),
+  )?.slug;
   useEffect(() => {
     id.current = crypto.randomUUID();
     started.current = Date.now();
@@ -59,7 +63,7 @@ export function LeadForm({
     setV((x) => ({ ...x, [k]: val }));
     setErrors((x) => ({ ...x, [k]: '' }));
     if (!touched.current) {
-      track('form_start', { service: v.service });
+      track('form_start', { service: v.service, city: analyticsCity });
       touched.current = true;
     }
   };
@@ -114,7 +118,7 @@ export function LeadForm({
   };
   const move = (n: number) => {
     setStep(n);
-    track('form_step', { step: String(n + 1), service: v.service });
+    track('form_step', { step: String(n + 1), service: v.service, city: analyticsCity });
     setTimeout(() => heading.current?.focus(), 0);
   };
   async function submit(e: React.FormEvent) {
@@ -149,7 +153,11 @@ export function LeadForm({
               : 'Die Anfrage konnte nicht bestätigt werden. Bitte versuchen Sie es erneut; dieselbe Anfrage wird nicht doppelt gespeichert.',
         );
       setStatus('success');
-      track('form_submit_success', { service: v.service, lead_id: id.current });
+      track('form_submit_success', {
+        service: v.service,
+        city: analyticsCity,
+        lead_id: id.current,
+      });
       setTimeout(() => heading.current?.focus(), 0);
     } catch (err) {
       setStatus('idle');
@@ -158,7 +166,7 @@ export function LeadForm({
           ? err.message
           : 'Die Verbindung hat zu lange gedauert. Bitte erneut versuchen; Ihre Anfrage wird nicht doppelt gespeichert.',
       );
-      track('form_submit_error', { service: v.service });
+      track('form_submit_error', { service: v.service, city: analyticsCity });
     }
   }
   const field = (key: keyof Fields, label: string, type = 'text', hint = '', required = false) => (

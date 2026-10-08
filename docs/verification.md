@@ -40,13 +40,28 @@ fallback recovery. Current production build is checked separately from the devel
   four dimensions. The measurement ID is saved in Vercel Production.
 - Search Console's business account has an unverified Domain property prepared. DNS ownership
   verification and sitemap submission are still pending; no indexing claim is made.
-- Ten labelled QA events from the previous release were persisted in Supabase before Sheet
-  delivery was configured. Their retry status must be checked after the new deployment.
+- Vercel's manual Cron Run retried all ten previously queued QA events. Supabase now reports all
+  ten sent at attempt 2; all 19 events in the new end-to-end QA session were sent at attempt 1.
+  Sheet UUID checks confirmed no duplicate event rows.
 
-## Required live proof after deployment
+## Verified live delivery
 
-Use the owner's already-authorized labelled test request to verify the entire browser → API →
-database → Sheet → Resend chain. Check refusal, consent and withdrawal with the deployed GA tag.
-Record actual delivery statuses in the workspace handoff report. Resend acceptance is not proof
-that a person has seen an inbox message. Screenshots and detailed browser measurements are in
-the workspace proofs directory, outside the repository.
+Commit 880f4ff reached Ready on the production domain. The live health endpoint accepts inquiries;
+robots allows indexing and references the 952-URL root-host sitemap. A request to www with a path
+returns a 308 redirect preserving that path on erledigt-team.de.
+
+The owner-authorized TEST inquiry 6c2e1318-a0ba-4995-8465-d065aa4e1bda returned HTTP 201 and reference
+6C2E1318. It appears once in leads and once in Anfragen. Both delivery jobs are sent at attempt 1,
+with matching Zustellung rows. Resend reports Delivered to info@erledigt-team.de; this confirms the
+recipient server accepted it, not that a person opened the message. No second test email was sent.
+
+Live browser inspection found zero optional analytics requests before consent and after withdrawal.
+With consent, first-party events returned 204 and GA collection returned 204. The generate_lead event
+contained a clean /anfrage URL and no contact details or internal lead UUID. GA4 Realtime displayed
+the page views, form steps and exactly one generate_lead key event. Marketing performance is now
+the reports snapshot template.
+
+A follow-up tracking refinement adds the matched public city slug to form events. Local browser
+inspection verifies saterland for a known town and omission of an unknown free-text city. Production
+build and TypeScript pass after that refinement. Screenshots and detailed browser measurements are
+in the workspace proofs directory, outside the repository.
