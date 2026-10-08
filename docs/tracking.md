@@ -28,8 +28,11 @@ server-side when analytics consent is absent. Personal details and free text are
 3. Insert the lead and both delivery jobs in one PostgreSQL transaction. The client keeps the same UUID
    when retrying an uncertain submission. Only confirmed persistence returns HTTP 201.
 4. Send the Sheet row and internal notification independently. Claim jobs atomically so concurrent
-   workers do not normally send the same job. A fixed Resend idempotency key is used.
+   workers do not normally send the same job. A fixed Resend idempotency key is used. The Sheet must
+   acknowledge the exact lead/event ID or delivery-attempt key before a job is marked sent.
 5. Keep failures queued and recover expired leases. `/api/internal/retry` requires the cron bearer secret.
+   Vercel Hobby runs the configured retry once daily at 05:00 UTC within its scheduling window.
+   New requests start delivery immediately; the schedule only handles unsuccessful attempts.
 6. Mirror lead delivery attempts into `Zustellung`. This mirror is best-effort; the Supabase queue is
    authoritative when Sheets itself is unavailable.
 

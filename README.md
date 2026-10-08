@@ -4,31 +4,29 @@ German cleaning-service website for Eschstraße 70, 26683 Saterland. Built with 
 TypeScript and locally hosted Manrope fonts. Original supplied logo, generated cleaning imagery,
 light/dark themes, glass buttons, searchable service and location directories, and a three-step inquiry.
 
-The content includes 11 services, 78 verified towns/municipalities within approximately 50 km
-straight-line distance, and 858 service/location pages. All 947 editorial articles contain at least
-300 body words. General, contact and legal pages are additional.
+The content includes 11 services, 78 towns/municipalities within approximately 50 km straight-line
+distance, and 858 service/location pages. All 947 editorial articles contain at least 300 body words.
+General, contact and legal pages are additional.
 
-## Current operational status
+## Operational status
 
-The application is deployed for review at https://erledigt-teamde.vercel.app. The live Google Sheet
-has frozen, colored headers and four tabs.
-The initial Supabase schema was applied. **Live form delivery, email/domain DNS, Apps Script deployment
-and analytics configuration are not yet connected.** No secret keys are committed. The default build
-is a preparation version with search indexing disabled and the final form submission unavailable.
-Browser QA has now covered six representative pages at 320, 375, 768, 1440 and 1920 px in both
-themes. The proprietor, VAT ID and chamber information were verified from supplied business records.
-The owner requested no paid hosting subscription. Netlify Free is the prepared production target;
-the account login and live deployment remain pending. `netlify.toml` keeps the existing Next.js
-application and enables a five-minute scheduled retry after launch. The existing Vercel preview
-remains available for review. Its previously prepared domain DNS values must not be applied.
-Checkdomain access is restored. Remaining account authorizations and delivery checks are in the runbook.
+The selected host is the existing **Vercel Hobby** project `erledigt-teamde/erledigt-team.de`.
+The website DNS is connected at https://erledigt-team.de; www redirects to the root domain.
+No paid plan, upgrade or new hosting subscription is authorized.
 
-See [launch runbook](docs/launch-runbook.md), [reference decisions](docs/reference-audit.md),
-[tracking specification](docs/tracking.md) and [verification](docs/verification.md).
+The Supabase schema is installed. Production database and webhook secrets are stored in Vercel.
+The existing private Google Sheet has frozen, grouped colored headers and four tabs. Public website
+images use ImgBB with local fallbacks; no client photo upload is enabled. **Apps Script authorization,
+Resend verification/sending access and end-to-end lead delivery remain pending.**
 
-Netlify Free allows commercial projects and currently includes 300 monthly credits with a hard
-limit. Sites pause when credits run out; it is not unlimited hosting. No paid plan or automatic
-recharge is authorized. See [hosting setup and limits](docs/netlify-hosting.md).
+`NEXT_PUBLIC_LAUNCH_READY=false` keeps search indexing and final form submission disabled while these
+connections are completed. Direct contact links remain available. No secret values are committed.
+The legal identity was verified from the supplied business documents; processor and delivery checks
+remain part of launch preparation.
+
+See [launch runbook](docs/launch-runbook.md), [DNS status](docs/dns-preparation.md),
+[reference decisions](docs/reference-audit.md), [tracking](docs/tracking.md) and
+[verification](docs/verification.md).
 
 ## Local development
 
@@ -54,20 +52,22 @@ pnpm audit:http
 ```
 
 `audit:content` measures body words and name-normalized textual similarity. `audit:build` checks
-every rendered static page for words, headings, canonical URL, internal links/anchors and images.
-HTTP checks intentionally stop if the live form is enabled, to avoid creating production test requests.
+every rendered static page for words, headings, canonical URLs, internal links/anchors and images.
+HTTP checks intentionally stop if the live form is enabled to avoid creating production requests.
 
 ## Content and integrations
 
 - `src/data/content.json`: German service and location content.
 - `src/lib/local-content.ts`: editorial modules and location/service composition.
-- `scripts/build-content.mjs` / `build-cities.mjs`: reproducible content sources.
 - `docs/geography-input.json`: source coordinates and approximate radius calculations.
+- `src/lib/assets.ts`: ImgBB images and their local fallbacks.
 - `supabase/migrations/`: durable leads, consented events, rate limits and delivery queue.
 - `integrations/google-apps-script/`: authenticated, idempotent Google Sheets webhook.
 - `src/app/api/`: validated inquiry/event endpoints and authenticated delivery retry endpoint.
+- `vercel.json`: one daily retry at 05:00 UTC, compatible with Hobby scheduling.
 
-The private Google Sheet is configured separately; its sharing permissions have not been expanded.
-The database has RLS enabled and no public table access. A request is acknowledged only after a
-successful database transaction creates both the lead and delivery jobs. Email/Sheet failures remain
-visible in the database queue for retry. See the runbook for remaining configuration and validation.
+A request is acknowledged only after a database transaction saves both the lead and delivery jobs.
+Delivery starts immediately. The daily job retries failed work; it does not delay new requests.
+Sheets delivery requires an acknowledgement of the exact record ID. Failed attempts remain visible
+in the database outbox. Sheet sharing permissions have not been expanded, and database tables have
+RLS with no public access. See the runbook for the remaining live checks.

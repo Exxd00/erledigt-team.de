@@ -20,7 +20,7 @@ function doPost(e) {
     var dedupeColumn=p.kind==='delivery'?8:2;
     var dedupeKey=p.kind==='delivery'?record.key:record.id;
     if(!dedupeKey || (p.kind==='delivery'&&!/^[0-9a-f-]{36}:\d+$/i.test(dedupeKey)))return reply({ok:false});
-    if (last>1 && sheet.getRange(2,dedupeColumn,last-1,1).createTextFinder(dedupeKey).matchEntireCell(true).findNext()) return reply({ok:true,duplicate:true});
+    if (last>1 && sheet.getRange(2,dedupeColumn,last-1,1).createTextFinder(dedupeKey).matchEntireCell(true).findNext()) return reply({ok:true,record_id:dedupeKey,duplicate:true});
     var row;
     if (p.kind==='lead') row=[record.created_at,record.id,'Neu',record.name,record.company,record.email,record.phone,record.contact_method,record.service,record.city,record.postal_code,record.property_type,record.scope,record.frequency,record.preferred_date,record.message,record.landing_page,record.source,record.medium,record.campaign,record.privacy_version,'','',''];
     else if(p.kind==='event')row=[record.created_at,record.id,record.name,record.path,record.session_id,record.service,record.city,record.position,record.step,record.device,record.source,record.medium,record.campaign,record.consent,record.lead_id];
@@ -29,7 +29,7 @@ function doPost(e) {
     var target=sheet.getRange(last+1,1,1,row.length);
     target.setNumberFormat('@');
     target.setValues([row.map(safeCell)]);
-    return reply({ok:true});
+    return reply({ok:true,record_id:dedupeKey});
   } catch(err) {return reply({ok:false});}
   finally {if(lock.hasLock())lock.releaseLock();}
 }

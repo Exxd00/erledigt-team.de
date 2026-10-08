@@ -1,6 +1,5 @@
-export function clientAddress(headers: Headers, onNetlify: boolean) {
-  // Netlify supplies the connection address; do not trust a forwarded list there.
-  if (onNetlify) return headers.get('x-nf-client-connection-ip')?.trim() || 'unknown';
+export function clientAddress(headers: Headers) {
+  // Vercel overwrites x-forwarded-for with the connecting client's address.
   return headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
 }
 

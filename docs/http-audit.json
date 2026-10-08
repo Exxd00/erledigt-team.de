@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-08T18:27:55.803Z",
-  "base": "http://localhost:3035",
+  "generatedAt": "2026-10-08T19:35:32.321Z",
+  "base": "http://localhost:3188",
   "findings": [
     {
       "name": "Unconfigured form is visibly unavailable",

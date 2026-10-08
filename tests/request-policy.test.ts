@@ -2,15 +2,9 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { allowedOrigin, clientAddress } from '../src/lib/request-policy.ts';
 
-test('Netlify rate limiting uses the provider connection address', () => {
-  const headers = new Headers({
-    'x-nf-client-connection-ip': '192.0.2.5',
-    'x-forwarded-for': '198.51.100.9, 192.0.2.6',
-  });
-  assert.equal(clientAddress(headers, true), '192.0.2.5');
-  headers.delete('x-nf-client-connection-ip');
-  assert.equal(clientAddress(headers, true), 'unknown');
-  assert.equal(clientAddress(headers, false), '198.51.100.9');
+test('rate limiting uses the provider forwarded address and handles its absence', () => {
+  assert.equal(clientAddress(new Headers({ 'x-forwarded-for': '198.51.100.9' })), '198.51.100.9');
+  assert.equal(clientAddress(new Headers()), 'unknown');
 });
 const local = {
   origin: 'http://localhost:3000',

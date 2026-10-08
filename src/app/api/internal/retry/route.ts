@@ -5,6 +5,7 @@ export async function GET(req: NextRequest) {
   const secret = process.env.CRON_SECRET;
   if (!secret || !secretMatches(req.headers.get('authorization') || '', `Bearer ${secret}`))
     return new NextResponse(null, { status: 401 });
+  if (!isLeadReady()) return new NextResponse(null, { status: 503 });
   try {
     return NextResponse.json(await retryQueued(40));
   } catch {
@@ -12,8 +13,8 @@ export async function GET(req: NextRequest) {
   }
 }
 
-// Scheduled functions have a shorter deadline than the delivery worker. Acknowledge
-// only that work was accepted; the database outbox remains the source of delivery status.
+// An authenticated manual retry can return immediately while Vercel finishes work.
+// Acceptance is not delivery confirmation; the outbox is the delivery status source.
 export async function POST(req: NextRequest) {
   const secret = process.env.CRON_SECRET;
   if (!secret || !secretMatches(req.headers.get('authorization') || '', `Bearer ${secret}`))

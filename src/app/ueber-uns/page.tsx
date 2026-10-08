@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { assets } from '@/lib/assets';
+import { SiteImage } from '@/components/SiteImage';
 import { Breadcrumb, ClosingCta, Eyebrow, Process } from '@/components/Shared';
 export const metadata = {
   title: 'Über ERLEDIGT TEAM',
@@ -29,8 +31,8 @@ export default function Page() {
       <section className="section surface-alt">
         <div className="wrap story-grid">
           <div className="story-photo">
-            <img
-              src="/images/hero-cleaning.webp"
+            <SiteImage
+              image={assets.hero}
               width="1536"
               height="1024"
               alt="Glasreinigung an einem modernen Gebäude – illustrative Darstellung"

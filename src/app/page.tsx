@@ -3,14 +3,16 @@ import { Icon } from '@/components/Icon';
 import { ClosingCta, Eyebrow, FaqList, JsonLd, Process, ServiceCard } from '@/components/Shared';
 import { services, cities } from '@/lib/content';
 import { site } from '@/lib/site';
+import { assets } from '@/lib/assets';
+import { SiteImage } from '@/components/SiteImage';
 export const metadata = { alternates: { canonical: '/' } };
 export default function Home() {
   return (
     <>
       <section className="hero">
         <div className="hero-photo">
-          <img
-            src="/images/hero-cleaning.webp"
+          <SiteImage
+            image={assets.hero}
             alt="Professionelle Glasreinigung an einem modernen Gebäude – illustrative Darstellung"
             fetchPriority="high"
             width="1536"
@@ -124,8 +126,8 @@ export default function Home() {
       <section className="section surface-alt">
         <div className="wrap story-grid">
           <div className="story-photo">
-            <img
-              src="/images/solar-cleaning.webp"
+            <SiteImage
+              image={assets.solar}
               alt="Schonende Reinigung von Solarmodulen mit einer weichen Bürste – illustrative Darstellung"
               loading="lazy"
               width="1536"

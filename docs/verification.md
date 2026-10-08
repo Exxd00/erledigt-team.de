@@ -1,72 +1,53 @@
 # Verification — 8 October 2026
 
-Completed against the local production build:
+## Current code checks
 
-- `pnpm test`: 14 tests passed (request origins, input validation, webhook authorization, durable
-  deduplication, formula injection, event field allowlist and sheet growth).
-- `pnpm typecheck` and `pnpm build`: passed. 962 framework routes generated, including metadata.
-- `pnpm audit:content`: 947 editorial pages; minimum 301 body words; maximum city-name-normalized
-  six-word shingle similarity 0.523; no exact duplicates or pairs above the audit threshold.
-- `pnpm audit:build`: 953 public static pages; minimum 359 words inside main; one h1, unique titles,
-  self canonical URLs, valid internal links/anchors and available images. The dynamic form is additional.
-- `pnpm audit:http`: all 10 checks passed, including foreign-origin rejection, malformed requests,
-  no false success without configuration, protected retry endpoint, 404 and preparation robots.
-- Chrome UI: home, service directory, city directory, city/service page, inquiry and Impressum at
-  320, 375, 768, 1440 and 1920 CSS px in both themes: all 60 checks had no horizontal overflow or
-  broken images. Representative mobile/desktop screenshots were visually inspected.
-- Chrome UI: category and text filters together, empty result state, city search and radius exclusion,
-  city-to-service links, prefilled service/city/postcode, required selected contact channel, review step,
-  keyboard submission and focus on errors. Final submission remains disabled without the live backend.
-- Live Google Sheet: Anfragen, Ereignisse, Zustellung and Hinweise visually inspected; the eighth
-  delivery column was read back with its navy fill, white bold text, wrap and explanatory note.
-- Public legal identity verified from user-supplied business documents. Private identifiers and scans
-  remain outside the repository.
+- `pnpm test`: all 15 tests pass. Coverage includes request origins, input validation, webhook
+  authentication, exact record acknowledgements, persistent deduplication, formula neutralization,
+  event-field allowlisting, sheet growth and rate-limit addressing.
+- `pnpm typecheck` and `pnpm build`: pass; 962 framework routes including metadata are generated.
+- `pnpm audit:build`: all 953 public static pages pass, with at least 359 words inside main,
+  one h1, unique titles, canonical URLs, valid internal links/anchors and available local images.
+- `pnpm audit:http`: all 11 preparation-build checks pass, including both retry methods rejecting
+  unauthenticated calls, invalid inputs, no false success, the prefilled form, 404 and robots.
+- The unchanged editorial content previously passed `audit:content`: 947 articles, minimum 301
+  body words, maximum normalized six-word shingle similarity 0.523 and no exact duplicates.
 
-The local test inquiry used a reserved `.invalid` email address and was not submitted. No real lead
-delivery, production analytics collection, domain HTTPS or business mailbox receipt has been claimed.
-These require the remaining account setup in the launch runbook.
+Earlier responsive checks covered six pages at 320, 375, 768, 1440 and 1920 CSS px in both themes:
+all 60 checks had no horizontal overflow or broken loaded images. The checks also exercised combined
+filters, empty results, radius exclusion, city/service navigation, prefilled inquiry fields, selected
+contact-channel validation, review step and keyboard focus on errors. Current integration changes
+receive additional targeted image and live checks below.
 
-Screenshots and responsive measurement results are in the local ignored `artifacts/` directory.
+Targeted checks after the ImgBB integration passed at 375 and 1440 px in both themes, without
+horizontal overflow. Normal CDN images, including the lazy solar image, loaded successfully.
+Blocking every `i.ibb.co` request exposed an error before React hydration; the image component now
+also checks failed images when attached. Repeating the same blocked-network test loaded all four
+rendered images from local files. Network blocking and viewport overrides were cleared afterwards.
 
-Live deployment checks on 8 October 2026:
+## Verified external configuration
 
-- Vercel deployment of commit `1d1a39f` reached Ready. The review URL is
-  https://erledigt-teamde.vercel.app.
-- Read-only HTTP checks of the homepage, service directory, Saterland/window-cleaning page,
-  Impressum, robots and health endpoint all returned 200. Preparation indexing restrictions remain
-  active and the health endpoint reports `acceptingRequests: false`.
-- Live Chrome desktop and 375 px mobile screenshots were visually inspected. Mobile document width
-  equals its 375 px viewport. Temporary device emulation was cleared afterwards.
-- The Apps Script manifest was saved with Europe/Berlin, V8, no exception logging and the explicit
-  Sheets OAuth scope. The web-app deployment dialog is prepared; it has not been authorized or deployed.
-- Vercel domain settings show the root connected to Production and www redirected to the root with
-  status 308. Both still show Invalid Configuration because registrar DNS has not been changed.
-- Public MX/SPF records currently point to Microsoft 365. This does not establish that the individual
-  info mailbox exists or receives mail. The Resend verification records are not yet present.
+- Vercel project remains on Hobby. Root and www show Valid Configuration. Public HTTPS responds;
+  www redirects to https://erledigt-team.de/. Microsoft 365 mail DNS remains unchanged.
+- Production-only Vercel Secrets are saved for Supabase, webhook authentication, rate limiting and
+  cron authentication. These require the updated deployment before they affect runtime behavior.
+- ImgBB serves the three intended public website assets with HTTP 200 and image/jpeg or image/webp
+  content types. The source retains local fallbacks. No customer photo upload is enabled.
+- The Google Sheet headers were read back and visually inspected: separate colors group identity,
+  status, contact, object, attribution and follow-up fields. Header text remains white and bold,
+  row 1 is frozen, filters remain present and the inquiry status dropdown is preserved.
+- Apps Script contains the updated record-ID acknowledgements. The saved editor text was copied
+  back and compared to the intended edit. Its deployment dialog is prepared, not authorized.
+- Public legal identity was verified against supplied business documents. Private identifiers and
+  scans remain outside the repository.
 
-No payment, API-key creation, OAuth grant or live test email was performed. A consolidated request
-for the remaining owner decisions has been presented.
+## Pending live proof
 
-## Netlify Free preparation
+The form remains intentionally unavailable until launch configuration is complete. Resend sender
+verification/key creation and Apps Script's new Google permission are awaiting the consolidated
+approval. No live customer inquiry, email receipt or successful Sheet delivery is claimed. GA4 is
+not configured. Final processor/retention disclosures and the end-to-end delivery check precede
+launch and search indexing.
 
-The owner declined a paid business hosting subscription. The application now includes Netlify
-configuration and an authenticated five-minute scheduler. The existing Vercel preview is retained
-while the Netlify account connection is pending.
-
-- Netlify CLI 27.11.2, Build 37.4.0 and the automatically selected OpenNext adapter 5.16.2 completed
-  a local offline build in 2m 12.7s. Both the Next.js server handler and `retry-deliveries` were packaged.
-- The generated manifest confirms Node 24 and the retry schedule `*/5 * * * *`.
-- The first packaging attempt exposed a Windows pnpm symlink-copy conflict. Setting `nodeLinker:
-  hoisted` in `pnpm-workspace.yaml` resolved it; package versions and the lockfile were unchanged.
-- All 18 unit tests passed, including scheduler launch gating, secret transport, HTTPS-only target,
-  redirect refusal, rejected-work handling and provider-specific rate-limit addressing.
-- Next.js compilation/type checks passed. The static audit again passed all 953 public static pages.
-- All 11 local production HTTP checks passed, including authentication for both retry methods,
-  no false success while integrations are missing and preparation indexing restrictions.
-- The local privacy page rendered correctly in Chrome. This offline invocation has no `NETLIFY`
-  environment marker and therefore shows the existing Vercel fallback; hosted Netlify builds set
-  `NETLIFY=true`. Its provider label must be checked again on the real Netlify deployment.
-
-These are local build/runtime results, not a successful Netlify cloud deployment or live delivery
-claim. Netlify login/terms, new account permissions, server secrets, actual DNS and mailbox tests
-remain pending. No paid plan, OAuth grant, sender key or email test was created during this preparation.
+Proof screenshots are kept outside the repository in the workspace `proofs/` directory; earlier
+responsive measurements and screenshots are in the local ignored `artifacts/` directory.

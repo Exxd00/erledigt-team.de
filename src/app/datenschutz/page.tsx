@@ -1,7 +1,7 @@
 import { Breadcrumb, Eyebrow } from '@/components/Shared';
 import { site } from '@/lib/site';
 import { legal } from '@/lib/legal';
-const hostingProvider = process.env.NETLIFY === 'true' ? 'Netlify' : 'Vercel';
+const hostingProvider = 'Vercel';
 export const metadata = {
   title: 'Datenschutzhinweise',
   alternates: { canonical: '/datenschutz' },
@@ -33,6 +33,18 @@ export default function Page() {
           Verarbeitung ist die sichere und funktionsfähige Bereitstellung der Website. Die konkrete
           vertragliche Ausgestaltung und Aufbewahrung der Hostingprotokolle werden vor der Freigabe
           dokumentiert.
+        </p>
+        <p>
+          Für das Logo und eigens für diese Website erstellte Illustrationsbilder nutzen wir ImgBB.
+          Beim Laden dieser Bilder wird eine Verbindung zu i.ibb.co hergestellt; dabei erhält der
+          Bilderdienst insbesondere Ihre IP-Adresse und technische Verbindungsdaten. Die Einbindung
+          dient der Bereitstellung unserer Website (Artikel 6 Absatz 1 Buchstabe f DSGVO). Über das
+          Anfrageformular werden keine Kundenfotos an ImgBB übertragen. Weitere Hinweise finden Sie
+          in der{' '}
+          <a href="https://imgbb.com/privacy" target="_blank" rel="noreferrer">
+            Datenschutzerklärung von ImgBB
+          </a>
+          .
         </p>
         <h2>3. Anfragen und Kontaktaufnahme</h2>
         <p>

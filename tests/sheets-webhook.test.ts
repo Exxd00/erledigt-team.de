@@ -87,6 +87,7 @@ test('lead retries append once and neutralize spreadsheet formulas', () => {
     lead: { id, name: '=IMPORTXML("test")', phone: '+49123456789' },
   };
   assert.equal(h.send(payload).ok, true);
+  assert.equal(h.send(payload).record_id, id);
   assert.equal(h.send(payload).duplicate, true);
   assert.equal(h.rows.Anfragen.length, 2);
   assert.equal(h.rows.Anfragen[1][3], '\'=IMPORTXML("test")');
@@ -117,6 +118,7 @@ test('delivery attempts have persistent deduplication and separate history rows'
     delivery: { id, key: `${id}:1`, destination: 'email', status: 'pending', attempts: 1 },
   };
   h.send(payload);
+  assert.equal(h.send(payload).record_id, `${id}:1`);
   assert.equal(h.send(payload).duplicate, true);
   h.send({
     ...payload,

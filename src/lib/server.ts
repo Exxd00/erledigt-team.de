@@ -5,7 +5,7 @@ import { allowedOrigin, clientAddress } from './request-policy';
 export function isConfigured() {
   return !!(
     process.env.SUPABASE_URL &&
-    process.env.SUPABASE_SERVICE_ROLE_KEY &&
+    (process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY) &&
     process.env.RATE_LIMIT_SECRET
   );
 }
@@ -22,13 +22,13 @@ export function isLeadReady() {
 }
 export async function db(path: string, init: RequestInit = {}) {
   const url = process.env.SUPABASE_URL;
-  const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  const key = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY;
   if (!url || !key) throw new Error('database_not_configured');
   const r = await fetch(`${url}/rest/v1/${path}`, {
     ...init,
     headers: {
       apikey: key,
-      Authorization: `Bearer ${key}`,
+      ...(key.startsWith('sb_secret_') ? {} : { Authorization: `Bearer ${key}` }),
       'Content-Type': 'application/json',
       ...init.headers,
     },
@@ -66,7 +66,7 @@ export async function readBody(req: NextRequest, max = 14000) {
   return JSON.parse(chunks + decoder.decode());
 }
 export async function rateLimit(req: NextRequest, kind: 'lead' | 'event') {
-  const ip = clientAddress(req.headers, !!process.env.SITE_ID);
+  const ip = clientAddress(req.headers);
   const day = new Date().toISOString().slice(0, 10);
   const hash = createHmac('sha256', process.env.RATE_LIMIT_SECRET!)
     .update(`${day}:${ip}:${kind}`)
@@ -95,7 +95,12 @@ async function sheetPost(payload: Record<string, unknown>) {
     signal: AbortSignal.timeout(8000),
   });
   const body = await r.json();
-  if (!r.ok || body.ok !== true) throw new Error('sheet_delivery_failed');
+  const record = payload[
+    payload.kind === 'lead' ? 'lead' : payload.kind === 'event' ? 'event' : 'delivery'
+  ] as Record<string, unknown>;
+  const expectedId = payload.kind === 'delivery' ? record.key : record.id;
+  if (!r.ok || body.ok !== true || body.record_id !== expectedId)
+    throw new Error('sheet_delivery_failed');
 }
 export async function deliver(id: string) {
   const jobs = (await db(

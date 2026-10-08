@@ -37,7 +37,7 @@ export async function POST(req: NextRequest) {
     await db('rpc/save_lead', {
       method: 'POST',
       body: JSON.stringify({
-        p_lead: { ...clean, privacy_version: '2026-10-07', created_at: new Date().toISOString() },
+        p_lead: { ...clean, privacy_version: '2026-10-08', created_at: new Date().toISOString() },
       }),
     });
     after(() => deliver(lead.id));

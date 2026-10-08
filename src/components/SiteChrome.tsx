@@ -4,6 +4,8 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import { Icon } from './Icon';
 import { site } from '@/lib/site';
+import { assets } from '@/lib/assets';
+import { SiteImage } from './SiteImage';
 import {
   track,
   CONSENT_KEY,
@@ -16,7 +18,7 @@ export function Brand() {
   return (
     <Link href="/" className="brand" aria-label="ERLEDIGT TEAM – Startseite">
       <span className="brand-mark">
-        <img src="/images/logo.jpg" width="76" height="38" alt="" />
+        <SiteImage image={assets.logo} width="76" height="38" alt="" />
       </span>
       <span>
         <strong>
