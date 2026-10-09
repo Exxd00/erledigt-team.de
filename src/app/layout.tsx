@@ -15,6 +15,8 @@ import { site } from '@/lib/site';
 import { ContactDock } from '@/components/ContactDock';
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
+  // Public ownership proof for the approved business Search Console account.
+  verification: { google: 'KtbOd7gfkgMrDqyDC4qRKpUzOkOBOy-VMDJM3bI8Y2A' },
   title: {
     default: 'ERLEDIGT TEAM | Gebäudereinigung in Saterland & Umgebung',
     template: '%s | ERLEDIGT TEAM',
