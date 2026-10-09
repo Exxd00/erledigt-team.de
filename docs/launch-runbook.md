@@ -14,8 +14,9 @@
 - Resend: erledigt-team.de, Ireland, verified. Sending-only domain-scoped key saved in Vercel.
 - ImgBB: eight public brand/illustration assets, with local fallbacks; no customer-upload flow.
 - GA4: property 557969528, stream 16061549557, G-16V9Z8RTRS; settings in tracking.md.
-- Search Console: Domain property for erledigt-team.de prepared in erledigt.team.de@gmail.com.
-  Ownership TXT verification and the sitemap submission remain pending.
+- Search Console: https://erledigt-team.de/ URL-prefix property verified by the public HTML meta tag
+  under erledigt.team.de@gmail.com. Linked to GA4 stream 16061549557; its Queries and Google organic
+  search traffic reports are available. Keep the verification meta tag in the root layout.
 
 ## Production environment
 
@@ -42,12 +43,19 @@ the daily scheduling window. /api/internal/retry is protected by the cron bearer
 Cron Run delivered all ten earlier labelled QA events without duplicates. Supabase is the
 authoritative queue when Sheets is unavailable; the Zustellung audit mirror is best-effort.
 
-## Remaining handoff
+## Search verification and owner input
 
-The owner approved the prepared Search Console DNS verification and GA4 link on October 9.
-Checkdomain's login expired before the TXT save. Resume after the owner signs in, save the prepared
-verification TXT, verify the Domain property, submit https://erledigt-team.de/sitemap.xml and link
-the existing GA4 web stream. Do not request the same ownership approval again.
+The owner approved Search Console ownership and the GA4 link on October 9. Checkdomain's login
+expired before the TXT save, so verification was completed with an HTML tag for the canonical HTTPS
+URL-prefix property. This covers all public site pages. DNS login is no longer required for this
+setup. The older unverified Domain property is unused; no DNS or Microsoft 365 records were changed.
+
+https://erledigt-team.de/sitemap.xml was submitted and resubmitted once. Google still reports
+Couldn't fetch in Sitemaps despite its own live URL test successfully fetching the correct XML and
+the public endpoint returning 200 with 952 URLs. No manual actions are reported. Check this result
+again later; do not call it Success or claim all URLs are indexed. A manual homepage indexing
+request also returned Google's generic error. These are outstanding Google processing results,
+not a request for further owner credentials or approval.
 
 The owner confirmed WhatsApp on the published number; the website now includes that channel and
 its consent-controlled click event. The owner has no additional photos or testimonials to supply.

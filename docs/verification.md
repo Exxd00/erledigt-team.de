@@ -38,8 +38,9 @@ fallback recovery. Current production build is checked separately from the devel
 - The private Google Sheet has colored frozen headers, filters and an inquiry-status dropdown.
 - GA4 is configured as documented in tracking.md, including the generate_lead key event and
   four dimensions. The measurement ID is saved in Vercel Production.
-- Search Console's business account has an unverified Domain property prepared. DNS ownership
-  verification and sitemap submission are still pending; no indexing claim is made.
+- Search Console ownership of https://erledigt-team.de/ is verified by HTML tag in the business
+  account. GA4 confirms the link to stream 16061549557. Queries and Google organic search traffic
+  are visible in the report navigation. No claim is made that all pages have been indexed.
 - Vercel's manual Cron Run retried all ten previously queued QA events. Supabase now reports all
   ten sent at attempt 2; all 19 events in the new end-to-end QA session were sent at attempt 1.
   Sheet UUID checks confirmed no duplicate event rows.
@@ -78,6 +79,23 @@ checks (320, 390, 768 and 1440 px, both themes) show no horizontal overflow, ful
 56/62 px touch targets. Escape restores focus to the contact trigger. Local network inspection shows
 zero analytics requests for a WhatsApp click after refusal and one whatsapp_click after consent.
 
-Search Console ownership was explicitly approved on October 9. Checkdomain expired the login session
-before saving the prepared TXT record; authoritative DNS still lacked it at that check. The domain
-verification, sitemap submission and GA4 link await re-authentication, not another ownership approval.
+Production commit 073981d passed Vercel and the live click returned HTTP 204. GA's collection endpoint
+also returned 204 with whatsapp_click and floating_whatsapp. The private Ereignisse sheet contains
+exactly one matching row (57, event 44d7b034-e3a4-4668-a8ef-a31ea3fe2c71), labelled launch-check / qa /
+whatsapp. GA4 Realtime also displays exactly one whatsapp_click, with no new key event. No new lead
+or email was created. The consent setting was restored to necessary afterwards.
+
+Commit 09eca8f deployed the public Google verification meta tag after Checkdomain's login expired.
+Google confirmed ownership of the canonical URL-prefix property and the GA4 link was created.
+Its live homepage inspection reports Successful fetch and Page can be indexed. A manual homepage
+indexing request returned Google's generic submission error; it is not recorded as accepted.
+
+Google acknowledged the sitemap submission and one resubmission. The Sitemaps table still reports
+Couldn't fetch / Unknown with 0 discovered pages. The exact sitemap URL independently returns HTTP
+200, application/xml, 186570 bytes and 952 parsed URLs. Google's own live inspection at 08:05 Europe/
+Berlin reports Crawl allowed: Yes, Page fetch: Successful, Indexing allowed: Yes; its source viewer
+contains the real XML urlset and expected URLs. Manual actions reports No issues detected. These
+checks rule out a currently reproduced access or XML-response failure, but do not establish a
+successful Sitemaps processing result. This remaining Google-side result needs a later check.
+Follow [Google's sitemap diagnostics](https://support.google.com/webmasters/answer/7451001?hl=en)
+without repeated submissions or an assumption that every submitted URL is indexed.

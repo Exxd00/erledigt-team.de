@@ -40,6 +40,7 @@ silently treated as delivered.
 | Local discovery                  | Service/location landing-page structure              | 11 services, 78 towns and 858 combinations; regional filters and nearby links                  |
 | Visual content                   | Reference-site marketing imagery                     | User logo plus seven generated cleaning illustrations on ImgBB, with local fallback            |
 | Tracking                         | Consent-controlled interaction and conversion events | Same core journey plus consent-controlled GA4; generate_lead only after durable save           |
+| Search visibility                | Search-oriented landing pages                        | Root-host canonical sitemap and verified Search Console linked to GA4 search reports           |
 | Sheets                           | Colored lead fields and conversion/contact records   | Separate Anfragen, Ereignisse and Zustellung tabs with frozen colored headers                  |
 | Delivery resilience              | Reference contact/conversion endpoints               | Transactional database outbox, exact Sheet acknowledgements and daily retry                    |
 | Public evidence                  | Reference business's own claims                      | No borrowed reviews, logos or guarantees; owner photos/testimonials can be added when supplied |
@@ -47,4 +48,5 @@ silently treated as delivered.
 The owner confirmed WhatsApp on October 9. Its link resolves to the Erledigt business profile;
 no test chat message was sent. Local checks cover 320, 390, 768 and 1440 px in both themes.
 Phone clicks are not treated as completed calls. Search Console ownership and live delivery proof
-are tracked in the launch runbook rather than inferred from implemented code.
+are verified in the platforms and recorded in the launch runbook. A sitemap submission is not proof
+that all its URLs have been indexed.
