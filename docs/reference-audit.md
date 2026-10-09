@@ -33,14 +33,14 @@ silently treated as delivered.
 
 | Area                             | IXA reference                                        | ERLEDIGT TEAM                                                                                  |
 | -------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| Mobile navigation and conversion | Mobile contact bar, menu and conversion forms        | Sticky call/quote bar, menu, prefilled multi-step quote request                                |
-| Floating glass contacts          | Desktop callback and WhatsApp controls               | Separate glowing WhatsApp orb plus call/email/quote panel; keyboard access and back-to-top     |
+| Mobile navigation and conversion | Mobile contact bar, menu and conversion forms        | Menu and prefilled multi-step quote request; bottom bar removed at the owner's request          |
+| Floating glass contacts          | Desktop callback and WhatsApp controls               | Vertically stacked WhatsApp/contact controls, continuous border light, keyboard access and reduced motion |
 | Themes                           | Glass styling and semantic theme colors              | Both blue themes, reduced motion and 36 refreshed responsive checks                            |
 | Decision support                 | Marketing service selection                          | Home/business/property finder, preparation guidance and service-specific decision cards        |
 | Local discovery                  | Service/location landing-page structure              | 11 services, 78 towns and 858 combinations; regional filters and nearby links                  |
 | Visual content                   | Reference-site marketing imagery                     | User logo plus seven generated cleaning illustrations on ImgBB, with local fallback            |
 | Tracking                         | Consent-controlled interaction and conversion events | Same core journey plus consent-controlled GA4; generate_lead only after durable save           |
-| Search visibility                | Search-oriented landing pages                        | Root-host canonical sitemap and verified Search Console linked to GA4 search reports           |
+| Search visibility                | Search-oriented landing pages                        | Root-host sitemap processed successfully with 952 discovered URLs; verified Search Console linked to GA4 |
 | Sheets                           | Colored lead fields and conversion/contact records   | Separate Anfragen, Ereignisse and Zustellung tabs with frozen colored headers                  |
 | Delivery resilience              | Reference contact/conversion endpoints               | Transactional database outbox, exact Sheet acknowledgements and daily retry                    |
 | Public evidence                  | Reference business's own claims                      | No borrowed reviews, logos or guarantees; owner photos/testimonials can be added when supplied |

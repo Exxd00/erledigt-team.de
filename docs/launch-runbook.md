@@ -50,12 +50,21 @@ expired before the TXT save, so verification was completed with an HTML tag for 
 URL-prefix property. This covers all public site pages. DNS login is no longer required for this
 setup. The older unverified Domain property is unused; no DNS or Microsoft 365 records were changed.
 
-https://erledigt-team.de/sitemap.xml was submitted and resubmitted once. Google still reports
-Couldn't fetch in Sitemaps despite its own live URL test successfully fetching the correct XML and
-the public endpoint returning 200 with 952 URLs. No manual actions are reported. Check this result
-again later; do not call it Success or claim all URLs are indexed. A manual homepage indexing
-request also returned Google's generic error. These are outstanding Google processing results,
-not a request for further owner credentials or approval.
+https://erledigt-team.de/sitemap.xml was submitted and resubmitted once. The October 9 evening
+follow-up in the Zen browser profile confirms **Success**, last read October 9 and **952 discovered
+pages**. The earlier Couldn't fetch status has cleared. Do not equate discovered URLs with indexed
+URLs. The earlier manual homepage indexing request returned a generic error and was not accepted;
+the successfully processed sitemap now provides the discovery path. No manual actions were reported.
+
+The domain's MX still points to Microsoft 365. Site notifications use the configured sender and
+recipient; Resend Delivered proves acceptance by the recipient server, not mailbox login or reading.
+No mailbox password has been created or changed by the agent. Outlook asks for the existing password
+for info@erledigt-team.de. The Microsoft admin session in Zen has no tenant administration access.
+Mailbox activation/licensing and inbox reading therefore remain unverified. User password entry or
+reset must be completed privately through Microsoft, never stored in this repository.
+Microsoft's recovery flow recognizes the business account and requires its registered Authenticator
+app (a code or notification approval) before choosing a new password. That page is prepared in Zen
+for the owner. No verification prompt was sent, no code submitted and no new password entered.
 
 The owner confirmed WhatsApp on the published number; the website now includes that channel and
 its consent-controlled click event. The owner has no additional photos or testimonials to supply.

@@ -90,12 +90,24 @@ Google confirmed ownership of the canonical URL-prefix property and the GA4 link
 Its live homepage inspection reports Successful fetch and Page can be indexed. A manual homepage
 indexing request returned Google's generic submission error; it is not recorded as accepted.
 
-Google acknowledged the sitemap submission and one resubmission. The Sitemaps table still reports
-Couldn't fetch / Unknown with 0 discovered pages. The exact sitemap URL independently returns HTTP
-200, application/xml, 186570 bytes and 952 parsed URLs. Google's own live inspection at 08:05 Europe/
-Berlin reports Crawl allowed: Yes, Page fetch: Successful, Indexing allowed: Yes; its source viewer
-contains the real XML urlset and expected URLs. Manual actions reports No issues detected. These
-checks rule out a currently reproduced access or XML-response failure, but do not establish a
-successful Sitemaps processing result. This remaining Google-side result needs a later check.
-Follow [Google's sitemap diagnostics](https://support.google.com/webmasters/answer/7451001?hl=en)
-without repeated submissions or an assumption that every submitted URL is indexed.
+Google initially reported Couldn't fetch despite the exact sitemap URL returning HTTP 200 and
+Google's live inspection fetching the actual XML successfully. On the October 9 evening follow-up,
+the Sitemaps report shows **Success**, last read October 9 and **952 discovered pages**. This was
+checked in the Zen browser profile using the business Google account; no additional submission or
+DNS change was needed. The initial failure's cause was not established. Sitemap processing success
+does not establish that every URL is indexed. Proof: search-console-sitemap-success.png in the
+workspace proofs directory.
+
+## Glass controls follow-up
+
+Removed the mobile bottom call/quote bar at the owner's request, including its component, styles
+and reserved consent/footer space. Contact and WhatsApp controls remain vertically stacked at all
+visible breakpoints. Their panels fit within the viewport and retain keyboard focus handling.
+Primary glass buttons and floating controls have a continuous masked border light; the centre stays
+transparent and text remains unobstructed. Reduced-motion preferences disable the animation.
+
+TypeScript and the 962-route production build pass. Eight browser cases at 320x568, 390x844,
+768x1024 and 1440x1000 in both themes verify no bottom bar, no horizontal overflow, vertical 56/62px
+controls and panels inside the viewport. Reduced-motion inspection reports no animation for both
+the primary CTA and floating control; Escape restores focus to the contact trigger. Measurements
+are recorded in proofs/glass-layouts.json outside Git.

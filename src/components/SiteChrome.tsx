@@ -202,24 +202,6 @@ export function SiteFooter() {
     </footer>
   );
 }
-export function MobileContactBar() {
-  return (
-    <div className="mobile-contact">
-      <a href={site.phoneHref} data-event="phone_click" data-position="mobile_bar">
-        <Icon name="Phone" size={19} />
-        Anrufen
-      </a>
-      <Link
-        className="button glass"
-        href="/anfrage"
-        data-event="cta_click"
-        data-position="mobile_bar"
-      >
-        Angebot anfragen
-      </Link>
-    </div>
-  );
-}
 export function ConsentAndTracking() {
   const path = usePathname();
   const [visible, setVisible] = useState(false);

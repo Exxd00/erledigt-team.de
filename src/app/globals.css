@@ -1,3 +1,13 @@
+@property --glass-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+@keyframes glass-orbit {
+  to {
+    --glass-angle: 360deg;
+  }
+}
 :root {
   --ice: #b3def8;
   --sky: #58a1d3;
@@ -311,6 +321,40 @@ button {
   box-shadow:
     inset 0 1px 1px rgba(255, 255, 255, 0.65),
     0 9px 28px rgba(88, 161, 211, 0.2);
+}
+/* A masked light travels around the edge; the transparent centre never covers text. */
+.glass::after,
+.liquid-orb::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  padding: 2px;
+  background: conic-gradient(
+    from var(--glass-angle),
+    transparent 0deg 250deg,
+    rgba(88, 161, 211, 0.25) 275deg,
+    #58a1d3 300deg,
+    #fff 325deg,
+    #b3def8 340deg,
+    transparent 360deg
+  );
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  animation: glass-orbit 5s linear infinite;
+}
+.liquid-orb::after {
+  animation-duration: 4s;
+}
+.glass:disabled::after {
+  animation-play-state: paused;
 }
 .on-dark {
   color: white;
@@ -885,14 +929,11 @@ button {
   background: none;
   font-size: inherit;
 }
-.mobile-contact {
-  display: none;
-}
 /* Original blue glass contact controls; kept below menus and consent. */
 .contact-dock {
   position: fixed;
   right: max(20px, env(safe-area-inset-right));
-  bottom: 26px;
+  bottom: max(26px, env(safe-area-inset-bottom));
   z-index: 50;
 }
 .dock-controls {
@@ -902,6 +943,7 @@ button {
   gap: 12px;
 }
 .liquid-orb {
+  position: relative;
   width: 62px;
   height: 62px;
   display: flex;
@@ -1341,18 +1383,15 @@ body:has(.mobile-navigation) .contact-dock {
     margin-bottom: 12px;
   }
   .contact-dock {
-    bottom: calc(90px + env(safe-area-inset-bottom));
-    right: 16px;
+    bottom: calc(24px + env(safe-area-inset-bottom));
+    right: max(16px, env(safe-area-inset-right));
   }
   .contact-dock-panel {
     right: 0;
-    bottom: 76px;
+    bottom: 140px;
     width: min(345px, calc(100vw - 32px));
-    max-height: calc(100dvh - 250px);
+    max-height: calc(100dvh - 188px - env(safe-area-inset-bottom));
     overflow-y: auto;
-  }
-  .dock-controls {
-    flex-direction: row;
   }
   .liquid-orb {
     width: 56px;
@@ -2120,41 +2159,11 @@ textarea {
   .page-intro {
     padding-top: 24px;
   }
-  .mobile-contact {
-    display: flex;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 55;
-    background: var(--header);
-    backdrop-filter: blur(16px);
-    border-top: 1px solid var(--line);
-    padding: 10px 20px calc(10px + env(safe-area-inset-bottom));
-    gap: 15px;
-    align-items: center;
-  }
-  .mobile-contact > a:first-child {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-    font-size: 0.82rem;
-    font-weight: 700;
-    min-height: 48px;
-  }
-  .mobile-contact .button {
-    flex: 1.8;
-    font-size: 0.82rem;
-    min-height: 48px;
-    padding: 10px;
-  }
   .site-footer {
-    padding-bottom: 85px;
+    padding-bottom: 32px;
   }
   .consent-box {
-    bottom: 87px;
+    bottom: calc(24px + env(safe-area-inset-bottom));
   }
   .filter-chips {
     gap: 7px;

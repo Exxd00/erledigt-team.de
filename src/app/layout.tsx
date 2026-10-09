@@ -5,12 +5,7 @@ import '@fontsource/manrope/600.css';
 import '@fontsource/manrope/700.css';
 import '@fontsource/manrope/800.css';
 import './globals.css';
-import {
-  SiteHeader,
-  SiteFooter,
-  MobileContactBar,
-  ConsentAndTracking,
-} from '@/components/SiteChrome';
+import { SiteHeader, SiteFooter, ConsentAndTracking } from '@/components/SiteChrome';
 import { site } from '@/lib/site';
 import { ContactDock } from '@/components/ContactDock';
 export const metadata: Metadata = {
@@ -65,7 +60,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteHeader />
         <main id="main">{children}</main>
         <SiteFooter />
-        <MobileContactBar />
         <ContactDock />
         <ConsentAndTracking />
       </body>
