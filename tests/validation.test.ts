@@ -52,6 +52,17 @@ test('analytics strips unknown personal fields and rejects URLs with queries', (
     false,
   );
   assert.equal(eventSchema.safeParse({ ...event, consent: 'necessary' }).success, false);
+  const whatsapp = eventSchema.parse({
+    ...event,
+    name: 'whatsapp_click',
+    position: 'floating_whatsapp',
+    phone: '+491234567890',
+    message: 'Private chat text',
+  });
+  assert.equal(whatsapp.name, 'whatsapp_click');
+  assert.equal('phone' in whatsapp, false);
+  assert.equal('message' in whatsapp, false);
+  assert.equal(eventSchema.safeParse({ ...whatsapp, consent: 'necessary' }).success, false);
 });
 test('spreadsheet values cannot become executable formulas', () => {
   for (const cell of ['=IMPORTXML("x")', '+123', '-1+2', '@SUM(A1)'])

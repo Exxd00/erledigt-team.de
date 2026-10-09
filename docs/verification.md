@@ -1,4 +1,4 @@
-# Verification — 8 October 2026
+# Verification — 9 October 2026
 
 ## Code and content
 
@@ -65,3 +65,19 @@ A follow-up tracking refinement adds the matched public city slug to form events
 inspection verifies saterland for a known town and omission of an unknown free-text city. Production
 build and TypeScript pass after that refinement. Screenshots and detailed browser measurements are
 in the workspace proofs directory, outside the repository.
+
+## WhatsApp follow-up
+
+The owner confirmed the published number. An external wa.me link opens the Erledigt profile without
+sending a message. The floating glass button, contact panel, mobile menu and footer use the dedicated
+whatsapp_click event. Privacy information explains the external destination and click-only metric.
+
+All 15 tests, TypeScript and the 962-route production build pass. The schema test verifies that
+WhatsApp events strip message/phone fields and reject absent analytics consent. Eight browser layout
+checks (320, 390, 768 and 1440 px, both themes) show no horizontal overflow, fully visible panels and
+56/62 px touch targets. Escape restores focus to the contact trigger. Local network inspection shows
+zero analytics requests for a WhatsApp click after refusal and one whatsapp_click after consent.
+
+Search Console ownership was explicitly approved on October 9. Checkdomain expired the login session
+before saving the prepared TXT record; authoritative DNS still lacked it at that check. The domain
+verification, sitemap submission and GA4 link await re-authentication, not another ownership approval.

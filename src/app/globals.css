@@ -947,6 +947,8 @@ button {
   bottom: 0;
   right: 78px;
   width: min(345px, calc(100vw - 108px));
+  max-height: calc(100dvh - 64px);
+  overflow-y: auto;
   padding: 18px;
   border: 1px solid var(--line);
   border-radius: 22px;
@@ -1348,6 +1350,9 @@ body:has(.mobile-navigation) .contact-dock {
     width: min(345px, calc(100vw - 32px));
     max-height: calc(100dvh - 250px);
     overflow-y: auto;
+  }
+  .dock-controls {
+    flex-direction: row;
   }
   .liquid-orb {
     width: 56px;

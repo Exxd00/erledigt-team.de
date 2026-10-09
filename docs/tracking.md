@@ -2,7 +2,7 @@
 
 ## What is recorded
 
-With analytics consent: page views, primary calls to action, telephone and email clicks, service and
+With analytics consent: page views, primary calls to action, telephone, WhatsApp and email clicks, service and
 town selections, filter actions, form start, step changes, confirmed form submission and submission
 errors, general control/link interactions, and 25/50/75/90-percent scroll depth. General interactions
 record control type and an optional public element ID, never input contents. A random session ID and
@@ -15,6 +15,12 @@ storage, signals and personalization are disabled. GA page URLs exclude query st
 Approved campaign source/medium/name values are passed separately using Google's campaign fields.
 The internal `form_submit_success` event becomes `generate_lead` in GA4; the lead UUID is omitted
 from Google parameters. Internal events retain the UUID for the private delivery audit.
+
+`whatsapp_click` records a click on the owner-confirmed WhatsApp number, with the position
+`floating_whatsapp`, `contact_dock`, `mobile_menu` or `footer`. It is not a key event, message,
+confirmed conversation or lead. WhatsApp chat contents are not collected by the website. The same
+consent gate applies to GA4 and the private events Sheet. Links open the external WhatsApp service;
+there is no embedded SDK or automatically sent message.
 
 GA4 property `557969528`, web stream `16061549557`, measurement ID `G-16V9Z8RTRS`:
 Germany reporting time, EUR, `generate_lead` marked as a key event. Custom event dimensions are

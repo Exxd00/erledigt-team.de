@@ -29,12 +29,12 @@ phone call, and a form request is not called a confirmed job. The spreadsheet we
 ID-column checks, a lock, literal text cells and formula neutralization. A failed notification is not
 silently treated as delivered.
 
-## October 8 comparison
+## October 9 comparison
 
 | Area                             | IXA reference                                        | ERLEDIGT TEAM                                                                                  |
 | -------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | Mobile navigation and conversion | Mobile contact bar, menu and conversion forms        | Sticky call/quote bar, menu, prefilled multi-step quote request                                |
-| Floating glass contacts          | Desktop callback and WhatsApp controls               | Glowing contact orb with call, email and quote; keyboard access and back-to-top                |
+| Floating glass contacts          | Desktop callback and WhatsApp controls               | Separate glowing WhatsApp orb plus call/email/quote panel; keyboard access and back-to-top     |
 | Themes                           | Glass styling and semantic theme colors              | Both blue themes, reduced motion and 36 refreshed responsive checks                            |
 | Decision support                 | Marketing service selection                          | Home/business/property finder, preparation guidance and service-specific decision cards        |
 | Local discovery                  | Service/location landing-page structure              | 11 services, 78 towns and 858 combinations; regional filters and nearby links                  |
@@ -44,6 +44,7 @@ silently treated as delivered.
 | Delivery resilience              | Reference contact/conversion endpoints               | Transactional database outbox, exact Sheet acknowledgements and daily retry                    |
 | Public evidence                  | Reference business's own claims                      | No borrowed reviews, logos or guarantees; owner photos/testimonials can be added when supplied |
 
-WhatsApp awaits confirmation that the published number accepts business messages.
+The owner confirmed WhatsApp on October 9. Its link resolves to the Erledigt business profile;
+no test chat message was sent. Local checks cover 320, 390, 768 and 1440 px in both themes.
 Phone clicks are not treated as completed calls. Search Console ownership and live delivery proof
 are tracked in the launch runbook rather than inferred from implemented code.

@@ -42,12 +42,15 @@ the daily scheduling window. /api/internal/retry is protected by the cron bearer
 Cron Run delivered all ten earlier labelled QA events without duplicates. Supabase is the
 authoritative queue when Sheets is unavailable; the Zustellung audit mirror is best-effort.
 
-## Owner input at handoff
+## Remaining handoff
 
-Complete Search Console ownership approval at the concrete verification step, then submit
-https://erledigt-team.de/sitemap.xml. Confirm whether the published telephone number accepts
-WhatsApp business messages before adding that channel. Authentic team/work photos and approved
-customer testimonials can strengthen proof when available; do not invent them.
+The owner approved the prepared Search Console DNS verification and GA4 link on October 9.
+Checkdomain's login expired before the TXT save. Resume after the owner signs in, save the prepared
+verification TXT, verify the Domain property, submit https://erledigt-team.de/sitemap.xml and link
+the existing GA4 web stream. Do not request the same ownership approval again.
+
+The owner confirmed WhatsApp on the published number; the website now includes that channel and
+its consent-controlled click event. The owner has no additional photos or testimonials to supply.
 
 ## Verified public identity
 

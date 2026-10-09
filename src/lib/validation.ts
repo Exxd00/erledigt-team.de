@@ -87,6 +87,7 @@ export const eventNames = [
   'page_view',
   'cta_click',
   'phone_click',
+  'whatsapp_click',
   'email_click',
   'service_select',
   'city_select',

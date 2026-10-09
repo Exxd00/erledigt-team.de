@@ -3,6 +3,7 @@ export const site = {
   email: 'info@erledigt-team.de',
   phone: '+49 155 67451482',
   phoneHref: 'tel:+4915567451482',
+  whatsappHref: 'https://wa.me/4915567451482',
   street: 'Eschstraße 70',
   postal: '26683',
   city: 'Saterland',

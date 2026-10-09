@@ -7,6 +7,7 @@ import { site } from '@/lib/site';
 import { assets } from '@/lib/assets';
 import { SiteImage } from './SiteImage';
 import {
+  type EventName,
   track,
   CONSENT_KEY,
   captureAttribution,
@@ -129,6 +130,15 @@ export function SiteHeader() {
             <a href={site.phoneHref} data-event="phone_click">
               <Icon name="Phone" /> {site.phone}
             </a>
+            <a
+              href={site.whatsappHref}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-event="whatsapp_click"
+              data-position="mobile_menu"
+            >
+              <Icon name="MessageCircle" /> WhatsApp (neuer Tab)
+            </a>
           </nav>
         )}
       </header>
@@ -162,6 +172,15 @@ export function SiteFooter() {
           </a>
           <a href={`mailto:${site.email}`} data-event="email_click">
             {site.email}
+          </a>
+          <a
+            href={site.whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-event="whatsapp_click"
+            data-position="footer"
+          >
+            WhatsApp schreiben (neuer Tab)
           </a>
           <p>
             {site.street}
@@ -223,7 +242,7 @@ export function ConsentAndTracking() {
       if ((e.target as HTMLElement).closest('[data-track-handled]')) return;
       const a = (e.target as HTMLElement).closest<HTMLElement>('[data-event]');
       if (a) {
-        track(a.dataset.event as 'cta_click', {
+        track(a.dataset.event as EventName, {
           position: a.dataset.position || 'content',
           service: a.dataset.service,
           city: a.dataset.city,

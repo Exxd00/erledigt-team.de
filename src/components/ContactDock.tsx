@@ -69,6 +69,19 @@ export function ContactDock() {
             </span>
             <Icon name="ArrowUpRight" size={17} />
           </a>
+          <a
+            href={site.whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            data-event="whatsapp_click"
+            data-position="contact_dock"
+          >
+            <Icon name="MessageCircle" />
+            <span>
+              WhatsApp schreiben<small>Öffnet WhatsApp in einem neuen Tab</small>
+            </span>
+            <Icon name="ArrowUpRight" size={17} />
+          </a>
           <a href={`mailto:${site.email}`} data-event="email_click" data-position="contact_dock">
             <Icon name="Mail" />
             <span>
@@ -99,6 +112,19 @@ export function ContactDock() {
             <Icon name="ArrowUpRight" size={21} />
           </a>
         )}
+        <a
+          href={site.whatsappHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="liquid-orb whatsapp-orb"
+          data-event="whatsapp_click"
+          data-position="floating_whatsapp"
+          aria-label="WhatsApp öffnen (neuer Tab)"
+          title="Auf WhatsApp schreiben"
+        >
+          <Icon name="MessageCircle" size={25} />
+          <span>WhatsApp</span>
+        </a>
         <button
           className="liquid-orb contact-orb"
           ref={trigger}
