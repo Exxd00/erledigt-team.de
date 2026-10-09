@@ -13,17 +13,29 @@ Withdrawal removes the local analytics session/attribution and the site's GA coo
 page. GA loads only when a valid configured measurement ID and consent are present. Advertising
 storage, signals and personalization are disabled. GA page URLs exclude query strings and fragments.
 Approved campaign source/medium/name values are passed separately using Google's campaign fields.
-The internal `form_submit_success` event becomes `generate_lead` in GA4; the lead UUID is omitted
-from Google parameters. Internal events retain the UUID for the private delivery audit.
+The five primary event names are identical in the browser, GA4 and the private Sheet:
 
-`whatsapp_click` records a click on the owner-confirmed WhatsApp number, with the position
-`floating_whatsapp`, `contact_dock`, `mobile_menu` or `footer`. It is not a key event, message,
-confirmed conversation or lead. WhatsApp chat contents are not collected by the website. The same
-consent gate applies to GA4 and the private events Sheet. Links open the external WhatsApp service;
-there is no embedded SDK or automatically sent message.
+| Event                           | Trigger                                             |
+| ------------------------------- | --------------------------------------------------- |
+| `callback_erledigt_team`        | Callback request successfully persisted             |
+| `direkt_anrufen_erledigt_team`  | Explicit direct-call confirmation                   |
+| `whatsapp_erledigt_team`        | Explicit WhatsApp destination confirmation          |
+| `email_erledigt_team`           | Explicit email-client confirmation                  |
+| `formular_erfolg_erledigt_team` | Thank-you page after successful request persistence |
+
+Opening or cancelling a contact dialog does not emit a primary event. Confirmation of an external
+contact link is not evidence of a completed call or a sent message. Nothing is automatically sent
+through WhatsApp or the visitor's email program. The old phone_click, whatsapp_click, email_click
+and form_submit_success names remain accepted for older clients but the new journey does not emit
+them. No generate_lead alias is emitted. Internal lead UUIDs are excluded from GA parameters.
+
+The thank-you route requires an HMAC-signed, HttpOnly, SameSite=Strict receipt cookie with a 30-minute
+lifetime. Direct visits without a valid receipt return to the form. The page is noindex and absent
+from the sitemap. A stable event UUID and a per-session guard prevent duplicate success tracking
+on refresh; business request IDs and analytics IDs are distinct to avoid outbox collisions.
 
 GA4 property `557969528`, web stream `16061549557`, measurement ID `G-16V9Z8RTRS`:
-Germany reporting time, EUR, `generate_lead` marked as a key event. Custom event dimensions are
+Germany reporting time, EUR. The five primary names above replace `generate_lead` as key events. Custom event dimensions are
 Leistung (`service`), Einsatzort (`city`), Kontaktposition (`position`) and Anfrageschritt (`step`).
 The reports snapshot uses Marketing performance. Form events carry only a matched public city slug;
 unrecognized free-text city input is omitted from analytics.
@@ -57,9 +69,18 @@ server-side when analytics consent is absent. Personal details and free text are
 6. Mirror lead delivery attempts into `Zustellung`. This mirror is best-effort; the Supabase queue is
    authoritative when Sheets itself is unavailable.
 
-Google Sheet tabs: `Anfragen` (customer inquiries/status), `Ereignisse` (consented activity), `Zustellung`
-(delivery attempts) and `Hinweise` (operating notes). The first row is fixed and colored. New rows append
+Google Sheet tabs: `Kontaktaktionen` (five primary types), `Anfragen` (customer inquiries/status),
+`Ereignisse` (consented activity), `Zustellung` (delivery attempts) and `Hinweise` (operating notes). The first row is fixed and colored. New rows append
 below it; existing status/notes are preserved. Event and lead UUIDs provide persistent deduplication.
+Saved quote/callback requests appear in Kontaktaktionen regardless of optional analytics consent;
+external-link confirmations appear only with analytics consent. Their corresponding request analytics
+stay in Ereignisse, preventing double primary rows. Each destination is independently deduplicated
+before the webhook acknowledges success, including retries after a partial write. Anfragen columns
+Y/Z identify request type and primary event. Callback details include a required phone and optional name.
+
+Notification emails include a fluid, single-column HTML design with escaped contact/object/message
+fields, call/reply buttons and a plain-text alternative. No external images or fonts are required.
+Both quote and callback notification deliveries use the existing durable outbox.
 
 ## Operational limits
 

@@ -2,6 +2,7 @@ import 'server-only';
 import { createHmac, timingSafeEqual } from 'node:crypto';
 import { NextRequest } from 'next/server';
 import { allowedOrigin, clientAddress } from './request-policy';
+import { renderLeadEmail } from './lead-email';
 export function isConfigured() {
   return !!(
     process.env.SUPABASE_URL &&
@@ -129,22 +130,7 @@ export async function deliver(id: string) {
         } else {
           if (!process.env.RESEND_API_KEY) throw new Error('email_not_configured');
           const lead = job.payload.lead as Record<string, unknown>;
-          const text = [
-            'Neue Anfrage über erledigt-team.de',
-            `Referenz: ${id}`,
-            `Name: ${lead.name}`,
-            `Firma: ${lead.company || '–'}`,
-            `Leistung: ${lead.service}`,
-            `Ort: ${lead.postal_code} ${lead.city}`,
-            `Objekt: ${lead.property_type}`,
-            `Umfang: ${lead.scope || 'Noch offen'}`,
-            `Rhythmus: ${lead.frequency}`,
-            `Wunschtermin: ${lead.preferred_date || 'Nach Absprache'}`,
-            `Kontaktweg: ${lead.contact_method}`,
-            `E-Mail: ${lead.email || '–'}`,
-            `Telefon: ${lead.phone || '–'}`,
-            `Nachricht: ${lead.message || '–'}`,
-          ].join('\n');
+          const email = renderLeadEmail(lead, id);
           const r = await fetch('https://api.resend.com/emails', {
             method: 'POST',
             headers: {
@@ -155,8 +141,7 @@ export async function deliver(id: string) {
             body: JSON.stringify({
               from: process.env.LEAD_EMAIL_FROM || 'ERLEDIGT TEAM <info@erledigt-team.de>',
               to: [process.env.LEAD_EMAIL_TO || 'info@erledigt-team.de'],
-              subject: `Neue Reinigungsanfrage · ${id.slice(0, 8).toUpperCase()}`,
-              text,
+              ...email,
               ...(lead.email ? { reply_to: lead.email } : {}),
             }),
             signal: AbortSignal.timeout(8000),

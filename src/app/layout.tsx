@@ -8,6 +8,7 @@ import './globals.css';
 import { SiteHeader, SiteFooter, ConsentAndTracking } from '@/components/SiteChrome';
 import { site } from '@/lib/site';
 import { ContactDock } from '@/components/ContactDock';
+import { ContactDialogs } from '@/components/ContactDialogs';
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   // Public ownership proof for the approved business Search Console account.
@@ -17,7 +18,7 @@ export const metadata: Metadata = {
     template: '%s | ERLEDIGT TEAM',
   },
   description:
-    'Gebäudereinigung, Fensterreinigung und Spezialreinigung aus Saterland. Für Privatkunden und Gewerbe im 50-km-Umkreis. Jetzt unverbindlich anfragen.',
+    'Gebäudereinigung, Fensterreinigung und Spezialreinigung aus Saterland. Für Privatkunden und Gewerbe in Saterland und Umgebung. Jetzt unverbindlich anfragen.',
   robots:
     process.env.NEXT_PUBLIC_LAUNCH_READY === 'true'
       ? { index: true, follow: true }
@@ -61,6 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main">{children}</main>
         <SiteFooter />
         <ContactDock />
+        <ContactDialogs />
         <ConsentAndTracking />
       </body>
     </html>

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T20:46:54.284Z",
+  "generatedAt": "2026-10-09T20:17:35.227Z",
   "staticPages": 953,
   "dynamicForm": "/anfrage",
   "minimumMainWords": 358,
@@ -15,7 +15,7 @@
   "pages": [
     {
       "route": "/datenschutz",
-      "mainWords": 902,
+      "mainWords": 1167,
       "title": "Datenschutzhinweise | ERLEDIGT TEAM"
     },
     {
@@ -75,67 +75,67 @@
     },
     {
       "route": "/einsatzgebiete/apen",
-      "mainWords": 728,
+      "mainWords": 734,
       "title": "Gebäudereinigung in Apen | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/baustellenreinigung",
-      "mainWords": 874,
+      "mainWords": 879,
       "title": "Baustellenreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/buero-praxisreinigung",
-      "mainWords": 831,
+      "mainWords": 836,
       "title": "Büro- & Praxisreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/dach-oberflaechenreinigung",
-      "mainWords": 844,
+      "mainWords": 849,
       "title": "Dach- & Oberflächenreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/glas-fensterreinigung",
-      "mainWords": 835,
+      "mainWords": 840,
       "title": "Glas- & Fensterreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/grund-sonderreinigung",
-      "mainWords": 829,
+      "mainWords": 834,
       "title": "Grund- & Sonderreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/hallen-gewerbereinigung",
-      "mainWords": 815,
+      "mainWords": 820,
       "title": "Hallen- & Gewerbeflächenreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/maschinen-anlagenreinigung",
-      "mainWords": 802,
+      "mainWords": 807,
       "title": "Maschinen- & Anlagenreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/polster-teppichreinigung",
-      "mainWords": 880,
+      "mainWords": 885,
       "title": "Polster- & Teppichreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/pv-anlagen-reinigung",
-      "mainWords": 844,
+      "mainWords": 849,
       "title": "PV-Anlagen-Reinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/treppenhausreinigung",
-      "mainWords": 810,
+      "mainWords": 815,
       "title": "Treppenhausreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich/unterhaltsreinigung",
-      "mainWords": 847,
+      "mainWords": 852,
       "title": "Unterhaltsreinigung in Aurich | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/aurich",
-      "mainWords": 718,
+      "mainWords": 727,
       "title": "Gebäudereinigung in Aurich | ERLEDIGT TEAM"
     },
     {
@@ -195,7 +195,7 @@
     },
     {
       "route": "/einsatzgebiete/bad-zwischenahn",
-      "mainWords": 733,
+      "mainWords": 739,
       "title": "Gebäudereinigung in Bad Zwischenahn | ERLEDIGT TEAM"
     },
     {
@@ -255,7 +255,7 @@
     },
     {
       "route": "/einsatzgebiete/barssel",
-      "mainWords": 720,
+      "mainWords": 726,
       "title": "Gebäudereinigung in Barßel | ERLEDIGT TEAM"
     },
     {
@@ -315,7 +315,7 @@
     },
     {
       "route": "/einsatzgebiete/bockhorn",
-      "mainWords": 720,
+      "mainWords": 726,
       "title": "Gebäudereinigung in Bockhorn | ERLEDIGT TEAM"
     },
     {
@@ -375,7 +375,7 @@
     },
     {
       "route": "/einsatzgebiete/bockhorst",
-      "mainWords": 728,
+      "mainWords": 734,
       "title": "Gebäudereinigung in Bockhorst | ERLEDIGT TEAM"
     },
     {
@@ -435,7 +435,7 @@
     },
     {
       "route": "/einsatzgebiete/boerger",
-      "mainWords": 728,
+      "mainWords": 734,
       "title": "Gebäudereinigung in Börger | ERLEDIGT TEAM"
     },
     {
@@ -495,7 +495,7 @@
     },
     {
       "route": "/einsatzgebiete/boesel",
-      "mainWords": 724,
+      "mainWords": 730,
       "title": "Gebäudereinigung in Bösel | ERLEDIGT TEAM"
     },
     {
@@ -555,7 +555,7 @@
     },
     {
       "route": "/einsatzgebiete/breddenberg",
-      "mainWords": 716,
+      "mainWords": 722,
       "title": "Gebäudereinigung in Breddenberg | ERLEDIGT TEAM"
     },
     {
@@ -615,7 +615,7 @@
     },
     {
       "route": "/einsatzgebiete/brinkum",
-      "mainWords": 720,
+      "mainWords": 726,
       "title": "Gebäudereinigung in Brinkum | ERLEDIGT TEAM"
     },
     {
@@ -675,7 +675,7 @@
     },
     {
       "route": "/einsatzgebiete/bunde",
-      "mainWords": 714,
+      "mainWords": 720,
       "title": "Gebäudereinigung in Bunde | ERLEDIGT TEAM"
     },
     {
@@ -735,7 +735,7 @@
     },
     {
       "route": "/einsatzgebiete/cappeln",
-      "mainWords": 720,
+      "mainWords": 726,
       "title": "Gebäudereinigung in Cappeln | ERLEDIGT TEAM"
     },
     {
@@ -795,7 +795,7 @@
     },
     {
       "route": "/einsatzgebiete/cloppenburg",
-      "mainWords": 724,
+      "mainWords": 730,
       "title": "Gebäudereinigung in Cloppenburg | ERLEDIGT TEAM"
     },
     {
@@ -855,7 +855,7 @@
     },
     {
       "route": "/einsatzgebiete/dersum",
-      "mainWords": 720,
+      "mainWords": 726,
       "title": "Gebäudereinigung in Dersum | ERLEDIGT TEAM"
     },
     {
@@ -915,7 +915,7 @@
     },
     {
       "route": "/einsatzgebiete/detern",
-      "mainWords": 731,
+      "mainWords": 737,
       "title": "Gebäudereinigung in Detern | ERLEDIGT TEAM"
     },
     {
@@ -975,7 +975,7 @@
     },
     {
       "route": "/einsatzgebiete/doerpen",
-      "mainWords": 714,
+      "mainWords": 720,
       "title": "Gebäudereinigung in Dörpen | ERLEDIGT TEAM"
     },
     {
@@ -1035,7 +1035,7 @@
     },
     {
       "route": "/einsatzgebiete/edewecht",
-      "mainWords": 722,
+      "mainWords": 728,
       "title": "Gebäudereinigung in Edewecht | ERLEDIGT TEAM"
     },
     {
@@ -1095,7 +1095,7 @@
     },
     {
       "route": "/einsatzgebiete/emden",
-      "mainWords": 725,
+      "mainWords": 731,
       "title": "Gebäudereinigung in Emden | ERLEDIGT TEAM"
     },
     {
@@ -1155,7 +1155,7 @@
     },
     {
       "route": "/einsatzgebiete/emstek",
-      "mainWords": 712,
+      "mainWords": 718,
       "title": "Gebäudereinigung in Emstek | ERLEDIGT TEAM"
     },
     {
@@ -1215,7 +1215,7 @@
     },
     {
       "route": "/einsatzgebiete/esterwegen",
-      "mainWords": 720,
+      "mainWords": 726,
       "title": "Gebäudereinigung in Esterwegen | ERLEDIGT TEAM"
     },
     {
@@ -1275,7 +1275,7 @@
     },
     {
       "route": "/einsatzgebiete/filsum",
-      "mainWords": 726,
+      "mainWords": 732,
       "title": "Gebäudereinigung in Filsum | ERLEDIGT TEAM"
     },
     {
@@ -1335,7 +1335,7 @@
     },
     {
       "route": "/einsatzgebiete/firrel",
-      "mainWords": 717,
+      "mainWords": 723,
       "title": "Gebäudereinigung in Firrel | ERLEDIGT TEAM"
     },
     {
@@ -1395,7 +1395,7 @@
     },
     {
       "route": "/einsatzgebiete/fresenburg",
-      "mainWords": 721,
+      "mainWords": 727,
       "title": "Gebäudereinigung in Fresenburg | ERLEDIGT TEAM"
     },
     {
@@ -1455,7 +1455,7 @@
     },
     {
       "route": "/einsatzgebiete/friedeburg",
-      "mainWords": 717,
+      "mainWords": 723,
       "title": "Gebäudereinigung in Friedeburg | ERLEDIGT TEAM"
     },
     {
@@ -1515,7 +1515,7 @@
     },
     {
       "route": "/einsatzgebiete/friesoythe",
-      "mainWords": 722,
+      "mainWords": 728,
       "title": "Gebäudereinigung in Friesoythe | ERLEDIGT TEAM"
     },
     {
@@ -1575,7 +1575,7 @@
     },
     {
       "route": "/einsatzgebiete/garrel",
-      "mainWords": 715,
+      "mainWords": 721,
       "title": "Gebäudereinigung in Garrel | ERLEDIGT TEAM"
     },
     {
@@ -1635,7 +1635,7 @@
     },
     {
       "route": "/einsatzgebiete/grossefehn",
-      "mainWords": 726,
+      "mainWords": 732,
       "title": "Gebäudereinigung in Großefehn | ERLEDIGT TEAM"
     },
     {
@@ -1695,7 +1695,7 @@
     },
     {
       "route": "/einsatzgebiete/grossenkneten",
-      "mainWords": 724,
+      "mainWords": 730,
       "title": "Gebäudereinigung in Großenkneten | ERLEDIGT TEAM"
     },
     {
@@ -1755,7 +1755,7 @@
     },
     {
       "route": "/einsatzgebiete/hatten",
-      "mainWords": 729,
+      "mainWords": 735,
       "title": "Gebäudereinigung in Hatten | ERLEDIGT TEAM"
     },
     {
@@ -1815,7 +1815,7 @@
     },
     {
       "route": "/einsatzgebiete/heede",
-      "mainWords": 716,
+      "mainWords": 722,
       "title": "Gebäudereinigung in Heede | ERLEDIGT TEAM"
     },
     {
@@ -1875,7 +1875,7 @@
     },
     {
       "route": "/einsatzgebiete/hesel",
-      "mainWords": 724,
+      "mainWords": 730,
       "title": "Gebäudereinigung in Hesel | ERLEDIGT TEAM"
     },
     {
@@ -1935,7 +1935,7 @@
     },
     {
       "route": "/einsatzgebiete/hilkenbrook",
-      "mainWords": 722,
+      "mainWords": 728,
       "title": "Gebäudereinigung in Hilkenbrook | ERLEDIGT TEAM"
     },
     {
@@ -1995,7 +1995,7 @@
     },
     {
       "route": "/einsatzgebiete/holtland",
-      "mainWords": 719,
+      "mainWords": 725,
       "title": "Gebäudereinigung in Holtland | ERLEDIGT TEAM"
     },
     {
@@ -2055,7 +2055,7 @@
     },
     {
       "route": "/einsatzgebiete/ihlow",
-      "mainWords": 723,
+      "mainWords": 729,
       "title": "Gebäudereinigung in Ihlow | ERLEDIGT TEAM"
     },
     {
@@ -2115,67 +2115,67 @@
     },
     {
       "route": "/einsatzgebiete/jade",
-      "mainWords": 724,
+      "mainWords": 730,
       "title": "Gebäudereinigung in Jade | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/baustellenreinigung",
-      "mainWords": 806,
+      "mainWords": 807,
       "title": "Baustellenreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/buero-praxisreinigung",
-      "mainWords": 833,
+      "mainWords": 834,
       "title": "Büro- & Praxisreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/dach-oberflaechenreinigung",
-      "mainWords": 857,
+      "mainWords": 858,
       "title": "Dach- & Oberflächenreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/glas-fensterreinigung",
-      "mainWords": 834,
+      "mainWords": 835,
       "title": "Glas- & Fensterreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/grund-sonderreinigung",
-      "mainWords": 844,
+      "mainWords": 845,
       "title": "Grund- & Sonderreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/hallen-gewerbereinigung",
-      "mainWords": 822,
+      "mainWords": 823,
       "title": "Hallen- & Gewerbeflächenreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/maschinen-anlagenreinigung",
-      "mainWords": 806,
+      "mainWords": 807,
       "title": "Maschinen- & Anlagenreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/polster-teppichreinigung",
-      "mainWords": 824,
+      "mainWords": 825,
       "title": "Polster- & Teppichreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/pv-anlagen-reinigung",
-      "mainWords": 846,
+      "mainWords": 847,
       "title": "PV-Anlagen-Reinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/treppenhausreinigung",
-      "mainWords": 821,
+      "mainWords": 822,
       "title": "Treppenhausreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum/unterhaltsreinigung",
-      "mainWords": 827,
+      "mainWords": 828,
       "title": "Unterhaltsreinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/jemgum",
-      "mainWords": 721,
+      "mainWords": 728,
       "title": "Gebäudereinigung in Jemgum | ERLEDIGT TEAM"
     },
     {
@@ -2235,7 +2235,7 @@
     },
     {
       "route": "/einsatzgebiete/kluse",
-      "mainWords": 712,
+      "mainWords": 718,
       "title": "Gebäudereinigung in Kluse | ERLEDIGT TEAM"
     },
     {
@@ -2295,7 +2295,7 @@
     },
     {
       "route": "/einsatzgebiete/laehden",
-      "mainWords": 729,
+      "mainWords": 735,
       "title": "Gebäudereinigung in Lähden | ERLEDIGT TEAM"
     },
     {
@@ -2355,7 +2355,7 @@
     },
     {
       "route": "/einsatzgebiete/lathen",
-      "mainWords": 723,
+      "mainWords": 729,
       "title": "Gebäudereinigung in Lathen | ERLEDIGT TEAM"
     },
     {
@@ -2415,7 +2415,7 @@
     },
     {
       "route": "/einsatzgebiete/leer",
-      "mainWords": 721,
+      "mainWords": 727,
       "title": "Gebäudereinigung in Leer | ERLEDIGT TEAM"
     },
     {
@@ -2475,7 +2475,7 @@
     },
     {
       "route": "/einsatzgebiete/lehe",
-      "mainWords": 727,
+      "mainWords": 733,
       "title": "Gebäudereinigung in Lehe | ERLEDIGT TEAM"
     },
     {
@@ -2535,7 +2535,7 @@
     },
     {
       "route": "/einsatzgebiete/lindern-oldenburg",
-      "mainWords": 750,
+      "mainWords": 756,
       "title": "Gebäudereinigung in Lindern (Oldenburg) | ERLEDIGT TEAM"
     },
     {
@@ -2595,7 +2595,7 @@
     },
     {
       "route": "/einsatzgebiete/lorup",
-      "mainWords": 732,
+      "mainWords": 738,
       "title": "Gebäudereinigung in Lorup | ERLEDIGT TEAM"
     },
     {
@@ -2655,7 +2655,7 @@
     },
     {
       "route": "/einsatzgebiete/molbergen",
-      "mainWords": 734,
+      "mainWords": 740,
       "title": "Gebäudereinigung in Molbergen | ERLEDIGT TEAM"
     },
     {
@@ -2715,7 +2715,7 @@
     },
     {
       "route": "/einsatzgebiete/moormerland",
-      "mainWords": 715,
+      "mainWords": 721,
       "title": "Gebäudereinigung in Moormerland | ERLEDIGT TEAM"
     },
     {
@@ -2775,7 +2775,7 @@
     },
     {
       "route": "/einsatzgebiete/neuboerger",
-      "mainWords": 716,
+      "mainWords": 722,
       "title": "Gebäudereinigung in Neubörger | ERLEDIGT TEAM"
     },
     {
@@ -2835,7 +2835,7 @@
     },
     {
       "route": "/einsatzgebiete/neukamperfehn",
-      "mainWords": 721,
+      "mainWords": 727,
       "title": "Gebäudereinigung in Neukamperfehn | ERLEDIGT TEAM"
     },
     {
@@ -2895,7 +2895,7 @@
     },
     {
       "route": "/einsatzgebiete/neulehe",
-      "mainWords": 716,
+      "mainWords": 722,
       "title": "Gebäudereinigung in Neulehe | ERLEDIGT TEAM"
     },
     {
@@ -2955,7 +2955,7 @@
     },
     {
       "route": "/einsatzgebiete/nortmoor",
-      "mainWords": 734,
+      "mainWords": 740,
       "title": "Gebäudereinigung in Nortmoor | ERLEDIGT TEAM"
     },
     {
@@ -3015,7 +3015,7 @@
     },
     {
       "route": "/einsatzgebiete/oldenburg",
-      "mainWords": 719,
+      "mainWords": 725,
       "title": "Gebäudereinigung in Oldenburg | ERLEDIGT TEAM"
     },
     {
@@ -3075,7 +3075,7 @@
     },
     {
       "route": "/einsatzgebiete/ostrhauderfehn",
-      "mainWords": 722,
+      "mainWords": 728,
       "title": "Gebäudereinigung in Ostrhauderfehn | ERLEDIGT TEAM"
     },
     {
@@ -3135,7 +3135,7 @@
     },
     {
       "route": "/einsatzgebiete/papenburg",
-      "mainWords": 722,
+      "mainWords": 728,
       "title": "Gebäudereinigung in Papenburg | ERLEDIGT TEAM"
     },
     {
@@ -3195,7 +3195,7 @@
     },
     {
       "route": "/einsatzgebiete/rastdorf",
-      "mainWords": 736,
+      "mainWords": 742,
       "title": "Gebäudereinigung in Rastdorf | ERLEDIGT TEAM"
     },
     {
@@ -3255,7 +3255,7 @@
     },
     {
       "route": "/einsatzgebiete/rastede",
-      "mainWords": 725,
+      "mainWords": 731,
       "title": "Gebäudereinigung in Rastede | ERLEDIGT TEAM"
     },
     {
@@ -3315,7 +3315,7 @@
     },
     {
       "route": "/einsatzgebiete/renkenberge",
-      "mainWords": 731,
+      "mainWords": 737,
       "title": "Gebäudereinigung in Renkenberge | ERLEDIGT TEAM"
     },
     {
@@ -3375,67 +3375,67 @@
     },
     {
       "route": "/einsatzgebiete/rhauderfehn",
-      "mainWords": 724,
+      "mainWords": 730,
       "title": "Gebäudereinigung in Rhauderfehn | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/baustellenreinigung",
-      "mainWords": 825,
+      "mainWords": 823,
       "title": "Baustellenreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/buero-praxisreinigung",
-      "mainWords": 842,
+      "mainWords": 840,
       "title": "Büro- & Praxisreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/dach-oberflaechenreinigung",
-      "mainWords": 827,
+      "mainWords": 825,
       "title": "Dach- & Oberflächenreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/glas-fensterreinigung",
-      "mainWords": 862,
+      "mainWords": 860,
       "title": "Glas- & Fensterreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/grund-sonderreinigung",
-      "mainWords": 849,
+      "mainWords": 847,
       "title": "Grund- & Sonderreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/hallen-gewerbereinigung",
-      "mainWords": 843,
+      "mainWords": 841,
       "title": "Hallen- & Gewerbeflächenreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/maschinen-anlagenreinigung",
-      "mainWords": 832,
+      "mainWords": 830,
       "title": "Maschinen- & Anlagenreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/polster-teppichreinigung",
-      "mainWords": 856,
+      "mainWords": 854,
       "title": "Polster- & Teppichreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/pv-anlagen-reinigung",
-      "mainWords": 820,
+      "mainWords": 818,
       "title": "PV-Anlagen-Reinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/treppenhausreinigung",
-      "mainWords": 853,
+      "mainWords": 851,
       "title": "Treppenhausreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems/unterhaltsreinigung",
-      "mainWords": 854,
+      "mainWords": 852,
       "title": "Unterhaltsreinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete/rhede-ems",
-      "mainWords": 735,
+      "mainWords": 739,
       "title": "Gebäudereinigung in Rhede (Ems) | ERLEDIGT TEAM"
     },
     {
@@ -3555,7 +3555,7 @@
     },
     {
       "route": "/einsatzgebiete/schwerinsdorf",
-      "mainWords": 725,
+      "mainWords": 731,
       "title": "Gebäudereinigung in Schwerinsdorf | ERLEDIGT TEAM"
     },
     {
@@ -3615,7 +3615,7 @@
     },
     {
       "route": "/einsatzgebiete/soegel",
-      "mainWords": 715,
+      "mainWords": 721,
       "title": "Gebäudereinigung in Sögel | ERLEDIGT TEAM"
     },
     {
@@ -3675,7 +3675,7 @@
     },
     {
       "route": "/einsatzgebiete/spahnharrenstaette",
-      "mainWords": 721,
+      "mainWords": 727,
       "title": "Gebäudereinigung in Spahnharrenstätte | ERLEDIGT TEAM"
     },
     {
@@ -3735,7 +3735,7 @@
     },
     {
       "route": "/einsatzgebiete/stavern",
-      "mainWords": 721,
+      "mainWords": 727,
       "title": "Gebäudereinigung in Stavern | ERLEDIGT TEAM"
     },
     {
@@ -3795,7 +3795,7 @@
     },
     {
       "route": "/einsatzgebiete/suedbrookmerland",
-      "mainWords": 719,
+      "mainWords": 725,
       "title": "Gebäudereinigung in Südbrookmerland | ERLEDIGT TEAM"
     },
     {
@@ -3855,7 +3855,7 @@
     },
     {
       "route": "/einsatzgebiete/surwold",
-      "mainWords": 711,
+      "mainWords": 717,
       "title": "Gebäudereinigung in Surwold | ERLEDIGT TEAM"
     },
     {
@@ -3915,7 +3915,7 @@
     },
     {
       "route": "/einsatzgebiete/sustrum",
-      "mainWords": 728,
+      "mainWords": 734,
       "title": "Gebäudereinigung in Sustrum | ERLEDIGT TEAM"
     },
     {
@@ -3975,7 +3975,7 @@
     },
     {
       "route": "/einsatzgebiete/uplengen",
-      "mainWords": 715,
+      "mainWords": 721,
       "title": "Gebäudereinigung in Uplengen | ERLEDIGT TEAM"
     },
     {
@@ -4035,7 +4035,7 @@
     },
     {
       "route": "/einsatzgebiete/varel",
-      "mainWords": 727,
+      "mainWords": 733,
       "title": "Gebäudereinigung in Varel | ERLEDIGT TEAM"
     },
     {
@@ -4095,7 +4095,7 @@
     },
     {
       "route": "/einsatzgebiete/vrees",
-      "mainWords": 720,
+      "mainWords": 726,
       "title": "Gebäudereinigung in Vrees | ERLEDIGT TEAM"
     },
     {
@@ -4155,7 +4155,7 @@
     },
     {
       "route": "/einsatzgebiete/walchum",
-      "mainWords": 725,
+      "mainWords": 731,
       "title": "Gebäudereinigung in Walchum | ERLEDIGT TEAM"
     },
     {
@@ -4215,7 +4215,7 @@
     },
     {
       "route": "/einsatzgebiete/wardenburg",
-      "mainWords": 720,
+      "mainWords": 726,
       "title": "Gebäudereinigung in Wardenburg | ERLEDIGT TEAM"
     },
     {
@@ -4275,7 +4275,7 @@
     },
     {
       "route": "/einsatzgebiete/weener",
-      "mainWords": 713,
+      "mainWords": 719,
       "title": "Gebäudereinigung in Weener | ERLEDIGT TEAM"
     },
     {
@@ -4335,7 +4335,7 @@
     },
     {
       "route": "/einsatzgebiete/werlte",
-      "mainWords": 720,
+      "mainWords": 726,
       "title": "Gebäudereinigung in Werlte | ERLEDIGT TEAM"
     },
     {
@@ -4395,7 +4395,7 @@
     },
     {
       "route": "/einsatzgebiete/werpeloh",
-      "mainWords": 723,
+      "mainWords": 729,
       "title": "Gebäudereinigung in Werpeloh | ERLEDIGT TEAM"
     },
     {
@@ -4455,7 +4455,7 @@
     },
     {
       "route": "/einsatzgebiete/westerstede",
-      "mainWords": 722,
+      "mainWords": 728,
       "title": "Gebäudereinigung in Westerstede | ERLEDIGT TEAM"
     },
     {
@@ -4515,7 +4515,7 @@
     },
     {
       "route": "/einsatzgebiete/westoverledingen",
-      "mainWords": 709,
+      "mainWords": 715,
       "title": "Gebäudereinigung in Westoverledingen | ERLEDIGT TEAM"
     },
     {
@@ -4575,7 +4575,7 @@
     },
     {
       "route": "/einsatzgebiete/wiefelstede",
-      "mainWords": 723,
+      "mainWords": 729,
       "title": "Gebäudereinigung in Wiefelstede | ERLEDIGT TEAM"
     },
     {
@@ -4635,7 +4635,7 @@
     },
     {
       "route": "/einsatzgebiete/wiesmoor",
-      "mainWords": 720,
+      "mainWords": 726,
       "title": "Gebäudereinigung in Wiesmoor | ERLEDIGT TEAM"
     },
     {
@@ -4695,12 +4695,12 @@
     },
     {
       "route": "/einsatzgebiete/zetel",
-      "mainWords": 716,
+      "mainWords": 722,
       "title": "Gebäudereinigung in Zetel | ERLEDIGT TEAM"
     },
     {
       "route": "/einsatzgebiete",
-      "mainWords": 1463,
+      "mainWords": 1462,
       "title": "Städte & Einsatzgebiete rund um Saterland | ERLEDIGT TEAM"
     },
     {
@@ -4710,7 +4710,7 @@
     },
     {
       "route": "/",
-      "mainWords": 813,
+      "mainWords": 810,
       "title": "ERLEDIGT TEAM | Gebäudereinigung in Saterland & Umgebung"
     },
     {

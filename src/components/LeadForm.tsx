@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { Icon } from './Icon';
 import { leadSchema, type LeadInput } from '@/lib/validation';
 import { attribution, hasAnalyticsConsent, track } from '@/lib/tracking';
@@ -19,6 +20,7 @@ export function LeadForm({
   defaultService?: string;
   defaultCity?: string;
 }) {
+  const router = useRouter();
   const service = services.find((s) => s.slug === defaultService);
   const city = cities.find((c) => c.slug === defaultCity);
   const [v, setV] = useState<Fields>({
@@ -40,7 +42,7 @@ export function LeadForm({
   });
   const [step, setStep] = useState(0);
   const [errors, setErrors] = useState<Record<string, string>>({});
-  const [status, setStatus] = useState<'idle' | 'sending' | 'success'>('idle');
+  const [status, setStatus] = useState<'idle' | 'sending'>('idle');
   const [serverError, setServerError] = useState('');
   const [accepting, setAccepting] = useState<boolean | null>(null);
   const heading = useRef<HTMLHeadingElement>(null);
@@ -152,13 +154,7 @@ export function LeadForm({
               ? 'Die Speicherung konnte gerade nicht bestätigt werden. Bitte versuchen Sie es erneut; dieselbe Anfrage wird nicht doppelt gespeichert. Alternativ erreichen Sie uns telefonisch oder per E-Mail.'
               : 'Die Anfrage konnte nicht bestätigt werden. Bitte versuchen Sie es erneut; dieselbe Anfrage wird nicht doppelt gespeichert.',
         );
-      setStatus('success');
-      track('form_submit_success', {
-        service: v.service,
-        city: analyticsCity,
-        lead_id: id.current,
-      });
-      setTimeout(() => heading.current?.focus(), 0);
+      router.replace('/danke');
     } catch (err) {
       setStatus('idle');
       setServerError(
@@ -218,26 +214,6 @@ export function LeadForm({
       )}
     </div>
   );
-  if (status === 'success')
-    return (
-      <div className="success-panel" role="status">
-        <Icon name="CircleCheck" size={50} />
-        <h2 ref={heading} tabIndex={-1}>
-          Ihre Anfrage ist angekommen.
-        </h2>
-        <p>
-          Vielen Dank, {v.name}. Ihre Angaben wurden gespeichert. Wir melden uns über den gewählten
-          Kontaktweg, um die nächsten Schritte zu besprechen.
-        </p>
-        <p>
-          Referenz: <strong>{id.current.slice(0, 8).toUpperCase()}</strong>
-        </p>
-        <p>Ein Termin ist damit noch nicht verbindlich gebucht.</p>
-        <Link className="button glass" href="/">
-          Zur Startseite
-        </Link>
-      </div>
-    );
   return (
     <form className="lead-form" onSubmit={submit} noValidate>
       <ol className="form-progress" aria-label="Fortschritt">

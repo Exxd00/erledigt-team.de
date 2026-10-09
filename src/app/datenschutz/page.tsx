@@ -61,6 +61,13 @@ export default function Page() {
           werden.
         </p>
         <p>
+          Für einen Rückrufwunsch benötigen wir Ihre Telefonnummer; Ihr Name ist freiwillig. Die
+          Anfrage wird gespeichert und unser Team benachrichtigt. Sie erhalten anschließend eine
+          Bestätigung mit Referenz. Der direkte Telefonkontakt öffnet nach Ihrer Auswahl die
+          Telefonfunktion Ihres Geräts. E-Mail-Links öffnen erst nach einer Bestätigung Ihr
+          E-Mail-Programm; dabei wird noch keine Nachricht versendet.
+        </p>
+        <p>
           Die Verarbeitung zur Vorbereitung oder Durchführung eines Vertrags erfolgt auf Grundlage
           von Artikel 6 Absatz 1 Buchstabe b DSGVO. Sonstige geschäftliche Rückfragen können auf
           Grundlage eines berechtigten Interesses an ihrer Bearbeitung nach Artikel 6 Absatz 1
@@ -70,7 +77,7 @@ export default function Page() {
         </p>
         <h3>Kontakt über WhatsApp</h3>
         <p>
-          Unsere WhatsApp-Schaltflächen sind externe Links. Erst wenn Sie einen solchen Link öffnen,
+          Unsere WhatsApp-Schaltflächen sind externe Links. Erst wenn Sie den Wechsel bestätigen,
           wechseln Sie zu WhatsApp; auf unserer Website ist kein WhatsApp-Chat eingebettet. In der
           europäischen Region wird der Dienst von WhatsApp Ireland Limited angeboten. Beim Aufruf
           verarbeitet WhatsApp technische Verbindungsdaten. Wenn Sie uns dort eine Nachricht senden,
@@ -94,8 +101,9 @@ export default function Page() {
           Resend (Plus Five Five, Inc., Versandregion Irland) wird eine Benachrichtigung mit den
           Anfrageangaben an unser geschäftliches Postfach gesendet. Der Empfang erfolgt über
           Microsoft 365. Diese Dienste unterstützen die Bearbeitung und die zuverlässige Zustellung
-          Ihrer Anfrage. Nur eine bestätigte Speicherung führt zur Erfolgsmeldung im Formular;
-          vorübergehend gescheiterte Weiterleitungen können erneut versucht werden.
+          Ihrer Anfrage. Nur eine bestätigte Speicherung führt zur Danke-Seite beziehungsweise zur
+          Rückrufbestätigung; vorübergehend gescheiterte Weiterleitungen können erneut versucht
+          werden.
         </p>
         <p>
           Personenbezogene Anfragen werden so lange aufbewahrt, wie sie zur Bearbeitung, zu
@@ -126,13 +134,20 @@ export default function Page() {
         </p>
         <h2>5. Einstellungen und freiwillige Nutzungsanalyse</h2>
         <p>
+          Nach erfolgreicher Formularübermittlung ermöglicht ein technisch notwendiges, signiertes
+          Cookie die Anzeige Ihrer Danke-Seite für höchstens 30 Minuten. Es enthält eine
+          Anfragekennung und gegebenenfalls die ausgewählte Leistung und den Ort als Seitenkennung,
+          jedoch keine Namen oder Kontaktdaten. Der Cookie ist nicht durch JavaScript lesbar und
+          dient keiner Werbung oder Nutzungsanalyse.
+        </p>
+        <p>
           Ihre Auswahl zum hellen oder dunklen Erscheinungsbild und zu den Datenschutzeinstellungen
           wird lokal im Browser gespeichert. Eine optionale Nutzungsanalyse startet erst, wenn Sie
           „Analyse erlauben“ wählen. Dann können Seitenaufrufe, ausgewählte Leistungen, angeklickte
           Kontaktmöglichkeiten und die erreichten Formularschritte erfasst werden. Freitext, Namen,
           E-Mail-Adressen und Telefonnummern werden nicht als Analyseparameter versendet. Ein Klick
           auf eine Telefonnummer ist lediglich ein Klick und kein Nachweis eines geführten
-          Gesprächs. Entsprechend zeigt „whatsapp_click“ nur das Öffnen des WhatsApp-Links an.
+          Gesprächs. Entsprechend zeigt eine WhatsApp-Bestätigung nur den gewünschten Wechsel an.
           Nachrichteninhalte werden nicht durch unsere Website erfasst oder an Google Analytics
           übertragen; der Klick ist keine bestätigte Anfrage.
         </p>
@@ -144,8 +159,14 @@ export default function Page() {
           erfasst. Zusätzlich nutzen wir Google Analytics 4 von Google Ireland Limited zur
           Reichweitenmessung. Google erhält dabei unter anderem Ereignisnamen, bereinigte
           Seitenpfade, Geräteinformationen und eine pseudonyme Browserkennung. Das Absenden einer
-          erfolgreich gespeicherten Anfrage wird als „generate_lead“ gemessen. Anfrageinhalte und
-          die interne Anfragekennung werden nicht an Google Analytics übermittelt.
+          erfolgreich gespeicherten Anfrage wird auf der Danke-Seite als
+          „formular_erfolg_erledigt_team“ gemessen. Die weiteren Hauptereignisse heißen
+          „callback_erledigt_team“ (gespeicherter Rückrufwunsch), „direkt_anrufen_erledigt_team“,
+          „whatsapp_erledigt_team“ und „email_erledigt_team“ (jeweils bestätigter Kontaktweg).
+          Bloßes Öffnen oder Abbrechen eines Dialogs zählt nicht als Hauptereignis. Eine lokale
+          Sitzungsmarkierung verhindert, dass das Aktualisieren der Danke-Seite denselben Erfolg
+          erneut zählt. Anfrageinhalte und die interne Anfragekennung werden nicht an Google
+          Analytics übermittelt.
         </p>
         <p>
           Google Analytics wird erst nach Ihrer Zustimmung geladen. Google Signals und die

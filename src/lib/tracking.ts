@@ -1,5 +1,7 @@
 'use client';
+import type { ContactEvent } from './contact-events';
 export type EventName =
+  | ContactEvent
   | 'page_view'
   | 'cta_click'
   | 'phone_click'
@@ -108,7 +110,7 @@ export function attribution() {
     return {};
   }
 }
-export function track(name: EventName, details: EventDetails = {}) {
+export function track(name: EventName, details: EventDetails = {}, eventId?: string) {
   if (typeof window === 'undefined' || !hasAnalyticsConsent()) return;
   try {
     startGoogleAnalytics();
@@ -118,7 +120,7 @@ export function track(name: EventName, details: EventDetails = {}) {
       sessionStorage.setItem('erledigt-session', session);
     }
     const payload = {
-      id: crypto.randomUUID(),
+      id: eventId || crypto.randomUUID(),
       name,
       path: location.pathname,
       session_id: session,
@@ -135,7 +137,7 @@ export function track(name: EventName, details: EventDetails = {}) {
     }).catch(() => {});
     const w = window as Window & { gtag?: (...args: unknown[]) => void };
     const { lead_id: _internalLeadId, ...analyticsDetails } = details;
-    w.gtag?.('event', name === 'form_submit_success' ? 'generate_lead' : name, {
+    w.gtag?.('event', name, {
       ...analyticsDetails,
       page_path: location.pathname,
       page_location: location.origin + location.pathname,
@@ -144,6 +146,23 @@ export function track(name: EventName, details: EventDetails = {}) {
   } catch {
     /* The main journey never depends on analytics. */
   }
+}
+/** One GA event per confirmed submission; the server deduplicates the stable event ID too. */
+export function trackConfirmedRequest(
+  name: ContactEvent,
+  id: string,
+  eventId: string,
+  details: EventDetails = {},
+) {
+  if (!hasAnalyticsConsent()) return;
+  const key = `erledigt-confirmed:${eventId}`;
+  try {
+    if (sessionStorage.getItem(key)) return;
+    sessionStorage.setItem(key, '1');
+  } catch {
+    return;
+  }
+  track(name, { ...details, lead_id: id }, eventId);
 }
 export function captureAttribution() {
   if (!hasAnalyticsConsent()) return;

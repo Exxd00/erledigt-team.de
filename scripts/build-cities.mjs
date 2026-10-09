@@ -329,7 +329,7 @@ const profiles = {
   ],
   'Rhede (Ems)': [
     'Objekt und Zugang vor der Anfahrt klären.',
-    'Bei einer Anfrage für Rhede (Ems) hilft eine genaue Beschreibung der Lage und Zufahrt. Die Luftlinienentfernung sagt noch nichts über den tatsächlichen Weg oder die Erreichbarkeit einzelner Gebäudeseiten aus. Nennen Sie deshalb Zugang, mögliche Arbeitsbereiche und vorhandene Einschränkungen. Wir beziehen diese Punkte in die Planung ein. Bei mehreren Leistungen unterscheiden wir die Voraussetzungen jeweils nach Fläche, damit der Einsatz vor Ort vorbereitet beginnen kann.',
+    'Bei einer Anfrage für Rhede (Ems) hilft eine genaue Beschreibung der Lage und Zufahrt. Für die Einsatzplanung betrachten wir die Anfahrt und die Erreichbarkeit einzelner Gebäudeseiten gemeinsam. Nennen Sie deshalb Zugang, mögliche Arbeitsbereiche und vorhandene Einschränkungen. Wir beziehen diese Punkte in die Planung ein. Bei mehreren Leistungen unterscheiden wir die Voraussetzungen jeweils nach Fläche, damit der Einsatz vor Ort vorbereitet beginnen kann.',
     'aussen',
     'Zufahrt und Erreichbarkeit der einzelnen Gebäudeseiten',
   ],
@@ -370,8 +370,8 @@ const profiles = {
     'Gebäudezugang, Außenbereiche und mögliche Wetterabhängigkeit',
   ],
   Aurich: [
-    'Am Rand des Umkreises zählt die konkrete Adresse.',
-    'Aurich liegt in unserer Übersicht nahe am äußeren Bereich des genannten Umkreises. Für einen möglichen Einsatz ist deshalb die genaue Lage des Objekts entscheidend. Nennen Sie Ortsteil, Postleitzahl und den gewünschten Arbeitsumfang. Wir prüfen daraus die Anfahrt und die Einsatzmöglichkeit, ohne eine pauschale Verfügbarkeit für jede Adresse zu versprechen. Eine gebündelte Beschreibung mehrerer Aufgaben kann helfen, die Planung sinnvoll auf Ihr Vorhaben auszurichten.',
+    'Mehrere Aufgaben an einer Adresse gemeinsam planen.',
+    'Für die Reinigung in Aurich und Umgebung können Sie mehrere Aufgaben an derselben Adresse zusammen beschreiben. So lassen sich gemeinsame Vorbereitungen und unterschiedliche Anforderungen der einzelnen Flächen frühzeitig erkennen. Nennen Sie Ortsteil, Postleitzahl und den gewünschten Arbeitsumfang. Wir prüfen daraus die Anfahrt und die Einsatzmöglichkeit, ohne eine pauschale Verfügbarkeit für jede Adresse zu versprechen. Eine gebündelte Beschreibung mehrerer Aufgaben kann helfen, die Planung sinnvoll auf Ihr Vorhaben auszurichten.',
     'mehrere',
     'die genaue Objektlage und einen zusammenhängenden Leistungsumfang',
   ],
@@ -455,7 +455,7 @@ const profiles = {
   ],
   Jemgum: [
     'Die Anfahrt mit einem gut beschriebenen Auftrag verbinden.',
-    'Für einen Einsatz in Jemgum sind Objektlage und Umfang wichtige Planungsangaben. Die gezeigte Luftlinie ist keine Fahrstrecke; die tatsächliche Verbindung und der Zugang werden anhand Ihrer Adresse geprüft. Beschreiben Sie außerdem, welche Flächen zusammen gereinigt werden sollen. Wenn mehrere Aufgaben anstehen, können wir deren Voraussetzungen gemeinsam betrachten und eine sinnvolle Reihenfolge besprechen, bevor ein Termin verbindlich vereinbart wird.',
+    'Für einen Einsatz in Jemgum sind Objektlage und Umfang wichtige Planungsangaben. Die Anfahrt und der Zugang werden anhand Ihrer Adresse gemeinsam abgestimmt, damit die Vorbereitung zum tatsächlichen Einsatzort passt. Beschreiben Sie außerdem, welche Flächen zusammen gereinigt werden sollen. Wenn mehrere Aufgaben anstehen, können wir deren Voraussetzungen gemeinsam betrachten und eine sinnvolle Reihenfolge besprechen, bevor ein Termin verbindlich vereinbart wird.',
     'mehrere',
     'Objektadresse, Zufahrt und die gemeinsam gewünschten Aufgaben',
   ],
@@ -599,7 +599,7 @@ const cities = geo.cities
       )
       .slice(0, 3)
       .map((x) => x.name);
-    const body4 = `${c.name === 'Saterland' ? 'Die Eschstraße 70 ist unser zentraler Ausgangspunkt in Saterland.' : `Von unserer Adresse Eschstraße 70 in Saterland liegt ${c.name} ungefähr ${c.distanceKm} Kilometer Luftlinie entfernt. Das ist eine Orientierung, keine Fahrstrecke oder pauschale Anfahrtsberechnung.`} Wenn Sie zusätzlich ein Objekt in ${near[0]}, ${near[1]} oder ${near[2]} betreuen, können Sie die betreffenden Adressen gemeinsam nennen. Die Einsatzmöglichkeit prüfen wir für jeden Standort einzeln. Beschreiben Sie für Ihr Objekt in ${c.name} insbesondere ${access}. Diese Hinweise erleichtern die erste Einschätzung. Ergänzen Sie eine ungefähre Größe und Ihren Terminwunsch. Nach der Klärung des Umfangs entscheiden Sie über das Angebot; ein verbindlicher Einsatz wird erst anschließend vereinbart.`;
+    const body4 = `${c.name === 'Saterland' ? 'Die Eschstraße 70 ist unser zentraler Ausgangspunkt in Saterland.' : `Von unserem Standort in der Eschstraße 70 in Saterland planen wir Reinigungsaufträge in ${c.name} und Umgebung. Dabei berücksichtigen wir den tatsächlichen Einsatzort, den gewünschten Umfang und den vereinbarten Ablauf.`} Wenn Sie zusätzlich ein Objekt in ${near[0]}, ${near[1]} oder ${near[2]} betreuen, können Sie die betreffenden Adressen gemeinsam nennen. Die Einsatzmöglichkeit prüfen wir für jeden Standort einzeln. Beschreiben Sie für Ihr Objekt in ${c.name} insbesondere ${access}. Diese Hinweise erleichtern die erste Einschätzung. Ergänzen Sie eine ungefähre Größe und Ihren Terminwunsch. Nach der Klärung des Umfangs entscheiden Sie über das Angebot; ein verbindlicher Einsatz wird erst anschließend vereinbart.`;
     return {
       ...c,
       slug: slug(c.name),

@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse, after } from 'next/server';
 import { leadSchema } from '@/lib/validation';
 import { db, deliver, isLeadReady, rateLimit, readBody, sameOrigin } from '@/lib/server';
+import { createReceipt, RECEIPT_COOKIE, RECEIPT_TTL } from '@/lib/receipt';
+import { cityOptions } from '@/lib/content';
 export const runtime = 'nodejs';
 export const maxDuration = 60;
 export async function POST(req: NextRequest) {
@@ -37,14 +39,35 @@ export async function POST(req: NextRequest) {
     await db('rpc/save_lead', {
       method: 'POST',
       body: JSON.stringify({
-        p_lead: { ...clean, privacy_version: '2026-10-08', created_at: new Date().toISOString() },
+        p_lead: {
+          ...clean,
+          request_type: 'quote',
+          page_path: '/anfrage',
+          privacy_version: '2026-10-09',
+          created_at: new Date().toISOString(),
+        },
       }),
     });
     after(() => deliver(lead.id));
-    return NextResponse.json(
+    const response = NextResponse.json(
       { ok: true, id: lead.id },
       { status: 201, headers: { 'Cache-Control': 'no-store' } },
     );
+    const city = cityOptions.find(
+      (c) => c.name.toLocaleLowerCase('de-DE') === lead.city.toLocaleLowerCase('de-DE'),
+    )?.slug;
+    response.cookies.set(
+      RECEIPT_COOKIE,
+      createReceipt({ id: lead.id, service: lead.service, city }, process.env.RATE_LIMIT_SECRET!),
+      {
+        httpOnly: true,
+        secure: process.env.NODE_ENV === 'production',
+        sameSite: 'strict',
+        path: '/danke',
+        maxAge: RECEIPT_TTL,
+      },
+    );
+    return response;
   } catch {
     return NextResponse.json({ ok: false, error: 'save_failed' }, { status: 503 });
   }

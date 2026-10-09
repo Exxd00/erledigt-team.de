@@ -56,7 +56,7 @@ export function ContactDock() {
               <Icon name="X" size={18} />
             </button>
           </div>
-          <p>Direkt anrufen oder Ihr Vorhaben in Ruhe beschreiben.</p>
+          <p>Rückruf anfordern, direkt anrufen oder Ihr Vorhaben beschreiben.</p>
           <a
             ref={firstOption}
             href={site.phoneHref}

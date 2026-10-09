@@ -83,7 +83,30 @@ export const leadSchema = z
       });
   });
 export type LeadInput = z.infer<typeof leadSchema>;
+export const callbackSchema = z.object({
+  id: z.string().uuid(),
+  name: text(120),
+  phone: text(35).refine(
+    (v) => /^[+\d\s()/.-]{7,35}$/.test(v) && (v.match(/\d/g) || []).length >= 7,
+    'Bitte eine gültige Telefonnummer eingeben.',
+  ),
+  privacy: z.literal(true),
+  website: text(200),
+  started_at: z.number().finite(),
+  analytics_consent: z.boolean(),
+  page_path: safePath,
+  position: text(60).regex(/^[a-z_]*$/),
+  source: campaign.optional(),
+  medium: campaign.optional(),
+  campaign: campaign.optional(),
+  landing_page: safePath.optional(),
+});
 export const eventNames = [
+  'callback_erledigt_team',
+  'direkt_anrufen_erledigt_team',
+  'whatsapp_erledigt_team',
+  'email_erledigt_team',
+  'formular_erfolg_erledigt_team',
   'page_view',
   'cta_click',
   'phone_click',

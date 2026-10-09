@@ -7,11 +7,12 @@ const script = fs.readFileSync(
   'utf8',
 );
 const id = 'fc4a81f0-854e-4436-9476-7fdb45721402';
-function harness(maxRows = 1000) {
+function harness(maxRows = 1000, failPrimaryOnce = false) {
   const rows: Record<string, string[][]> = {
     Anfragen: [['headers']],
     Ereignisse: [['headers']],
     Zustellung: [['headers']],
+    Kontaktaktionen: [['headers']],
   };
   let opens = 0,
     expanded = 0,
@@ -32,6 +33,10 @@ function harness(maxRows = 1000) {
       }),
       setNumberFormat: (format: string) => assert.equal(format, '@'),
       setValues: (values: string[][]) => {
+        if (name === 'Kontaktaktionen' && failPrimaryOnce) {
+          failPrimaryOnce = false;
+          throw new Error('transient_write_failure');
+        }
         assert.ok(row <= maxRows);
         rows[name][row - 1] = Array.from(values[0]);
       },
@@ -92,6 +97,54 @@ test('lead retries append once and neutralize spreadsheet formulas', () => {
   assert.equal(h.rows.Anfragen.length, 2);
   assert.equal(h.rows.Anfragen[1][3], '\'=IMPORTXML("test")');
   assert.equal(h.rows.Anfragen[1][6], "'+49123456789");
+  assert.equal(h.rows.Kontaktaktionen.length, 2);
+});
+
+test('retry repairs a partial primary-log write without duplicating the request', () => {
+  const h = harness(1000, true);
+  const payload = {
+    token: 'test-secret',
+    kind: 'lead',
+    lead: { id, request_type: 'callback', phone: '+49123456789' },
+  };
+  assert.equal(h.send(payload).ok, false);
+  assert.equal(h.rows.Anfragen.length, 2);
+  assert.equal(h.rows.Kontaktaktionen.length, 1);
+  assert.equal(h.send(payload).ok, true);
+  assert.equal(h.rows.Anfragen.length, 2);
+  assert.equal(h.rows.Anfragen[1][24], 'Rückruf');
+  assert.equal(h.rows.Kontaktaktionen[1][2], 'callback_erledigt_team');
+});
+
+test('five primary types are logged once; opening, request analytics and refused analytics are excluded', () => {
+  const h = harness();
+  const nextId = (n: number) => `fc4a81f0-854e-4436-9476-7fdb4572140${n}`;
+  for (const [i, request_type] of ['quote', 'callback'].entries()) {
+    const lead = { id: nextId(i), request_type };
+    h.send({ token: 'test-secret', kind: 'lead', lead });
+    h.send({ token: 'test-secret', kind: 'lead', lead });
+  }
+  const names = [
+    'direkt_anrufen_erledigt_team',
+    'whatsapp_erledigt_team',
+    'email_erledigt_team',
+    'callback_erledigt_team',
+    'formular_erfolg_erledigt_team',
+    'contact_dock_open',
+  ];
+  names.forEach((name, i) => {
+    const event = { id: nextId(i + 2), name, consent: 'analytics', phone: 'private contact' };
+    h.send({ token: 'test-secret', kind: 'event', event });
+    h.send({ token: 'test-secret', kind: 'event', event });
+  });
+  h.send({
+    token: 'test-secret',
+    kind: 'event',
+    event: { id: nextId(9), name: names[0], consent: false },
+  });
+  assert.equal(h.rows.Kontaktaktionen.length, 6);
+  assert.equal(new Set(h.rows.Kontaktaktionen.slice(1).map((r) => r[2])).size, 5);
+  assert.ok(!JSON.stringify(h.rows.Kontaktaktionen).includes('private contact'));
 });
 test('event rows exclude contact data even when supplied to the webhook', () => {
   const h = harness();

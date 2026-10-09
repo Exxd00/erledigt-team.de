@@ -37,6 +37,8 @@ for (const [route, html] of pages) {
   const title = decode(html.match(/<title>([\s\S]*?)<\/title>/)?.[1] || '');
   const canonical = decode(html.match(/<link\b[^>]*rel="canonical"[^>]*href="([^"]+)"/)?.[1] || '');
   const count = wordCount(text);
+  if (/\b\d+\s*(?:km|Kilometer)\b|Umkreis|Luftlinie/i.test(text))
+    errors.push(`${route}: public distance or radius wording`);
   if (count < 300) errors.push(`${route}: ${count} main-content words`);
   if ((main.match(/<h1\b/g) || []).length !== 1) errors.push(`${route}: expected one h1`);
   if (titles.has(title)) errors.push(`${route}: duplicate title`);

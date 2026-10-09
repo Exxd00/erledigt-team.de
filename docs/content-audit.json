@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-08T20:45:34.119Z",
+  "generatedAt": "2026-10-09T20:11:50.117Z",
   "servicePages": 11,
   "cityPages": 78,
   "combinedPages": 858,
   "totalEditorialPages": 947,
   "minBodyWords": 301,
-  "maxNameNormalizedJaccard": 0.541,
+  "maxNameNormalizedJaccard": 0.548,
   "note": "Six-word shingle Jaccard, city names normalized. Shared service facts are intentional. This is an editorial duplicate check, not a search-ranking guarantee.",
   "closestPairs": [],
   "pages": [
@@ -72,387 +72,387 @@
     {
       "path": "/einsatzgebiete/ostrhauderfehn",
       "kind": "city",
-      "bodyWords": 350
+      "bodyWords": 356
     },
     {
       "path": "/einsatzgebiete/barssel",
       "kind": "city",
-      "bodyWords": 345
+      "bodyWords": 351
     },
     {
       "path": "/einsatzgebiete/rhauderfehn",
       "kind": "city",
-      "bodyWords": 350
+      "bodyWords": 356
     },
     {
       "path": "/einsatzgebiete/detern",
       "kind": "city",
-      "bodyWords": 355
+      "bodyWords": 361
     },
     {
       "path": "/einsatzgebiete/bockhorst",
       "kind": "city",
-      "bodyWords": 356
+      "bodyWords": 362
     },
     {
       "path": "/einsatzgebiete/filsum",
       "kind": "city",
-      "bodyWords": 350
+      "bodyWords": 356
     },
     {
       "path": "/einsatzgebiete/westoverledingen",
       "kind": "city",
-      "bodyWords": 342
+      "bodyWords": 348
     },
     {
       "path": "/einsatzgebiete/esterwegen",
       "kind": "city",
-      "bodyWords": 347
+      "bodyWords": 353
     },
     {
       "path": "/einsatzgebiete/apen",
       "kind": "city",
-      "bodyWords": 353
+      "bodyWords": 359
     },
     {
       "path": "/einsatzgebiete/hilkenbrook",
       "kind": "city",
-      "bodyWords": 348
+      "bodyWords": 354
     },
     {
       "path": "/einsatzgebiete/friesoythe",
       "kind": "city",
-      "bodyWords": 348
+      "bodyWords": 354
     },
     {
       "path": "/einsatzgebiete/nortmoor",
       "kind": "city",
-      "bodyWords": 358
+      "bodyWords": 364
     },
     {
       "path": "/einsatzgebiete/leer",
       "kind": "city",
-      "bodyWords": 345
+      "bodyWords": 351
     },
     {
       "path": "/einsatzgebiete/surwold",
       "kind": "city",
-      "bodyWords": 336
+      "bodyWords": 342
     },
     {
       "path": "/einsatzgebiete/breddenberg",
       "kind": "city",
-      "bodyWords": 344
+      "bodyWords": 350
     },
     {
       "path": "/einsatzgebiete/brinkum",
       "kind": "city",
-      "bodyWords": 345
+      "bodyWords": 351
     },
     {
       "path": "/einsatzgebiete/papenburg",
       "kind": "city",
-      "bodyWords": 347
+      "bodyWords": 353
     },
     {
       "path": "/einsatzgebiete/holtland",
       "kind": "city",
-      "bodyWords": 346
+      "bodyWords": 352
     },
     {
       "path": "/einsatzgebiete/edewecht",
       "kind": "city",
-      "bodyWords": 350
+      "bodyWords": 356
     },
     {
       "path": "/einsatzgebiete/uplengen",
       "kind": "city",
-      "bodyWords": 343
+      "bodyWords": 349
     },
     {
       "path": "/einsatzgebiete/hesel",
       "kind": "city",
-      "bodyWords": 347
+      "bodyWords": 353
     },
     {
       "path": "/einsatzgebiete/lorup",
       "kind": "city",
-      "bodyWords": 356
+      "bodyWords": 362
     },
     {
       "path": "/einsatzgebiete/weener",
       "kind": "city",
-      "bodyWords": 342
+      "bodyWords": 348
     },
     {
       "path": "/einsatzgebiete/schwerinsdorf",
       "kind": "city",
-      "bodyWords": 345
+      "bodyWords": 351
     },
     {
       "path": "/einsatzgebiete/neulehe",
       "kind": "city",
-      "bodyWords": 345
+      "bodyWords": 351
     },
     {
       "path": "/einsatzgebiete/westerstede",
       "kind": "city",
-      "bodyWords": 346
+      "bodyWords": 352
     },
     {
       "path": "/einsatzgebiete/boesel",
       "kind": "city",
-      "bodyWords": 349
+      "bodyWords": 355
     },
     {
       "path": "/einsatzgebiete/rastdorf",
       "kind": "city",
-      "bodyWords": 359
+      "bodyWords": 365
     },
     {
       "path": "/einsatzgebiete/neuboerger",
       "kind": "city",
-      "bodyWords": 345
+      "bodyWords": 351
     },
     {
       "path": "/einsatzgebiete/firrel",
       "kind": "city",
-      "bodyWords": 345
+      "bodyWords": 351
     },
     {
       "path": "/einsatzgebiete/bad-zwischenahn",
       "kind": "city",
-      "bodyWords": 346
+      "bodyWords": 352
     },
     {
       "path": "/einsatzgebiete/boerger",
       "kind": "city",
-      "bodyWords": 353
+      "bodyWords": 359
     },
     {
       "path": "/einsatzgebiete/neukamperfehn",
       "kind": "city",
-      "bodyWords": 346
+      "bodyWords": 352
     },
     {
       "path": "/einsatzgebiete/jemgum",
       "kind": "city",
-      "bodyWords": 343
+      "bodyWords": 350
     },
     {
       "path": "/einsatzgebiete/lehe",
       "kind": "city",
-      "bodyWords": 348
+      "bodyWords": 354
     },
     {
       "path": "/einsatzgebiete/vrees",
       "kind": "city",
-      "bodyWords": 349
+      "bodyWords": 355
     },
     {
       "path": "/einsatzgebiete/moormerland",
       "kind": "city",
-      "bodyWords": 343
+      "bodyWords": 349
     },
     {
       "path": "/einsatzgebiete/bunde",
       "kind": "city",
-      "bodyWords": 343
+      "bodyWords": 349
     },
     {
       "path": "/einsatzgebiete/rhede-ems",
       "kind": "city",
-      "bodyWords": 349
+      "bodyWords": 353
     },
     {
       "path": "/einsatzgebiete/heede",
       "kind": "city",
-      "bodyWords": 344
+      "bodyWords": 350
     },
     {
       "path": "/einsatzgebiete/spahnharrenstaette",
       "kind": "city",
-      "bodyWords": 347
+      "bodyWords": 353
     },
     {
       "path": "/einsatzgebiete/doerpen",
       "kind": "city",
-      "bodyWords": 344
+      "bodyWords": 350
     },
     {
       "path": "/einsatzgebiete/werpeloh",
       "kind": "city",
-      "bodyWords": 346
+      "bodyWords": 352
     },
     {
       "path": "/einsatzgebiete/garrel",
       "kind": "city",
-      "bodyWords": 344
+      "bodyWords": 350
     },
     {
       "path": "/einsatzgebiete/werlte",
       "kind": "city",
-      "bodyWords": 342
+      "bodyWords": 348
     },
     {
       "path": "/einsatzgebiete/kluse",
       "kind": "city",
-      "bodyWords": 337
+      "bodyWords": 343
     },
     {
       "path": "/einsatzgebiete/grossefehn",
       "kind": "city",
-      "bodyWords": 351
+      "bodyWords": 357
     },
     {
       "path": "/einsatzgebiete/lindern-oldenburg",
       "kind": "city",
-      "bodyWords": 361
+      "bodyWords": 367
     },
     {
       "path": "/einsatzgebiete/renkenberge",
       "kind": "city",
-      "bodyWords": 357
+      "bodyWords": 363
     },
     {
       "path": "/einsatzgebiete/soegel",
       "kind": "city",
-      "bodyWords": 342
+      "bodyWords": 348
     },
     {
       "path": "/einsatzgebiete/dersum",
       "kind": "city",
-      "bodyWords": 344
+      "bodyWords": 350
     },
     {
       "path": "/einsatzgebiete/wiesmoor",
       "kind": "city",
-      "bodyWords": 346
+      "bodyWords": 352
     },
     {
       "path": "/einsatzgebiete/wiefelstede",
       "kind": "city",
-      "bodyWords": 347
+      "bodyWords": 353
     },
     {
       "path": "/einsatzgebiete/molbergen",
       "kind": "city",
-      "bodyWords": 357
+      "bodyWords": 363
     },
     {
       "path": "/einsatzgebiete/walchum",
       "kind": "city",
-      "bodyWords": 350
+      "bodyWords": 356
     },
     {
       "path": "/einsatzgebiete/wardenburg",
       "kind": "city",
-      "bodyWords": 348
+      "bodyWords": 354
     },
     {
       "path": "/einsatzgebiete/sustrum",
       "kind": "city",
-      "bodyWords": 352
+      "bodyWords": 358
     },
     {
       "path": "/einsatzgebiete/oldenburg",
       "kind": "city",
-      "bodyWords": 345
+      "bodyWords": 351
     },
     {
       "path": "/einsatzgebiete/ihlow",
       "kind": "city",
-      "bodyWords": 349
+      "bodyWords": 355
     },
     {
       "path": "/einsatzgebiete/fresenburg",
       "kind": "city",
-      "bodyWords": 351
+      "bodyWords": 357
     },
     {
       "path": "/einsatzgebiete/lathen",
       "kind": "city",
-      "bodyWords": 347
+      "bodyWords": 353
     },
     {
       "path": "/einsatzgebiete/rastede",
       "kind": "city",
-      "bodyWords": 348
+      "bodyWords": 354
     },
     {
       "path": "/einsatzgebiete/bockhorn",
       "kind": "city",
-      "bodyWords": 347
+      "bodyWords": 353
     },
     {
       "path": "/einsatzgebiete/zetel",
       "kind": "city",
-      "bodyWords": 341
+      "bodyWords": 347
     },
     {
       "path": "/einsatzgebiete/cloppenburg",
       "kind": "city",
-      "bodyWords": 349
+      "bodyWords": 355
     },
     {
       "path": "/einsatzgebiete/friedeburg",
       "kind": "city",
-      "bodyWords": 345
+      "bodyWords": 351
     },
     {
       "path": "/einsatzgebiete/stavern",
       "kind": "city",
-      "bodyWords": 351
+      "bodyWords": 357
     },
     {
       "path": "/einsatzgebiete/emden",
       "kind": "city",
-      "bodyWords": 348
+      "bodyWords": 354
     },
     {
       "path": "/einsatzgebiete/laehden",
       "kind": "city",
-      "bodyWords": 351
+      "bodyWords": 357
     },
     {
       "path": "/einsatzgebiete/grossenkneten",
       "kind": "city",
-      "bodyWords": 352
+      "bodyWords": 358
     },
     {
       "path": "/einsatzgebiete/hatten",
       "kind": "city",
-      "bodyWords": 352
+      "bodyWords": 358
     },
     {
       "path": "/einsatzgebiete/varel",
       "kind": "city",
-      "bodyWords": 352
+      "bodyWords": 358
     },
     {
       "path": "/einsatzgebiete/emstek",
       "kind": "city",
-      "bodyWords": 338
+      "bodyWords": 344
     },
     {
       "path": "/einsatzgebiete/cappeln",
       "kind": "city",
-      "bodyWords": 344
+      "bodyWords": 350
     },
     {
       "path": "/einsatzgebiete/jade",
       "kind": "city",
-      "bodyWords": 350
+      "bodyWords": 356
     },
     {
       "path": "/einsatzgebiete/suedbrookmerland",
       "kind": "city",
-      "bodyWords": 347
+      "bodyWords": 353
     },
     {
       "path": "/einsatzgebiete/aurich",
       "kind": "city",
-      "bodyWords": 340
+      "bodyWords": 351
     },
     {
       "path": "/einsatzgebiete/saterland/unterhaltsreinigung",
@@ -2327,57 +2327,57 @@
     {
       "path": "/einsatzgebiete/jemgum/unterhaltsreinigung",
       "kind": "local-service",
-      "bodyWords": 439
+      "bodyWords": 440
     },
     {
       "path": "/einsatzgebiete/jemgum/buero-praxisreinigung",
       "kind": "local-service",
-      "bodyWords": 437
+      "bodyWords": 438
     },
     {
       "path": "/einsatzgebiete/jemgum/grund-sonderreinigung",
       "kind": "local-service",
-      "bodyWords": 454
+      "bodyWords": 455
     },
     {
       "path": "/einsatzgebiete/jemgum/treppenhausreinigung",
       "kind": "local-service",
-      "bodyWords": 430
+      "bodyWords": 431
     },
     {
       "path": "/einsatzgebiete/jemgum/glas-fensterreinigung",
       "kind": "local-service",
-      "bodyWords": 433
+      "bodyWords": 434
     },
     {
       "path": "/einsatzgebiete/jemgum/maschinen-anlagenreinigung",
       "kind": "local-service",
-      "bodyWords": 415
+      "bodyWords": 416
     },
     {
       "path": "/einsatzgebiete/jemgum/hallen-gewerbereinigung",
       "kind": "local-service",
-      "bodyWords": 424
+      "bodyWords": 425
     },
     {
       "path": "/einsatzgebiete/jemgum/baustellenreinigung",
       "kind": "local-service",
-      "bodyWords": 410
+      "bodyWords": 411
     },
     {
       "path": "/einsatzgebiete/jemgum/polster-teppichreinigung",
       "kind": "local-service",
-      "bodyWords": 420
+      "bodyWords": 421
     },
     {
       "path": "/einsatzgebiete/jemgum/dach-oberflaechenreinigung",
       "kind": "local-service",
-      "bodyWords": 464
+      "bodyWords": 465
     },
     {
       "path": "/einsatzgebiete/jemgum/pv-anlagen-reinigung",
       "kind": "local-service",
-      "bodyWords": 460
+      "bodyWords": 461
     },
     {
       "path": "/einsatzgebiete/lehe/unterhaltsreinigung",
@@ -2602,57 +2602,57 @@
     {
       "path": "/einsatzgebiete/rhede-ems/unterhaltsreinigung",
       "kind": "local-service",
-      "bodyWords": 451
+      "bodyWords": 449
     },
     {
       "path": "/einsatzgebiete/rhede-ems/buero-praxisreinigung",
       "kind": "local-service",
-      "bodyWords": 433
+      "bodyWords": 431
     },
     {
       "path": "/einsatzgebiete/rhede-ems/grund-sonderreinigung",
       "kind": "local-service",
-      "bodyWords": 448
+      "bodyWords": 446
     },
     {
       "path": "/einsatzgebiete/rhede-ems/treppenhausreinigung",
       "kind": "local-service",
-      "bodyWords": 449
+      "bodyWords": 447
     },
     {
       "path": "/einsatzgebiete/rhede-ems/glas-fensterreinigung",
       "kind": "local-service",
-      "bodyWords": 446
+      "bodyWords": 444
     },
     {
       "path": "/einsatzgebiete/rhede-ems/maschinen-anlagenreinigung",
       "kind": "local-service",
-      "bodyWords": 428
+      "bodyWords": 426
     },
     {
       "path": "/einsatzgebiete/rhede-ems/hallen-gewerbereinigung",
       "kind": "local-service",
-      "bodyWords": 430
+      "bodyWords": 428
     },
     {
       "path": "/einsatzgebiete/rhede-ems/baustellenreinigung",
       "kind": "local-service",
-      "bodyWords": 416
+      "bodyWords": 414
     },
     {
       "path": "/einsatzgebiete/rhede-ems/polster-teppichreinigung",
       "kind": "local-service",
-      "bodyWords": 439
+      "bodyWords": 437
     },
     {
       "path": "/einsatzgebiete/rhede-ems/dach-oberflaechenreinigung",
       "kind": "local-service",
-      "bodyWords": 425
+      "bodyWords": 423
     },
     {
       "path": "/einsatzgebiete/rhede-ems/pv-anlagen-reinigung",
       "kind": "local-service",
-      "bodyWords": 421
+      "bodyWords": 419
     },
     {
       "path": "/einsatzgebiete/heede/unterhaltsreinigung",
@@ -4692,57 +4692,57 @@
     {
       "path": "/einsatzgebiete/aurich/unterhaltsreinigung",
       "kind": "local-service",
-      "bodyWords": 451
+      "bodyWords": 456
     },
     {
       "path": "/einsatzgebiete/aurich/buero-praxisreinigung",
       "kind": "local-service",
-      "bodyWords": 437
+      "bodyWords": 442
     },
     {
       "path": "/einsatzgebiete/aurich/grund-sonderreinigung",
       "kind": "local-service",
-      "bodyWords": 439
+      "bodyWords": 444
     },
     {
       "path": "/einsatzgebiete/aurich/treppenhausreinigung",
       "kind": "local-service",
-      "bodyWords": 421
+      "bodyWords": 426
     },
     {
       "path": "/einsatzgebiete/aurich/glas-fensterreinigung",
       "kind": "local-service",
-      "bodyWords": 434
+      "bodyWords": 439
     },
     {
       "path": "/einsatzgebiete/aurich/maschinen-anlagenreinigung",
       "kind": "local-service",
-      "bodyWords": 413
+      "bodyWords": 418
     },
     {
       "path": "/einsatzgebiete/aurich/hallen-gewerbereinigung",
       "kind": "local-service",
-      "bodyWords": 419
+      "bodyWords": 424
     },
     {
       "path": "/einsatzgebiete/aurich/baustellenreinigung",
       "kind": "local-service",
-      "bodyWords": 478
+      "bodyWords": 483
     },
     {
       "path": "/einsatzgebiete/aurich/polster-teppichreinigung",
       "kind": "local-service",
-      "bodyWords": 480
+      "bodyWords": 485
     },
     {
       "path": "/einsatzgebiete/aurich/dach-oberflaechenreinigung",
       "kind": "local-service",
-      "bodyWords": 453
+      "bodyWords": 458
     },
     {
       "path": "/einsatzgebiete/aurich/pv-anlagen-reinigung",
       "kind": "local-service",
-      "bodyWords": 466
+      "bodyWords": 471
     }
   ]
 }

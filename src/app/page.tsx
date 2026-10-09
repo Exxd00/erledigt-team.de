@@ -227,8 +227,8 @@ export default function Home() {
             </h2>
             <p>
               Unser Ausgangspunkt ist die Eschstraße 70 in Saterland. Von hier aus planen wir
-              Einsätze im Umkreis von etwa 50 Kilometern – im Oldenburger Münsterland, im Ammerland,
-              in Ostfriesland und im nördlichen Emsland.
+              Einsätze in Saterland und Umgebung – im Oldenburger Münsterland, im Ammerland, in
+              Ostfriesland und im nördlichen Emsland.
             </p>
             <p>
               Die genaue Einsatzmöglichkeit klären wir anhand Ihrer Adresse und des Auftragsumfangs.
@@ -246,9 +246,7 @@ export default function Home() {
                 <strong>Saterland</strong>
                 <span>Eschstraße 70 · 26683</span>
               </div>
-              <span className="radius">
-                50 <small>km</small>
-              </span>
+              <span className="region-badge">&amp; Umgebung</span>
             </div>
             <div className="city-cloud">
               {cities.slice(0, 12).map((c) => (
