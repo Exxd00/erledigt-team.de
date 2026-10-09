@@ -87,6 +87,12 @@ export function SiteHeader() {
               Einsatzgebiete
             </Link>
             <Link href="/ueber-uns">Über uns</Link>
+            <Link
+              className={path.startsWith('/ratgeber') || path === '/fragen' ? 'active' : ''}
+              href="/ratgeber"
+            >
+              Ratgeber
+            </Link>
           </nav>
           <div className="header-actions">
             <button
@@ -126,6 +132,8 @@ export function SiteHeader() {
             <Link href="/leistungen">Alle Leistungen</Link>
             <Link href="/einsatzgebiete">Städte & Einsatzgebiete</Link>
             <Link href="/ueber-uns">Über ERLEDIGT TEAM</Link>
+            <Link href="/ratgeber">Reinigungsratgeber</Link>
+            <Link href="/fragen">Fragen & Antworten</Link>
             <Link href="/anfrage">Angebot anfragen</Link>
             <a href={site.phoneHref} data-event="phone_click">
               <Icon name="Phone" /> {site.phone}
@@ -163,6 +171,8 @@ export function SiteFooter() {
           <Link href="/leistungen">Unsere Leistungen</Link>
           <Link href="/einsatzgebiete">Unsere Einsatzgebiete</Link>
           <Link href="/ueber-uns">Über uns</Link>
+          <Link href="/ratgeber">Reinigungsratgeber</Link>
+          <Link href="/fragen">Fragen & Antworten</Link>
           <Link href="/anfrage">Angebot anfragen</Link>
         </div>
         <div>

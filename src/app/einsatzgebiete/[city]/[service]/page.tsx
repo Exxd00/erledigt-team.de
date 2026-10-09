@@ -4,7 +4,11 @@ import { Breadcrumb, ClosingCta, Eyebrow, FaqList, JsonLd } from '@/components/S
 import { Icon } from '@/components/Icon';
 import { cities, services, cityBySlug, serviceBySlug } from '@/lib/content';
 import { localContent } from '@/lib/local-content';
-import { site } from '@/lib/site';
+import { AnswerSummary } from '@/components/AnswerSummary';
+import { RelatedGuide } from '@/components/GuideCards';
+import { serviceAnswer } from '@/lib/answers';
+import { absoluteUrl, pageGraph, serviceGraph } from '@/lib/structured-data';
+import { pageMetadata } from '@/lib/seo';
 import { ServiceVisual, ServiceDecision } from '@/components/ServiceVisual';
 import { nearbyCities } from '@/lib/regions';
 export const dynamicParams = false;
@@ -17,11 +21,11 @@ export async function generateMetadata({ params }: Props) {
     c = cityBySlug(p.city),
     s = serviceBySlug(p.service);
   if (!c || !s) return {};
-  return {
-    title: `${s.name} in ${c.name}`,
-    description: localContent(c, s, cities).description,
-    alternates: { canonical: `/einsatzgebiete/${c.slug}/${s.slug}` },
-  };
+  return pageMetadata(
+    `/einsatzgebiete/${c.slug}/${s.slug}`,
+    `${s.name} in ${c.name}`,
+    `${s.name} in ${c.name} und Umgebung anfragen. ERLEDIGT TEAM aus Saterland: Umfang, Vorbereitung und Termine persönlich abstimmen.`,
+  );
 }
 export default async function Page({ params }: Props) {
   const p = await params,
@@ -31,6 +35,8 @@ export default async function Page({ params }: Props) {
   const content = localContent(c, s, cities),
     href = `/anfrage?leistung=${s.slug}&ort=${c.slug}`;
   const nearby = nearbyCities(c, cities);
+  const path = `/einsatzgebiete/${c.slug}/${s.slug}`;
+  const answer = serviceAnswer(s, c);
   return (
     <>
       <Breadcrumb
@@ -71,6 +77,7 @@ export default async function Page({ params }: Props) {
         </div>
         <ServiceVisual slug={s.slug} eager />
       </section>
+      <AnswerSummary title={`${s.name} in ${c.name}: Was ist wichtig?`} answer={answer} />
       <ServiceDecision service={s} city={c.name} href={href} />
       <section id="vorbereitung" className="section surface-alt">
         <div className="wrap article-layout">
@@ -151,18 +158,14 @@ export default async function Page({ params }: Props) {
           ))}
         </div>
       </section>
+      <RelatedGuide service={s.slug} />
       <ClosingCta title={`Ihr Objekt in ${c.name}. Unser nächster Einsatz?`} href={href} />
       <JsonLd
-        value={{
-          '@context': 'https://schema.org',
-          '@type': 'Service',
-          name: `${s.name} in ${c.name}`,
-          serviceType: s.name,
-          provider: { '@id': `${site.url}/#business` },
-          areaServed: { '@type': 'Place', name: c.name },
-          url: `${site.url}/einsatzgebiete/${c.slug}/${s.slug}`,
-        }}
+        value={pageGraph(path, `${s.name} in ${c.name}`, answer, {
+          mainEntity: { '@id': `${absoluteUrl(path)}#service` },
+        })}
       />
+      <JsonLd value={serviceGraph(s, path, c, answer)} />
     </>
   );
 }

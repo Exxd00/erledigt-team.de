@@ -3,6 +3,245 @@
   initial-value: 0deg;
   inherits: false;
 }
+.answer-section {
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+.answer-panel {
+  display: grid;
+  gap: 28px;
+  padding: clamp(24px, 4vw, 42px);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+}
+.answer-copy {
+  min-width: 0;
+}
+.answer-copy h2 {
+  font-size: clamp(1.5rem, 3vw, 2.15rem);
+  margin: 12px 0 18px;
+}
+.answer-copy > p:not(.eyebrow) {
+  color: var(--muted);
+  max-width: 78ch;
+}
+.answer-copy .text-link {
+  margin-top: 20px;
+}
+.answer-facts {
+  display: grid;
+  gap: 16px;
+  margin: 0;
+  min-width: 0;
+}
+.answer-facts > div {
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+.answer-facts > div:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.answer-facts dt {
+  color: var(--muted);
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+}
+.answer-facts dd {
+  margin: 0;
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+.guide-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+.guide-card {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+.guide-card .service-visual {
+  margin: 0;
+  min-height: 0;
+  height: 220px;
+  border-radius: 0;
+}
+.guide-card .service-visual figcaption {
+  display: none;
+}
+.guide-card-copy {
+  padding: 26px;
+}
+.guide-card h3 {
+  font-size: 1.4rem;
+  margin: 12px 0 16px;
+}
+.guide-card-copy > p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.guide-card .text-link {
+  margin-top: 22px;
+}
+.guide-directory {
+  padding-bottom: 24px;
+}
+.guide-introduction {
+  max-width: 920px;
+}
+.guide-introduction h2 {
+  margin-top: 36px;
+  margin-bottom: 20px;
+}
+.guide-hero h1 {
+  font-size: clamp(2rem, 4.1vw, 3.4rem);
+}
+.editorial-byline {
+  margin-top: 20px;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.editorial-byline a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.guide-checklist {
+  padding: 0;
+  list-style: none;
+  margin: 24px 0 0;
+  display: grid;
+  gap: 12px;
+}
+.guide-checklist li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.guide-checklist svg {
+  flex-shrink: 0;
+  margin-top: 6px;
+  color: var(--accent);
+}
+.comparison-scroll {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+}
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+.comparison-table caption {
+  padding: 20px;
+  text-align: left;
+  color: var(--muted);
+  background: var(--surface);
+}
+.comparison-table th,
+.comparison-table td {
+  padding: 18px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+  min-width: 155px;
+}
+.comparison-table thead {
+  background: var(--navy);
+  color: #f3faff;
+}
+.comparison-table tbody th {
+  font-weight: 700;
+}
+.comparison-table tbody tr:nth-child(even) {
+  background: var(--surface);
+}
+.comparison-table tr:last-child > * {
+  border-bottom: 0;
+}
+.related-guide {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  margin-bottom: 44px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.related-guide > svg {
+  color: var(--accent);
+  flex-shrink: 0;
+}
+.related-guide h2 {
+  font-size: 1.35rem;
+  margin-top: 6px;
+  max-width: 38ch;
+}
+.related-guide .text-link {
+  margin-left: auto;
+}
+.answer-jump-links {
+  display: grid;
+  gap: 10px;
+  margin-top: 30px;
+}
+.answer-jump-links a {
+  display: block;
+  padding: 13px 16px;
+  color: var(--accent);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+.answer-jump-links a:hover {
+  border-color: var(--accent);
+}
+.answer-library {
+  max-width: 940px;
+  padding-bottom: 64px;
+}
+.answer-entry {
+  padding: 32px 0;
+  border-top: 1px solid var(--line);
+}
+.answer-entry h2 {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  margin: 10px 0 20px;
+}
+.answer-entry > p {
+  color: var(--muted);
+}
+.answer-entry .text-link {
+  margin-top: 20px;
+}
+@media (min-width: 800px) {
+  .answer-panel:has(.answer-facts) {
+    grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr);
+  }
+  .guide-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .answer-jump-links {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 520px) {
+  .related-guide > svg {
+    display: none;
+  }
+  .related-guide .text-link {
+    margin-left: 0;
+  }
+}
 .contact-dialog {
   width: min(520px, calc(100% - 32px));
   max-height: calc(100dvh - 32px);

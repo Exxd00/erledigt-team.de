@@ -6,6 +6,10 @@ import { site } from '@/lib/site';
 import { assets } from '@/lib/assets';
 import { SiteImage } from '@/components/SiteImage';
 import { ServiceFinder } from '@/components/ServiceFinder';
+import { AnswerSummary } from '@/components/AnswerSummary';
+import { GuideCards } from '@/components/GuideCards';
+import { companyAnswer } from '@/lib/answers';
+import { pageGraph } from '@/lib/structured-data';
 export const metadata = { alternates: { canonical: '/' } };
 export default function Home() {
   return (
@@ -97,6 +101,18 @@ export default function Home() {
         </div>
       </section>
       <ServiceFinder />
+      <AnswerSummary
+        title="Wer reinigt in Saterland und Umgebung?"
+        answer={companyAnswer}
+        facts={[
+          { label: 'Standort', value: 'Eschstraße 70 · 26683 Saterland' },
+          { label: 'Für wen?', value: 'Privat · Gewerbe · Hausverwaltung' },
+          {
+            label: 'Ihr Einstieg',
+            value: 'Unverbindliche Anfrage, persönlich abgestimmtes Angebot',
+          },
+        ]}
+      />
       <section className="section wrap home-services">
         <div className="section-heading">
           <div>
@@ -305,27 +321,24 @@ export default function Home() {
           ]}
         />
       </section>
+      <section className="section wrap">
+        <div className="section-heading">
+          <div>
+            <Eyebrow>Orientierung vor dem Auftrag</Eyebrow>
+            <h2>
+              Wissen, was passt.
+              <br />
+              <em>Einfach entscheiden.</em>
+            </h2>
+          </div>
+          <Link className="text-link" href="/ratgeber">
+            Zum Reinigungsratgeber <Icon name="ArrowUpRight" size={18} />
+          </Link>
+        </div>
+        <GuideCards />
+      </section>
       <ClosingCta />
-      <JsonLd
-        value={{
-          '@context': 'https://schema.org',
-          '@type': 'LocalBusiness',
-          '@id': `${site.url}/#business`,
-          name: site.name,
-          url: site.url,
-          email: site.email,
-          telephone: site.phone,
-          address: {
-            '@type': 'PostalAddress',
-            streetAddress: site.street,
-            postalCode: site.postal,
-            addressLocality: site.city,
-            addressCountry: 'DE',
-          },
-          areaServed: cities.map((c) => ({ '@type': 'City', name: c.name })),
-          logo: `${site.url}/images/logo.jpg`,
-        }}
-      />
+      <JsonLd value={pageGraph('/', 'Gebäudereinigung in Saterland & Umgebung', companyAnswer)} />
     </>
   );
 }

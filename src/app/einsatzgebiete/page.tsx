@@ -1,4 +1,5 @@
-import { Breadcrumb, ClosingCta, Eyebrow } from '@/components/Shared';
+import { Breadcrumb, ClosingCta, Eyebrow, JsonLd } from '@/components/Shared';
+import { itemList, pageGraph } from '@/lib/structured-data';
 import { CityDirectory } from '@/components/Directories';
 import { cityPreviews } from '@/lib/content';
 export const metadata = {
@@ -81,6 +82,19 @@ export default function Page() {
         </div>
       </div>
       <ClosingCta title="Ihr Ort. Ihr Objekt. Unser nächster Einsatz?" />
+      <JsonLd
+        value={pageGraph(
+          '/einsatzgebiete',
+          'Städte & Einsatzgebiete rund um Saterland',
+          metadata.description,
+          {
+            '@type': 'CollectionPage',
+            mainEntity: itemList(
+              cityPreviews.map((c) => ({ name: c.name, path: `/einsatzgebiete/${c.slug}` })),
+            ),
+          },
+        )}
+      />
     </>
   );
 }

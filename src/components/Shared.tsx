@@ -4,9 +4,11 @@ import { site, type Faq, type ServicePreview } from '@/lib/site';
 import { assets } from '@/lib/assets';
 import { servicePresentation } from '@/lib/service-presentation';
 import { SiteImage } from './SiteImage';
+import { breadcrumbGraph } from '@/lib/structured-data';
 export function Breadcrumb({ items }: { items: { label: string; href?: string }[] }) {
   return (
     <nav className="breadcrumbs wrap" aria-label="Brotkrumennavigation">
+      <JsonLd value={breadcrumbGraph(items)} />
       <Link href="/">Startseite</Link>
       {items.map((i, k) => (
         <span key={k}>

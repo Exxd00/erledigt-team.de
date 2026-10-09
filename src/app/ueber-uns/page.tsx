@@ -1,7 +1,11 @@
 import Link from 'next/link';
 import { assets } from '@/lib/assets';
 import { SiteImage } from '@/components/SiteImage';
-import { Breadcrumb, ClosingCta, Eyebrow, Process } from '@/components/Shared';
+import { Breadcrumb, ClosingCta, Eyebrow, JsonLd, Process } from '@/components/Shared';
+import { AnswerSummary } from '@/components/AnswerSummary';
+import { companyAnswer } from '@/lib/answers';
+import { legal } from '@/lib/legal';
+import { pageGraph } from '@/lib/structured-data';
 export const metadata = {
   title: 'Über ERLEDIGT TEAM',
   description:
@@ -28,6 +32,15 @@ export default function Page() {
           </p>
         </div>
       </section>
+      <AnswerSummary
+        title="ERLEDIGT TEAM auf einen Blick"
+        answer={companyAnswer}
+        facts={[
+          { label: 'Unternehmen', value: legal.businessName },
+          { label: 'Inhaber', value: legal.proprietor },
+          { label: 'Standort', value: 'Eschstraße 70 · 26683 Saterland' },
+        ]}
+      />
       <section className="section surface-alt">
         <div className="wrap story-grid">
           <div className="story-photo">
@@ -114,6 +127,11 @@ export default function Page() {
         <Process />
       </section>
       <ClosingCta />
+      <JsonLd
+        value={pageGraph('/ueber-uns', 'Über ERLEDIGT TEAM', companyAnswer, {
+          '@type': 'AboutPage',
+        })}
+      />
     </>
   );
 }

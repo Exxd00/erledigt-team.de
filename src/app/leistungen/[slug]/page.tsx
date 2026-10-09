@@ -5,6 +5,11 @@ import { Icon } from '@/components/Icon';
 import { services, cities, serviceBySlug } from '@/lib/content';
 import { site } from '@/lib/site';
 import { ServiceVisual, ServiceDecision } from '@/components/ServiceVisual';
+import { AnswerSummary } from '@/components/AnswerSummary';
+import { RelatedGuide } from '@/components/GuideCards';
+import { serviceAnswer } from '@/lib/answers';
+import { absoluteUrl, pageGraph, questionEntities, serviceGraph } from '@/lib/structured-data';
+import { pageMetadata } from '@/lib/seo';
 export const dynamicParams = false;
 export function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }));
@@ -12,17 +17,15 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const s = serviceBySlug((await params).slug);
   return s
-    ? {
-        title: `${s.name} in Saterland & Umgebung`,
-        description: s.summary,
-        alternates: { canonical: `/leistungen/${s.slug}` },
-      }
+    ? pageMetadata(`/leistungen/${s.slug}`, `${s.name} in Saterland & Umgebung`, s.summary)
     : {};
 }
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const s = serviceBySlug((await params).slug);
   if (!s) notFound();
   const href = `/anfrage?leistung=${s.slug}`;
+  const path = `/leistungen/${s.slug}`;
+  const answer = serviceAnswer(s);
   return (
     <>
       <Breadcrumb items={[{ label: 'Leistungen', href: '/leistungen' }, { label: s.name }]} />
@@ -46,6 +49,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
         </div>
         <ServiceVisual slug={s.slug} eager />
       </section>
+      <AnswerSummary title={`Was umfasst ${s.name}?`} answer={answer} />
       <ServiceDecision service={s} href={href} />
       <section className="section surface-alt">
         <div className="wrap article-layout">
@@ -117,18 +121,24 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
           <FaqList items={s.faqs} />
         </section>
       )}
+      <RelatedGuide service={s.slug} />
       <ClosingCta href={href} />
       <JsonLd
-        value={{
-          '@context': 'https://schema.org',
-          '@type': 'Service',
-          name: s.name,
-          description: s.summary,
-          provider: { '@id': `${site.url}/#business` },
-          areaServed: cities.map((c) => ({ '@type': 'City', name: c.name })),
-          url: `${site.url}/leistungen/${s.slug}`,
-        }}
+        value={pageGraph(path, `${s.name} in Saterland & Umgebung`, answer, {
+          mainEntity: { '@id': `${absoluteUrl(path)}#service` },
+        })}
       />
+      <JsonLd value={serviceGraph(s, path, cities, answer)} />
+      {s.faqs.length > 0 && (
+        <JsonLd
+          value={{
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            '@id': `${absoluteUrl(path)}#fragen`,
+            mainEntity: questionEntities(s.faqs),
+          }}
+        />
+      )}
     </>
   );
 }

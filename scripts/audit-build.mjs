@@ -68,7 +68,7 @@ for (const [route, html] of pages) {
 const data = JSON.parse(fs.readFileSync('src/data/content.json', 'utf8'));
 assert.equal(
   pages.size,
-  data.cities.length * (data.services.length + 1) + data.services.length + 6,
+  data.cities.length * (data.services.length + 1) + data.services.length + 11,
   'Unexpected static-page count',
 );
 const report = {

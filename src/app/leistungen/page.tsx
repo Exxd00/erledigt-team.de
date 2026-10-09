@@ -1,4 +1,5 @@
-import { Breadcrumb, ClosingCta, Eyebrow } from '@/components/Shared';
+import { Breadcrumb, ClosingCta, Eyebrow, JsonLd } from '@/components/Shared';
+import { itemList, pageGraph } from '@/lib/structured-data';
 import { ServiceDirectory } from '@/components/Directories';
 import { servicePreviews } from '@/lib/content';
 export const metadata = {
@@ -76,6 +77,14 @@ export default function Page() {
         </div>
       </div>
       <ClosingCta />
+      <JsonLd
+        value={pageGraph('/leistungen', 'Unsere Reinigungsleistungen', metadata.description, {
+          '@type': 'CollectionPage',
+          mainEntity: itemList(
+            servicePreviews.map((s) => ({ name: s.name, path: `/leistungen/${s.slug}` })),
+          ),
+        })}
+      />
     </>
   );
 }

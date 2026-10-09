@@ -9,6 +9,8 @@ import { SiteHeader, SiteFooter, ConsentAndTracking } from '@/components/SiteChr
 import { site } from '@/lib/site';
 import { ContactDock } from '@/components/ContactDock';
 import { ContactDialogs } from '@/components/ContactDialogs';
+import { JsonLd } from '@/components/Shared';
+import { businessGraph } from '@/lib/structured-data';
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   // Public ownership proof for the approved business Search Console account.
@@ -55,6 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script dangerouslySetInnerHTML={{ __html: theme }} />
       </head>
       <body>
+        <JsonLd value={businessGraph()} />
         <a className="skip-link" href="#main">
           Zum Inhalt
         </a>

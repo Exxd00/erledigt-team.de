@@ -1,6 +1,9 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { Breadcrumb, ClosingCta, Eyebrow, ServiceCard } from '@/components/Shared';
+import { Breadcrumb, ClosingCta, Eyebrow, JsonLd, ServiceCard } from '@/components/Shared';
+import { AnswerSummary } from '@/components/AnswerSummary';
+import { pageGraph, itemList } from '@/lib/structured-data';
+import { pageMetadata } from '@/lib/seo';
 import { Icon } from '@/components/Icon';
 import { services, cities, cityBySlug } from '@/lib/content';
 import { ServiceVisual } from '@/components/ServiceVisual';
@@ -12,16 +15,17 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ city: string }> }) {
   const c = cityBySlug((await params).city);
   return c
-    ? {
-        title: `Gebäudereinigung in ${c.name}`,
-        description: `Reinigung in ${c.name} anfragen: Gebäude, Fenster, Gewerbe und Spezialreinigung. ERLEDIGT TEAM plant Ihren Einsatz vom Standort Saterland aus.`,
-        alternates: { canonical: `/einsatzgebiete/${c.slug}` },
-      }
+    ? pageMetadata(
+        `/einsatzgebiete/${c.slug}`,
+        `Gebäudereinigung in ${c.name}`,
+        `Reinigung in ${c.name} anfragen: Gebäude, Fenster, Gewerbe und Spezialreinigung. ERLEDIGT TEAM plant Ihren Einsatz vom Standort Saterland aus.`,
+      )
     : {};
 }
 export default async function Page({ params }: { params: Promise<{ city: string }> }) {
   const c = cityBySlug((await params).city);
   if (!c) notFound();
+  const answer = `ERLEDIGT TEAM plant Gebäude-, Glas- und Spezialreinigung für Privatkunden, Unternehmen und Hausverwaltungen in ${c.name} und Umgebung. Der Betrieb sitzt in der Eschstraße 70, 26683 Saterland. Diese Seite beschreibt das Einsatzgebiet. Die konkrete Verfügbarkeit, den Preis und den Termin stimmen wir anhand Ihres Objekts ab.`;
   const imageService = ['textil', 'privat'].includes(c.lens || c.tags[0])
     ? 'polster-teppichreinigung'
     : ['bau', 'gewerbe', 'technik'].includes(c.lens || c.tags[0])
@@ -55,6 +59,18 @@ export default async function Page({ params }: { params: Promise<{ city: string 
         </div>
         <ServiceVisual slug={imageService} eager />
       </section>
+      <AnswerSummary
+        title={`Wer übernimmt die Reinigung in ${c.name}?`}
+        answer={answer}
+        facts={[
+          { label: 'Region', value: cityRegion(c) },
+          { label: 'Geschäftsadresse', value: 'Eschstraße 70 · 26683 Saterland' },
+          {
+            label: 'Planung vor Ort',
+            value: c.access || 'Objektadresse, Umfang und Zugang gemeinsam klären',
+          },
+        ]}
+      />
       <section className="section surface-alt">
         <div className="wrap article-layout">
           <article className="article-content editorial-chapters">
@@ -119,6 +135,18 @@ export default async function Page({ params }: { params: Promise<{ city: string 
         </div>
       </section>
       <ClosingCta href={`/anfrage?ort=${c.slug}`} title={`Ihr nächster Schritt in ${c.name}.`} />
+      <JsonLd
+        value={pageGraph(`/einsatzgebiete/${c.slug}`, `Gebäudereinigung in ${c.name}`, answer, {
+          '@type': 'CollectionPage',
+          spatialCoverage: { '@type': 'Place', name: c.name },
+          mainEntity: itemList(
+            services.map((s) => ({
+              name: `${s.name} in ${c.name}`,
+              path: `/einsatzgebiete/${c.slug}/${s.slug}`,
+            })),
+          ),
+        })}
+      />
     </>
   );
 }
