@@ -2403,8 +2403,7 @@ textarea {
     left: 12px;
     width: calc(100% - 24px);
     padding: 21px;
-    bottom: 87px;
-    max-height: calc(100dvh - 110px);
+    max-height: calc(100dvh - 48px - env(safe-area-inset-bottom));
     overflow: auto;
   }
   .consent-box p {
