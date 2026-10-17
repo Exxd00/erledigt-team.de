@@ -1,9 +1,26 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import { localContent } from '../src/lib/local-content.ts';
+import { seasonalServices } from '../src/lib/seasonal-services.ts';
+import { businessPages, businessHubSections } from '../src/lib/business-pages.ts';
 const { cities, services } = JSON.parse(fs.readFileSync('src/data/content.json', 'utf8'));
 const words = (text) => text.match(/[\p{L}\p{N}]+(?:[-’'][\p{L}\p{N}]+)*/gu) || [];
 const pages = [
+  ...seasonalServices.map((s) => ({
+    path: `/leistungen/${s.slug}`,
+    kind: 'service',
+    text: s.sections.map((x) => x.body).join(' '),
+  })),
+  ...businessPages.map((page) => ({
+    path: `/geschaeftskunden/${page.slug}`,
+    kind: 'business',
+    text: page.sections.map((x) => x.body).join(' '),
+  })),
+  {
+    path: '/geschaeftskunden',
+    kind: 'business-hub',
+    text: businessHubSections.map((x) => x.body).join(' '),
+  },
   ...services.map((s) => ({
     path: `/leistungen/${s.slug}`,
     kind: 'service',
@@ -60,7 +77,8 @@ for (let i = 0; i < pages.length; i++)
   }
 const report = {
   generatedAt: new Date().toISOString(),
-  servicePages: services.length,
+  servicePages: services.length + seasonalServices.length,
+  businessPages: businessPages.length + 1,
   cityPages: cities.length,
   combinedPages: cities.length * services.length,
   totalEditorialPages: pages.length,

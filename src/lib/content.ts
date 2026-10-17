@@ -1,17 +1,22 @@
 import data from '@/data/content.json';
 import { serviceBasics, type Service, type City } from './site';
 import { cityRegion } from './regions';
-export const services: Service[] = serviceBasics.map(([slug, name, category, summary, icon]) => ({
-  slug,
-  name,
-  category,
-  summary,
-  icon,
-  sections: [],
-  formHints: [],
-  faqs: [],
-  ...(data.services as Partial<Service>[]).find((s) => s.slug === slug),
-}));
+import { seasonalServices } from './seasonal-services';
+export const services: Service[] = [
+  ...serviceBasics.map(([slug, name, category, summary, icon]) => ({
+    slug,
+    name,
+    category,
+    summary,
+    icon,
+    sections: [],
+    formHints: [],
+    faqs: [],
+    ...(data.services as Partial<Service>[]).find((s) => s.slug === slug),
+  })),
+  ...seasonalServices,
+];
+export const localServices = services.filter((service) => service.localPages !== false);
 export const cities: City[] = data.cities.length
   ? (data.cities as City[])
   : [
@@ -28,18 +33,25 @@ export const cities: City[] = data.cities.length
     ];
 export const serviceBySlug = (slug: string) => services.find((s) => s.slug === slug);
 export const cityBySlug = (slug: string) => cities.find((c) => c.slug === slug);
-export const servicePreviews = services.map(({ slug, name, category, summary, icon }) => ({
-  slug,
-  name,
-  category,
-  summary,
-  icon,
-}));
+export const servicePreviews = services.map(
+  ({ slug, name, category, summary, icon, localPages }) => ({
+    slug,
+    name,
+    category,
+    summary,
+    icon,
+    localPages,
+  }),
+);
 export const cityPreviews = cities.map((city) => ({
   slug: city.slug,
   name: city.name,
   summary: city.summary,
   region: cityRegion(city),
 }));
-export const serviceOptions = services.map(({ slug, name }) => ({ slug, name }));
+export const serviceOptions = services.map(({ slug, name, formHints }) => ({
+  slug,
+  name,
+  formHints,
+}));
 export const cityOptions = cities.map(({ slug, name }) => ({ slug, name }));

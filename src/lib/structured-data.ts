@@ -1,9 +1,10 @@
 import { site, serviceBasics, type Service, type City, type Faq } from './site.ts';
 import { legal } from './legal.ts';
+import { seasonalServices } from './seasonal-services.ts';
 
 export const businessId = `${site.url}/#business`;
 export const websiteId = `${site.url}/#website`;
-export const contentUpdatedAt = '2026-10-09';
+export const contentUpdatedAt = '2026-10-17';
 export const absoluteUrl = (path: string) => new URL(path, `${site.url}/`).href;
 
 /** One real business identity. Town pages describe coverage, never extra offices. */
@@ -17,7 +18,7 @@ export function businessGraph() {
         name: site.name,
         legalName: legal.businessName,
         description:
-          'Gebäudeservice für Privatkunden, Unternehmen und Hausverwaltungen aus Saterland. Reinigungsleistungen in Saterland und Umgebung nach individueller Abstimmung.',
+          'Gebäudeservice für Privatkunden, Unternehmen und Hausverwaltungen aus Saterland. Reinigung, Winterdienst mit eigenen Einsatzfahrzeugen, Rasenpflege und zulässige Gehölzpflege in Saterland und Umgebung nach individueller Abstimmung.',
         url: site.url,
         email: site.email,
         telephone: site.phone,
@@ -41,8 +42,11 @@ export function businessGraph() {
         },
         hasOfferCatalog: {
           '@type': 'OfferCatalog',
-          name: 'Reinigungsleistungen',
-          itemListElement: serviceBasics.map(([slug, name]) => ({
+          name: 'Reinigung, Winterdienst und Außenpflege',
+          itemListElement: [
+            ...serviceBasics.map(([slug, name]) => ({ slug, name })),
+            ...seasonalServices,
+          ].map(({ slug, name }) => ({
             '@type': 'Offer',
             url: absoluteUrl(`/leistungen/${slug}`),
             itemOffered: {

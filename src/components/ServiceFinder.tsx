@@ -24,7 +24,7 @@ const situations = [
     label: 'Für meinen Betrieb',
     icon: 'Building2',
     image: assets.office,
-    title: 'Eine Reinigung, die in Ihren Betrieb passt.',
+    title: 'Eine Betreuung, die in Ihren Betrieb passt.',
     text: 'Ob Büro, Praxis oder Gewerbehalle: Arbeitszeiten, Materialien und die Nutzung Ihrer Räume bestimmen den Reinigungsplan. Wählen Sie Ihren Schwerpunkt.',
     links: [
       ['buero-praxisreinigung', 'Büro & Praxis'],
@@ -68,14 +68,15 @@ export function ServiceFinder() {
           Wählen Sie Ihre Situation. Die passenden Leistungen finden Sie direkt darunter.
         </p>
       </div>
-      <div className="audience-options" aria-label="Reinigung nach Ihrer Situation">
+      <div className="audience-options" aria-label="Leistungen nach Ihrer Situation">
         <>
           {situations.map((item, i) => (
             <button
               key={item.label}
               type="button"
               aria-pressed={selected === i}
-              data-track-handled="true" aria-controls="finder-result"
+              data-track-handled="true"
+              aria-controls="finder-result"
               onClick={() => {
                 setSelected(i);
                 track('filter_used', {
@@ -123,6 +124,19 @@ export function ServiceFinder() {
             <Icon name="CircleCheck" size={18} />
             {s.note}
           </p>
+          {selected > 0 && (
+            <Link
+              href={
+                selected === 2
+                  ? '/geschaeftskunden/hausverwaltungen-wohnanlagen'
+                  : '/geschaeftskunden'
+              }
+              className="text-link finder-business-link"
+            >
+              Lösungen für {selected === 2 ? 'Hausverwaltungen' : 'Unternehmen'}{' '}
+              <Icon name="ArrowUpRight" size={18} />
+            </Link>
+          )}
           <Link
             href="/anfrage"
             className="button glass"

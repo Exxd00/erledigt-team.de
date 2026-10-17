@@ -15,6 +15,7 @@ export const categories = [
   'Glas & Fenster',
   'Industrie & Gewerbe',
   'Spezialreinigung',
+  'Winter & Außenpflege',
 ];
 export const serviceBasics = [
   [
@@ -106,8 +107,17 @@ export type Service = {
   sections: ContentSection[];
   formHints: string[];
   faqs: Faq[];
+  localPages?: boolean;
+  sources?: { label: string; url: string }[];
 };
-export type ServicePreview = Pick<Service, 'slug' | 'name' | 'category' | 'summary' | 'icon'>;
+export type ServicePreview = Pick<
+  Service,
+  'slug' | 'name' | 'category' | 'summary' | 'icon' | 'localPages'
+>;
+export const serviceHref = (service: Pick<Service, 'slug' | 'localPages'>, city?: string) =>
+  city && service.localPages !== false
+    ? `/einsatzgebiete/${city}/${service.slug}`
+    : `/leistungen/${service.slug}`;
 export type CityPreview = Pick<City, 'slug' | 'name' | 'summary'> & { region: string };
 export type City = {
   slug: string;

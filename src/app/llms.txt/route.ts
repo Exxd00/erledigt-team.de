@@ -1,6 +1,7 @@
 import { companyAnswer } from '@/lib/answers';
 import { services } from '@/lib/content';
 import { guides } from '@/lib/guides';
+import { businessPages } from '@/lib/business-pages';
 import { site } from '@/lib/site';
 import { legal } from '@/lib/legal';
 import { absoluteUrl } from '@/lib/structured-data';
@@ -30,7 +31,17 @@ export function GET() {
     link('/anfrage', 'Unverbindliche Anfrage', 'Offizielles Anfrageformular für Kunden.'),
     link('/impressum', 'Impressum', 'Verantwortlicher und rechtliche Unternehmensangaben.'),
     '',
-    '## Reinigungsleistungen',
+    '## Für Unternehmen',
+    link(
+      '/geschaeftskunden',
+      'Gebäudeservice für Unternehmen',
+      'Branchen, Reinigung, Außenpflege und Winterdienst.',
+    ),
+    ...businessPages.map((page) =>
+      link(`/geschaeftskunden/${page.slug}`, page.name, page.description),
+    ),
+    '',
+    '## Reinigung, Winterdienst und Außenpflege',
     ...services.map((service) =>
       link(`/leistungen/${service.slug}`, service.name, service.summary),
     ),

@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
-import { services, cities } from '@/lib/content';
+import { services, localServices, cities } from '@/lib/content';
+import { businessPages } from '@/lib/business-pages';
 import { guides } from '@/lib/guides';
 import { contentUpdatedAt } from '@/lib/structured-data';
 import { site } from '@/lib/site';
@@ -7,6 +8,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     '',
     '/leistungen',
+    '/geschaeftskunden',
+    ...businessPages.map((page) => `/geschaeftskunden/${page.slug}`),
     '/einsatzgebiete',
     '/ueber-uns',
     '/anfrage',
@@ -16,7 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...services.map((s) => `/leistungen/${s.slug}`),
     ...cities.flatMap((c) => [
       `/einsatzgebiete/${c.slug}`,
-      ...services.map((s) => `/einsatzgebiete/${c.slug}/${s.slug}`),
+      ...localServices.map((s) => `/einsatzgebiete/${c.slug}/${s.slug}`),
     ]),
   ].map((path) => ({
     url: site.url + path,

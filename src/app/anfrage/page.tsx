@@ -4,7 +4,7 @@ import { Icon } from '@/components/Icon';
 import { serviceOptions, cityOptions } from '@/lib/content';
 import { site } from '@/lib/site';
 export const metadata = {
-  title: 'Reinigung unverbindlich anfragen',
+  title: 'Reinigung, Außenpflege und Winterdienst anfragen',
   description:
     'Beschreiben Sie Ihr Objekt und erhalten Sie ein passendes Angebot von ERLEDIGT TEAM. Einfach in drei Schritten anfragen.',
   alternates: { canonical: '/anfrage' },
@@ -12,9 +12,15 @@ export const metadata = {
 export default async function Page({
   searchParams,
 }: {
-  searchParams: Promise<{ leistung?: string; ort?: string }>;
+  searchParams: Promise<{ leistung?: string; ort?: string; objekt?: string }>;
 }) {
   const q = await searchParams;
+  const properties: Record<string, string> = {
+    hausverwaltung: 'Hausverwaltung',
+    gewerbe: 'Gewerbe / Büro',
+    industrie: 'Industrie / Halle',
+  };
+  const property = properties[q.objekt || ''];
   return (
     <>
       <Breadcrumb items={[{ label: 'Anfrage' }]} />
@@ -37,6 +43,7 @@ export default async function Page({
             cities={cityOptions}
             defaultService={q.leistung}
             defaultCity={q.ort}
+            defaultProperty={property}
           />
           <aside className="form-aside">
             <h2>Lieber direkt besprechen?</h2>

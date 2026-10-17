@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-17T17:56:22.074Z",
+  "checks": [
+    {
+      "path": "/geschaeftskunden",
+      "status": 200,
+      "canonical": true,
+      "inSitemap": true
+    },
+    {
+      "path": "/geschaeftskunden/hausverwaltungen-wohnanlagen",
+      "status": 200,
+      "canonical": true,
+      "inSitemap": true
+    },
+    {
+      "path": "/geschaeftskunden/bueros-praxen",
+      "status": 200,
+      "canonical": true,
+      "inSitemap": true
+    },
+    {
+      "path": "/geschaeftskunden/handel-gewerbeimmobilien",
+      "status": 200,
+      "canonical": true,
+      "inSitemap": true
+    },
+    {
+      "path": "/geschaeftskunden/industrie-logistik",
+      "status": 200,
+      "canonical": true,
+      "inSitemap": true
+    },
+    {
+      "path": "/leistungen/winterdienst-schneeraeumung",
+      "status": 200,
+      "canonical": true,
+      "inSitemap": true
+    },
+    {
+      "path": "/leistungen/rasen-gruenflaechenpflege",
+      "status": 200,
+      "canonical": true,
+      "inSitemap": true
+    },
+    {
+      "path": "/leistungen/hecken-gehoelzpflege",
+      "status": 200,
+      "canonical": true,
+      "inSitemap": true
+    },
+    {
+      "service": "winterdienst-schneeraeumung",
+      "prefilledForm": true,
+      "localApi": 503
+    },
+    {
+      "service": "rasen-gruenflaechenpflege",
+      "prefilledForm": true,
+      "localApi": 503
+    },
+    {
+      "service": "hecken-gehoelzpflege",
+      "prefilledForm": true,
+      "localApi": 503
+    }
+  ],
+  "externalWrites": 0,
+  "note": "Local HTTP validation only. Existing persistence and delivery integration is covered by tests; no test leads were sent to production."
+}

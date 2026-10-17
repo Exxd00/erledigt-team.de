@@ -48,7 +48,7 @@ export function ServiceDecision({
         <p className="section-intro">
           {city
             ? `Für Ihren Einsatz in ${city} klären wir diese Punkte gemeinsam.`
-            : 'Mit diesen drei Fragen wird aus einem Wunsch ein passender Reinigungsauftrag.'}
+            : 'Mit diesen drei Fragen wird aus Ihrem Wunsch ein passender Auftrag.'}
         </p>
       </div>
       <div className="decision-grid">

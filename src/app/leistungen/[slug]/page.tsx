@@ -39,7 +39,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
           <p className="lead">{s.summary}</p>
           <div className="detail-actions">
             <Link className="button glass" href={href} data-event="cta_click" data-service={s.slug}>
-              Diese Reinigung anfragen
+              Diese Leistung anfragen
             </Link>
             <a className="simple-phone" href={site.phoneHref} data-event="phone_click">
               <Icon name="Phone" size={18} />
@@ -79,6 +79,23 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
           </aside>
         </div>
       </section>
+      {s.sources && (
+        <section className="wrap service-sources">
+          <h2>Weitere Hinweise zur Planung</h2>
+          <p>
+            Die Voraussetzungen werden am konkreten Einsatzort geprüft. Offizielle Informationen:
+          </p>
+          <ul>
+            {s.sources.map((source) => (
+              <li key={source.url}>
+                <a href={source.url} target="_blank" rel="noopener noreferrer">
+                  {source.label} ↗
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
       <section className="section wrap">
         <div className="section-heading">
           <div>
@@ -90,15 +107,20 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
             </h2>
           </div>
           <p className="section-intro">
-            Wählen Sie Ihren Ort für Hinweise zum Einsatz und eine bereits passend vorbereitete
-            Anfrage.
+            {s.localPages === false
+              ? 'Wir betreuen Saterland und Umgebung. Nennen Sie uns Ihren Einsatzort – die Verfügbarkeit klären wir anhand von Objekt, Umfang und Planung.'
+              : 'Wählen Sie Ihren Ort für Hinweise zum Einsatz und eine bereits passend vorbereitete Anfrage.'}
           </p>
         </div>
         <div className="city-cloud">
-          {cities.map((c) => (
+          {(s.localPages === false ? cities.slice(0, 12) : cities).map((c) => (
             <Link
               key={c.slug}
-              href={`/einsatzgebiete/${c.slug}/${s.slug}`}
+              href={
+                s.localPages === false
+                  ? `/anfrage?leistung=${s.slug}&ort=${c.slug}`
+                  : `/einsatzgebiete/${c.slug}/${s.slug}`
+              }
               data-event="city_select"
               data-city={c.slug}
               data-service={s.slug}

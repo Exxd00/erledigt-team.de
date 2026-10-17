@@ -29,6 +29,11 @@ import {
   ClipboardCheck,
   ArrowUpRight,
   ArrowDown,
+  Snowflake,
+  Sprout,
+  Trees,
+  Truck,
+  Store,
 } from 'lucide-react';
 const icons = {
   Sparkles,
@@ -61,6 +66,11 @@ const icons = {
   ClipboardCheck,
   ArrowUpRight,
   ArrowDown,
+  Snowflake,
+  Sprout,
+  Trees,
+  Truck,
+  Store,
 };
 export function Icon({
   name,

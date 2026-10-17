@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Breadcrumb, ClosingCta, Eyebrow, FaqList, JsonLd } from '@/components/Shared';
 import { Icon } from '@/components/Icon';
-import { cities, services, cityBySlug, serviceBySlug } from '@/lib/content';
+import { cities, localServices as services, cityBySlug, serviceBySlug } from '@/lib/content';
 import { localContent } from '@/lib/local-content';
 import { AnswerSummary } from '@/components/AnswerSummary';
 import { RelatedGuide } from '@/components/GuideCards';
@@ -31,7 +31,7 @@ export default async function Page({ params }: Props) {
   const p = await params,
     c = cityBySlug(p.city),
     s = serviceBySlug(p.service);
-  if (!c || !s) notFound();
+  if (!c || !s || s.localPages === false) notFound();
   const content = localContent(c, s, cities),
     href = `/anfrage?leistung=${s.slug}&ort=${c.slug}`;
   const nearby = nearbyCities(c, cities);

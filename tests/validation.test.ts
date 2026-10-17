@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { leadSchema, eventSchema, neutralizeSheetCell } from '../src/lib/validation.ts';
+import { seasonalServices } from '../src/lib/seasonal-services.ts';
 const valid = {
   id: 'fc4a81f0-854e-4436-9476-7fdb45721402',
   service: 'glas-fensterreinigung',
@@ -29,6 +30,27 @@ test('requires an explicit privacy acknowledgement and selected contact channel'
     leadSchema.safeParse({ ...valid, contact_method: 'Telefon', phone: '' }).success,
     false,
   );
+});
+test('published seasonal services can enter the lead and consented event pipelines', () => {
+  for (const service of seasonalServices) {
+    const lead = leadSchema.parse({
+      ...valid,
+      service: service.slug,
+      property_type: 'Hausverwaltung',
+      scope: 'Wege und Außenflächen',
+    });
+    assert.equal(lead.service, service.slug);
+    const event = eventSchema.parse({
+      id: valid.id,
+      name: 'service_select',
+      path: `/leistungen/${service.slug}`,
+      session_id: valid.id,
+      device: 'mobile',
+      consent: 'analytics',
+      service: service.slug,
+    });
+    assert.equal(event.service, service.slug);
+  }
 });
 test('rejects unexpected services, oversized requests and invalid postcodes', () => {
   assert.equal(leadSchema.safeParse({ ...valid, service: 'untrusted' }).success, false);

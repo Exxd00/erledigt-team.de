@@ -23,14 +23,14 @@ export function ServiceDirectory({ services }: { services: ServicePreview[] }) {
     <>
       <div className="filter-panel">
         <div className="search-field">
-          <label htmlFor="service-search">Welche Reinigung suchen Sie?</label>
+          <label htmlFor="service-search">Welche Leistung suchen Sie?</label>
           <Icon name="Search" size={20} />
           <input
             id="service-search"
             type="search"
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            placeholder="Zum Beispiel Fenster, Büro oder PV …"
+            placeholder="Zum Beispiel Fenster, Winterdienst oder Rasen …"
           />
         </div>
         <div className="filter-chips" aria-label="Leistungen nach Bereich filtern">

@@ -9,6 +9,81 @@ type ServicePresentation = {
 };
 
 export const servicePresentation: Record<string, ServicePresentation> = {
+  'winterdienst-schneeraeumung': {
+    image: 'winter',
+    alt: 'Kompaktes Einsatzfahrzeug mit Räumschild auf einer verschneiten Gewerbezufahrt',
+    promise: 'Wenn der Winter kommt, zählt ein klarer Plan.',
+    focus: 'Schnee räumen. Wege im Blick behalten.',
+    outcomes: [
+      'Räumflächen und Prioritäten festlegen',
+      'Eigene Fahrzeuge passend zum Objekt einsetzen',
+      'Betreuung und Streudienst ausdrücklich vereinbaren',
+    ],
+    decisions: [
+      [
+        'Welche Wege werden gebraucht?',
+        'Eingänge, Gehwege, Zufahrten und Stellflächen werden einzeln aufgenommen.',
+      ],
+      [
+        'Wie ist die Fläche erreichbar?',
+        'Breite, Belag, Engstellen und Schneeablage bestimmen den geeigneten Fahrzeugeinsatz.',
+      ],
+      [
+        'Wann und wie wird betreut?',
+        'Zeitraum, Einsatzauslösung und Dokumentation werden vor der Beauftragung geklärt.',
+      ],
+    ],
+  },
+  'rasen-gruenflaechenpflege': {
+    image: 'grounds',
+    alt: 'Gepflegte Rasenfläche mit Mähgerät, Hecke und einem gewerblichen Gebäude',
+    promise: 'Ein gepflegtes Grundstück beginnt draußen.',
+    focus: 'Mähen. Kanten pflegen. Rhythmus finden.',
+    outcomes: [
+      'Rasenflächen und Randbereiche aufnehmen',
+      'Pflege an Wachstum und Nutzung anpassen',
+      'Umgang mit Schnittgut vorab festlegen',
+    ],
+    decisions: [
+      [
+        'Wie sieht die Fläche aus?',
+        'Größe, Hanglagen und Hindernisse beeinflussen den Arbeitsaufwand.',
+      ],
+      [
+        'Wie häufig ist Pflege sinnvoll?',
+        'Nutzung, Wachstum und Wetter sind wichtiger als ein beliebiger Standardturnus.',
+      ],
+      [
+        'Was passiert mit dem Schnittgut?',
+        'Aufnahme, Ablage oder ein gewünschter Abtransport werden gesondert abgestimmt.',
+      ],
+    ],
+  },
+  'hecken-gehoelzpflege': {
+    image: 'hedge',
+    alt: 'Schonender Formschnitt an einer gut erreichbaren Hecke neben einem Gehweg',
+    promise: 'Die passende Form. Mit Rücksicht auf die Natur.',
+    focus: 'Schonende Schnitte, sorgfältig vorbereitet.',
+    outcomes: [
+      'Pflanzen und gewünschte Konturen erfassen',
+      'Schutzvorgaben und sichere Zugänge prüfen',
+      'Schnitt und Materialaufnahme abstimmen',
+    ],
+    decisions: [
+      [
+        'Welche Pflanze wird gepflegt?',
+        'Art, Länge, Höhe und Zustand helfen, einen geeigneten Eingriff einzuschätzen.',
+      ],
+      [
+        'Ist der Schnitt jetzt zulässig?',
+        'Schutzzeiten, Nester, Artenschutz und örtliche Vorgaben werden berücksichtigt.',
+      ],
+      [
+        'Wie ist der Zugang möglich?',
+        'Erreichbare Pflegearbeiten werden klar von Fällungen und Kletterarbeiten abgegrenzt.',
+      ],
+    ],
+  },
   unterhaltsreinigung: {
     image: 'office',
     alt: 'Sorgfältige Reinigung einer Empfangstheke',

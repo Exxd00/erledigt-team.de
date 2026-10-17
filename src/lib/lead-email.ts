@@ -4,6 +4,9 @@ const escape = (value: unknown) =>
     (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!,
   );
 const names: Record<string, string> = {
+  'winterdienst-schneeraeumung': 'Winterdienst & Schneeräumung',
+  'rasen-gruenflaechenpflege': 'Rasen- & Grünflächenpflege',
+  'hecken-gehoelzpflege': 'Hecken- & Gehölzpflege',
   beratung: 'Beratung / noch offen',
   unterhaltsreinigung: 'Unterhaltsreinigung',
   'buero-praxisreinigung': 'Büro- & Praxisreinigung',
@@ -20,7 +23,7 @@ const names: Record<string, string> = {
 export function renderLeadEmail(lead: Record<string, unknown>, id: string) {
   const callback = lead.request_type === 'callback';
   const reference = id.slice(0, 8).toUpperCase();
-  const title = callback ? 'Neuer Rückrufwunsch' : 'Neue Reinigungsanfrage';
+  const title = callback ? 'Neuer Rückrufwunsch' : 'Neue Serviceanfrage';
   const date = new Date(String(lead.created_at || '')).toLocaleString('de-DE', {
     timeZone: 'Europe/Berlin',
     dateStyle: 'medium',

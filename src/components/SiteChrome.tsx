@@ -15,6 +15,13 @@ import {
   revokeAnalytics,
 } from '@/lib/tracking';
 
+const businessLinks = [
+  ['hausverwaltungen-wohnanlagen', 'Hausverwaltungen & Wohnanlagen'],
+  ['bueros-praxen', 'Büros & Praxen'],
+  ['handel-gewerbeimmobilien', 'Handel & Gewerbeimmobilien'],
+  ['industrie-logistik', 'Industrie & Logistik'],
+] as const;
+
 export function Brand() {
   return (
     <Link href="/" className="brand" aria-label="ERLEDIGT TEAM – Startseite">
@@ -35,8 +42,10 @@ export function SiteHeader() {
   const [open, setOpen] = useState(false);
   const [dark, setDark] = useState(false);
   const menuButton = useRef<HTMLButtonElement>(null);
+  const businessMenu = useRef<HTMLDetailsElement>(null);
   useEffect(() => {
     setOpen(false);
+    businessMenu.current?.removeAttribute('open');
   }, [path]);
   useEffect(() => {
     setDark(document.documentElement.dataset.theme === 'dark');
@@ -80,6 +89,32 @@ export function SiteHeader() {
             <Link className={path.startsWith('/leistungen') ? 'active' : ''} href="/leistungen">
               Leistungen
             </Link>
+            <details
+              className={`nav-business${path.startsWith('/geschaeftskunden') ? ' active' : ''}`}
+              ref={businessMenu}
+              onKeyDown={(event) => {
+                if (event.key === 'Escape') {
+                  businessMenu.current?.removeAttribute('open');
+                  businessMenu.current?.querySelector('summary')?.focus();
+                }
+              }}
+            >
+              <summary>
+                Für Unternehmen <Icon name="ChevronDown" size={16} />
+              </summary>
+              <div className="business-submenu">
+                <Link href="/geschaeftskunden">Alle Branchen & Lösungen</Link>
+                {businessLinks.map(([slug, label]) => (
+                  <Link
+                    key={slug}
+                    href={`/geschaeftskunden/${slug}`}
+                    aria-current={path === `/geschaeftskunden/${slug}` ? 'page' : undefined}
+                  >
+                    {label}
+                  </Link>
+                ))}
+              </div>
+            </details>
             <Link
               className={path.startsWith('/einsatzgebiete') ? 'active' : ''}
               href="/einsatzgebiete"
@@ -130,6 +165,21 @@ export function SiteHeader() {
           >
             <Link href="/">Startseite</Link>
             <Link href="/leistungen">Alle Leistungen</Link>
+            <Link href="/geschaeftskunden">Für Unternehmen – Übersicht</Link>
+            <div className="mobile-business-links">
+              {businessLinks.map(([slug, label]) => (
+                <Link
+                  key={slug}
+                  href={`/geschaeftskunden/${slug}`}
+                  aria-current={path === `/geschaeftskunden/${slug}` ? 'page' : undefined}
+                >
+                  {label}
+                </Link>
+              ))}
+            </div>
+            <Link href="/leistungen/winterdienst-schneeraeumung">Winterdienst & Schneeräumung</Link>
+            <Link href="/leistungen/rasen-gruenflaechenpflege">Rasen- & Grünflächenpflege</Link>
+            <Link href="/leistungen/hecken-gehoelzpflege">Hecken- & Gehölzpflege</Link>
             <Link href="/einsatzgebiete">Städte & Einsatzgebiete</Link>
             <Link href="/ueber-uns">Über ERLEDIGT TEAM</Link>
             <Link href="/ratgeber">Reinigungsratgeber</Link>
@@ -169,6 +219,10 @@ export function SiteFooter() {
         <div>
           <h2>Sauber geplant.</h2>
           <Link href="/leistungen">Unsere Leistungen</Link>
+          <Link href="/geschaeftskunden">Für Unternehmen</Link>
+          <Link href="/leistungen/winterdienst-schneeraeumung">Winterdienst & Schneeräumung</Link>
+          <Link href="/leistungen/rasen-gruenflaechenpflege">Rasen- & Grünflächenpflege</Link>
+          <Link href="/leistungen/hecken-gehoelzpflege">Hecken- & Gehölzpflege</Link>
           <Link href="/einsatzgebiete">Unsere Einsatzgebiete</Link>
           <Link href="/ueber-uns">Über uns</Link>
           <Link href="/ratgeber">Reinigungsratgeber</Link>

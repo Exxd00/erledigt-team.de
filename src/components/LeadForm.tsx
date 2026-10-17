@@ -14,11 +14,13 @@ export function LeadForm({
   cities,
   defaultService = '',
   defaultCity = '',
+  defaultProperty = '',
 }: {
-  services: Pick<Service, 'slug' | 'name'>[];
+  services: Pick<Service, 'slug' | 'name' | 'formHints'>[];
   cities: Pick<City, 'slug' | 'name'>[];
   defaultService?: string;
   defaultCity?: string;
+  defaultProperty?: string;
 }) {
   const router = useRouter();
   const service = services.find((s) => s.slug === defaultService);
@@ -27,7 +29,11 @@ export function LeadForm({
     service: (service?.slug || 'beratung') as Fields['service'],
     city: city?.name || '',
     postal_code: city?.slug === 'saterland' ? '26683' : '',
-    property_type: 'Privathaushalt',
+    property_type: (['Hausverwaltung', 'Gewerbe / Büro', 'Industrie / Halle'].includes(
+      defaultProperty,
+    )
+      ? defaultProperty
+      : 'Privathaushalt') as Fields['property_type'],
     scope: '',
     frequency: 'Noch offen',
     preferred_date: '',
@@ -41,6 +47,7 @@ export function LeadForm({
     website: '',
   });
   const [step, setStep] = useState(0);
+  const selectedService = services.find((item) => item.slug === v.service);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [status, setStatus] = useState<'idle' | 'sending'>('idle');
   const [serverError, setServerError] = useState('');
@@ -230,7 +237,7 @@ export function LeadForm({
       <h2 ref={heading} tabIndex={-1}>
         {
           [
-            'Was dürfen wir für Sie reinigen?',
+            'Was dürfen wir für Sie erledigen?',
             'Wie erreichen wir Sie?',
             'Alles richtig? Dann kann es losgehen.',
           ][step]
@@ -282,6 +289,20 @@ export function LeadForm({
               <option value="beratung">Mehrere Leistungen / Beratung</option>
             </select>
           </div>
+          {selectedService?.formHints.length ? (
+            <div className="form-service-hints full">
+              <strong>Hilfreich für {selectedService.name}:</strong>
+              <ul>
+                {selectedService.formHints.map((hint) => (
+                  <li key={hint}>{hint}</li>
+                ))}
+              </ul>
+              <small>
+                Tragen Sie bekannte Details bei Umfang oder Nachricht ein. Alles Weitere klären wir
+                gemeinsam.
+              </small>
+            </div>
+          ) : null}
           {field('city', 'Einsatzort', 'text', 'Stadt oder Gemeinde des Objekts.', true)}
           {field('postal_code', 'Postleitzahl', 'text', '', true)}
           <div className="field">
@@ -303,9 +324,20 @@ export function LeadForm({
               ))}
             </select>
           </div>
-          {field('scope', 'Ungefährer Umfang', 'text', 'Optional: z. B. 120 m² oder 12 Fenster.')}
+          {field(
+            'scope',
+            'Ungefährer Umfang',
+            'text',
+            v.service === 'winterdienst-schneeraeumung'
+              ? 'Optional: z. B. Gehweg und Zufahrt, ungefähr 200 m².'
+              : v.service === 'hecken-gehoelzpflege'
+                ? 'Optional: z. B. 25 m Hecke, etwa 1,5 m hoch.'
+                : v.service === 'rasen-gruenflaechenpflege'
+                  ? 'Optional: z. B. 400 m² Rasen mit Randbereichen.'
+                  : 'Optional: z. B. 120 m² oder 12 Fenster.',
+          )}
           <div className="field">
-            <label htmlFor="frequency">Reinigungsrhythmus</label>
+            <label htmlFor="frequency">Gewünschter Rhythmus</label>
             <select
               id="frequency"
               value={v.frequency}

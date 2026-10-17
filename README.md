@@ -1,12 +1,13 @@
 # ERLEDIGT TEAM · erledigt-team.de
 
-German cleaning-service website for Eschstraße 70, 26683 Saterland. Built with Next.js, React,
+German property-service website for Eschstraße 70, 26683 Saterland. Built with Next.js, React,
 TypeScript and locally hosted Manrope fonts. Original supplied logo, generated cleaning imagery,
 light/dark themes, glass buttons, searchable service and location directories, and a three-step inquiry.
 
-The content includes 11 services, 78 towns/municipalities within approximately 50 km straight-line
-distance, and 858 service/location pages. All 947 editorial articles contain at least 300 body words.
-General, contact and legal pages are additional.
+The content includes 14 services, 78 towns/municipalities and 858 existing cleaning/location pages,
+plus a business hub and four original industry pages. All 955 editorial articles contain at least
+300 body words. Winter, lawn and hedge care each have a complete regional service page.
+General, contact and legal pages are additional. See [the business and seasonal release](docs/business-seasonal-release.md).
 
 ## Operational status
 

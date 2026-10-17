@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-10-09T21:43:08.762Z",
-  "htmlPages": 958,
-  "linkedPageEntities": 956,
-  "servicePages": 869,
+  "checkedAt": "2026-10-17T17:55:40.427Z",
+  "htmlPages": 966,
+  "linkedPageEntities": 964,
+  "servicePages": 872,
   "localServicePages": 858,
-  "faqPages": 12,
-  "questions": 30,
+  "faqPages": 19,
+  "questions": 51,
   "articles": 3,
-  "breadcrumbPages": 957,
-  "sitemapUrls": 957,
+  "breadcrumbPages": 965,
+  "sitemapUrls": 965,
   "errors": [],
   "note": "Technical and content consistency checks; not a ranking or citation prediction."
 }

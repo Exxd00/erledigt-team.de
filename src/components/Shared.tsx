@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Icon } from './Icon';
-import { site, type Faq, type ServicePreview } from '@/lib/site';
+import { site, serviceHref, type Faq, type ServicePreview } from '@/lib/site';
 import { assets } from '@/lib/assets';
 import { servicePresentation } from '@/lib/service-presentation';
 import { SiteImage } from './SiteImage';
@@ -45,7 +45,7 @@ export function ServiceCard({
   return (
     <Link
       className={`service-card${visual ? ' service-card-visual' : ''}`}
-      href={city ? `/einsatzgebiete/${city}/${service.slug}` : `/leistungen/${service.slug}`}
+      href={serviceHref(service, city)}
       data-event="service_select"
       data-service={service.slug}
       data-city={city}
@@ -81,7 +81,7 @@ export function ServiceCard({
 }
 export function ClosingCta({
   title = 'Saubere Sache. Klare Absprachen.',
-  text = 'Erzählen Sie uns, was gereinigt werden soll. Wir klären den Umfang und erstellen ein Angebot, das zu Ihrem Objekt passt.',
+  text = 'Erzählen Sie uns, was an Ihrem Objekt ansteht. Wir klären die Aufgaben und erstellen ein Angebot für Reinigung, Außenpflege oder Winterdienst.',
   href = '/anfrage',
 }: {
   title?: string;
@@ -148,7 +148,7 @@ export function Process() {
         {
           n: '03',
           title: 'Wir kümmern uns darum.',
-          body: 'Nach Ihrer Beauftragung reinigen wir zum vereinbarten Termin. Das Ergebnis und weitere Pflegeschritte besprechen wir mit Ihnen.',
+          body: 'Nach Ihrer Beauftragung führen wir die vereinbarten Arbeiten aus. Das Ergebnis und weitere Pflegeschritte besprechen wir mit Ihnen.',
           icon: 'CircleCheck',
         },
       ].map((x) => (

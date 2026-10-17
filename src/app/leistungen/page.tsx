@@ -3,9 +3,9 @@ import { itemList, pageGraph } from '@/lib/structured-data';
 import { ServiceDirectory } from '@/components/Directories';
 import { servicePreviews } from '@/lib/content';
 export const metadata = {
-  title: 'Unsere Reinigungsleistungen',
+  title: 'Reinigung, Winterdienst & Außenpflege',
   description:
-    'Alle 11 Reinigungsleistungen von ERLEDIGT TEAM: Gebäudereinigung, Glas, Industrie und Spezialreinigung. Finden Sie die passende Leistung.',
+    '14 Leistungen von ERLEDIGT TEAM: Gebäudereinigung, Glas, Industrie, Winterdienst, Schneeräumung und Grünpflege. Finden Sie die passende Objektbetreuung.',
   alternates: { canonical: '/leistungen' },
 };
 export default function Page() {
@@ -16,19 +16,20 @@ export default function Page() {
         <div className="page-intro">
           <Eyebrow>Unsere Leistungen</Eyebrow>
           <h1>
-            Was sauber werden soll,
+            Was Ihr Objekt braucht,
             <br />
             <em>nehmen wir persönlich.</em>
           </h1>
           <p>
             Vom einzelnen Fenster bis zur regelmäßigen Objektpflege: Finden Sie die passende
-            Reinigung für Ihr Zuhause oder Ihren Betrieb.
+            Leistung für Ihr Zuhause oder Ihren Betrieb. Auch Winterdienst, Rasen- und Gehölzpflege
+            gehören dazu.
           </p>
         </div>
         <div className="directory-content">
           <ServiceDirectory services={servicePreviews} />
           <section className="service-directory-note">
-            <h2>Eine Reinigung, die zu Ihrem Objekt passt</h2>
+            <h2>Eine Betreuung, die zu Ihrem Objekt passt</h2>
             <p>
               Jede Fläche stellt andere Anforderungen. Im Treppenhaus zählt ein verlässlicher
               Rhythmus, in einem Büro die Abstimmung mit den Arbeitszeiten. Bei Glasflächen spielen
@@ -78,12 +79,17 @@ export default function Page() {
       </div>
       <ClosingCta />
       <JsonLd
-        value={pageGraph('/leistungen', 'Unsere Reinigungsleistungen', metadata.description, {
-          '@type': 'CollectionPage',
-          mainEntity: itemList(
-            servicePreviews.map((s) => ({ name: s.name, path: `/leistungen/${s.slug}` })),
-          ),
-        })}
+        value={pageGraph(
+          '/leistungen',
+          'Reinigung, Winterdienst & Außenpflege',
+          metadata.description,
+          {
+            '@type': 'CollectionPage',
+            mainEntity: itemList(
+              servicePreviews.map((s) => ({ name: s.name, path: `/leistungen/${s.slug}` })),
+            ),
+          },
+        )}
       />
     </>
   );

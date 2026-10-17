@@ -16,11 +16,11 @@ export const metadata: Metadata = {
   // Public ownership proof for the approved business Search Console account.
   verification: { google: 'KtbOd7gfkgMrDqyDC4qRKpUzOkOBOy-VMDJM3bI8Y2A' },
   title: {
-    default: 'ERLEDIGT TEAM | Gebäudereinigung in Saterland & Umgebung',
+    default: 'ERLEDIGT TEAM | Gebäudeservice in Saterland & Umgebung',
     template: '%s | ERLEDIGT TEAM',
   },
   description:
-    'Gebäudereinigung, Fensterreinigung und Spezialreinigung aus Saterland. Für Privatkunden und Gewerbe in Saterland und Umgebung. Jetzt unverbindlich anfragen.',
+    'Reinigung, Winterdienst, Schneeräumung und Grünpflege aus Saterland. Für Privatkunden, Unternehmen und Verwaltungen in der Umgebung. Unverbindlich anfragen.',
   robots:
     process.env.NEXT_PUBLIC_LAUNCH_READY === 'true'
       ? { index: true, follow: true }

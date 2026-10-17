@@ -1,7 +1,7 @@
 import type { Faq, Service, City } from './site.ts';
 
 export const companyAnswer =
-  'ERLEDIGT TEAM ist ein Gebäudeservice mit Sitz in der Eschstraße 70, 26683 Saterland. Das Unternehmen bietet Gebäude-, Glas- und Spezialreinigung für Privatkunden, Unternehmen und Hausverwaltungen in Saterland und Umgebung an. Leistungsumfang, Preis und Termin werden vor einer Beauftragung individuell abgestimmt.';
+  'ERLEDIGT TEAM ist ein Gebäudeservice mit Sitz in der Eschstraße 70, 26683 Saterland. Das Unternehmen bietet Gebäude-, Glas- und Spezialreinigung, Winterdienst mit eigenen Einsatzfahrzeugen sowie Rasen- und zulässige Gehölzpflege für Privatkunden, Unternehmen und Hausverwaltungen in Saterland und Umgebung an. Leistungsumfang, Preis und Termin werden vor einer Beauftragung individuell abgestimmt.';
 
 export const commonQuestions: (Faq & { id: string; link: string; linkLabel: string })[] = [
   {
@@ -71,6 +71,12 @@ export const commonQuestions: (Faq & { id: string; link: string; linkLabel: stri
 ];
 
 const serviceAnswers: Record<string, string> = {
+  'winterdienst-schneeraeumung':
+    'Winterdienst umfasst vereinbarte Schneeräumung und bei Bedarf einen abgestimmten Streudienst. ERLEDIGT TEAM verfügt über eigene Einsatzfahrzeuge für diese Arbeiten. Räumflächen, Zugänge, örtliche Vorgaben, Betreuungszeiten und Auslösung der Einsätze werden objektbezogen festgelegt.',
+  'rasen-gruenflaechenpflege':
+    'Rasen- und Grünflächenpflege umfasst vereinbarte Mäharbeiten und erreichbare Randbereiche. Größe, Nutzung, Wachstum und Wetter bestimmen die Planung. Der Umgang mit Schnittgut und zusätzliche Arbeiten werden ausdrücklich abgestimmt.',
+  'hecken-gehoelzpflege':
+    'Hecken- und Gehölzpflege umfasst schonende Form- und Pflegeschnitte an geeigneten, sicher erreichbaren Pflanzen. Schutzzeiten, Artenschutz und örtliche Vorgaben werden vorab geprüft. Fällungen, Kletterarbeiten und umfangreiche Kronenarbeiten gehören nicht zu diesem Angebot.',
   unterhaltsreinigung:
     'Unterhaltsreinigung ist die wiederkehrende Pflege genutzter Räume. Böden, Sanitärbereiche und Kontaktflächen werden nach einem vereinbarten Reinigungsplan betreut. Nutzung und Verschmutzung bestimmen den Rhythmus; gelegentliche Zusatzarbeiten werden separat festgehalten.',
   'buero-praxisreinigung':

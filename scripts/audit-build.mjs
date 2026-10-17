@@ -1,6 +1,8 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
+import { seasonalServices } from '../src/lib/seasonal-services.ts';
+import { businessPages } from '../src/lib/business-pages.ts';
 const root = '.next/server/app';
 const walk = (dir) =>
   fs
@@ -68,7 +70,12 @@ for (const [route, html] of pages) {
 const data = JSON.parse(fs.readFileSync('src/data/content.json', 'utf8'));
 assert.equal(
   pages.size,
-  data.cities.length * (data.services.length + 1) + data.services.length + 11,
+  data.cities.length * (data.services.length + 1) +
+    data.services.length +
+    11 +
+    seasonalServices.length +
+    businessPages.length +
+    1,
   'Unexpected static-page count',
 );
 const report = {

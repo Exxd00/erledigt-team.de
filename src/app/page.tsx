@@ -10,6 +10,9 @@ import { AnswerSummary } from '@/components/AnswerSummary';
 import { GuideCards } from '@/components/GuideCards';
 import { companyAnswer } from '@/lib/answers';
 import { pageGraph } from '@/lib/structured-data';
+import { SeasonalServices } from '@/components/SeasonalServices';
+import { BusinessCards } from '@/components/BusinessCards';
+import { businessPages } from '@/lib/business-pages';
 export const metadata = { alternates: { canonical: '/' } };
 export default function Home() {
   return (
@@ -29,17 +32,17 @@ export default function Home() {
           <div className="hero-copy">
             <Eyebrow>Gebäudeservice aus Saterland</Eyebrow>
             <h1>
-              Saubere Räume.
+              Drinnen sauber.
               <br />
-              Ein gutes Gefühl.
+              Draußen gepflegt.
               <br />
               <em>Erledigt.</em>
             </h1>
             <p>
               Für Ihr Zuhause. Für Ihren Betrieb.
               <br />
-              Wir kümmern uns um die Reinigung –<br className="desktop-break" /> und Sie um das, was
-              Ihnen wichtig ist.
+              Reinigung, Grünpflege und Winterdienst –<br className="desktop-break" /> passend zu
+              Ihrem Objekt und Ihrem Alltag.
             </p>
             <div className="hero-actions">
               <Link
@@ -48,7 +51,7 @@ export default function Home() {
                 data-event="cta_click"
                 data-position="hero"
               >
-                Reinigung anfragen <Icon name="Sparkles" size={19} />
+                Angebot anfragen <Icon name="Sparkles" size={19} />
               </Link>
               <Link href="/leistungen" className="button outline-light">
                 Leistungen entdecken
@@ -102,7 +105,7 @@ export default function Home() {
       </section>
       <ServiceFinder />
       <AnswerSummary
-        title="Wer reinigt in Saterland und Umgebung?"
+        title="Wer betreut Gebäude und Außenflächen in Saterland und Umgebung?"
         answer={companyAnswer}
         facts={[
           { label: 'Standort', value: 'Eschstraße 70 · 26683 Saterland' },
@@ -129,7 +132,7 @@ export default function Home() {
               Objekt, die Materialien und Ihren Tagesablauf ab.
             </p>
             <Link href="/leistungen" className="text-link">
-              Alle 11 Leistungen ansehen <span aria-hidden="true">+</span>
+              Alle {services.length} Leistungen ansehen <span aria-hidden="true">+</span>
             </Link>
           </div>
         </div>
@@ -140,6 +143,29 @@ export default function Home() {
             ),
           )}
         </div>
+      </section>
+      <SeasonalServices />
+      <section className="section wrap">
+        <div className="section-heading">
+          <div>
+            <Eyebrow>Für Unternehmen & Verwaltungen</Eyebrow>
+            <h2>
+              Ihr Betrieb hat eigene Anforderungen.
+              <br />
+              <em>Wir planen danach.</em>
+            </h2>
+          </div>
+          <div className="section-intro">
+            <p>
+              Bewohnerverkehr, vertrauliche Räume, Kundenbesuche oder Schichtbetrieb: Finden Sie die
+              passende Objektbetreuung für Ihre Branche.
+            </p>
+            <Link href="/geschaeftskunden" className="text-link">
+              Alle Lösungen für Unternehmen <Icon name="ArrowUpRight" size={18} />
+            </Link>
+          </div>
+        </div>
+        <BusinessCards pages={businessPages} />
       </section>
       <section className="section surface-alt">
         <div className="wrap story-grid">
@@ -218,7 +244,7 @@ export default function Home() {
             <Icon name="ClipboardCheck" size={30} />
             <h3>Was Sie vor der Beauftragung wissen.</h3>
             <p>
-              Wir klären die zu reinigenden Bereiche, den passenden Termin und den vereinbarten
+              Wir klären die zu betreuenden Bereiche, den passenden Termin und den vereinbarten
               Preis. Wenn etwas noch offen ist, besprechen wir es vor Beginn.
             </p>
           </div>
@@ -338,7 +364,7 @@ export default function Home() {
         <GuideCards />
       </section>
       <ClosingCta />
-      <JsonLd value={pageGraph('/', 'Gebäudereinigung in Saterland & Umgebung', companyAnswer)} />
+      <JsonLd value={pageGraph('/', 'Gebäudeservice in Saterland & Umgebung', companyAnswer)} />
     </>
   );
 }

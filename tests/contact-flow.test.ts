@@ -77,3 +77,17 @@ test('HTML notifications escape user content and include readable text and callb
   assert.match(notification.text, /\+49 155 67451482/);
   assert.match(notification.text, /FC4A81F0/);
 });
+test('winter requests retain their readable service label in email notifications', () => {
+  const notification = renderLeadEmail(
+    {
+      service: 'winterdienst-schneeraeumung',
+      name: 'Lokaler Test',
+      scope: 'Gehweg und Zufahrt',
+      created_at: '2026-10-17T12:00:00Z',
+    },
+    id,
+  );
+  assert.match(notification.subject, /Serviceanfrage/);
+  assert.match(notification.text, /Winterdienst & Schneeräumung/);
+  assert.match(notification.html, /Winterdienst &amp; Schneeräumung/);
+});

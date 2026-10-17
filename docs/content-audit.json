@@ -1,14 +1,55 @@
 {
-  "generatedAt": "2026-10-09T20:11:50.117Z",
-  "servicePages": 11,
+  "generatedAt": "2026-10-17T17:51:32.572Z",
+  "servicePages": 14,
+  "businessPages": 5,
   "cityPages": 78,
   "combinedPages": 858,
-  "totalEditorialPages": 947,
+  "totalEditorialPages": 955,
   "minBodyWords": 301,
   "maxNameNormalizedJaccard": 0.548,
   "note": "Six-word shingle Jaccard, city names normalized. Shared service facts are intentional. This is an editorial duplicate check, not a search-ranking guarantee.",
   "closestPairs": [],
   "pages": [
+    {
+      "path": "/leistungen/winterdienst-schneeraeumung",
+      "kind": "service",
+      "bodyWords": 349
+    },
+    {
+      "path": "/leistungen/rasen-gruenflaechenpflege",
+      "kind": "service",
+      "bodyWords": 349
+    },
+    {
+      "path": "/leistungen/hecken-gehoelzpflege",
+      "kind": "service",
+      "bodyWords": 362
+    },
+    {
+      "path": "/geschaeftskunden/hausverwaltungen-wohnanlagen",
+      "kind": "business",
+      "bodyWords": 347
+    },
+    {
+      "path": "/geschaeftskunden/bueros-praxen",
+      "kind": "business",
+      "bodyWords": 350
+    },
+    {
+      "path": "/geschaeftskunden/handel-gewerbeimmobilien",
+      "kind": "business",
+      "bodyWords": 350
+    },
+    {
+      "path": "/geschaeftskunden/industrie-logistik",
+      "kind": "business",
+      "bodyWords": 349
+    },
+    {
+      "path": "/geschaeftskunden",
+      "kind": "business-hub",
+      "bodyWords": 348
+    },
     {
       "path": "/leistungen/unterhaltsreinigung",
       "kind": "service",

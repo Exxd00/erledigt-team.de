@@ -6,6 +6,7 @@ import { pageGraph, itemList } from '@/lib/structured-data';
 import { pageMetadata } from '@/lib/seo';
 import { Icon } from '@/components/Icon';
 import { services, cities, cityBySlug } from '@/lib/content';
+import { serviceHref } from '@/lib/site';
 import { ServiceVisual } from '@/components/ServiceVisual';
 import { nearbyCities, cityRegion } from '@/lib/regions';
 export const dynamicParams = false;
@@ -97,7 +98,7 @@ export default async function Page({ params }: { params: Promise<{ city: string 
             </div>
             <h2>Leistungen in {c.name}</h2>
             {services.map((s) => (
-              <Link key={s.slug} href={`/einsatzgebiete/${c.slug}/${s.slug}`}>
+              <Link key={s.slug} href={serviceHref(s, c.slug)}>
                 {s.name}
               </Link>
             ))}
@@ -142,7 +143,7 @@ export default async function Page({ params }: { params: Promise<{ city: string 
           mainEntity: itemList(
             services.map((s) => ({
               name: `${s.name} in ${c.name}`,
-              path: `/einsatzgebiete/${c.slug}/${s.slug}`,
+              path: serviceHref(s, c.slug),
             })),
           ),
         })}

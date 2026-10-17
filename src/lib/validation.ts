@@ -11,6 +11,9 @@ export const serviceSlugs = [
   'polster-teppichreinigung',
   'dach-oberflaechenreinigung',
   'pv-anlagen-reinigung',
+  'winterdienst-schneeraeumung',
+  'rasen-gruenflaechenpflege',
+  'hecken-gehoelzpflege',
   'beratung',
 ] as const;
 const text = (max: number) => z.string().trim().max(max);
