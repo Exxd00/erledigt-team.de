@@ -367,7 +367,6 @@
 .guide-card .service-visual {
   margin: 0;
   min-height: 0;
-  height: 220px;
   border-radius: 0;
 }
 .guide-card .service-visual figcaption {
@@ -1854,28 +1853,18 @@ body:has(.mobile-navigation) .contact-dock {
   overflow: hidden;
   border-radius: 22px;
   background: var(--surface);
-  aspect-ratio: 4/5;
+  width: 100%;
   box-shadow: var(--shadow);
 }
 .service-visual img {
-  height: 100%;
+  height: auto;
   width: 100%;
-  object-fit: cover;
-}
-.service-visual.visual-office img {
-  object-position: 62% center;
-}
-.service-visual.visual-floor img {
-  object-position: 70% center;
 }
 .service-visual figcaption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 70px 23px 22px;
-  color: white;
-  background: linear-gradient(transparent, rgba(6, 23, 46, 0.9));
+  padding: 20px 23px;
+  color: var(--text);
+  background: var(--card);
+  border-top: 1px solid var(--line);
 }
 .service-visual figcaption span {
   display: block;
@@ -2051,10 +2040,6 @@ body:has(.mobile-navigation) .contact-dock {
   }
   .finder-copy {
     padding: 26px;
-  }
-  .service-visual {
-    aspect-ratio: 16/10;
-    width: 100%;
   }
   .decision-grid {
     grid-template-columns: 1fr;

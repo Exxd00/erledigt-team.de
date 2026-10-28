@@ -1,36 +1,36 @@
-// Original ERLEDIGT TEAM assets uploaded to the owner's ImgBB account on 8 Oct 2026.
-// Local originals remain available if the image host cannot be reached.
+// Serve the bundled originals first so a slow third-party host cannot hide images.
+// The owner's existing ImgBB uploads remain fallbacks for the original collection.
 export const assets = {
   hedge: { src: '/images/heckenpflege.webp', fallback: '/images/heckenpflege.webp' },
   winter: { src: '/images/winterdienst.webp', fallback: '/images/winterdienst.webp' },
   grounds: { src: '/images/gruenpflege.webp', fallback: '/images/gruenpflege.webp' },
-  logo: { src: 'https://i.ibb.co/Q7S3b3bH/logo.jpg', fallback: '/images/logo.jpg' },
+  logo: { src: '/images/logo.jpg', fallback: 'https://i.ibb.co/Q7S3b3bH/logo.jpg' },
   hero: {
-    src: 'https://i.ibb.co/fYgsQ7FS/hero-cleaning.webp',
-    fallback: '/images/hero-cleaning.webp',
+    src: '/images/hero-cleaning.webp',
+    fallback: 'https://i.ibb.co/fYgsQ7FS/hero-cleaning.webp',
   },
   solar: {
-    src: 'https://i.ibb.co/MkcQxsFh/solar-cleaning.webp',
-    fallback: '/images/solar-cleaning.webp',
+    src: '/images/solar-cleaning.webp',
+    fallback: 'https://i.ibb.co/MkcQxsFh/solar-cleaning.webp',
   },
   office: {
-    src: 'https://i.ibb.co/Z3DskzS/office-cleaning.webp',
-    fallback: '/images/office-cleaning.webp',
+    src: '/images/office-cleaning.webp',
+    fallback: 'https://i.ibb.co/Z3DskzS/office-cleaning.webp',
   },
   floor: {
-    src: 'https://i.ibb.co/LLcQcHS/floor-cleaning.webp',
-    fallback: '/images/floor-cleaning.webp',
+    src: '/images/floor-cleaning.webp',
+    fallback: 'https://i.ibb.co/LLcQcHS/floor-cleaning.webp',
   },
   textile: {
-    src: 'https://i.ibb.co/5xzkGdJ0/textile-cleaning.webp',
-    fallback: '/images/textile-cleaning.webp',
+    src: '/images/textile-cleaning.webp',
+    fallback: 'https://i.ibb.co/5xzkGdJ0/textile-cleaning.webp',
   },
   stairs: {
-    src: 'https://i.ibb.co/fYpk2DBL/stairs-cleaning.webp',
-    fallback: '/images/stairs-cleaning.webp',
+    src: '/images/stairs-cleaning.webp',
+    fallback: 'https://i.ibb.co/fYpk2DBL/stairs-cleaning.webp',
   },
   exterior: {
-    src: 'https://i.ibb.co/4RQk9N8V/exterior-cleaning.webp',
-    fallback: '/images/exterior-cleaning.webp',
+    src: '/images/exterior-cleaning.webp',
+    fallback: 'https://i.ibb.co/4RQk9N8V/exterior-cleaning.webp',
   },
 } as const;

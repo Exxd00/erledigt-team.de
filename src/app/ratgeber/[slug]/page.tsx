@@ -158,7 +158,7 @@ export default async function GuidePage({ params }: Props) {
           headline: guide.title,
           description: guide.description,
           abstract: guide.summary,
-          image: [absoluteUrl(assets[servicePresentation[guide.serviceSlug].image].fallback)],
+          image: [absoluteUrl(assets[servicePresentation[guide.serviceSlug].image].src)],
           inLanguage: 'de-DE',
           datePublished: contentUpdatedAt,
           dateModified: contentUpdatedAt,

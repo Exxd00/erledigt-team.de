@@ -18,7 +18,7 @@ No paid plan, upgrade or new hosting subscription is authorized.
 The Supabase schema is installed. Production database and webhook secrets are stored in Vercel.
 The deployed browser-to-database event flow has been verified, including consent refusal/withdrawal.
 The existing private Google Sheet has frozen, grouped colored headers and four tabs. Public website
-images use ImgBB with local fallbacks; no client photo upload is enabled. **Apps Script authorization,
+images load from this site's bundled originals, with existing ImgBB copies as fallbacks; no client photo upload is enabled. **Apps Script authorization,
 Resend verification/sending access and end-to-end lead delivery remain pending.**
 
 `NEXT_PUBLIC_LAUNCH_READY=false` keeps search indexing and final form submission disabled while these
@@ -62,7 +62,7 @@ HTTP checks intentionally stop if the live form is enabled to avoid creating pro
 - `src/data/content.json`: German service and location content.
 - `src/lib/local-content.ts`: editorial modules and location/service composition.
 - `docs/geography-input.json`: source coordinates and approximate radius calculations.
-- `src/lib/assets.ts`: ImgBB images and their local fallbacks.
+- `src/lib/assets.ts`: bundled image sources and existing ImgBB fallbacks.
 - `supabase/migrations/`: durable leads, consented events, rate limits and delivery queue.
 - `integrations/google-apps-script/`: authenticated, idempotent Google Sheets webhook.
 - `src/app/api/`: validated inquiry/event endpoints and authenticated delivery retry endpoint.

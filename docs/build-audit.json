@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T18:00:43.990Z",
+  "generatedAt": "2026-10-28T18:01:07.121Z",
   "staticPages": 966,
   "dynamicForm": "/anfrage",
   "minimumMainWords": 358,
@@ -15,7 +15,7 @@
   "pages": [
     {
       "route": "/datenschutz",
-      "mainWords": 1167,
+      "mainWords": 1181,
       "title": "Datenschutzhinweise | ERLEDIGT TEAM"
     },
     {

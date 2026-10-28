@@ -15,7 +15,7 @@ export default function Page() {
         <div className="page-intro">
           <Eyebrow>Ihre Daten</Eyebrow>
           <h1>Datenschutzhinweise</h1>
-          <p>Stand: 9. Oktober 2026</p>
+          <p>Stand: 28. Oktober 2026</p>
         </div>
         <h2>1. Verantwortlicher und Kontakt</h2>
         <p>
@@ -39,8 +39,9 @@ export default function Page() {
           .
         </p>
         <p>
-          Für das Logo und eigens für diese Website erstellte Illustrationsbilder nutzen wir ImgBB.
-          Beim Laden dieser Bilder wird eine Verbindung zu i.ibb.co hergestellt; dabei erhält der
+          Das Logo und die Illustrationsbilder werden vorrangig über unsere Website geladen. Für
+          einen Teil der Bilder halten wir Ersatzkopien bei ImgBB bereit. Nur wenn das ursprüngliche
+          Bild nicht geladen werden kann, wird eine Verbindung zu i.ibb.co hergestellt; dabei erhält der
           Bilderdienst insbesondere Ihre IP-Adresse und technische Verbindungsdaten. Die Einbindung
           dient der Bereitstellung unserer Website (Artikel 6 Absatz 1 Buchstabe f DSGVO). Über das
           Anfrageformular werden keine Kundenfotos an ImgBB übertragen. Weitere Hinweise finden Sie
