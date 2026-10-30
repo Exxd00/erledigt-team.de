@@ -1,18 +1,56 @@
 import Link from 'next/link';
 import { Icon } from '@/components/Icon';
-import { ClosingCta, Eyebrow, FaqList, JsonLd, Process, ServiceCard } from '@/components/Shared';
+import { ClosingCta, Eyebrow, FaqList, JsonLd } from '@/components/Shared';
 import { services, cities } from '@/lib/content';
 import { site } from '@/lib/site';
 import { assets } from '@/lib/assets';
 import { SiteImage } from '@/components/SiteImage';
-import { ServiceFinder } from '@/components/ServiceFinder';
-import { AnswerSummary } from '@/components/AnswerSummary';
-import { GuideCards } from '@/components/GuideCards';
+import { HomeServiceGrid } from '@/components/HomeServiceGrid';
 import { companyAnswer } from '@/lib/answers';
 import { pageGraph } from '@/lib/structured-data';
-import { SeasonalServices } from '@/components/SeasonalServices';
-import { BusinessCards } from '@/components/BusinessCards';
-import { businessPages } from '@/lib/business-pages';
+import './home.css';
+
+const sectors = [
+  {
+    slug: 'hausverwaltungen-wohnanlagen',
+    name: 'Hausverwaltung',
+    text: 'Wohnanlagen & gemeinsame Flächen',
+    icon: 'Layers',
+  },
+  {
+    slug: 'bueros-praxen',
+    name: 'Büro & Praxis',
+    text: 'Sauberkeit im Arbeitsalltag',
+    icon: 'Building2',
+  },
+  {
+    slug: 'handel-gewerbeimmobilien',
+    name: 'Handel & Gewerbe',
+    text: 'Gepflegt für Ihre Kunden',
+    icon: 'Store',
+  },
+  {
+    slug: 'industrie-logistik',
+    name: 'Industrie & Logistik',
+    text: 'Abgestimmt auf Ihren Betrieb',
+    icon: 'Warehouse',
+  },
+];
+const steps = [
+  {
+    title: 'Vorhaben beschreiben',
+    text: 'Ort, Leistung und ein grober Umfang reichen für den Anfang.',
+  },
+  {
+    title: 'Angebot abstimmen',
+    text: 'Wir klären Zugang, Aufgaben, Preis und den passenden Termin.',
+  },
+  {
+    title: 'Auftrag erteilen',
+    text: 'Erst nach Ihrer Beauftragung planen wir den Einsatz verbindlich.',
+  },
+];
+
 export const metadata = { alternates: { canonical: '/' } };
 export default function Home() {
   return (
@@ -53,7 +91,7 @@ export default function Home() {
               >
                 Angebot anfragen <Icon name="Sparkles" size={19} />
               </Link>
-              <Link href="/leistungen" className="button outline-light">
+              <Link href="#leistungen" className="button outline-light">
                 Leistungen entdecken
               </Link>
             </div>
@@ -78,7 +116,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="promise-strip" aria-label="Unser Anspruch">
+      <section className="promise-strip home-promise" aria-label="Unser Anspruch">
         <div className="wrap promise-grid">
           <div>
             <Icon name="Sparkles" />
@@ -103,224 +141,189 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <ServiceFinder />
-      <AnswerSummary
-        title="Wer betreut Gebäude und Außenflächen in Saterland und Umgebung?"
-        answer={companyAnswer}
-        facts={[
-          { label: 'Standort', value: 'Eschstraße 70 · 26683 Saterland' },
-          { label: 'Für wen?', value: 'Privat · Gewerbe · Hausverwaltung' },
-          {
-            label: 'Ihr Einstieg',
-            value: 'Unverbindliche Anfrage, persönlich abgestimmtes Angebot',
-          },
-        ]}
-      />
-      <section className="section wrap home-services">
-        <div className="section-heading">
+      <section className="home-section wrap" id="leistungen" aria-labelledby="home-services-title">
+        <div className="home-section-heading">
           <div>
-            <Eyebrow>Unsere Leistungen</Eyebrow>
-            <h2>
-              Für jede Fläche.
+            <Eyebrow>Was steht bei Ihnen an?</Eyebrow>
+            <h2 id="home-services-title">
+              Die passende Leistung.
               <br />
-              <em>Die passende Lösung.</em>
+              <em>Auf einen Blick.</em>
             </h2>
           </div>
-          <div className="section-intro">
+          <div className="home-section-intro">
             <p>
-              Regelmäßige Pflege oder ein besonderer Einsatz: Wir stimmen die Reinigung auf Ihr
-              Objekt, die Materialien und Ihren Tagesablauf ab.
+              Drinnen, draußen oder rund ums Jahr: Wählen Sie den Bereich, der zu Ihrem Vorhaben
+              passt.
             </p>
             <Link href="/leistungen" className="text-link">
-              Alle {services.length} Leistungen ansehen <span aria-hidden="true">+</span>
+              Alle {services.length} Leistungen <Icon name="ArrowUpRight" size={18} />
             </Link>
           </div>
         </div>
-        <div className="service-grid">
-          {[services[0], services[4], services[10], services[1], services[7], services[8]].map(
-            (s, i) => (
-              <ServiceCard key={s.slug} service={s} index={i} visual />
-            ),
-          )}
-        </div>
+        <HomeServiceGrid />
+        <p className="home-fleet-note">
+          <Icon name="Truck" size={22} />
+          <span>
+            Eigene Fahrzeuge für den Wintereinsatz. Flächen und Einsatzzeiten stimmen wir mit Ihnen
+            ab.
+          </span>
+        </p>
       </section>
-      <SeasonalServices />
-      <section className="section wrap">
-        <div className="section-heading">
-          <div>
+
+      <section className="home-section surface-alt" aria-labelledby="home-business-title">
+        <div className="wrap home-business-layout">
+          <div className="home-business-intro">
             <Eyebrow>Für Unternehmen & Verwaltungen</Eyebrow>
-            <h2>
-              Ihr Betrieb hat eigene Anforderungen.
+            <h2 id="home-business-title">
+              Ihr Objekt.
               <br />
-              <em>Wir planen danach.</em>
+              <em>Ihr Arbeitsalltag.</em>
             </h2>
-          </div>
-          <div className="section-intro">
             <p>
-              Bewohnerverkehr, vertrauliche Räume, Kundenbesuche oder Schichtbetrieb: Finden Sie die
-              passende Objektbetreuung für Ihre Branche.
+              Bewohner, Kunden oder Schichtbetrieb: Jede Branche braucht einen eigenen Ablauf.
+              Finden Sie die Betreuung, die zu Ihrem Betrieb passt.
             </p>
             <Link href="/geschaeftskunden" className="text-link">
               Alle Lösungen für Unternehmen <Icon name="ArrowUpRight" size={18} />
             </Link>
           </div>
-        </div>
-        <BusinessCards pages={businessPages} />
-      </section>
-      <section className="section surface-alt">
-        <div className="wrap story-grid">
-          <div className="story-photo">
-            <SiteImage
-              image={assets.solar}
-              alt="Schonende Reinigung von Solarmodulen mit einer weichen Bürste – illustrative Darstellung"
-              loading="lazy"
-              width="1536"
-              height="1024"
-            />
-            <div className="photo-label">
-              <Icon name="Droplets" />
-              <span>
-                Saubere Werte.
-                <br />
-                <strong>Für heute und morgen.</strong>
-              </span>
-            </div>
+          <div className="home-sector-grid">
+            {sectors.map((sector) => (
+              <Link
+                key={sector.slug}
+                href={`/geschaeftskunden/${sector.slug}`}
+                className="home-sector-card"
+                data-event="cta_click"
+                data-position="home_business"
+              >
+                <span className="home-sector-top">
+                  <Icon name={sector.icon} size={25} />
+                  <Icon name="ArrowUpRight" size={18} />
+                </span>
+                <h3>{sector.name}</h3>
+                <p>{sector.text}</p>
+              </Link>
+            ))}
           </div>
-          <div className="story-copy">
-            <Eyebrow>Mehr als nur sauber</Eyebrow>
-            <h2>
-              Ihre Räume verdienen
+        </div>
+      </section>
+
+      <section className="home-section wrap" aria-labelledby="home-about-title">
+        <div className="home-story-layout">
+          <div className="home-about-panel">
+            <Eyebrow>ERLEDIGT TEAM</Eyebrow>
+            <h2 id="home-about-title">
+              Persönlich abgestimmt.
               <br />
-              <em>Aufmerksamkeit.</em>
+              <em>Klar erledigt.</em>
             </h2>
-            <p>
-              Ein heller Eingangsbereich, gepflegte Arbeitsplätze und saubere Fenster verändern, wie
-              sich ein Gebäude anfühlt. Genau dort setzt ERLEDIGT TEAM an: mit einer Reinigung, die
-              zur tatsächlichen Nutzung passt.
-            </p>
-            <p>
-              Wir starten mit Ihren Anforderungen. Welche Flächen sind wichtig? Wann ist der Zugang
-              möglich? Welche Materialien brauchen besondere Pflege? Daraus entsteht ein klarer
-              Auftrag – für eine einmalige Reinigung genauso wie für einen regelmäßigen Rhythmus.
-            </p>
-            <ul className="check-list">
+            <p>{companyAnswer}</p>
+            <ul className="home-trust-list">
               <li>
-                <Icon name="Check" />
+                <Icon name="Check" size={19} />
                 Ein Ansprechpartner für Ihren Auftrag
               </li>
               <li>
-                <Icon name="Check" />
-                Leistungsumfang vor Beginn abgestimmt
+                <Icon name="Check" size={19} />
+                Umfang und Preis vor Beginn geklärt
               </li>
               <li>
-                <Icon name="Check" />
-                Termine passend zum Objekt geplant
+                <Icon name="Check" size={19} />
+                Einmalig oder regelmäßig nach Bedarf
               </li>
             </ul>
             <Link href="/ueber-uns" className="text-link">
-              ERLEDIGT TEAM kennenlernen <span aria-hidden="true">+</span>
+              Das Team kennenlernen <Icon name="ArrowUpRight" size={18} />
             </Link>
           </div>
-        </div>
-      </section>
-      <section className="section wrap">
-        <div className="section-heading">
-          <div>
-            <Eyebrow>Einfach zu Ihrem Angebot</Eyebrow>
+          <div className="home-process-panel">
+            <Eyebrow>In drei Schritten</Eyebrow>
             <h2>
-              Weniger Aufwand für Sie.
+              So einfach
               <br />
-              <em>Ein klarer Ablauf.</em>
+              <em>kann es gehen.</em>
             </h2>
-          </div>
-          <p className="section-intro">
-            Von der ersten Nachricht bis zum vereinbarten Einsatz wissen Sie, welcher Schritt als
-            Nächstes folgt.
-          </p>
-        </div>
-        <Process />
-        <div className="offer-clarity">
-          <div>
-            <Icon name="ClipboardCheck" size={30} />
-            <h3>Was Sie vor der Beauftragung wissen.</h3>
-            <p>
-              Wir klären die zu betreuenden Bereiche, den passenden Termin und den vereinbarten
-              Preis. Wenn etwas noch offen ist, besprechen wir es vor Beginn.
-            </p>
-          </div>
-          <div>
-            <Icon name="CircleCheck" size={30} />
-            <h3>Sie entscheiden in Ruhe.</h3>
-            <p>
-              Die erste Anfrage ist unverbindlich. Sie beauftragen uns erst, wenn Umfang und Ablauf
-              für Sie passen. Besondere Wünsche können Sie direkt im Formular ergänzen.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section className="region-section section">
-        <div className="wrap region-grid">
-          <div>
-            <Eyebrow>In Ihrer Nähe</Eyebrow>
-            <h2>
-              Hier zu Hause.
-              <br />
-              <em>Für Sie unterwegs.</em>
-            </h2>
-            <p>
-              Unser Ausgangspunkt ist die Eschstraße 70 in Saterland. Von hier aus planen wir
-              Einsätze in Saterland und Umgebung – im Oldenburger Münsterland, im Ammerland, in
-              Ostfriesland und im nördlichen Emsland.
-            </p>
-            <p>
-              Die genaue Einsatzmöglichkeit klären wir anhand Ihrer Adresse und des Auftragsumfangs.
-              Auch bei mehreren Objekten besprechen wir eine sinnvolle Planung und passende
-              Reinigungsintervalle.
-            </p>
-            <Link href="/einsatzgebiete" className="button glass">
-              Ort finden
-            </Link>
-          </div>
-          <div className="region-panel">
-            <div className="region-origin">
-              <Icon name="MapPin" size={28} />
-              <div>
-                <strong>Saterland</strong>
-                <span>Eschstraße 70 · 26683</span>
-              </div>
-              <span className="region-badge">&amp; Umgebung</span>
-            </div>
-            <div className="city-cloud">
-              {cities.slice(0, 12).map((c) => (
-                <Link
-                  key={c.slug}
-                  href={`/einsatzgebiete/${c.slug}`}
-                  data-event="city_select"
-                  data-city={c.slug}
-                >
-                  {c.name}
-                </Link>
+            <ol className="home-steps">
+              {steps.map((step, index) => (
+                <li key={step.title}>
+                  <span className="home-step-number" aria-hidden="true">
+                    0{index + 1}
+                  </span>
+                  <div>
+                    <h3>{step.title}</h3>
+                    <p>{step.text}</p>
+                  </div>
+                </li>
               ))}
-            </div>
-            <p>Ihre Stadt fehlt? Nennen Sie uns den Einsatzort in Ihrer Anfrage.</p>
+            </ol>
+            <Link
+              href="/anfrage"
+              className="button glass"
+              data-event="cta_click"
+              data-position="home_process"
+            >
+              Mein Vorhaben beschreiben <Icon name="ArrowUpRight" size={18} />
+            </Link>
           </div>
         </div>
       </section>
-      <section className="section wrap faq-section">
+
+      <section className="home-region wrap" aria-labelledby="home-region-title">
+        <div className="home-region-intro">
+          <Icon name="MapPin" size={28} />
+          <div>
+            <h2 id="home-region-title">
+              Saterland <em>& Umgebung.</em>
+            </h2>
+            <p>
+              Von unserem Standort in der Eschstraße 70 aus planen wir Einsätze in der Region. Ob
+              Ihr Objekt betreut werden kann, klären wir anhand von Adresse, Umfang und Termin.
+            </p>
+          </div>
+        </div>
+        <div className="home-region-links">
+          <div className="home-city-links">
+            {cities.slice(0, 4).map((city) => (
+              <Link
+                key={city.slug}
+                href={`/einsatzgebiete/${city.slug}`}
+                data-event="city_select"
+                data-city={city.slug}
+              >
+                {city.name}
+              </Link>
+            ))}
+          </div>
+          <Link href="/einsatzgebiete" className="text-link">
+            Meinen Ort finden <Icon name="ArrowUpRight" size={18} />
+          </Link>
+        </div>
+      </section>
+
+      <section className="home-section wrap home-faq" aria-labelledby="home-faq-title">
         <div>
           <Eyebrow>Gut zu wissen</Eyebrow>
-          <h2>
-            Noch eine Frage?
+          <h2 id="home-faq-title">
+            Kurz gefragt.
             <br />
-            <em>Hier wird es klar.</em>
+            <em>Klar beantwortet.</em>
           </h2>
-          <p>
-            Sie möchten Ihr Vorhaben direkt besprechen?
-            <br />
-            <a className="text-link" href={site.phoneHref} data-event="phone_click">
-              {site.phone}
-            </a>
+          <p className="home-faq-intro">
+            Noch etwas offen? Wir besprechen Ihr Vorhaben gern persönlich.
           </p>
+          <a className="text-link" href={site.phoneHref} data-event="phone_click">
+            <Icon name="Phone" size={18} />
+            {site.phone}
+          </a>
+          <div className="home-knowledge-links">
+            <Link href="/fragen" className="text-link">
+              Weitere Fragen & Antworten <Icon name="ArrowUpRight" size={18} />
+            </Link>
+            <Link href="/ratgeber" className="text-link">
+              Tipps vor dem Auftrag <Icon name="ArrowUpRight" size={18} />
+            </Link>
+          </div>
         </div>
         <FaqList
           items={[
@@ -346,22 +349,6 @@ export default function Home() {
             },
           ]}
         />
-      </section>
-      <section className="section wrap">
-        <div className="section-heading">
-          <div>
-            <Eyebrow>Orientierung vor dem Auftrag</Eyebrow>
-            <h2>
-              Wissen, was passt.
-              <br />
-              <em>Einfach entscheiden.</em>
-            </h2>
-          </div>
-          <Link className="text-link" href="/ratgeber">
-            Zum Reinigungsratgeber <Icon name="ArrowUpRight" size={18} />
-          </Link>
-        </div>
-        <GuideCards />
       </section>
       <ClosingCta />
       <JsonLd value={pageGraph('/', 'Gebäudeservice in Saterland & Umgebung', companyAnswer)} />
